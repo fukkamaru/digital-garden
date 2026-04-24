@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"2a5d6f57d023e7ce","x":-360,"y":-280,"width":250,"height":90,"type":"text","text":"これはCanvasのテストです。"},
+		{"id":"18b26502beab2dc5","x":-120,"y":-120,"width":400,"height":400,"type":"file","file":"welcome.md"}
+	],
+	"edges":[
+		{"id":"89399659dfff0893","fromNode":"2a5d6f57d023e7ce","fromSide":"bottom","toNode":"18b26502beab2dc5","toSide":"top"}
+	]
+}
