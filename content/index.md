@@ -12,3 +12,17 @@
 
 更新日：2026/04/22 17:01
 obsidian gitを使ってみた。
+
+permanent
+---
+table created  
+from ""  
+where type = "permanent"  
+sort created desc
+
+literature
+---
+table created  
+from ""  
+where type = "literature"  
+sort created desc
