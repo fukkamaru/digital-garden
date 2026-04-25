@@ -1,5 +1,5 @@
 ---
-title: 日本語タイトルを入力
+title: kindlハイライトのアイコン一覧表
 type: structure
 created: 2025-07-30
 updated: 2026-04-25T16:52:28+09:00
