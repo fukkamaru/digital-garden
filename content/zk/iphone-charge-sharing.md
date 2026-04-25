@@ -1,5 +1,13 @@
-※ 2025/11/19 17:32
-
+---
+title: iphoneでおすそ分け充電
+type: literature
+created: 2025-11-19
+updated: 2026-04-25T18:00:40+09:00
+id: 20260425-180040
+aliases: []
+draft: "false"
+source:
+---
 iphone15以降のUSB-Type C端末なら、iphone同士をケーブルを繋げることで充電できる。
 
 - Apple非公式
