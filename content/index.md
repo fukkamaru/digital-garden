@@ -39,7 +39,7 @@ sort created desc
 ```dataview
 table created
 from ""  
-where type = "structure"
+where type = "fleeting"
 sort created desc
 ```
 
