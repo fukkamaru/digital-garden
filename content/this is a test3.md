@@ -5,7 +5,7 @@ created: 2026-04-25T10:00:09+09:00
 updated: 2026-04-25T10:00:09+09:00
 id: 20260425-100009
 aliases: []
-draft:
+draft: "false"
 source:
 ---
 テンプレートのテストです。
