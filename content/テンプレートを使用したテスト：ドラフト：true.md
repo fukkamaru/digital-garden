@@ -1,6 +1,6 @@
 ---
 type: permanent
-created: <% tp.date.now("YYYY-MM-DD") %>
+created: 2026-04-25
 draft: "true"
 ---
 > 🧠 Permanent  
