@@ -5,7 +5,7 @@ created: 2026-01-17
 updated: 2026-04-25T15:52:34+09:00
 id: 20260425-155234
 aliases: []
-draft: "false"
+draft: false
 source:
 ---
 - 100均で売られている整理ボックス

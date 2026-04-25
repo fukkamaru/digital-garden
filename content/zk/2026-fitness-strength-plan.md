@@ -1,5 +1,15 @@
+---
+title: 2026年の目標：筋力トレーニング
+type: permanent
+created: 2026-04-25T19:24:37+09:00
+updated: 2026-04-25T19:24:37+09:00
+id: 20260425-192437
+aliases: []
+draft: false
+source:
+---
 
-[「目標」は理想と現実のギャップを測るために設置する](「目標」は理想と現実のギャップを測るために設置する.md)
+[goals-as-gap-measure](goals-as-gap-measure.md)
 ## ルール
 
 - chocozapが設定する基本重量（負荷）の2倍を扱えるようになることを目標とする。

@@ -5,7 +5,7 @@ created: 2026-04-25T11:46:14+09:00
 updated: 2026-04-25T11:46:14+09:00
 id: 20260425-114614
 aliases: []
-draft: "false"
+draft: false
 source: https://jmatsuzaki.com/archives/28115
 ---
 
@@ -98,8 +98,13 @@ source: https://jmatsuzaki.com/archives/28115
 - aliases: 
 	- 表記揺れ対策
 	- 例：iPhone、iphone、アイフォン、あいふぉん 
-- draft: 公開（false）
+- draft: 
+	- 公開：false / 未入力
+	- 非公開：ture
+	- チェックボックスでON/OFF出来る
 - source: 
+	- リテラチャーを書くときの文献をまとめる
+	- リスト型で複数入力可能
 
 
 

@@ -5,7 +5,7 @@ created: 2026-04-25T15:29:23+09:00
 updated: 2026-04-25T15:29:23+09:00
 id: 20260425-152923
 aliases: []
-draft: "false"
+draft: false
 source:
 ---
 

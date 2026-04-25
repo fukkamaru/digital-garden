@@ -5,7 +5,7 @@ created: 2026-01-10
 updated: 2026-04-25T16:54:01+09:00
 id: 20260425-165401
 aliases: []
-draft: "false"
+draft: false
 source:
 ---
 価格を5万円前後に押さえるには12.3インチのSurface Pro 7辺りなら中古・整備品済みなどが調達出来る。メモリやSSD容量によっては4万以下もあるらしい。
