@@ -30,23 +30,22 @@ obsidian gitを使ってみた。
 ## 一覧
 ```dataview
 table created
-from "content"  
+from ""  
 where type = "literature"
 sort created desc
-
 ```
 
 
 ```dataview
 table created
-from "content"  
-where type = "permanent"
+from ""  
+where type = "structure"
 sort created desc
 ```
 
 ```dataview
 table file.mtime
-from "content"
+from ""
 sort file.mtime desc
 limit 10
 ```
