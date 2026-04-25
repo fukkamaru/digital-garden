@@ -15,7 +15,7 @@ source:
 これはトップページです。
 
 - [Welcome](./welcome)
-- [Obsidianの保管庫を変更した場合、新規ノートはどこに保存されるのか？](Obsidianの保管庫を変更した場合、新規ノートはどこに保存されるのか？.md)
+- [new-note-save-location-obsidian](new-note-save-location-obsidian.md)
 
 
 作成日：2026/04/22
