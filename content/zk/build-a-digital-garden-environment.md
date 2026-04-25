@@ -71,6 +71,37 @@ source: https://jmatsuzaki.com/archives/28115
 
 とりあえずコレで暫く運用してみる。
 
+## obsidianのフォルダ構成
+- _templates: obsidian用のテンプレート
+- field: 外の世界に通じる
+- inbox: fleetingなどの雑多なメモやドラフト
+- zk: literature, permanent, structureなど
+
+## YAMLの構成
+- title: 日本語タイトルを入力する
+- type: 
+	- index: quartsで作成したトップページ専用
+	- field: 外の世界に通じる
+	- fleeting: ツェッテルカステンにおけるフリーノート
+	- literature: ツェッテルカステンにおける文献ノート
+	- permanent: ツェッテルカステンにおける永久ノート
+	- structure: ツェッテルカステンにおける構造ノート
+- created: カード作成日
+	- 秒まで記録しタイムゾーンをUTC+9で表記
+	- <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %> で記述
+- updated: カード更新日
+	- 秒まで記録しタイムゾーンをUTC+9で表記
+	- <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %> で記述
+- id: カードのUID
+	- ファイル名をUID化しなかったので、メタ情報に格納
+	- <% tp.date.now("YYYYMMDD-HHmmss") %>で記述
+- aliases: 
+	- 表記揺れ対策
+	- 例：iPhone、iphone、アイフォン、あいふぉん 
+- draft: 公開（false）
+- source: 
+
+
 
 ## 今後の調整
 
