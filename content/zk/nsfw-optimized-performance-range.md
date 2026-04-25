@@ -4,7 +4,8 @@ type: fleeting
 created: 2026-01-10
 updated: 2026-04-25T16:54:01+09:00
 id: 20260425-165401
-aliases: []
+aliases:
+  - 特定の目的専用に用意するオススメな性能と価格帯
 draft: false
 source:
 ---

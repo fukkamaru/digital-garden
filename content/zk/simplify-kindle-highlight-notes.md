@@ -4,7 +4,8 @@ type: permanent
 created: 2025-07-30
 updated: 2026-04-25T16:48:53+09:00
 id: 20260425-164853
-aliases: []
+aliases:
+  - Kindleハイライト時のメモを簡略化する
 draft: false
 source:
 ---

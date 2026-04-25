@@ -4,7 +4,8 @@ type: literature
 created: 2025-11-19
 updated: 2026-04-25T18:00:40+09:00
 id: 20260425-180040
-aliases: []
+aliases:
+  - iphoneでおすそ分け充電
 draft: false
 source:
 ---

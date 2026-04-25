@@ -4,7 +4,8 @@ type: permanent
 created: 2026-01-11
 updated: 2026-04-25T19:26:03+09:00
 id: 20260425-192603
-aliases: []
+aliases:
+  - 「目標」は理想と現実のギャップを測るために設置する
 draft: false
 source:
 ---

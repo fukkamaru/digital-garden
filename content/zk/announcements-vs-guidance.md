@@ -4,7 +4,8 @@ type: literature
 created: 2026-04-25T15:29:23+09:00
 updated: 2026-04-25T15:29:23+09:00
 id: 20260425-152923
-aliases: []
+aliases:
+  - 「ご案内」と「お知らせ」の違い
 draft: false
 source:
 ---

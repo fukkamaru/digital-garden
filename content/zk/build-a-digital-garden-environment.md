@@ -4,7 +4,8 @@ type: permanent
 created: 2026-04-25T11:46:14+09:00
 updated: 2026-04-25T11:46:14+09:00
 id: 20260425-114614
-aliases: []
+aliases:
+  - デジタルガーデンの環境を構築する
 draft: false
 source: https://jmatsuzaki.com/archives/28115
 ---

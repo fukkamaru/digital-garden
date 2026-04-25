@@ -4,7 +4,8 @@ type: fleeting
 created: 2026-04-25T19:27:58+09:00
 updated: 2026-04-25T19:27:58+09:00
 id: 20260425-192758
-aliases: []
+aliases:
+  - 窓用の断熱材には「塗料」もある
 draft: false
 source:
 ---
