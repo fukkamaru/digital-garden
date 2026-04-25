@@ -1,6 +1,6 @@
 ---
 title: Obsidianの保管庫を変更した場合、新規ノートはどこに保存されるのか？
-type: fleeting
+type: permanent
 created: 2026-04-22
 updated: 2026-04-25T16:24:37+09:00
 id: 20260425-162437
