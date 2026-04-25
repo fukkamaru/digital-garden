@@ -1,12 +1,12 @@
 ---
-title: index
+title: Index
 type: index
-created: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
-updated: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
-id: <% tp.date.now("YYYYMMDD-HHmmss") %>
+created: 2026-04-22
+updated: 2026-04-25T16:08:39+09:00
+id: 20260425-160839
 aliases:
   - インデックス
-draft: "true"
+draft: "false"
 source:
 ---
 
