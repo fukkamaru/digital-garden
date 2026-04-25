@@ -4,7 +4,8 @@ type: fleeting
 created: 2026-01-17
 updated: 2026-04-25T15:52:34+09:00
 id: 20260425-155234
-aliases: []
+aliases:
+  - 部屋の整理整頓においてスツールは最高の整理ボックスである
 draft: false
 source:
 ---

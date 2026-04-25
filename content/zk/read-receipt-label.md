@@ -4,7 +4,8 @@ type: permanent
 created: 2026-10-10
 updated: 2026-04-25T18:54:08+09:00
 id: 20260425-185408
-aliases: []
+aliases:
+  - 「受信確認」ラベルを設計する
 draft: false
 source:
 ---

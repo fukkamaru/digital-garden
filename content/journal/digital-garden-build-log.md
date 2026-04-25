@@ -1,13 +1,16 @@
 ---
 title: デジタルガーデンの構築作業日記
-type: structure
+type: journal
 created: 2026-04-25T20:56:42+09:00
 updated: 2026-04-25T20:56:42+09:00
 id: 20260425-205642
-aliases: []
+aliases:
+  - デジタルガーデンの構築作業日記
 draft: false
 source:
 ---
+
+
 - 2020/xx/xx: ツェッテルカステンのメモ術について知る ※ライフハッカー
 - 2021/xx/xx: obsidianやnotionに触れてみる
 - 2022/xx/xx: どちらも続かない

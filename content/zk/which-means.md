@@ -4,7 +4,8 @@ type: literature
 created: 2025-07-21
 updated: 2026-04-25T16:31:08+09:00
 id: 20260425-163108
-aliases: []
+aliases:
+  - 名詞句＋助詞「ということは」
 draft: false
 source:
 ---

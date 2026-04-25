@@ -4,7 +4,8 @@ type: permanent
 created: 2026-04-25T18:04:52+09:00
 updated: 2026-04-25T18:04:52+09:00
 id: 20260425-180452
-aliases: []
+aliases:
+  - ホームの5番で待ち合わせ
 draft: false
 source:
 ---

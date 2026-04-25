@@ -4,7 +4,8 @@ type: permanent
 created: 2026-04-25T19:24:37+09:00
 updated: 2026-04-25T19:24:37+09:00
 id: 20260425-192437
-aliases: []
+aliases:
+  - 2026年の目標：筋力トレーニング
 draft: false
 source:
 ---

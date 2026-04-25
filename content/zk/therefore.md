@@ -4,7 +4,8 @@ type: literature
 created: 2025-07-21
 updated: 2026-04-25T16:29:16+09:00
 id: 20260425-162916
-aliases: []
+aliases:
+  - 接続詞「だから」
 draft: false
 source:
 ---

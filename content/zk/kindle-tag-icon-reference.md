@@ -4,7 +4,8 @@ type: structure
 created: 2025-07-30
 updated: 2026-04-25T16:52:28+09:00
 id: 20260425-165228
-aliases: []
+aliases:
+  - kindlハイライトのアイコン一覧表
 draft: false
 source:
 ---

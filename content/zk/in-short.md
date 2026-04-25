@@ -4,7 +4,8 @@ type: literature
 created: 2025-07-21
 updated: 2026-04-25T16:33:08+09:00
 id: 20260425-163308
-aliases: []
+aliases:
+  - 副詞「要するに」
 draft: false
 source:
 ---

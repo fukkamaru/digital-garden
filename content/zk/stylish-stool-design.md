@@ -4,7 +4,8 @@ type: literature
 created: 2026-01-17
 updated: 2026-04-25T16:03:12+09:00
 id: 20260425-160312
-aliases: []
+aliases:
+  - スツールはインテリア性にも優れている
 draft: false
 source:
 ---

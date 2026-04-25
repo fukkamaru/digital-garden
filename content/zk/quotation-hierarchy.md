@@ -4,7 +4,8 @@ type: permanent
 created: 2026-04-25T18:02:10+09:00
 updated: 2026-04-25T18:02:10+09:00
 id: 20260425-180210
-aliases: []
+aliases:
+  - 引用における主従関係を整理する
 draft: false
 source:
 ---
