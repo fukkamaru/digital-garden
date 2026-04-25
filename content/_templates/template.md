@@ -8,13 +8,3 @@ aliases: []
 draft: "true"
 source:
 ---
-
-
-
-> 📘 Literature  
-  
-## 概要  
--  
-  
-## メモ  
--

@@ -1,3 +1,15 @@
+---
+title: index
+type: index
+created: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
+updated: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
+id: <% tp.date.now("YYYYMMDD-HHmmss") %>
+aliases:
+  - インデックス
+draft: "true"
+source:
+---
+
 # Home
 
 これはトップページです。
@@ -12,3 +24,30 @@
 
 更新日：2026/04/22 17:01
 obsidian gitを使ってみた。
+
+---
+
+## 一覧
+```dataview
+table created
+from "content"  
+where type = "literature"
+sort created desc
+
+```
+
+
+```dataview
+table created
+from "content"  
+where type = "permanent"
+sort created desc
+```
+
+```dataview
+table file.mtime
+from "content"
+sort file.mtime desc
+limit 10
+```
+
