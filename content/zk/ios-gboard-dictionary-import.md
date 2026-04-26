@@ -13,4 +13,4 @@ source:
 - **一括インポートはmac PCでのみ可能**
 - **ios端末同士による同期も、macPCからのみとなる**
 
-[android端末はスマホ端末だけでOK](android-gboard-dictionary-import.md)
+[android端末はスマホだけで一括インポートが可能](android-gboard-dictionary-import.md)
