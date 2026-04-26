@@ -73,10 +73,11 @@ source: https://jmatsuzaki.com/archives/28115
 とりあえずコレで暫く運用してみる。
 
 ## obsidianのフォルダ構成
+- _inbox: fleetingなどの雑多なメモやドラフト
 - _templates: obsidian用のテンプレート
-- field: 外の世界に通じる
-- inbox: fleetingなどの雑多なメモやドラフト
-- zk: literature, permanent, structureなど
+- ai_source: chatgptを始めとしたAI情報をまとめたもの。セカンダリ資料。一次ソースと比較して問題く、手直ししたらリテラチャーに格上げ
+- field: 外界に通じる別世界のフォルダ
+- zk: literature, permanent, structureなどツェッテルカステンメモ
 
 ## YAMLの構成
 - title: 日本語タイトルを入力する

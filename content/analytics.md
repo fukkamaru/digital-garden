@@ -47,6 +47,14 @@ sort created desc
 ```
 
 
+## AI_Sorcue
+```dataview
+table title, created
+FROM #ai_source
+sort created desc
+```
+
+
 
 
 ## 最近更新したファイル

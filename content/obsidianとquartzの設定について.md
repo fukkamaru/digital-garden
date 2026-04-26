@@ -1,0 +1,143 @@
+---
+title: obsidianとquartzの設定について
+type: fleeting
+created: 2026-04-26T10:59:40+09:00
+updated: 2026-04-26T10:59:40+09:00
+id: 20260426-105940
+aliases:
+  - obsidianとquartzの設定について
+draft: true
+source:
+  - https://quartz.jzhao.xyz/features/private-pages
+---
+
+## URL設計をどうするか？
+quartzは公式により、permalinkを恒久的な基本URLとしては使わず、リダイレクト元のURLとして使う
+※多くのユーザーがこの仕様に落胆しているが、技術的に難しので諦めるしか無い
+
+そのため、YYYYMMDDといったUIDをファイル名にすると、URLがよく分からないURLになってしまう。
+かといって日本語ファイル名そのままでいくと、文字コードの問題でリンク貼付け時に「%3%5%2～」といったよりカオスな文字列になってしまう。
+
+妥協案としてファイル名は英語にすることで、URLを万全なものにする。
+- 小文字英語を採用
+- ケパブケースを使う（「-」で単語を区切ったもの）
+- 冗長にならないよう、5単語ぐらいに収める
+
+
+その上でtitle値とaliasesに日本語タイトルを入れる。title値がauartz上でのページタイトルになってくれる。
+obsidian上での管理は、「front matter title」を使うことで解決した。
+
+## URL設計をどうするか？ その2
+cloudflareとは別サーバーで入手したドメイン（特典利用）を、カスタムドメインとして利用している。
+そのため、cloudflareの仕様で「CNAME」しか使えず、ルートドメインが使えない（fukkamaru.space）
+
+これを回避するために、サブドメイン化するために「www.」を設定することで、技術的な仕様を回避している。
+
+この問題はスマートに解決する方法は、cloudflare側で管理しているドメインを使うというもの。
+ドメインを移管する、またはcloudflare側でドメインを購入したらよい。
+
+ただ、現状はこの形式で困っていないのでこのままで運用する。
+
+仮にドメインを移管することになった場合、ルートドメイン（fukkamaru.space）を基本として、
+サブドメイン（www.fukkamaru.space）はリダイレクト元にする。
+
+それまでは、その逆でサブドメイン（www.fukkamaru.space）を基本として、ルートドメイン（fukkamaru.space）はリダイレクト元にする。
+これでSEOパワーが落ちることは極力避けることが出来る。
+
+
+
+## クオーツ上で公開・非公開の設定について
+
+quartzはデフォルトでdraft値で公開・非公開を設定可能
+- 非公開：draft: true
+- 公開：draft: false / 空白
+または、ExplicitPublishをtureにすることで「publish：ture」により、該当するものだけを公開状態にすることが可能。
+
+
+draft
+- クオーツのデフォルト設定
+- クオーツの思想に乗っかる
+
+publish
+- ホワイトリスト形式
+- 機密性の高い情報を扱う場合
+
+ツェッテルカステンを公開するなら、クオーツの思想に逆らう理由もないため「draft」で管理するとよい。
+また、手入力では大変なのでプロパティタイプは「チェックボックス」に設定しておく。そしてテンプレート側でdraft値のチェックを予め外した状態にしておけば、必ず公開状態でメモを作成できる
+※チェックボックスタイプの場合、チェックが入ってると「ture」が、入ってないと「false」が文字列として入ってる。obsidian以外のテキストエディタ（vscode）などを使って開くと分かる
+そのため、チェックボックスにすることによる不具合が出ることはない
+
+
+公式より引用：
+>[Filter plugins](https://quartz.jzhao.xyz/advanced/making-plugins#filters) are plugins that filter out content based off of certain criteria. By default, Quartz uses the [RemoveDrafts](https://quartz.jzhao.xyz/plugins/RemoveDrafts) plugin which filters out any note that has `draft: true` in the frontmatter.
+>
+If you’d like to only publish a select number of notes, you can instead use [ExplicitPublish](https://quartz.jzhao.xyz/plugins/ExplicitPublish) which will filter out all notes except for any that have `publish: true` in the frontmatter.
+>
+> Warning
+> 
+> Regardless of the filter plugin used, **all non-markdown files will be emitted and available publically in the final build.** This includes files such as images, voice recordings, PDFs, etc.a
+
+
+## 特定の人にだけ見れるページにするには？
+quartz上で非公開にしても、マークダウンの保存先であるgithubがオープンだと、誰でも見ることができてしまう。
+
+### ✔ 最終構成はこうなる
+
+| 層          | 制御             |
+| ---------- | -------------- |
+| GitHub     | private（ソース保護） |
+| Cloudflare | Access（閲覧制限）   |
+| Quartz     | draftで未公開制御    |
+
+この全てを行うことで、特定の人にしか見ることの出来ないページが出来上がる。
+また、誰にでも見れるページを設定するにしても、githubのリポジトリはprivateにしてソース保護にしたほうがよい。今のままではマークダウンが誰にも見れる状態になっている。
+
+
+## クオーツ上でノートタイプを表示する必要性
+
+なし。
+
+obsidianの管理上ではtype値とフォルダで分けて入るが、ネット上でタイプ値が見れる必要はないし、アイコン表示も必要はない。
+- 重要なのは内容とリンク
+- 時間経過とともにタイプは変わる
+- 成熟したノートは自然とパーマネント寄りになる
+
+
+
+## メタ情報の管理について
+
+
+```
+---
+title: 日本語タイトルを入力
+type:
+created: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
+updated: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
+id: <% tp.date.now("YYYYMMDD-HHmmss") %>
+permalink: 
+aliases: []
+draft: false
+source:
+---
+
+```
+
+created: プロパティタイプは「日付」にしている。quartzや他と相性の良さから
+updated:  同様
+
+- `T` → 日付と時間の区切り（ISO規格）
+- `Z` → タイムゾーン（+09:00）
+
+👉 Quartz / 他ツールとの互換性が高い
+
+id: このノートのUIDとなる。ファイル名でUIDを使わないので、おまじない程度にメタ情報としてUIDを入れる。但し、createdやupadatedとは異なり、タイムゾーンなどは指定していない。idは識別子なので、プロパティタイプは「文字列」
+
+updatedは作成時に書き込まれる。その後の更新時は「update time on edit」プラグインによって、自動更新させる。理由は手動だと絶対忘れるから。jsなどによる自動更新もしない。既存のプラグインで安定性を図っている。
+
+厳密的なアップデート情報は「Git履歴でも大体可能」。視認性やobsidian上でのアナリティクスとして、YAMLのupdatedは使われる
+
+## ジャーナルとログの違い
+- ジャーナルは人が見るもの、人の記録
+- ログは機械が見るもの、機械的な記録
+
+作業履歴（デジタルガーデン構築日記）などはリテラチャーでもパーマネントでもストラクチャーでもなく、ジャーナルとして管理する。日記もジャーナルとして管理する。タイプの種類は１つ増えるだけで済む。

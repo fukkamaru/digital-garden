@@ -18,7 +18,7 @@ source:
 
 どの which?
 
-だ〜れと Whom　どうやるの？ HOW!
+だ〜れが Whom　どうやるの？ HOW!
 
 much いくらい、many/long ど～れくらい
 ```
