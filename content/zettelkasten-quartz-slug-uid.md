@@ -102,7 +102,7 @@ Obsidianの仕様：
 
 👉 なのに
 
-[[テスト]]
+[[between-wysiwyg-convenience-and-markdown-purism|日本語タイトルを入力]]
 
 👉 候補に出ない
 
