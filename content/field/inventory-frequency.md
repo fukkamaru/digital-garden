@@ -5,7 +5,7 @@ created: 2026-04-25T18:16:28+09:00
 updated: 2026-04-25T18:16:28+09:00
 id: 20260425-181628
 aliases: []
-draft: "false"
+draft: false
 source:
 ---
 昔は4回、今は2回
