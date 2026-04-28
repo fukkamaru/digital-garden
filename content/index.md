@@ -13,8 +13,8 @@ Hello, Fukkamaru world.
 This is Fukkamaru's digital garden.  
 
 It is both Fukkamaru's garden and outer space.  
-It will one day become the universe, and one day transform into the cosmos.
-<br>
+It will one day become the universe, and one day transform into the cosmos.<br>
+
 こんにちは、ふっかまるワールドへ。  
 ここは、ふっかまるのデジタルガーデンです。  
 
