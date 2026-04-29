@@ -25,4 +25,4 @@ P ≡ Q
 
 - 例文
 	- 1000g すなわち 1kgである
-	- [パラスの本体はキノコである](pokemon-paras-mushroom-host-theory.md)。すなわちパラスは「きのこポケモン」である。
+	- [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md)。すなわちパラスは「きのこポケモン」である。
