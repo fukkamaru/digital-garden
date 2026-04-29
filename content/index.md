@@ -23,5 +23,5 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 
 ---
 
-2026年の目標
-
+- [目標一覧](goals-list.md)
+- [ぽこあポケモン](pokoa-pokemon.md)
