@@ -1,10 +1,11 @@
 ---
-title: Analytics
+title: 分析作業用ページ
 type: structure
 created: 2026-04-25T21:35:14+09:00
 updated: 2026-04-25T21:35:14+09:00
 id: 20260425-213514
-aliases: []
+aliases:
+  - 分析作業用ページ
 draft: false
 source:
 ---

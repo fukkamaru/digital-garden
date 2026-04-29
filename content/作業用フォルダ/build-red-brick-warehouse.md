@@ -12,6 +12,7 @@ source:
 ---
 ぽこあのドンヨリ海辺に赤レンガ倉庫を作りたい。本当に倉庫として機能する部屋として。また、このマップの目玉の一つとして。 このマップは赤いレンガブロックの土台に家を建てているものが多く、またその多くの家がオレンジ屋根の建物として多くあります。 このとき、それらの既存の建物について、そのままが良いか？別の色に帰るべきか？
 
+
 もっと見る折りたたむ
 
 結論からいくと、**既存の家は基本そのまま維持でOK**。  
@@ -42,17 +43,7 @@ source:
 
 👉 **倉庫だけ“同系色だけど格を上げる”**
 
----
 
-## ③ 赤レンガ倉庫の方向性（重要）
-
-![https://images.openai.com/static-rsc-4/0BcOCiHtmK7LWZRhuz6r6uLFuegf_WGnkvNVdGYp8f571m2GzBO80U3fS6qyf4sjjKCF5MO1dBIabBUxM0So2VIqreDfvRCJi5inFVVZ-qsaMD9nHlPf-zgYkoQogm-sBLVc7yG8f7LciTirbKx25_JeOH6BSrr8dBXCVimqA4ZB12Yan4ca3u8ujHYAt15c?purpose=fullsize](https://images.openai.com/static-rsc-4/72Ic7FKKRWfZLelTW-hTUvaWXtDO5iVSX5fFGWsLcHju3VHQi36zsPW6GgiVHjoynbVhQLYKOGpmA3nUyqyXu89k1CeKyZ-MVhd_iBy1CTxv45DLhwrJLOCw4TAaN3_QVfhLCYEbTyogSjA8-4HbQTotHjecjVxgTfX19VBcFiQ?purpose=inline)
-
-![https://images.openai.com/static-rsc-4/GsZvtvQDAwpDwmi5xdZp8Kn2mxTiZ2l0oUDQyGVcQO1mMJvCX7lN7X3YUXtrTkNI7q5SXKRjAI_O58-fjdjM7uG9yBbuUHY-CFHe_ltRX2Kpyj0AhielhVNbZMt0-bUI4aUS-AbHrsinh4LU9L-s6IpynOifekUo__bD3HqBOyshAemaE3rl0A7mr5ln8EXV?purpose=fullsize](https://images.openai.com/static-rsc-4/oM5BCiYucdfWVARAjTPBCIl76oqHl-ZsBVSiAzlK_BBTbn4I2PGZIulhcX2ea5dWgZj7R28DDylhiw8YRRkPDVxlXPx8Wt1M2RyDRovYUsVqC_pKvjB1bv4Jic6lPPNbzIFwS0l6vhis0oyZBf03VzIdgfmSCHBR2dW_ix0PG6s?purpose=inline)
-
-![https://images.openai.com/static-rsc-4/EiQu9sIKszO7jDaxfJMnWSBlmB1iU_rl50WKtQD0xtLcms704NDcKthbqtscK0tErdOhjQ8jFO684XJr7GfCMwZyN2DDMx09kKZ-JB90hyOMF2Trh3S-2_oyAX-x4jXkdmr9ZwzBAB8b3ob9LaKE0_pY-AvdfkQcm38BeTQsG5YJxVuCk2wI-89U3Lx4MSwO?purpose=fullsize](https://images.openai.com/static-rsc-4/oknV-QcaviJzNupNHnZGjn0koJSxHg4uPL2vfPc925JqkwePZauEyA2LRsHXugEWk0U9hVhzYPBDWWpUauiiqfJeP7r0ezH1hEwF9Qql8naC42EyWYG1ncB_aBO8hyikAiLrUjIEH7hrkncNljPpp1j2-l_fha6iqXfiAIomUCk?purpose=inline)
-
-6
 
 倉庫はこういう方向に寄せるといい：
 
