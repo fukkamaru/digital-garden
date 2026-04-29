@@ -14,12 +14,12 @@ source:
 ※数学記号を使って、文章を論理構造付きで短く書くためのルール
 
 - 結論（ゆえに）
-	- [パラスの本体はキノコである](pokemon-paras-mushroom-host-theory.md)<br>
-		- ∴パラスは「キノコポケモン」である。
+	- [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md)<br>
+		- ∴パラスは「きのこポケモン」である。
 - 定義
 	- 左辺を右辺で定義する
-		- パラスは「キノコポケモン」 := [パラスの本体はキノコである](pokemon-paras-mushroom-host-theory.md)
+		- パラスは「きのこポケモン」 := [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md)
 	- 右辺を左辺で定義する
-		- [パラスの本体はキノコである](pokemon-paras-mushroom-host-theory.md) =: パラスは「キノコポケモン」
+		- [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md) =: パラスは「きのこポケモン」
 
 [数学記号](math-symbols.md)
