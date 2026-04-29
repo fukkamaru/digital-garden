@@ -9,12 +9,5 @@ aliases:
 draft: false
 source:
 ---
-
-[数学記号の表 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E8%A8%98%E5%8F%B7)
-
-
-目的：記号の名称・分類の索引として利用<br>
-例：「⇒」や「∴」、「:=」といった数学記号を調べる時に参照
-- 「⇒」：ならば、なので
-- 「∴ 」：ゆえに、従って
-- 「:=」：定義（左辺を右辺で定義する）、「=:」：（右辺を左辺で定義する）
+[数学記号の表 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E8%A8%98%E5%8F%B7)<br>
+※記号の名称・分類の索引として利用<br>

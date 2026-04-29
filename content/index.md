@@ -21,5 +21,7 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 ふっかまるにとっての庭であり外宇宙でもあります。  
 それは、いつしか宇宙と成り、秩序ある体系だった宇宙へと変貌するでしょう。
 
-
 ---
+
+2026年の目標
+

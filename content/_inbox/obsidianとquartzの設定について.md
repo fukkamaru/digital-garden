@@ -6,7 +6,7 @@ updated: 2026-04-26T10:59:40+09:00
 id: 20260426-105940
 aliases:
   - obsidianとquartzの設定について
-draft: true
+draft: false
 source:
   - https://quartz.jzhao.xyz/features/private-pages
 ---
