@@ -1,6 +1,6 @@
 ---
 title: 妙心寺 禅の大本山
-type: fleeting
+type: literature
 created: 2026-04-29T15:23:27+09:00
 updated: 2026-04-29T15:23:27+09:00
 id: 20260429-152327
