@@ -7,7 +7,6 @@ id: 20260425-232652
 aliases:
   - スマホ向け「メーラー」一覧表
 draft: false
-source:
 ---
 #ai-generated
 
