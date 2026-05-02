@@ -1,6 +1,6 @@
 ---
 title: 「ふか」ではじまる日本の苗字と創作
-type: fleeting
+type: generated
 created: 2026-04-26T00:05:51+09:00
 updated: 2026-04-26T00:05:51+09:00
 id: 20260426-000551
@@ -10,7 +10,7 @@ draft: false
 source:
   - AI
 ---
-#ai_source
+#generated 
 
 読みが「ふか」から始まる苗字は、**地名由来**であることが多いのが特徴
 

@@ -8,9 +8,8 @@ aliases:
   - スマホ向け「メーラー」一覧表
 draft: false
 source:
-  - AI
 ---
-#ai_source 
+#ai-generated
 
 ## 独自ドメイン対応メーラー比較（iPhone向け）
 | アプリ名                  | 独自ドメイン(IMAP/POP)対応 | Gmail連携の強さ           | Yahoo! JAPANメール連携 | 主なメリット                     | 主なデメリット                  |

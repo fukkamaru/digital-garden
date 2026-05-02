@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: 表
+    order:
+      - file.name
+      - title
+      - file.folder
+      - file.ctime
+      - file.mtime
+      - file.links
+      - file.tags
+    columnSize:
+      file.name: 117
+      file.ctime: 173
