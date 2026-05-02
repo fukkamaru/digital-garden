@@ -7,7 +7,7 @@ id: 20260429-112753
 aliases:
   - クリアファイルの使い分けを考える
 permalink:
-draft: false
+draft: true
 source:
 ---
 美術館や博物館で購入したくリアファイルの使い分け
