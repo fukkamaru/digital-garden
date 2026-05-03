@@ -1,6 +1,6 @@
 ---
 title: 「たか」ではじまる日本の苗字と創作
-type: generated
+type: ai-generated
 created: 2026-04-26T10:01:26+09:00
 updated: 2026-04-26T10:01:26+09:00
 id: 20260426-100126
@@ -8,7 +8,7 @@ aliases: []
 draft: false
 source:
 ---
-#generated
+#ai-generated
 
 # ■ ① 「たか」姓の本質
 

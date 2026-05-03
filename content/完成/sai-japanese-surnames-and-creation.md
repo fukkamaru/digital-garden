@@ -1,6 +1,6 @@
 ---
 title: 「さい」ではじまる日本の苗字と創作
-type: generated
+type: ai-generated
 created: 2026-04-26T10:01:44+09:00
 updated: 2026-04-26T10:01:44+09:00
 id: 20260426-100144
@@ -8,7 +8,7 @@ aliases: []
 draft: false
 source:
 ---
-#generated
+#ai-generated
 
 「さい」は「たか」と同じく**分岐型だが、より“漢字依存”が強い音**。  
 つまり👇

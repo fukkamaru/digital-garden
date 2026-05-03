@@ -1,6 +1,6 @@
 ---
 title: 「みさ」ではじまる日本の苗字と創作
-type: generated
+type: ai-generated
 created: 2026-04-26T10:01:37+09:00
 updated: 2026-04-26T10:01:37+09:00
 id: 20260426-100137
@@ -8,7 +8,7 @@ aliases: []
 draft: false
 source:
 ---
-#generated
+#ai-generated
 
 👉 **“みさ”は苗字としての核語ではなく、分解される音**
 
