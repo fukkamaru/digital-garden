@@ -5,9 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.RecentNotes()
-  ],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       GitHub: "xxx",
@@ -45,9 +43,9 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       localGraph: {
-        fontSize: 0.45,
+        fontSize: 0.40,
         repelForce: 1.2,
-        linkDistance: 60,
+        linkDistance: 80,
         scale: 0.9,
         opacityScale: 1.5,
       },
@@ -61,6 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes()
   ],
 }
 
