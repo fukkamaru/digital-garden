@@ -1,24 +1,24 @@
 ---
 title: 副詞「つまり」
+aliases:
+  - 副詞「つまり」
 type: literature
 created: 2025-07-21
 updated: 2026-04-25T16:32:27+09:00
 id: 20260425-163227
-aliases:
-  - 副詞「つまり」
 draft: false
 source:
 ---
 
+
+
 - 説明
-
-前述の内容を別の言葉で言い換えたもの
-
-≒ [副詞「要するに」](https://www.notion.so/23781644bdf180d8ab69f05fe168df81?pvs=21)
-
+	- 前述の内容を別の言葉で言い換えたもの
+	- ≒ [副詞「要するに」](https://www.notion.so/23781644bdf180d8ab69f05fe168df81?pvs=21)
 - キーワード
-
-言い換え
+	- 言い換え
+- 記号モデル
+	- P ≈ Q
 
 - 例文
 	- あの子は私の姉の息子です。つまり甥にあたります。
@@ -26,6 +26,4 @@ source:
 	- 「R団」とは、つまり「ロケット団」のことですね。
 		- ※ネタバレ注意
 	- エビワラーのパンチは時速500km/hです。つまり、リニア中央新幹線と同じ速さです。
-		- [エビワラーのパンチの速度を比較・計算してみた](hitmonchan-punch-speed-calculation.md)
-
-- P ⇒ Q
+		- ※ [エビワラーのパンチ速度を計算し、身近な速さと比較した](hitmonchan-punch-speed-calculation.md)
