@@ -9,8 +9,9 @@ aliases:
 draft: false
 source:
   - AI
+tags:
+  - ai-generated
 ---
-#ai-generated 
 
 読みが「ふか」から始まる苗字は、**地名由来**であることが多いのが特徴
 
