@@ -1,11 +1,11 @@
 ---
 title: 数学記号
+aliases:
+  - 数学記号
 type: literature
 created: 2025-08-09
 updated: 2026-04-25T22:50:27+09:00
 id: 20260425-225027
-aliases:
-  - 数学記号
 draft: false
 source:
 ---
