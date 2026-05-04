@@ -11,7 +11,7 @@ draft: false
 source:
 ---
 
-![](Pasted%20image%2020260428192555.png)
+![](Pasted-image-20260428192555.png)
 
 Gitは同時に複数の操作が走ると壊れるため、  <br>
 処理中は `.git/index.lock` というファイルを作って「作業中ロック」します。<br>
