@@ -25,10 +25,10 @@ Markdownはテキスト内の単一改行に対して、
 →参考例： [Keyboard Managerでcaps lockとお別れを告げる](say-goodbye-to-caps-lock-with-keyboard-manager.md)
 
 
-![50](screen-shot-2026-05-03%20195245.png)
+![50|50](screen-shot-2026-05-03%20195245.png)
 図1：参考例のソースモード
 
-![50](screen-shot-2026-05-03%20201252.png)
+![50|50](screen-shot-2026-05-03%20201252.png)
 図：参考例のウェブ上での表示
 
 このように、\<br\>を入力することでQuartz上での体裁を整えていた。
