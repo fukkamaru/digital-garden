@@ -10,7 +10,7 @@ permalink:
 draft: false
 source:
 ---
-[日本の仏教各宗派における「本山」についての説明](buddhist-Honzan-in-japan.md)について、
+[日本の仏教各宗派における「本山」についての説明](buddhist-honzan-in-japan.md)について、
 少しでも理解しやすいように説明し直してみる。
 
 何でも良いから**全国展開しているチェーン店**を頭に浮かべたら、解決した。
