@@ -2,7 +2,7 @@
 title: QuartzにHardLineBreaksを導入
 aliases:
   - QuartzにHardLineBreaksを導入
-type:
+type: permanent
 created: 2026-05-03T20:25:28+09:00
 updated: 2026-05-03T20:25:28+09:00
 id: 20260503-202528
@@ -12,20 +12,23 @@ source:
 ---
 ## hard line breakによる強制改行
 
-Markdownはテキスト内の単一改行に対して、段落を変えずに改行といったことはしてくれない。代わりに[[hard line break]]におけるいずれかの手法を使うことで、段落を変えずに改行することが出来る。
+Markdownはテキスト内の単一改行に対して、段落を変えずに改行といったことはしてくれない。
 
-そのため、
+代わりに`hard line break`におけるいずれかの手法
+- 末尾に半角スペース2つを入れる
+- htmlタグ\<br\>を入れる
+を使うことで、段落を変えずに改行することが出来る。
 
 わっちの場合は、多くの記事で\<br\>を意図的に挿入することで、Quartz（ウェブ）上での文章の体裁を整えていた。
 
-また、入力の手間を減らすにために`caps lock`を押すことで`<br>`が入力されるように設定も変更していた。
-→参考例： [Keyboard Managerでcaps lockとお別れを告げる](say-goodbye-to-caps-lock-with-keyboard-manager.md)
+また、入力の手間を減らすために`caps lock`を1回押すことで`<br>`が入力されるように設定も変更していた。
+→参考例： [Keyboard Managerでcaps lockとお別れを告げる](caps-lock-remapping-with-keyboard-manager.md)
 
 
-![Pasted-image-20260428192555](Pasted-image-20260428192555.png|50x50)
+![342](screen-shot-2026-05-03-195245.png)
+図：参考例のソース
 
-
-![10|10](screen-shot-2026-05-03%20201252.png)
+![343](screen-shot-2026-05-03-201252.png)
 図：参考例のウェブ上での表示
 
 このように、\<br\>を入力することでQuartz上での体裁を整えていた。
