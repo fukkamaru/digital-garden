@@ -22,7 +22,7 @@ Markdownはテキスト内の単一改行に対して、段落を変えずに改
 →参考例： [Keyboard Managerでcaps lockとお別れを告げる](say-goodbye-to-caps-lock-with-keyboard-manager.md)
 
 
-![Pasted-image-20260428192555|50x50](Pasted-image-20260428192555.png|50x50)
+![Pasted-image-20260428192555](Pasted-image-20260428192555.png|50x50)
 
 
 
