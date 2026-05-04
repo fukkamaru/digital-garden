@@ -22,13 +22,11 @@ Markdownはテキスト内の単一改行に対して、段落を変えずに改
 わっちの場合は、多くの記事で\<br\>を意図的に挿入することで、Quartz上での文章の体裁を整えていた。また、入力の手間を減らすにために`caps lock`を押すことで`<br>`が入力されるように設定も変更していた。→ [Keyboard Managerでcaps lockとお別れを告げる](say-goodbye-to-caps-lock-with-keyboard-manager.md)
 
 
-直前に置いたリンク先の記事を参考に説明する。
+![200](screen-shot-2026-05-03%20195245.png)
+図1：ソースモード
 
-■ソースモード
-![](screen-shot-2026-05-03%20195245.png)
-
-■Quartz（ウェブ）上での表示
-![](screen-shot-2026-05-03%20201252.png)
+![200](screen-shot-2026-05-03%20201252.png)
+図：Quartz（ウェブ）上での表示
 
 このように、\<br\>を入力することでQuartz上での体裁を整えていた。
 
