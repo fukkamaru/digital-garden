@@ -10,15 +10,19 @@ permalink:
 draft: false
 source:
 ---
-「[アダプトゲンハーブについて簡単にまとめる](adaptogen-herbs-overview.md)」記事を執筆中に、<br>ふと「アデプト」に単語が似ていると思い調べてみた。
+
+[[アダプトゲンハーブが何か整理した]]について記事をまとめていた時に、
+ふと「アダプト」と「アデプト」について、似た単語だな～と思った。
+
+ので、調べてみた。
 
 - adopt（養子・採用する）
 	- ad（～の方へ：at） + opt（選ぶ） 
 		- **向かい入れる**といったイメージ
-	- [アドプト・プログラムがあるらしい](https://kankyobika.or.jp/adopt/adopt-program)
+	> [アドプト・プログラムがあるらしい](https://kankyobika.or.jp/adopt/adopt-program)
 - adapt（適応させる）
 	- ad（～の方へ：at） + apt（合わせる） 
-	- アダプトゲンハーブ
+	- アダプトゲンハーブ、ACアダプターなど
 - adept（達人、熟練者）
 	- ad（～まで：to） + ept（到達する） 
 	- 聖痕のクェイサーで知った

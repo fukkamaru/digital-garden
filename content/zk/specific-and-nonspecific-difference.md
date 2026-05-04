@@ -1,11 +1,11 @@
 ---
 title: 特異的抵抗と非特異的抵抗の違い
+aliases:
+  - 特異的抵抗と非特異的抵抗の違い
 type: literature
 created: 2026-04-28T21:41:05+09:00
 updated: 2026-04-28T21:41:05+09:00
 id: 20260428-214105
-aliases:
-  - 特異的抵抗と非特異的抵抗の違い
 permalink:
 draft: false
 source:

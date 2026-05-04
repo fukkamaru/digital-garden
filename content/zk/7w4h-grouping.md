@@ -1,11 +1,12 @@
 ---
 title: 7W4Hのグループ分け
+aliases:
+  - 7W4Hのグループ分け
+  - 5W1H
 type: permanent
 created: 2025-08-02
 updated: 2026-04-26T00:11:55+09:00
 id: 20260426-001155
-aliases:
-  - 7W4Hのグループ分け
 draft: false
 source:
 ---

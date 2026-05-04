@@ -1,28 +1,24 @@
 ---
 title: 副詞「すなわち」
+aliases:
+  - 副詞「すなわち」
 type: literature
 created: 2025-07-21
 updated: 2026-04-25T16:33:39+09:00
 id: 20260425-163339
-aliases:
-  - 副詞「すなわち」
 draft: false
 source:
 ---
 
 
 - 説明
-
-前の内容に対する定義づけ（=、≒）
-
+	- 前の内容に対する定義づけ（=、≒）
 - キーワード
-
-定義づけ
-
+	- 定義づけ
 - 記号モデル
-
-P ≡ Q
+	- P ≡ Q
 
 - 例文
-	- 1000g すなわち 1kgである
-	- [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md)。すなわちパラスは「きのこポケモン」である。
+	- 1000g すなわち 1kgである。
+	- [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md)。
+		すなわち、パラスは「きのこポケモン」である。
