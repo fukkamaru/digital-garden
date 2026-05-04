@@ -1,14 +1,15 @@
 ---
 title: NSFWの目的専用に用意するオススメな性能と価格帯
-type: fleeting
+aliases:
+  - NSFWの目的専用に用意するオススメな性能と価格帯
+type: literature
 created: 2026-01-10
 updated: 2026-04-25T16:54:01+09:00
 id: 20260425-165401
-aliases:
-  - NSFWの目的専用に用意するオススメな性能と価格帯
 draft: false
 source:
 ---
+
 価格を5万円前後に押さえるには12.3インチのSurface Pro 7辺りなら中古・整備品済みなどが調達出来る。メモリやSSD容量によっては4万以下もあるらしい。
 
 5万円以内でこのアタリが狙い目になる
@@ -19,3 +20,6 @@ source:
 | 8GB RAM                 | 観賞用なら十分           |
 | 128〜256GB SSD           | 容量は観賞・視聴・軽アプリならOK |
 | Windows 10 / Windows 11 | サポート長い            |
+
+Androidタブレットではないのは、
+Windows上で動くアプリを使う場合などに不都合だから。
