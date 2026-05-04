@@ -1,10 +1,11 @@
 ---
 title: 旗艦店（フラグシップストア）
-type:
+aliases:
+  - 旗艦店（フラグシップストア）
+type: literature
 created: 2026-04-30T20:16:23+09:00
 updated: 2026-04-30T20:16:23+09:00
 id: 20260430-201623
-aliases: []
 permalink:
 draft: false
 source:
