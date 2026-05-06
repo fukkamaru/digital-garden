@@ -7,8 +7,9 @@ id: 20260426-100137
 aliases: []
 draft: false
 source:
+tags:
+  - ai-generated
 ---
-#ai-generated
 
 👉 **“みさ”は苗字としての核語ではなく、分解される音**
 

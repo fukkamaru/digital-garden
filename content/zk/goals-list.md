@@ -1,10 +1,11 @@
 ---
 title: 目標一覧
+aliases:
+  - 目標一覧
 type: structure
 created: 2026-04-30T00:15:42+09:00
 updated: 2026-04-30T00:15:42+09:00
 id: 20260430-001542
-aliases: []
 permalink:
 draft: false
 source:

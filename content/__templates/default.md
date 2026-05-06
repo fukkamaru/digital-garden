@@ -7,5 +7,5 @@ updated: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>
 id: <% tp.date.now("YYYYMMDD-HHmmss") %>
 permalink:
 draft: true
-source:
+tags:
 ---

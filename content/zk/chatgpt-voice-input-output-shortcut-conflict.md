@@ -1,8 +1,7 @@
 ---
-title: ChatGTPの音声入力と「Voice Control for ChatGPT」による音声出力はショートカット操作で食合せが悪い
+title: ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題
 aliases:
-  - ChatGTPの音声入力と「Voice Control for ChatGPT」による音声出力はショートカット操作で食合せが悪い
-  - 衝突
+  - ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題
 type: permanent
 created: 2026-04-26T19:29:35+09:00
 updated: 2026-04-26T19:29:35+09:00

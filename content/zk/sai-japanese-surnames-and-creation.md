@@ -7,8 +7,9 @@ id: 20260426-100144
 aliases: []
 draft: false
 source:
+tags:
+  - ai-generated
 ---
-#ai-generated
 
 「さい」は「たか」と同じく**分岐型だが、より“漢字依存”が強い音**。  
 つまり👇
