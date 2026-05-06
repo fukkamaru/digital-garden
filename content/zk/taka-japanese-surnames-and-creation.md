@@ -7,8 +7,9 @@ id: 20260426-100126
 aliases: []
 draft: false
 source:
+tags:
+  - ai-generated
 ---
-#ai-generated
 
 # ■ ① 「たか」姓の本質
 
