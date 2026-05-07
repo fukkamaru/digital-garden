@@ -17,17 +17,47 @@ source:
 Component.Graph({  
 localGraph: {  
 fontSize: 0.45,  
-repelForce: 1.2,  
+repelForce: 1.0,  
 linkDistance: 60,  
-scale: 0.9,  
-opacityScale: 1.5,  
+scale: 1.0,  
+opacityScale: 2.0,  
 },  
 globalGraph: {  
-fontSize: 0.4,  
+fontSize: 0.45,  
 repelForce: 1.5,  
-linkDistance: 80,  
-scale: 0.8,  
-opacityScale: 1.8,  
+linkDistance: 100,  
+scale: 0.5,  
+opacityScale: 2.5,  
 },  
 }),
 ```
+
+## 変数
+
+変数の意味はそれぞれ次のとおりになる。
+
+**グラフの違い**
+- localGrap：今いるノートのグラフ
+- globalGraph：サイト全体のグラフ
+
+
+**オプション**
+- fontSize：
+	- ノードラベルのサイズ
+	- 値が大きいほどフォントは大きくなり、小さいほどフォントも小さくなる。
+- repelForce：
+	- ノード同士の反発力
+	- 値が大きいほど、ノード同士が強く反発し合う。
+- linkDistance：
+	- ノード間を繋げるリンクの自然距離
+	- 値が大きいほど、リンク間の飛距離が伸びる。
+- scale：
+	- 初期ズーム倍率
+	- 値が小さいほど引きで表示され、大きいほど拡大状態で表示される。
+- opacityScale：
+	- ノードやリンクの透明度変化の強さ
+	- 中心ノードから遠いものほど薄くなる。
+
+**レイアウトはrepelForceとLinkDistanceの組み合わせで決まる。**
+
+
