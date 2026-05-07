@@ -6,7 +6,7 @@ updated: 2026-04-26T00:03:28+09:00
 id: 20260426-000328
 aliases:
   - 「聞き手の思考プロセス」と「作業フェーズ」に合わせて使い分ける
-draft: false
+draft: true
 source:
 ---
 #generated_note 

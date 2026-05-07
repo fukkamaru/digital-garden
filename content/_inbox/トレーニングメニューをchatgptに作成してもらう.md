@@ -7,7 +7,7 @@ id: 20260426-215340
 aliases:
   - トレーニングメニューをchatgptに作成してもらう
 permalink:
-draft: false
+draft: true
 source:
 ---
 # 目的の整理

@@ -7,7 +7,7 @@ id: 20260429-080306
 aliases:
   - イヤホンとヘッドホンでの聴力への影響を調べる
 permalink:
-draft: false
+draft: true
 source:
 ---
 イヤホンとヘッドホンで聴力への影響に違いはありますか？

@@ -35,11 +35,12 @@ opacityScale: 2.5,
 ## 変数
 
 変数の意味はそれぞれ次のとおりになる。
+https://quartz.jzhao.xyz/features/graph-view
+
 
 **グラフの違い**
 - localGrap：今いるノートのグラフ
 - globalGraph：サイト全体のグラフ
-
 
 **オプション**
 - fontSize：
@@ -59,5 +60,3 @@ opacityScale: 2.5,
 	- 中心ノードから遠いものほど薄くなる。
 
 **レイアウトはrepelForceとLinkDistanceの組み合わせで決まる。**
-
-

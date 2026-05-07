@@ -7,7 +7,7 @@ id: 20260429-113409
 aliases:
   - 雲龍図の違い
 permalink:
-draft: false
+draft: true
 source:
 ---
 建仁寺、天龍寺、妙心寺の雲龍図の違い、また、そもそも雲龍図とは何か？教えて下さい。
