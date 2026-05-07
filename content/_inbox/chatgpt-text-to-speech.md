@@ -7,7 +7,7 @@ id: 20260429-114043
 aliases:
   - chatpgtの出力を音声にする
 permalink:
-draft: false
+draft: true
 source:
 ---
 CHATgptで音声入力でチャットをしたいけど、リアルタイム会話などのような、こちらの会話が終わっら自動でチャットを返すといった動きはできますか？

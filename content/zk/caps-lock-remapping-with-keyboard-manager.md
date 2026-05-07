@@ -19,5 +19,5 @@ MS公式アプリPower Toysの「Keyboard Manager」は<br>
 
 何が嬉しいって、<br>
 「\<br\>」のような文字列を変換せずにワンタップで入力出来る。<br>
-[Microsoftはいい加減Power Toysをプリインストール化するべき](microsoft-should-preinstall-powertoys.md)
+[Microsoftはいい加減Power Toysをプリインストール化するべき](great-extensions-should-be-built-in.md)
 
