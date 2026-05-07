@@ -8,7 +8,6 @@ aliases:
   - amazon sellerは退会する前に小口する選択肢がある
 permalink:
 draft: false
-source:
 ---
 amazon sellerは、退会するとペイメントを始めとした資料の確認ができなくなってしまう。
 
