@@ -24,7 +24,8 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 
 ---
 
-[公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
+- [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
+- [Analytics](analytics.md)
 
 
 
