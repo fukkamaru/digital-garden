@@ -11,6 +11,8 @@ views:
       - file.links
       - file.tags
     sort:
+      - property: type
+        direction: ASC
       - property: file.folder
         direction: ASC
       - property: file.tags
@@ -18,3 +20,4 @@ views:
     columnSize:
       file.name: 117
       file.ctime: 173
+      file.links: 223

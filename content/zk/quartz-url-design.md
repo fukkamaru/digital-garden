@@ -2,7 +2,7 @@
 title: QuartzにおけるURL設計
 aliases:
   - QuartzにおけるURL設計
-type: journal
+type: permanent
 created: 2026-04-26T10:59:40+09:00
 updated: 2026-04-26T10:59:40+09:00
 id: 20260426-105940

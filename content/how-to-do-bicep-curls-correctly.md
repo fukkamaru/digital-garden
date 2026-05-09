@@ -7,7 +7,7 @@ id: 20260429-113144
 aliases:
   - バイセップカールの正しいフォーム
 permalink:
-draft: true
+draft: false
 source:
 ---
 バイセップカールの正しいフォームを教えて。
@@ -425,11 +425,11 @@ source:
 
 ---
 
-![https://cdn.shopify.com/s/files/1/0373/2160/5253/files/06_a0ff7579-2752-4b15-b49c-8930fc1a1eee.jpg?v=1682988559](https://cdn.shopify.com/s/files/1/0373/2160/5253/files/06_a0ff7579-2752-4b15-b49c-8930fc1a1eee.jpg?v=1682988559)
 
-![https://gooday.nikkei.co.jp/atcl/report/18/050900015/052200006/zu4.jpg?__scale=w%3A960%2Ch%3A480&_sh=0640e70380](https://gooday.nikkei.co.jp/atcl/report/18/050900015/052200006/zu4.jpg?__scale=w%3A960%2Ch%3A480&_sh=0640e70380)
 
-![https://sports-pctr.c.yimg.jp/dk/iwiz-sports/text/images/2024/0623/2024062300027-spnavido_1719133515_view.jpeg](https://sports-pctr.c.yimg.jp/dk/iwiz-sports/text/images/2024/0623/2024062300027-spnavido_1719133515_view.jpeg)
+
+
+
 
 4
 
