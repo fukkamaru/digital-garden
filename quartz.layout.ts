@@ -51,7 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 2.0,
       },
       globalGraph: {
-        fontSize: 0.45,
+        fontSize: 0.30,
         repelForce: 1.5,
         linkDistance: 100,
         scale: 0.5,

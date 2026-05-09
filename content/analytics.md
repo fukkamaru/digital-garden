@@ -1,5 +1,5 @@
 ---
-title: 分析作業用ページ
+title: Analytics
 type: structure
 created: 2026-04-25T21:35:14+09:00
 updated: 2026-04-25T21:35:14+09:00
@@ -10,12 +10,15 @@ draft: false
 source:
 ---
 - Obsidian上で分析作業を行うためのページ
-- quartzは静的Webページ生成のフレームワークであり、動的なデータ出力には対応していないためウェブ上では表示されません。
+
+>[!note]
+>quartzは静的Webページ生成のフレームワークであり、動的なデータ出力には対応していません。そのため、ウェブ上では表示されません。
+
 
 ## フリーティング
 
 ```dataview
-table title, created
+table title, file.folder, created
 from ""  
 where type = "fleeting"
 sort created desc
@@ -23,7 +26,7 @@ sort created desc
 
 ## リテラチャー
 ```dataview
-table title, created
+table title, file.folder, created
 from ""  
 where type = "literature"
 sort created desc
