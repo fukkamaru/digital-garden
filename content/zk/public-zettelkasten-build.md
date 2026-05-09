@@ -61,11 +61,13 @@ draft: false
 	- リポジトリ管理：github
 	- ホスティング：cloudflare pages
 	- ドメイン管理：conoha
-		- [[cloudflare-pages-external-domain-restrictions|外部カスタムドメインをCloudflare Pagesで利用することの制限]]
+		- [外部カスタムドメインをCloudflare Pagesで利用する場合の制限](cloudflare-pages-external-domain-restrictions.md)
 
 
-- 設計
+- 設計・運用
 	- [QuartzにおけるURL設計](quartz-url-design.md)
+	- Quartzにおけるフォルダとタグの管理
+		- タグは
 
 - 記述
 	- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)

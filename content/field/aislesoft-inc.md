@@ -7,11 +7,13 @@ created: 2026-05-09T19:51:00+09:00
 updated: 2026-05-09T19:51:00+09:00
 id: 20260509-195100
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---
 
+>[!warning]
+>このページは意図的に非公開にしています。
 
 
 ## 2. 会社の位置づけ

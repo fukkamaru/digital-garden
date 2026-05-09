@@ -7,7 +7,7 @@ id: 20260429-113144
 aliases:
   - バイセップカールの正しいフォーム
 permalink:
-draft: true
+draft: false
 source:
 ---
 バイセップカールの正しいフォームを教えて。
@@ -425,11 +425,11 @@ source:
 
 ---
 
-![[removed-image-link]]([removed-image-link])
 
-![[removed-image-link]]([removed-image-link])
 
-![[removed-image-link])
+
+
+
 
 4
 
