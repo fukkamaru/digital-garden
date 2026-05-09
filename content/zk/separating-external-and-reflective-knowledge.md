@@ -16,6 +16,6 @@ source:
 
 但し、
 
-ツェッテルカステンは[知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)のが本質である。したがって、`filed`とツェッテルカステンを**繋げることは寧ろ推奨される**。また、外部環境に影響を受けて調べたこと・考えたことは、外部環境ではなくなる。
-⇒permanent or litelatuer
+ツェッテルカステンは[知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)のが本質である。したがって、`filed`と`ツェッテルカステン`を**繋げることは寧ろ推奨される**。また、外部環境に影響を受けて調べたこと・考えたことは、外部環境ではなくなる。
+⇒`permanent` or `litelatuer`
 

@@ -61,7 +61,7 @@ draft: false
 	- リポジトリ管理：github
 	- ホスティング：cloudflare pages
 	- ドメイン管理：conoha
-		- サーバー側の都合上、サブドメインで運用
+		- [[cloudflare-pages-external-domain-restrictions|外部カスタムドメインをCloudflare Pagesで利用することの制限]]
 
 
 - 設計

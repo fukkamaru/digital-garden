@@ -54,7 +54,7 @@ sort created desc
 ## AI_Sorcue
 ```dataview
 table title, created
-FROM #ai_source
+FROM #ai-generated
 sort created desc
 ```
 
