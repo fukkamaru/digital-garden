@@ -69,12 +69,8 @@ draft: false
 
 - 記述
 	- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)
-	- 活動ノートは独立するべき
-	- 外界ノートは独立するべき
+	- [活動記録はジャーナルとして残す](keep-activity-logs-as-journal.md)
+	- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
 
 
-- 活動ノート（ジャーナル：journal）
-    - 特定の目的を達成するために計画的に行われる一連の活動をまとめる
-    - 活動日を入れて、「いつ」「何をした」のか分かるようにまとめる
-    - 永続ノートとリンクすることで、自分が行った具体的な試行錯誤や解決手順が分かる
 
