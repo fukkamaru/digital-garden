@@ -5,14 +5,15 @@ views:
       - file.name
       - title
       - file.folder
+      - type
       - file.ctime
       - file.mtime
       - file.links
       - file.tags
     sort:
-      - property: file.tags
-        direction: DESC
       - property: file.folder
+        direction: ASC
+      - property: file.tags
         direction: DESC
     columnSize:
       file.name: 117

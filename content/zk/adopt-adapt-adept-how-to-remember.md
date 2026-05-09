@@ -1,6 +1,6 @@
 ---
 title: adopt, adapt, adeptの違いと覚え方
-type:
+type: permanent
 created: 2026-04-28T22:18:06+09:00
 updated: 2026-04-28T22:18:06+09:00
 id: 20260428-221806
