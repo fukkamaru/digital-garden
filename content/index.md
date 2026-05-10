@@ -23,16 +23,3 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 それは、いつしか宇宙と成り、秩序ある体系だった宇宙へと変貌するでしょう。
 
 ---
-
-- [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
-- [Analytics](analytics.md)
-
-
-
-
-
-## ゲームの話
-
-
-- [目標一覧](goals-list.md)
-- [ぽこあポケモン](pokoa-pokemon.md)
