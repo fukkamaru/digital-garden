@@ -43,7 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       localGraph: {
-        draft: 2,
+        depth: 2,
         fontSize: 0.45,
         repelForce: 1.0,
         linkDistance: 60,
