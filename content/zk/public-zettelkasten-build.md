@@ -66,8 +66,8 @@ draft: false
 
 - 設計・運用
 	- [QuartzにおけるURL設計](quartz-url-design.md)
-	- Quartzにおけるフォルダとタグの管理
-		- タグは
+	- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
+	- [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
 
 - 記述
 	- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)
