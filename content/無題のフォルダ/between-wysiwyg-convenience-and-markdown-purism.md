@@ -8,8 +8,13 @@ aliases:
   - WYSIWYG寄りとMarkdown原理主義者の狭間
 permalink:
 draft: false
-source:
 ---
+
+
+
+
+
+
 # ■ 何がぶつかってるのか（整理）
 
 ## Obsidian
