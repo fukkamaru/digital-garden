@@ -28,3 +28,6 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 
 - [目標一覧](goals-list.md)
 - [ぽこあポケモン](pokoa-pokemon.md)
+
+
+- [影響を受けたサイト](influential-sites.md)
