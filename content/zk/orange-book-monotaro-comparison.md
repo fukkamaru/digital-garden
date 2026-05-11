@@ -9,6 +9,7 @@ id: 20260511-192651
 permalink:
 draft: false
 tags:
+  - ai-generated
 ---
 
 **違いを一言で説明するなら**
