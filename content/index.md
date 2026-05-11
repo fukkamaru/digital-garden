@@ -1,8 +1,7 @@
 ---
 title: Fukkamaru Space World
 aliases:
-  - インデックス
-  - ふっかまる
+  - Fukkamaru Space World
 type: structure
 created: 2026-04-22
 updated: 2026-04-25T16:08:39+09:00
@@ -31,3 +30,4 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 
 
 - [影響を受けたサイト](influential-sites.md)
+- [使ってみたいアイテム](things-i-want-to-try.md)
