@@ -26,8 +26,11 @@ It will one day become the universe, and one day transform into the cosmos.<br>
 - [Analytics](analytics.md)
 
 - [目標一覧](goals-list.md)
+- [[勉強したいこと]]
+
+
 - [ぽこあポケモン](pokoa-pokemon.md)
 
 
-- [影響を受けたサイト](influential-sites.md)
 - [使ってみたいアイテム](things-i-want-to-try.md)
+- [個人的ブックマーク](personal-bookmarks.md)
