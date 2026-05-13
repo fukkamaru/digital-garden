@@ -7,7 +7,7 @@ created: 2026-05-13T07:34:51+09:00
 updated: 2026-05-13T07:34:51+09:00
 id: 20260513-073451
 permalink:
-draft: true
+draft: false
 tags:
 ---
 大容量ファイルを「リポジトリに直接置く」のではなく、配布用ファイルとして置くなら**GitHub Releases**という選択肢もあります。

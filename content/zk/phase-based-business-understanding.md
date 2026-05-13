@@ -16,22 +16,31 @@ tags:
     - **アイデア・ビジョン共有**
     - ”なぜやるのか？”を腹落ちさせて合意形成
     - 理由と価値提供を頭に置くことで、先に共感・後に実装を検討
-    - **why → what** → who → whom → which → when → where → how → how many → how long → how much<br>
+    - ```
+      **why → what** → who → whom → which → when → where → how → how many → how long → how much
+      ```
+      
 - Who先頭型 [7W4Hのグループ分け](7w4h-grouping.md) ：
     - **手戻りを減らすための詳細設計・WBS作成**
     - 利害関係者の確定→手段決定→数値詰め
     - 関係者とチャネルを先に確定すると、後工程がぶれず見積もりに直結させやすい
-    - **who → whom → which** → what → when → where → why → how → how many → how long → how much<br>
+    - ```
+      **who → whom → which** → what → when → where → why → how → how many → how long → how much
+      ```
 - How先頭型：
     - **プロセスの最優先**
     - 工程手順と機関工数を早く固めたい
     - 先に工程を決めて、場所や数量を追従させるとライン設計がスムーズに決定
-    - who → **how → how long** → where → what → how many → when → how much → whom → why → which<br>
+    - ```
+      who → **how → how long** → where → what → how many → when → how much → whom → why → which
+      ```
 - Cost先頭型：
     - **予算稟議・ROI**
     - コストとリターンを短時間で示す
     - いくら？何件？を冒頭に置き、決済者の興味を直結させる
-    - **how much → how many** → what → why → who → whom → when → where → how → how long → which<br>
+    - ```
+      **how much → how many** → what → why → who → whom → when → where → how → how long → which
+      ```
 
 
 第2版に[王道テンプレート]()を使って整合性の確認可。

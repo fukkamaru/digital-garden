@@ -56,11 +56,14 @@ draft: false
 ## 構築方法
 
 - 環境
-	- ノート作成・管理：obsidian
-	- 静的サイト生成：quartz
-	- リポジトリ管理：github
-	- ホスティング：cloudflare pages
-	- ドメイン管理：conoha
+	- ノート作成・管理：Obsidian
+	- 静的サイト生成：Quartz
+	- リポジトリ管理：GitHub
+		- [Gitエコシステムまとめ](git-ecosystem-notes.md)
+	- ホスティング：Cloudflare Pages
+		- [Cloudflare Pages / GitHub / GitHub Pagesの比較](cloudflare-pages-vs-github-pages.md)
+		- [Cloudflare Pagesの主な制限](cloudflare-pages-limitations.md)
+	- ドメイン管理：conoHa
 		- [外部カスタムドメインをCloudflare Pagesで利用する場合の制限](cloudflare-pages-external-domain-restrictions.md)
 
 
