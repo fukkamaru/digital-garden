@@ -26,6 +26,8 @@ draft: false
 - [Analytics](analytics.md)
 
 - [目標一覧](goals-list.md)
+	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
+	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
 - [勉強したいこと](study-topics.md)
 
 - [ぽこあポケモン](pokoa-pokemon.md)

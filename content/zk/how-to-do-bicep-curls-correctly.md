@@ -1,11 +1,11 @@
 ---
 title: バイセップカールの正しいフォーム
-type: バイセップカールの正しいフォーム
+aliases:
+  - バイセップカールの正しいフォーム
+type: literature
 created: 2026-04-29T11:31:44+09:00
 updated: 2026-04-29T11:31:44+09:00
 id: 20260429-113144
-aliases:
-  - バイセップカールの正しいフォーム
 permalink:
 draft: false
 tags:
