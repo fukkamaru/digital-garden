@@ -71,6 +71,9 @@ draft: false
 	- [QuartzにおけるURL設計](quartz-url-design.md)
 	- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
 	- [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
+	- [markdownlinkを採用](adopting-markdown-links.md)
+	- [画像ファイルの命名規則](image-naming-conventions.md)
+	- [コールアウトの使い分け](using-markdown-callouts.md)
 
 - 記述
 	- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)

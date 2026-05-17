@@ -14,7 +14,9 @@ draft: false
 >
 >It is both Fukkamaru's garden and outer space.  
 >It will one day become the universe, and one day transform into the cosmos.
-> 
+
+
+> [!info]
 > こんにちは、ふっかまるワールド。  
 > ここは、ふっかまるのデジタルガーデンです。  
 > 
@@ -28,6 +30,8 @@ draft: false
 - [目標一覧](goals-list.md)
 	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
 	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
+	- [ディップスの正しいフォーム](how-to-do-dips-correctly.md)
+	- [心拍数トレーニングゾーン](heart-rate-training-zones.md)
 - [勉強したいこと](study-topics.md)
 
 - [ぽこあポケモン](pokoa-pokemon.md)

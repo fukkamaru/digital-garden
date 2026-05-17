@@ -2,13 +2,14 @@
 title: GitHub Releasesの制限
 aliases:
   - GitHub Releasesの制限
-type:
+type: literature
 created: 2026-05-13T07:34:51+09:00
 updated: 2026-05-13T07:34:51+09:00
 id: 20260513-073451
 permalink:
 draft: false
 tags:
+  - ai-generated
 ---
 大容量ファイルを「リポジトリに直接置く」のではなく、配布用ファイルとして置くなら**GitHub Releases**という選択肢もあります。
 
