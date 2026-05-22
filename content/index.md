@@ -1,7 +1,7 @@
 ---
-title: Fukkamaru Space World
+title: Home
 aliases:
-  - Fukkamaru Space World
+  - Home
 type: structure
 created: 2026-04-22
 updated: 2026-04-25T16:08:39+09:00
