@@ -2,12 +2,14 @@
 title: IPROSに掲載するサムネイルの作成手順
 aliases:
   - IPROSに掲載するサムネイルの作成する手順
-type: field
+type: permanent
 created: 2026-05-02T09:31:39+09:00
 updated: 2026-05-02T09:31:39+09:00
 id: 20260502-093139
 permalink:
 draft: false
+tags:
+  - field
 ---
 - [Canva](https://www.canva.com/ja_jp/)を利用する
 - 1080x1080pxサイズで作成する

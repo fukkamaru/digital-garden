@@ -9,7 +9,6 @@ aliases:
   - microsoft
 permalink:
 draft: false
-source:
 ---
 MS公式アプリPower Toysの「Keyboard Manager」は<br>
 キーボードで**一番嫌われているであろう「caps lock」**と、簡単にお別れ出来る便利なツール。

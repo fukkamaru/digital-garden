@@ -2,7 +2,7 @@
 title: 株式会社アイル
 aliases:
   - 株式会社アイル
-type: field
+type: literature
 created: 2026-05-10T02:58:54+09:00
 updated: 2026-05-10T02:58:54+09:00
 id: 20260510-025854

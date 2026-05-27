@@ -2,13 +2,14 @@
 title: 会計用語
 aliases:
   - 会計用語
-type: ai-generated
+type: literature
 created: 2026-05-13T16:03:50+09:00
 updated: 2026-05-13T16:03:50+09:00
 id: 20260513-160350
 permalink:
 draft: false
 tags:
+  - ai-generated
 ---
 **諸口（しょくち、もろくち）とは**
 「相手科目が複数あるときに、まとめて書くための仮の表示」

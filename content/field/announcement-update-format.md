@@ -2,12 +2,14 @@
 title: 「お知らせ」を修正するときのラベルと記述方法
 aliases:
   - 「お知らせ」を修正するときのラベルと記述方法
-type: field
+type: permanent
 created: 2026-05-02T10:58:16+09:00
 updated: 2026-05-02T10:58:16+09:00
 id: 20260502-105816
 permalink:
 draft: false
+tags:
+  - field
 ---
 修正対象となる「お知らせ」の状態に応じて使用するラベルを使い分ける。
 

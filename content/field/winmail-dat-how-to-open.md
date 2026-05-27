@@ -1,12 +1,13 @@
 ---
 title: winmail.datの開き方
-type: field
+type: permanent
 created: 2026-01-10
 updated: 2026-04-25T17:57:58+09:00
 id: 20260425-175758
 aliases: []
 draft: false
-source:
+tags:
+  - field
 ---
 **そもそも、お前ダレ？**  
 - outlookでファイル転送時に添付ファイルとして出現する。

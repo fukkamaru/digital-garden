@@ -1,6 +1,6 @@
 ---
 title: マクロ付きのExcelファイルを編集出来るようにする
-type: field
+type: permanent
 created: 2026-04-27T20:15:14+09:00
 updated: 2026-04-27T20:15:14+09:00
 id: 20260427-201514
@@ -9,7 +9,8 @@ aliases:
   - エクセル
 permalink:
 draft: false
-source:
+tags:
+  - field
 ---
 何かとセキュリティリスクが付きまとうVBAマクロ。たまに触れる機会があるので、「ブロック解除」の方法を忘れないようメモを残すことにした。
 

@@ -2,7 +2,7 @@
 title: 株式会社アイルソフト
 aliases:
   - 株式会社アイルソフト
-type: field
+type: literature
 created: 2026-05-09T19:51:00+09:00
 updated: 2026-05-09T19:51:00+09:00
 id: 20260509-195100

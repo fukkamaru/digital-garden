@@ -8,7 +8,6 @@ updated: 2026-04-28T19:38:00+09:00
 id: 20260428-193800
 permalink:
 draft: false
-source:
 ---
 Windowsには、power toysと呼ばれる非常に強力なユーティリティーソフトが公式から配布されている。
 

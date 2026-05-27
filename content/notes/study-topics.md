@@ -1,14 +1,14 @@
 ---
 title: 勉強したいこと
-type: 勉強したいこと
+aliases:
+  - 勉強したいこと
+type: fleeting
 created: 2026-04-26T19:15:50+09:00
 updated: 2026-04-26T19:15:50+09:00
 id: 20260426-191550
-aliases:
-  - 勉強したいこと その1
 permalink:
 draft: false
-source:
+tags:
 ---
 
 ## 時事ネタ

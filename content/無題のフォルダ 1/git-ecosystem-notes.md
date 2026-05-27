@@ -12,7 +12,7 @@ tags:
 ---
 Gitおよびその周辺サービスについての解説リンクをまとめたもの。
 
-- [GitとGitHubの違い](無題のフォルダ/無題のファイル%202.md)
+- [GitとGitHubの違い](無題のフォルダ/無題のファイル%202.md) ./まだドラフト
 
 - [Github本体のの主な制限](github-limitations.md)
 - [Git LFSの制限](git-lfs-limitations.md)

@@ -1,13 +1,14 @@
 ---
 title: デジタルガーデンの構築作業日記
-type: journal
+type: permanent
 created: 2026-04-25T20:56:42+09:00
 updated: 2026-04-25T20:56:42+09:00
 id: 20260425-205642
 aliases:
   - デジタルガーデンの構築作業日記
 draft: false
-source:
+tags:
+  - journal
 ---
 
 
