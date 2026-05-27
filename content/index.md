@@ -27,14 +27,17 @@ draft: false
 - [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
 - [Analytics](analytics.md)
 
+- [生活を変える](change-your-life.md)
 - [目標一覧](goals-list.md)
 	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
 	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
 	- [ディップスの正しいフォーム](how-to-do-dips-correctly.md)
 	- [心拍数トレーニングゾーン](heart-rate-training-zones.md)
+- [言葉と思考の軌跡](words-and-thoughts.md)
+- [調べたいことメモ](research-notes.md)
+- [気になった言葉](気になった言葉.md)
 - [勉強したいこと](study-topics.md)
 
 - [ぽこあポケモン](pokoa-pokemon.md)
-
 - [使ってみたいアイテム](things-i-want-to-try.md)
 - [個人的ブックマーク](personal-bookmarks.md)
