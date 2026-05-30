@@ -2,7 +2,7 @@
 title: Gitエコシステムまとめ
 aliases:
   - Gitエコシステムまとめ
-type:
+type: structure
 created: 2026-05-13T10:45:13+09:00
 updated: 2026-05-13T10:45:13+09:00
 id: 20260513-104513

@@ -29,6 +29,7 @@ draft: false
 
 - [生活を変える](change-your-life.md)
 - [目標一覧](goals-list.md)
+	- [トレーニングメニューをchatgptに作成してもらう](create-training-plan-with-chatgpt.md)
 	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
 	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
 	- [ディップスの正しいフォーム](how-to-do-dips-correctly.md)
