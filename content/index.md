@@ -38,6 +38,7 @@ draft: false
 - [調べたいことメモ](research-notes.md)
 - [気になった言葉](気になった言葉.md)
 - [勉強したいこと](study-topics.md)
+- [旅行へ行きたい](travel-wishlist.md)
 
 - [ぽこあポケモン](pokoa-pokemon.md)
 - [使ってみたいアイテム](things-i-want-to-try.md)
