@@ -26,7 +26,7 @@ tags:
 |     **12:10** | 石山駅からMIHO MUSEUM行きバス                                |
 |     **13:00** | MIHO MUSEUM到着                                       |
 |   13:00〜16:00 | MIHO MUSEUM鑑賞、曜変天目、建築、トンネル・橋のアプローチ                  |
-|     **16:16** | MIHO MUSEUM発、信楽駅方面のバス                               |
+|     **16:16** | MIHO MUSEUM発、信楽駅方面のバス<br>※信楽高原鐵道信楽駅発着               |
 |     **16:50** | 信楽駅着                                                |
 |   16:50〜18:10 | 信楽駅周辺・窯元散策路を短時間散策                                   |
 |   18:10〜18:20 | 信楽駅へ戻る                                              |
@@ -39,6 +39,29 @@ tags:
 |     **20:51** | 加茂駅発                                                |
 |     **21:05** | JR奈良駅着                                              |
 |   21:05〜21:25 | JR奈良駅                                               |
+
+
+
+**徒歩だけでも約40分。観光で足を止めても1時間ほどで済む**
+![426](Pasted%20image%2020260724210446.png)
+
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.miho.jp/wp-content/uploads/2019/06/1e89f1bb905a0b1d51c7919646b61327.pdf
+バスの時刻表と料金。
+
+![](Pasted%20image%2020260724215328.png)
+
+
+
+帰りはこちらの路線バスを使って信楽駅へ向かう
+![](Pasted%20image%2020260725105345.png)
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.sccp.jp/wp-content/uploads/2026/04/464dc620d92d3ff0df8db6e63791499a.pdf
+![](Pasted%20image%2020260725105619.png)
+
+![](Pasted%20image%2020260725112421.png)
+
+
 
 これが一番バランスいいです。
 
