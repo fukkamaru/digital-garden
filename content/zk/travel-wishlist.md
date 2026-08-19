@@ -53,6 +53,9 @@ tags:
 	- 姫路市立見野の郷交流館
 		- [猫の足跡付き須恵器](cat-pawprint-sue-ware.md)
 - 和歌山
+- 滋賀
+	- MIHO MUSEUM
+	- 信楽町
 - 鳥取
 	- 砂丘美術館
 - 島根
