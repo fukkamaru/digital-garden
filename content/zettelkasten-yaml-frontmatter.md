@@ -12,13 +12,13 @@ tags:
 ---
 
 > [!note]
-> title: 日本語名を入力<br>
-> aliases:<br>
-> type:<br>
-> created: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %><br>
-> updated: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %><br>
-> id: <% tp.date.now("YYYYMMDD-HHmmss") %><br>
-> permalink:<br>
-> draft: true<br>
-> tags:<br>
+> title: 日本語名を入力  
+> aliases:  
+> type:  
+> created: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>  
+> updated: <% tp.date.now("YYYY-MM-DD[T]HH:mm:ssZ") %>  
+> id: <% tp.date.now("YYYYMMDD-HHmmss") %>  
+> permalink:  
+> draft: true  
+> tags:  
 
