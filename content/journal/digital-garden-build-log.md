@@ -28,4 +28,4 @@ tags:
 - 2026/04/25: 保存フォルダやYAMLのタグ設定などが決まってくる
 	- 専用のGPTSを作成
 	- pluginの追加： File Tree Alternative Plugin
-	
+- 2026/08/20 fieldフォルダの削除

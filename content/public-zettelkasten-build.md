@@ -81,4 +81,13 @@ draft: false
 	- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
 
 
+## フォルダ構成
+
+- 01_templates
+- 02_images
+- 10_inbox
+- field
+- journal
+- notes
+- zk
 

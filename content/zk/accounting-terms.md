@@ -10,6 +10,7 @@ permalink:
 draft: false
 tags:
   - ai-generated
+  - field
 ---
 **諸口（しょくち、もろくち）とは**
 「相手科目が複数あるときに、まとめて書くための仮の表示」

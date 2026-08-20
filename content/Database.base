@@ -6,18 +6,20 @@ views:
       - title
       - file.folder
       - type
+      - file.tags
       - file.ctime
       - file.mtime
       - file.links
-      - file.tags
     sort:
+      - property: file.tags
+        direction: DESC
       - property: file.folder
         direction: DESC
       - property: type
         direction: ASC
-      - property: file.tags
-        direction: DESC
     columnSize:
-      file.name: 117
+      file.name: 253
+      file.folder: 132
+      note.type: 148
       file.ctime: 173
       file.links: 223
