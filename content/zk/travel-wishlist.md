@@ -63,7 +63,7 @@ tags:
 		- https://tourismdaisen.com/about_daisen/
 		- https://tourismdaisen.com/about_daisen/access/
 	- 足立美術館（日本1の庭園）
-- 岡山 / [岡山・倉敷へ行く場合の情報](go-to-okayama-and-kurashiki.md)
+- 岡山 / ~~[岡山・倉敷へ行く場合の情報](go-to-okayama-and-kurashiki.md)~~
 	- 岡山城
 		- 岡山城後楽園（日本3大庭園の1つ）
 	- 倉敷美観地区
@@ -85,6 +85,6 @@ tags:
 - 香川県
 	- 地中美術館
 		- https://benesse-artsite.jp/art/chichu.html
-		- [大原美術館と地中美術館を１日で楽しめるのか？](岡山県倉橋美術館と地中美術館を１日で楽しめるのか？.md)
+		- [大原美術館と地中美術館を１日で楽しめるのか？](kurashiki-and-chichu-museum-in-one-day.md)
 
 - 

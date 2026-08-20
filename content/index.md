@@ -23,9 +23,6 @@ draft: false
 > ふっかまるにとっての庭であり外宇宙でもあります。  
 > それは、いつしか宇宙と成り、秩序ある体系だった宇宙へと変貌するでしょう。
 
-- [is-limited-express-southern-worth-it](is-limited-express-southern-worth-it.md)
-- [wakayama-travel-plan](wakayama-travel-plan.md)
-
 
 - [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
 - [Analytics](analytics.md)
