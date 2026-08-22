@@ -1,13 +1,13 @@
 ---
-title: Analytics
+title: タイプ別カード一覧表
+aliases:
+  - タイプ別カード一覧表
 type: structure
 created: 2026-04-25T21:35:14+09:00
 updated: 2026-04-25T21:35:14+09:00
 id: 20260425-213514
-aliases:
-  - 分析作業用ページ
 draft: false
-source:
+tags:
 ---
 - Obsidian上で分析作業を行うためのページ
 

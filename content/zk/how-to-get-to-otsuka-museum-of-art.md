@@ -57,4 +57,4 @@ https://o-museum.or.jp/pages/28/
 
 
 
-[大塚国際美術館 行き方比較表](zk/otsuka-museum-access-comparison.md)
+[大塚国際美術館 行き方比較表](Zk/otsuka-museum-access-comparison.md)

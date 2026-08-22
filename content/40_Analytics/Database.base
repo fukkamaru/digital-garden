@@ -23,3 +23,5 @@ views:
       note.type: 148
       file.ctime: 173
       file.links: 223
+  - type: table
+    name: ビュー
