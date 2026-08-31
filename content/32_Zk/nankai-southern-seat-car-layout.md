@@ -34,7 +34,7 @@ flowchart LR
 
     N["難波"]
 
-    W --- C8 --- C7 --- C6 --- C5 --- C4 --- C3 --- C2 --- C1 --- N
+    W ~~~ C8 ~~~ C7 ~~~ C6 ~~~ C5 ~~~ C4 ~~~ C3 ~~~ C2 ~~~ C1 ~~~ N
 
     classDef station fill:#ffffff,stroke:#333,stroke-width:2px,color:#111;
     classDef free fill:#dcecff,stroke:#3973ac,stroke-width:2px,color:#111;
