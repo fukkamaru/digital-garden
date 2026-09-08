@@ -1,21 +1,49 @@
 ---
-title: 和歌山かんこうデジタルきっぷ
+title: 和歌山観光デジタルきっぷ（2026年調査）
 aliases:
+  - 和歌山観光デジタルきっぷ（2026年調査）
   - 和歌山かんこうデジタルきっぷ
 type: literature
 created: 2026-08-02T20:41:41+09:00
-updated: 2026-08-02T20:41:41+09:00
+updated: 2026-09-06T01:39:23+09:00
 id: 20260802-204141
 permalink:
 draft: false
 tags:
+  - ai-generated
 ---
+大阪方面から和歌山市へ向かう南海電鉄の往復乗車券、和歌山市内のバス1日乗車券、観光施設や店舗の特典を組み合わせたデジタルきっぷ。
 
-- 概要、 購入金額
-	- https://www.nankai.co.jp/traffic/digital/kwakayama_kanko.html
-- 特典
-	- https://www.nankai.co.jp/traffic/digital/wakayama_kanko/wakayama_tokuten_ichiran.html
-- エリア地図
-	- https://www.nankai.co.jp/sites/default/files/2022-06/8412_121329171048.jpg
-- 和歌山バス
-	- chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.wakayamabus.co.jp/cms/wp-content/uploads/rosennzu2026040402.pdf
+## 商品内容（2026年9月確認）
+
+- 難波、新今宮、天下茶屋、住吉大社、堺の各駅から和歌山市駅までの南海電鉄往復乗車券
+- 和歌山バス・和歌山バス那賀の指定路線で使える1日フリー乗車券
+  - 高速バス、空港リムジンバス、コミュニティバス、ふじと台バスなどは対象外
+- 和歌山城などの観光施設や店舗で使える特典
+- キーノ和歌山で使える300円分のお買い物券
+
+発売額は通常版が大人2,080円、小児1,040円、特急サザンの往復座席指定券付きが大人2,630円、小児1,330円。発売額や対象区間は変わるため、購入時に公式ページを確認する。
+
+## 購入・利用条件
+
+- 通年発売
+- 利用日の1か月前から購入できる
+- 購入時に指定した1日だけ有効
+- 当日購入は15時まで
+- スマートフォンとクレジットカードが必要
+- 画面表示や通信ができない場合は利用できないことがある
+
+## 公式資料
+
+- [商品概要・購入方法](https://www.nankai.co.jp/traffic/digital/kwakayama_kanko.html)
+- [特典一覧](https://www.nankai.co.jp/traffic/digital/wakayama_kanko/wakayama_tokuten_ichiran.html)
+- [和歌山バス路線図（PDF）](https://www.wakayamabus.co.jp/cms/wp-content/uploads/rosennzu2026040402.pdf)
+
+## 使った旅行記録
+
+- [和歌山旅行｜芦雪・和歌山城・マリーナシティ｜旅行プラン](wakayama-travel-plan.md)
+  - 作成時点では2,060円として計画し、市内バスと和歌山城の特典を使う予定だった
+- [和歌山旅行｜芦雪・和歌山城・図書館｜実績](wakayama-osetsu-castle-library-trip-2026-08-11.md)
+  - 実際に利用し、キーノ和歌山の食事で300円引きの特典を使った
+
+過去の旅行記録にある金額は当時の判断記録として残し、現在の商品情報とは分ける。次回利用時は、予定する南海・バス区間と特典だけを通常料金で合計し、[割引切符は旅程を決めてから通常料金と比較する](compare-discount-passes-after-planning-the-itinerary.md)の基準で比較する。

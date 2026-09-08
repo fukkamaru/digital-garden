@@ -1,48 +1,42 @@
 ---
-title: 南海特急サザンの座席車両配置
+title: 特急サザンはなんば側が自由席、和歌山側が指定席
 aliases:
+  - 特急サザンはなんば側が自由席、和歌山側が指定席
   - 南海特急サザンの座席車両配置
 type: literature
 created: 2026-09-01T03:36:33+09:00
-updated: 2026-09-01T03:36:33+09:00
+updated: 2026-09-09T01:19:37+09:00
 id: 20260901-033633
 permalink:
 draft: false
 tags:
+  - ai-generated
 ---
-南海特急サザンは指定席と自由席が一体となった特急列車。そのため、特急券がなくても自由席車両であれば、誰でも乗ることが出来る。
 
-では、どの席が指定席で自由席なのか？
-- 指定席：和歌山側
-- 自由席：難波側
+特急サザンは、指定席車両4両と自由席車両4両を連結した8両編成で運転される。
 
-つまり、図解すると次のようになる
+- なんば側の4両：自由席車両
+- 和歌山側の4両：指定席車両
+- 自由席車両：乗車券だけで利用できる
+- 指定席車両：乗車券に加えて座席指定券が必要
+
+車両番号は車種や編成の案内と混同しやすいため、乗車時は「なんば側／和歌山側」で判断する。
 
 ```mermaid
 flowchart LR
-    W["和歌山"]
-
-    C8["8号車<br/>指定席"]
-    C7["7号車<br/>指定席"]
-    C6["6号車<br/>指定席"]
-    C5["5号車<br/>指定席"]
-
-    C4["4号車<br/>自由席"]
-    C3["3号車<br/>自由席"]
-    C2["2号車<br/>自由席"]
-    C1["1号車<br/>自由席"]
-
-    N["難波"]
-
-    W ~~~ C8 ~~~ C7 ~~~ C6 ~~~ C5 ~~~ C4 ~~~ C3 ~~~ C2 ~~~ C1 ~~~ N
+    W["和歌山方面"] ~~~ R["指定席車両<br/>4両"] ~~~ F["自由席車両<br/>4両"] ~~~ N["なんば方面"]
 
     classDef station fill:#ffffff,stroke:#333,stroke-width:2px,color:#111;
     classDef free fill:#dcecff,stroke:#3973ac,stroke-width:2px,color:#111;
     classDef reserved fill:#ffe0b2,stroke:#d97706,stroke-width:2px,color:#111;
 
     class W,N station;
-    class C5,C6,C7,C8 free;
-    class C1,C2,C3,C4 reserved;
+    class F free;
+    class R reserved;
 ```
 
+座席指定券を買うかどうかは、[特急サザンの座席指定料金で買うのは時間ではなく着席の確実性](is-limited-express-southern-worth-it.md)で判断する。
 
+## 公式資料
+
+- [特急サザン](https://www.nankai.co.jp/traffic/express/sazan.html?sazan=2)

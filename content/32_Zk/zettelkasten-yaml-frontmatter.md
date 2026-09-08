@@ -11,7 +11,8 @@ draft: false
 tags:
 ---
 
-> [!note]
+> [!YAML]
+> ---
 > title: 日本語名を入力  
 > aliases:  
 > type:  
@@ -21,4 +22,5 @@ tags:
 > permalink:  
 > draft: true  
 > tags:  
+> ---
 

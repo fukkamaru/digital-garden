@@ -2,56 +2,51 @@
 title: 公開型ツェッテルカステンの構築
 aliases:
   - 公開型ツェッテルカステンの構築
-type: permanent
+type: structure
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-05-02T06:32:51+09:00
+updated: 2026-09-05T21:57:42+09:00
 id: 20260502-063251
 permalink:
 draft: false
 ---
-## ツェッテルカステンとは？
+## このStructure Noteの役割
 
-ドイツの社会学者ニクラス・ルーマンが開発した情報管理システム。情報（学び）を1カード・1トピックと小さくしたカードを、それぞれリンクさせることでカード同士の関連性・繋がり（ネットワーク）を後から追うことを可能とした情報整理術。
+公開型ツェッテルカステンについて、知識管理の原則とQuartzによる公開環境を案内する入口として使う。個別ノートを分類して並べるだけでなく、どの順序で読めば運用判断を追えるかを示す。
 
-**ITの世界で例えるなら？**
-- ~~モジュール（部品）を作るイメージ~~
-- ファンクション（関数）を作るイメージ ※2026-05-09
-	- 様々な場面で呼び出される、再利用される単一の機能
-	- 幾つかをパッケージしてライブラリとして提供される
+### 運用原則を理解する
 
-**ファンクションと明確に異なる点 = 番号が振られている**
-- カードの繋がりを追いかけることが出来る
-- 思い出すことが出来る
+1. [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
+2. [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
+3. [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
+4. [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
 
-> [!warning]
-> モジュールでイメージすると、**リンクされていない単一のカード**は機能していないと誤解してしまう。
-> 
-> そんなことはない。
+### 個別の記録方法を判断する
 
-### ノートの書き方
+- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)
+- [活動記録はジャーナルとして残す](keep-activity-logs-as-journal.md)
+- [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
+- [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)
+- [読書習慣を取り戻すための仕組みを作る](building-a-reading-folder-to-rebuild-the-habit.md)
 
-- 一次ノート（フリーティング：fleeting）
-    - 思いついたことを自由に走り書きする
-    - 永続ノートに清書したら削除する
-- 文献ノート（リテラチャー：literature）
-    - 書籍、動画、Webといった一次情報から、その要約・感想をまとめたもの
-	    - 他人の言葉
-	    - AIに質問して出力したもの
-		    - セカンダリとして分かるようにする
-    - 文献として残しておく必要のないものは、永続ノートに清書したら削除する
-- 永続ノート（パーマメント：permanent）
-	- 一時メモや文献ノートから、自分の言葉で内容をまとめる
-	- Wikipediaのリンクだけを貼ったページでも構わない
-	- タイトルの付け方
-		- 命題型
-		- 説明型
-		- 問題提起型
-		- 避けたほうが良い命名
-- 構造ノート（ストラクチャー：structuer）
-	- 永続ノートについて、ある特定の分野グループでまとめたもの
-    - ハブとして機能する
+## 基本設計
 
-それぞれのノートは、再利用出来るようにアトミックに作る。
+カードは一つの問いや主張を扱い、関係の理由が分かるリンクで接続する。アトミックであることを文章の短さと同一視せず、別の文脈でも再利用でき、再読時に思考を再開できる単位を目指す。
+
+フォルダ、`type`、`tags`には異なる役割がある。
+
+- フォルダ：作業段階や利用場面を示す
+- `type`：現在のノートの知識上の役割を示す
+- `tags`：分野や情報源など、横断的な属性を示す
+
+現行の`type`は次の5種類とする。
+
+- `fleeting`：未整理の着想や一時的な問い
+- `literature`：外部資料の内容や、それに対する記録
+- `permanent`：自分の言葉で成立する再利用可能な主張
+- `structure`：複数ノートの関係や読み順を案内する構造ノート
+- `index`：特定の規則に基づき対象を列挙する索引
+
+AI回答は自動的にLiterature Noteとせず、検証段階と保存目的から`type`を選ぶ。AIが生成した本文であることは`type`ではなく`ai-generated`タグで示す。外部リンクだけを保存する場合も、何のためのリンクか、どの問いや主張へ接続するかを記録する。
 
 ## 構築方法
 
@@ -59,7 +54,7 @@ draft: false
 	- ノート作成・管理：Obsidian
 	- 静的サイト生成：Quartz
 	- リポジトリ管理：GitHub
-		- [Gitエコシステムまとめ](git-ecosystem-notes.md)
+		- [Gitエコシステムまとめ](32_Zk/git-ecosystem-notes.md)
 	- ホスティング：Cloudflare Pages
 		- [Cloudflare Pages / GitHub / GitHub Pagesの比較](cloudflare-pages-vs-github-pages.md)
 		- [Cloudflare Pagesの主な制限](cloudflare-pages-limitations.md)
@@ -75,28 +70,15 @@ draft: false
 	- [画像ファイルの命名規則](image-naming-conventions.md)
 	- [コールアウトの使い分け](using-markdown-callouts.md)
 
-- 記述
-	- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)
-	- [活動記録はジャーナルとして残す](keep-activity-logs-as-journal.md)
-	- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
-
-
 ## フォルダ構成
 
-- 01_Templates
-	- 新規ノート作成時用のテンプレートを管理
-	- コミュニティプラグイン「Templater」を利用前提としており、日時管理に独自変数を使っている。
-- 02_Images
-	- スクリーンショットを管理
-	- PDFなどの他ファイルを保存するようになったら、フォルダ名は再考する
-- 10_Inbox
-	- 正式にカードになる前のメモ群
-- 20_Notes
-	- Inboxから選別して一時的に別管理しているメモ群
-- 30_Journal
-	- 個人的な日記や試行錯誤などのログ
-- 40_Analytics
-	- 分析関係
-- Zk
-	- メインとなるツェッテルカステンのカード群
+現在のフォルダ構成は次のとおり。フォルダ間の移動を機械的な必須工程にはせず、各ノートの役割と今後の利用方法から保存先を判断する。
 
+- `01_Templates`：新規ノート用テンプレート
+- `02_images`：画像などの添付ファイル
+- `10_Analytics`：分析結果や集計
+- `20_Journal`：日記、活動経過、試行錯誤
+- `21_Reading`：負担の軽い読書記録
+- `30_Inbox`：未整理のメモと一時的な作業領域
+- `31_Research`：調査記録、資料整理、精読
+- `32_Zk`：Permanent Note、Structure Note、Indexを中心とする知識ネットワーク

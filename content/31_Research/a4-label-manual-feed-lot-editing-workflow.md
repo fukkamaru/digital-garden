@@ -2,7 +2,7 @@
 title: A4ラベルの手差し印刷・LOT編集運用まとめ
 aliases:
   - A4ラベルの手差し印刷・LOT編集運用まとめ
-type: field
+type:
 created: 2026-08-30T21:20:39+09:00
 updated: 2026-08-30T21:20:39+09:00
 id: 20260830-212039
@@ -10,6 +10,7 @@ permalink:
 draft: false
 tags:
   - ai-generated
+  - field
 ---
 以下に、チャット冒頭からここまでの内容を、**判断・結論・途中で訂正された点が分かる形**で整理します。
 

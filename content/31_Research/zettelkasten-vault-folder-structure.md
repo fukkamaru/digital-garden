@@ -4,244 +4,107 @@ aliases:
   - ツェッテルカステン向けのVaultのフォルダ構成
 type: literature
 created: 2026-08-30T16:51:21+09:00
-updated: 2026-08-30T16:51:21+09:00
+updated: 2026-09-05T20:53:54+09:00
 id: 20260830-165121
 permalink:
 draft: false
 tags:
   - ai-generated
 ---
-以下が、ここまでのフォルダ構成についての整理です。
+このVaultでは、保存フォルダ、Zettelkasten上の役割、情報の由来を別の軸として扱う。
 
-## 現状の前提
-
-ツェッテルカステン用Vaultは、一般コンテキスト用Vaultとは別管理。
-
-現在の主な役割は次の通り。
-
-- `01_Templates`
-    - Templater用テンプレート
-- `02_Images`
-    - スクリーンショット等
-- `Inbox`
-    - 未処理メモ、Fleeting Note、調べたいこと、AI対話のコピペなど
-- `Research`
-    - AI主体で整理した参照ノート
-    - 自分の思考が十分に伴っていないもの
-    - 後日、ブログやObsidian上で参照できれば完成
-- `Journal`
-    - 自分が実際に行った作業のログ
-    - Obsidian、Quartz、GitHub設定など
-- `Analytics`
-    - 分析関係
-- `Zk`
-    - 自分の思考を伴って作ったツェッテルカステン用カード
-    - Literature / Structure / Permanentなどもここに入る
-
-## 旧`20_Notes`について
-
-`20_Notes`の中身を確認すると、主に「後で調べたいこと」のメモだった。
-
-そのため、
-
-- `20_Notes`は廃止候補
-- 中身はFleeting Noteとして`Inbox`へ統合  
-    という方向になった。
-
-## 知識処理の基本フロー
-
-今後は、まずすべてをInboxへ入れ、そこから処理する。
+## 現在のフォルダ構成
 
 ```text
-Inbox
-├─→ Research
-└─→ Zk
+content/
+├─ 01_Templates
+├─ 02_images
+├─ 10_Analytics
+├─ 20_Journal
+├─ 21_Reading
+├─ 30_Inbox
+├─ 31_Research
+└─ 32_Zk
 ```
 
-具体的には、
+| フォルダ | 役割 |
+| --- | --- |
+| `01_Templates` | Obsidian用テンプレート |
+| `02_images` | 画像 |
+| `10_Analytics` | Vault内の分析・一覧・変更履歴 |
+| `20_Journal` | 実際に行ったことの記録 |
+| `21_Reading` | 読書という活動の記録 |
+| `30_Inbox` | 思いつきや未整理情報の一時置き場 |
+| `31_Research` | 一次資料やAI回答から作成した参照資料・調査結果 |
+| `32_Zk` | Zettelkasten本体 |
 
-- AI主体で整理し、自分の思考が薄いもの → `Research`
-- 自分で咀嚼し、思考としてまとめたもの → `Zk`
+フォルダ構成は情報の保存場所と運用上の役割を示す。ノートの種類そのものはYAMLの`type`で表す。
 
-また、Researchは未完成品置き場ではなく、参照ノートとしては完成扱い。
+## `type`と保存フォルダを分ける
+
+正式な`type`は次の5種類。
+
+- `fleeting`
+- `literature`
+- `permanent`
+- `structure`
+- `index`
+
+たとえば、`type: literature`だから必ず`32_Zk`へ置く、という関係ではない。`31_Research`にも`32_Zk`にもLiterature Noteは存在し得る。
+
+- `31_Research`のLiterature Note：AI回答、引用、調査結果など、ユーザー自身の言葉に十分直していない参照資料
+- `32_Zk`のLiterature Note：外部情報をユーザー自身の言葉で整理したカード
+
+既存ノートは、`type`や内容だけを理由に自動で移動しない。
+
+## 情報の由来は`tags`で表す
+
+`type`がノートの役割を表すのに対し、`tags`は情報の由来や属性を表す。
+
+- `field`：外部環境で実際に経験したこと
+- `reading`：ユーザー自身の読書記録
+- `ai-generated`：最終的な思考・主張の主体がAIであるもの
+
+単にAIを一部利用しただけでは`ai-generated`にしない。`field`と`reading`は、人間側の判断なしにAIが推測して付けない。
+
+## 知識処理の流れ
 
 ```text
-Inbox
-↓
-AIに整理させる
-↓
-Research
-↓
-必要になったときだけ自分で再考
-↓
-Zk
+30_Inbox ──→ 31_Research
+        └──→ 32_Zk
+
+31_Research ──→ 32_Zk
+20_Journal ───→ 32_Zk
+21_Reading ───→ 32_Zk
 ```
 
-ResearchからZkへ進む場合も、必ず元ノートを移動する必要はない。
+矢印は必ず移動や昇格を行うという意味ではない。
 
-- Researchを残す
-- それを参照して新しいZettelを作る
-- 相互リンクする  
-    という形でもよい。
+- Researchは参照資料として完成した状態で残してよい
+- JournalやReadingも、それぞれの活動記録として残してよい
+- 新しい考えが生まれた場合だけ、別のZettelを作って元ノートと接続する
+- ResearchとZKは相互にリンクしてよい
 
-## Inboxを空にする運用
+この考え方により、AI調査結果を毎回Permanent Noteへ書き直す負担を減らしながら、必要な情報を検索可能な状態で保持できる。
 
-今回の見直しの中心は、
+## フォルダ設計の理由
 
-> Inboxを定期的に空にする  
-> こと。
+過去には、未処理メモを`20_Notes`でも管理していた。しかし、`30_Inbox`と役割が重なり、処理先が分かれたため廃止された。
 
-その処理の大部分をAIに任せ、
+現在は、次の違いが見えるように配置している。
 
-- AI整理済み → Research
-- 自分で考えたもの → Zk  
-    へ振り分ける。
+- `20_Journal`：実際に行ったこと
+- `21_Reading`：読書したこと
+- `30_Inbox`：未整理
+- `31_Research`：参照可能な調査資料
+- `32_Zk`：Zettelkastenとして編み込むカード
 
-これにより、「全部自分で咀嚼しないといけない」という処理負債を減らす。
+この構成は、フォルダだけで知識を完全分類するためではない。保存場所を安定させながら、カード間の関係をリンクで育てるための土台である。
 
-## Researchの位置づけ
+## 関連ノート
 
-Researchは単なるAIフォルダではなく、
-
-> 自分のための検索可能な参照知識ベース  
-> として育てる。
-
-Quartz上でも公開されるため、ブログ自体が自分用の参照DBとして機能する。
-
-Researchの特徴は、
-
-- AI主体
-- 自分の思考は薄い
-- 参照目的
-- 必要になったらZkへ昇格可能
-
-## Zkの位置づけ
-
-ZkはVaultおよびQuartz公開ブログの主役。
-
-ここには、
-
-- Literature
-- Structure
-- Permanent  
-    など、Fleeting以外のツェッテルカステン用カードが入る。
-
-重要なのは、
-
-> ノート種別によってフォルダを分けるわけではない  
-> こと。
-
-Zkは「自分の思考を伴うカード群」という意味でまとまっている。
-
-## Journalの位置づけ
-
-JournalはZk配下に入れる案も検討したが、現時点ではトップレベル維持を推奨。
-
-理由は、
-
-- 自分が実際に行ったことなので一次情報として価値は高い
-- ただし「作業記録」と「再利用可能な知識」は別
-- JournalはZettelそのものではない
-- Journalから意味のある知見を抽出してZkへつなげる方が自然
-
-関係は次のようになる。
-
-```text
-Journal ─────→ Zk
-Research ────→ Zk
-```
-
-Journalは、
-
-> 自分自身による一次資料  
-> としてZkを支える層。
-
-## フォルダ番号と並び順
-
-当初は、
-
-```text
-10_Inbox
-11_Research
-12_Zk
-```
-
-という連番案を検討した。
-
-これは処理フローとしては分かりやすいが、
-
-- ZkがVault・ブログの主役
-- それが一覧の真ん中に埋もれる  
-    という違和感が出た。
-
-そこで、
-
-> Zkを一覧の一番下に置き、視認性を上げる  
-> 方向へ変更。
-
-JournalとAnalyticsを先に置き、その後に  
-`Inbox → Research → Zk`  
-を連続配置する案が有力になった。
-
-## 現時点の第一候補
-
-現時点では、次の並びが最有力。
-
-```text
-01_Templates
-02_Images
-10_Analytics
-20_Journal
-30_Inbox
-31_Research
-32_Zk
-```
-
-意味としては、
-
-```text
-01–02
-システム・素材
-
-10
-特殊用途・分析
-
-20
-自分自身の一次記録
-
-30–32
-知識処理のメインフロー
-Inbox → Research → Zk
-```
-
-この構成の利点は、
-
-- `Inbox → Research → Zk`が連続して見える
-- Zkが一番下に来る
-- Obsidian上でもQuartzのフォルダリスト上でもZkを見つけやすい
-- JournalとResearchの役割が混ざらない
-- ResearchとZkの違いが「AI主体か、自分の思考主体か」で明確
-- Inboxを定期的に空にする運用と整合する
-
-## 現時点の設計思想
-
-最終的には、次の4層として考えると整理しやすい。
-
-|層|役割|
-|---|---|
-|Inbox|未処理|
-|Research|AI主体の参照知識|
-|Journal|自分が実際に行ったことの一次記録|
-|Zk|自分の思考として再構成した知識|
-
-そしてZkを中心に、
-
-```text
-Research ──→
-             Zk
-Journal ───→
-```
-
-という関係を作る。
-
-現時点では、フォルダ構成の第一案は **`01_Templates / 02_Images / 10_Analytics / 20_Journal / 30_Inbox / 31_Research / 32_Zk`** です。
+- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
+- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
+- [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
+- [活動記録はジャーナルとして残す](keep-activity-logs-as-journal.md)
+- [読書習慣を取り戻すための仕組みを作る](building-a-reading-folder-to-rebuild-the-habit.md)

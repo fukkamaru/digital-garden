@@ -53,7 +53,7 @@ sort created desc
 
 ## AI_Sorcue
 ```dataview
-table title, created
+table title, created, draft
 FROM #ai-generated
 sort created desc
 ```
