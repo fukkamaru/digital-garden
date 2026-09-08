@@ -1,4 +1,4 @@
-+---
+---
 title: sentence per lineとsemantic line breaksはどちらが人気ですか？
 type:
 created: 2026-04-26T21:24:31+09:00

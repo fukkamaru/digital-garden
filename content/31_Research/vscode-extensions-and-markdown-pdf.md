@@ -1,4 +1,4 @@
-+---
+---
 title: VScodeで拡張機能追加のエラーとMarkdown PDFについて
 aliases:
   - VScodeで拡張機能追加のエラーとMarkdown PDFについて

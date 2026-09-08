@@ -1,4 +1,4 @@
-+---
+---
 title: Obsidian / Quartz における改行思想と Zettelkasten 運用についての議論整理
 aliases:
   - Obsidian / Quartz における改行思想と Zettelkasten 運用についての議論整理

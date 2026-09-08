@@ -1,4 +1,4 @@
-+---
+---
 title: 会社用Obsidian Vaultの構成方針まとめ
 aliases:
   - 会社用Obsidian Vaultの構成方針まとめ

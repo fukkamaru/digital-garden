@@ -1,4 +1,4 @@
-+---
+---
 title: obsidian pluginについて色々とまとめる
 type: fleeting
 created: 2026-04-26T17:26:54+09:00

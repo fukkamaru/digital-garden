@@ -1,4 +1,4 @@
-+---
+---
 title: MIHO MUSEUMの曜変天目について
 aliases:
   - MIHO MUSEUMの曜変天目について

@@ -1,4 +1,4 @@
-+---
+---
 title: 青春18きっぷは距離より連続日数とJR路線の相性で選ぶ
 aliases:
   - 青春18きっぷは距離より連続日数とJR路線の相性で選ぶ
@@ -7,7 +7,7 @@ created: 2026-09-06T08:16:39+09:00
 updated: 2026-09-06T08:16:39+09:00
 id: 20260906-081640
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

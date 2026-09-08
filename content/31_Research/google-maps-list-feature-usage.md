@@ -1,4 +1,4 @@
-+---
+---
 title: Googleマップのリスト機能の使い方
 aliases:
   - Googleマップのリスト機能の使い方

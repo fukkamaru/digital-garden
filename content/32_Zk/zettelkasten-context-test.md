@@ -1,4 +1,4 @@
-+---
+---
 title: ツェッテルカステン専用コンテキストの動作確認
 aliases:
   - ツェッテルカステン専用コンテキストの動作確認
@@ -7,7 +7,7 @@ created: 2026-09-05T18:34:00+09:00
 updated: 2026-09-05T18:34:00+09:00
 id: 20260905-183400
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

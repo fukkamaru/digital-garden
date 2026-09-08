@@ -1,4 +1,4 @@
-+---
+---
 title: My Context作成を依頼する安全なプロンプト
 aliases:
   - My Context作成を依頼する安全なプロンプト
