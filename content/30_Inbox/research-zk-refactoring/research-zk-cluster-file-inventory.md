@@ -36,17 +36,17 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | 02 | 旅行・交通の意思決定 | 41 | 既存ロードマップの仮クラスタ |
 | 03 | 美術鑑賞・文化史 | 41 | 既存ロードマップの仮クラスタ |
 | 04 | YouTubeサムネイル・ビジュアル制作 | 25 | 既存ロードマップの仮クラスタ |
-| 05 | 購入判断・家電・デジタル機器 | 33 | 既存ロードマップの仮クラスタ |
+| 05 | 購入判断・家電・デジタル機器 | 22 | 内容監査済み。中心対象のみ残す |
 | 06 | 建材・補修材・材料化学 | 41 | 既存ロードマップの仮クラスタ |
 | 07 | Excel・Power Query・VBA・データ分析 | 23 | 既存ロードマップの仮クラスタ |
 | 08 | EC・商品管理・マーケティング | 14 | 既存ロードマップの仮クラスタ |
 | 09 | 業務文書・製品情報・社内運用 | 24 | 既存ロードマップの仮クラスタ |
-| 10 | 生成AIサービス・AI活用 | 19 | 既存ロードマップの仮クラスタ |
+| 10 | 生成AIサービス・AI活用 | 21 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
 | 11 | 読書・学習・言語・文章表現 | 32 | 既存ロードマップの仮クラスタ |
-| 12 | 健康・運動・食事・生活管理 | 12 | 既存ロードマップの仮クラスタ |
-| 13 | Windows・ストレージ・PC障害 | 33 | 既存ロードマップの仮クラスタ |
+| 12 | 健康・運動・食事・生活管理 | 13 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
+| 13 | Windows・ストレージ・PC障害 | 34 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
 | 14 | Git・GitHub・Cloudflare・Web公開基盤 | 20 | 既存ロードマップの仮クラスタ |
-| 15 | 個人プロジェクト・娯楽・残余監査 | 151 | 未分類を残して後続監査する受け皿 |
+| 15 | 個人プロジェクト・娯楽・残余監査 | 160 | 内容監査済み8件を追加。未分類を残して後続監査する受け皿 |
 
 ## 利用手順
 
@@ -221,43 +221,30 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 05：購入判断・家電・デジタル機器
 
-件数：33件。主クラスタの仮配置。
+件数：20件。内容監査・本文再構成・リンク再検証済みの中心対象。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
-| `31_Research/43インチ大型ディスプレイ・チューナーレステレビ比較検討まとめ.md` | 43インチ大型ディスプレイ・チューナーレステレビ比較検討まとめ | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/50インチ・4Kディスプレイでの作業環境とFancyZones配置設計まとめ.md` | 50インチ・4Kディスプレイでの作業環境とFancyZones配置設計まとめ | literature | false | ファイル名・title（仮） |
-| `31_Research/50型4kモニターを買ったのでテストする.md` | 50型4kモニターを買ったのでテストする | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/audio-devices-hearing-damage-comparison.md` | イヤホンとヘッドホンでの聴力への影響を調べる | literature | true | ファイル名・title（仮） |
-| `31_Research/disk-health-monitoring-software.md` | ハードディスクやSSDの健康状態を見る定番ソフト | — | true | ファイル名・title（仮） |
-| `31_Research/JAPANNEXT 50インチモニターのディスプレイ固定金具取り付けまとめ.md` | JAPANNEXT 50インチモニターのディスプレイ固定金具取り付けまとめ | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/Koolertron片手キーボードのおすすめ設定.md` | Koolertron片手キーボードのおすすめ設定 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/VESA金具とプラワッチャー.md` | VESA金具とプラワッチャー | — | true | ファイル名・title（仮） |
-| `31_Research/スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md` | スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理 | literature | false | ファイル名・title（仮） |
-| `31_Research/チューナーレステレビのデメリット.md` | チューナーレステレビのデメリット | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/ディスプレイの設定 その2.md` | ディスプレイの設定 その2 | fleeting | false | ファイル名・title（仮） |
-| `31_Research/ディスプレイ接続端子の比較.md` | ディスプレイ接続端子の比較 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/でっかいディスプレイを購入する.md` | でっかいディスプレイを購入する | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/マクロキーボードの参考サイト.md` | マクロキーボードの参考サイト | fleeting | false | ファイル名・title（仮） |
-| `31_Research/モニターサイズについて.md` | モニターサイズについて | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 14.md` | Switch版ゲームソフトの中古価格が高くなりやすい理由 | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 17.md` | switch2向けSDカードのメーカー違い | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 18.md` | Switch2のジョイコンカバーについて必要か調べる | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 19.md` | 家電量販店の保証に入る価値はあるのか？計算する | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 2 2.md` | USBメモリを用途別に分離する管理方針 | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 2.md` | 接続しているマイクが認識されていない問題の解決方法 | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 33.md` | switch2の保証について考える | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 35.md` | Switch2のフィルムについて | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 4.md` | 配信用のマイクについて見直す | — | true | ファイル名・title（仮） |
-| `32_Zk/buy-stools-not-storage-boxes.md` | 部屋の整理整頓なら、収納ボックスよりスツールを購入するべき | fleeting | false | ファイル名・title（仮） |
-| `32_Zk/buying-a-chair-seriously.md` | 椅子の購入を真剣に考える | permanent | false | ファイル名・title（仮） |
-| `32_Zk/clippy-vs-caps-lock-which-is-more-hated.md` | マイクロソフトのイルカとキーボードのcaps lockはどちらの方が嫌われているのか？ | fleeting | false | ファイル名・title（仮） |
-| `32_Zk/how-to-use-clear-files-effectively.md` | クリアファイルの使い分けを決める | permanent | false | ファイル名・title（仮） |
-| `32_Zk/iphone-charge-sharing.md` | iphoneでおすそ分け充電 | literature | false | ファイル名・title（仮） |
-| `32_Zk/my-clear-files.md` | クリアファイル一覧 | permanent | false | ファイル名・title（仮） |
-| `32_Zk/stools-as-functional-decor.md` | スツールはインテリアとしても機能的 | literature | false | ファイル名・title（仮） |
-| `32_Zk/suit-clothes-brush-buying-guide.md` | スーツ用「毛取り・洋服ブラシ」の選び方まとめ | — | false | ファイル名・title（仮） |
-| `32_Zk/switch-2-4k-games.md` | Switch2で4K出力対応のゲームソフト一覧 | permanent | false | ファイル名・title（仮） |
+| `31_Research/43-inch-large-display-tunerless-tv-comparison.md` | 43型大型ディスプレイ・チューナーレステレビの比較記録 | literature | false | 43型を検討した経緯を残す履歴資料。現在の推奨とは分離済み |
+| `31_Research/50-inch-4k-workspace-fancyzones-layout.md` | 50型4Kディスプレイの作業環境とFancyZones配置 | permanent | false | 採用済みの作業環境・配置の記録 |
+| `31_Research/50-inch-4k-display-video-test-candidates.md` | 50型4Kディスプレイの映像テスト記録 | fleeting | true | 映像設定の確認結果を残す一時ノート |
+| `31_Research/koolertron-one-handed-keyboard-setup.md` | Koolertron片手キーボードの設定方針 | fleeting | true | 実機の設定を試すための下書き |
+| `31_Research/50-inch-display-vesa-mount-safety-check.md` | 50型ディスプレイのVESA金具取付・安全確認 | permanent | false | 取付時の判断を統合した最終確認記録 |
+| `31_Research/tunerless-tv-disadvantages.md` | チューナーレステレビのデメリット | literature | false | チューナーレスTVを選ぶ際の確認資料 |
+| `31_Research/50-inch-display-settings.md` | 50型ディスプレイの設定 | permanent | false | 約100cmでの現行設定と見直し条件 |
+| `31_Research/display-connection-ports-comparison.md` | ディスプレイ接続端子の比較 | literature | false | PCと外部画面を接続する確認資料 |
+| `31_Research/large-4k-display-selection-purchase-record.md` | 大型4Kディスプレイの選定・購入記録 | literature | false | 43型から50型への変更と追加費用を扱う中心記録 |
+| `31_Research/macro-keyboard-usage-selection.md` | マクロキーボードの用途と選び方 | literature | false | 購入前の選定観点 |
+| `31_Research/monitor-size-aspect-ratio-guide.md` | モニターサイズと縦横比の比較 | literature | false | 寸法・縦横比・視聴距離の基礎資料 |
+| `31_Research/switch-game-used-price-reasons.md` | Switch版ゲームソフトの中古価格が高くなりやすい理由 | literature | true | 中古価格を比較する観点 |
+| `31_Research/switch-2-microsd-express-card-comparison.md` | Switch 2向けmicroSD Expressカードの比較メモ | fleeting | true | 購入時に公式情報を確認するための一時メモ |
+| `31_Research/switch-2-joycon-cover-necessity.md` | Switch 2のJoy-Conカバーは必要か | fleeting | true | 使用環境と互換性を確認する購入判断メモ |
+| `31_Research/extended-warranty-value-decision.md` | 延長保証の価値を判断する | permanent | true | 製品横断の保証判断軸 |
+| `31_Research/usb-microphone-input-device-troubleshooting.md` | USBマイクが入力デバイスに現れないときの確認手順 | fleeting | true | 認識不良時の切り分け手順 |
+| `31_Research/switch-2-extended-warranty-decision.md` | Switch 2に延長保証を付けるべきか | literature | true | Switch 2固有の保証判断 |
+| `31_Research/switch-2-screen-protector-replacement.md` | Switch2の画面保護フィルム：交換判断 | literature | true | 状態で判断する交換基準 |
+| `31_Research/streaming-usb-microphone-review.md` | 配信用USBマイクの見直し | literature | true | M4Uの使用感から始める改善・買替え資料 |
+| `32_Zk/switch-2-4k-output-games.md` | Switch 2の4K出力対応ゲーム一覧 | fleeting | true | 公式情報の再確認が必要な時点付き調査メモ |
 
 ## Cluster 06：建材・補修材・材料化学
 
@@ -391,7 +378,7 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 10：生成AIサービス・AI活用
 
-件数：20件。主クラスタの仮配置。
+件数：21件。内容監査済み1件を含む。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
@@ -415,6 +402,7 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `31_Research/無題のファイル 6 1.md` | ローカル上でWindowsマシンで、動画の音声を文字起こしするアプリ | — | true | ファイル名・title（仮） |
 | `32_Zk/chatgpt-voice-input-output-shortcut-conflict.md` | ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題 | permanent | false | ファイル名・title（仮） |
 | `32_Zk/create-training-plan-with-chatgpt.md` | トレーニングメニューをchatgptに作成してもらう | permanent | false | ファイル名・title（仮） |
+| `31_Research/スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md` | スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理 | literature | false | Cluster 05の内容監査。AIサービス、Codex、Work、遠隔運用が中心 |
 
 ## Cluster 11：読書・学習・言語・文章表現
 
@@ -457,7 +445,7 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 12：健康・運動・食事・生活管理
 
-件数：12件。主クラスタの仮配置。
+件数：13件。内容監査済み1件を含む。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
@@ -473,10 +461,11 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `32_Zk/chocozap-workout-tracking-is-hard-to-use.md` | chocoZAPの運動記録が使いにくい | permanent | false | ファイル名・title（仮） |
 | `32_Zk/difference-between-kampo-and-adaptogens.md` | 漢方とアダプトゲンハーブの違い | literature | false | ファイル名・title（仮） |
 | `32_Zk/heart-rate-training-zones.md` | 心拍数トレーニングゾーン | permanent | false | ファイル名・title（仮） |
+| `31_Research/audio-devices-hearing-damage-comparison.md` | イヤホンとヘッドホンでの聴力への影響を調べる | literature | true | Cluster 05の内容監査。購入比較より聴覚安全が中心 |
 
 ## Cluster 13：Windows・ストレージ・PC障害
 
-件数：33件。主クラスタの仮配置。
+件数：34件。内容監査済み1件を含む。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
@@ -513,6 +502,7 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `32_Zk/why-japanese-urls-get-encoded.md` | エンコードとデコード | — | false | ファイル名・title（仮） |
 | `32_Zk/why-powertoys-is-not-preinstalled.md` | MicrosoftがWindowsにPower Toysをプリインストールしない理由 | permanent | false | ファイル名・title（仮） |
 | `32_Zk/winmail-dat-how-to-open.md` | winmail.datの開き方 | permanent | false | ファイル名・title（仮） |
+| `31_Research/disk-health-monitoring-software.md` | ハードディスクやSSDの健康状態を見る定番ソフト | — | true | Cluster 05の内容監査。ストレージ障害の切り分け資料 |
 
 ## Cluster 14：Git・GitHub・Cloudflare・Web公開基盤
 
@@ -543,10 +533,19 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 15：個人プロジェクト・娯楽・残余監査
 
-件数：152件。内容監査前の残余ノートを含む。
+件数：161件。内容監査前の残余ノートと、Cluster 05の内容監査済み9件を含む。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
+| `31_Research/usb-drive-purpose-separation-policy.md` | USBメモリを用途別に分離する管理方針 | permanent | true | Cluster 05の05-E内容監査。個人データの分離方針が中心であり、購入・接続・設定の判断ではない |
+| `32_Zk/buy-stools-not-storage-boxes.md` | 部屋の整理整頓なら、収納ボックスよりスツールを購入するべき | fleeting | false | Cluster 05の内容監査。生活用品と部屋の整理が中心 |
+| `32_Zk/buying-a-chair-seriously.md` | 椅子の購入を真剣に考える | permanent | false | Cluster 05の内容監査。本人の生活環境と身体負担の記録が中心 |
+| `32_Zk/clippy-vs-caps-lock-which-is-more-hated.md` | マイクロソフトのイルカとキーボードのcaps lockはどちらの方が嫌われているのか？ | fleeting | false | Cluster 05の内容監査。購入・家電判断ではない雑多な問い |
+| `32_Zk/how-to-use-clear-files-effectively.md` | クリアファイルの使い分けを決める | permanent | false | Cluster 05の内容監査。紙資料の個人運用が中心 |
+| `32_Zk/iphone-charge-sharing.md` | iphoneでおすそ分け充電 | literature | false | Cluster 05の内容監査。個人端末の利用メモであり、購入判断ではない |
+| `32_Zk/my-clear-files.md` | クリアファイル一覧 | permanent | false | Cluster 05の内容監査。個人所有物の一覧 |
+| `32_Zk/stools-as-functional-decor.md` | スツールはインテリアとしても機能的 | literature | false | Cluster 05の内容監査。生活用品と室内環境が中心 |
+| `32_Zk/suit-clothes-brush-buying-guide.md` | スーツ用「毛取り・洋服ブラシ」の選び方まとめ | — | false | Cluster 05の内容監査。衣類の手入れと生活管理が中心 |
 | `31_Research/『ライオン・キング：ムファサ』感想.md` | 『ライオン・キング：ムファサ』感想 | fleeting | true | Cluster 03の完了時に、映画鑑賞記録として移管 |
 | `31_Research/「刷新」や「一新」など変更に関する単語の比較.md` | 「刷新」や「一新」など変更に関する単語の比較 | fleeting | true | ファイル名・title（仮） |
 | `31_Research/「年間削減電力量」 vs 「年間電力削減量」.md` | 「年間削減電力量」 vs 「年間電力削減量」 | fleeting | true | ファイル名・title（仮） |
