@@ -4,7 +4,7 @@ aliases:
   - Research＋ZK仮クラスタ・ファイル台帳
 type: fleeting
 created: 2026-09-08T21:03:56+09:00
-updated: 2026-09-09T01:26:13+09:00
+updated: 2026-09-15T14:00:00+09:00
 id: 20260908-210356
 permalink:
 draft: false
@@ -37,16 +37,16 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | 03 | 美術鑑賞・文化史 | 41 | 既存ロードマップの仮クラスタ |
 | 04 | YouTubeサムネイル・ビジュアル制作 | 25 | 既存ロードマップの仮クラスタ |
 | 05 | 購入判断・家電・デジタル機器 | 22 | 内容監査済み。中心対象のみ残す |
-| 06 | 建材・補修材・材料化学 | 41 | 既存ロードマップの仮クラスタ |
-| 07 | Excel・Power Query・VBA・データ分析 | 23 | 既存ロードマップの仮クラスタ |
+| 06 | 建材・補修材・材料化学 | 42 | 既存ロードマップの仮クラスタ |
+| 07 | Excel・Power Query・VBA・データ分析 | 24 | 既存ロードマップの仮クラスタ |
 | 08 | EC・商品管理・マーケティング | 14 | 既存ロードマップの仮クラスタ |
-| 09 | 業務文書・製品情報・社内運用 | 24 | 既存ロードマップの仮クラスタ |
+| 09 | 業務文書・製品情報・社内運用 | 25 | 既存ロードマップの仮クラスタ |
 | 10 | 生成AIサービス・AI活用 | 21 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
-| 11 | 読書・学習・言語・文章表現 | 32 | 既存ロードマップの仮クラスタ |
-| 12 | 健康・運動・食事・生活管理 | 13 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
-| 13 | Windows・ストレージ・PC障害 | 34 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
+| 11 | 読書・学習・言語・文章表現 | 28 | 既存ロードマップの仮クラスタ |
+| 12 | 健康・運動・食事・生活管理 | 12 | 初回内容監査後。SSD診断ノートをCluster 13へ主クラスタ変更 |
+| 13 | Windows・ストレージ・PC障害 | 36 | 初回監査で36件を確認。主対象23件と境界確認対象13件をCluster 13作業台へ記録 |
 | 14 | Git・GitHub・Cloudflare・Web公開基盤 | 20 | 既存ロードマップの仮クラスタ |
-| 15 | 個人プロジェクト・娯楽・残余監査 | 160 | 内容監査済み8件を追加。未分類を残して後続監査する受け皿 |
+| 15 | 個人プロジェクト・娯楽・残余監査 | 161 | 内容監査済み8件を追加。未分類を残して後続監査する受け皿 |
 
 ## 利用手順
 
@@ -223,28 +223,28 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 件数：20件。内容監査・本文再構成・リンク再検証済みの中心対象。
 
-| パス（ファイル名） | title | type | draft | 判定根拠 |
-|---|---|---|---|---|
-| `31_Research/43-inch-large-display-tunerless-tv-comparison.md` | 43型大型ディスプレイ・チューナーレステレビの比較記録 | literature | false | 43型を検討した経緯を残す履歴資料。現在の推奨とは分離済み |
-| `31_Research/50-inch-4k-workspace-fancyzones-layout.md` | 50型4Kディスプレイの作業環境とFancyZones配置 | permanent | false | 採用済みの作業環境・配置の記録 |
-| `31_Research/50-inch-4k-display-video-test-candidates.md` | 50型4Kディスプレイの映像テスト記録 | fleeting | true | 映像設定の確認結果を残す一時ノート |
-| `31_Research/koolertron-one-handed-keyboard-setup.md` | Koolertron片手キーボードの設定方針 | fleeting | true | 実機の設定を試すための下書き |
-| `31_Research/50-inch-display-vesa-mount-safety-check.md` | 50型ディスプレイのVESA金具取付・安全確認 | permanent | false | 取付時の判断を統合した最終確認記録 |
-| `31_Research/tunerless-tv-disadvantages.md` | チューナーレステレビのデメリット | literature | false | チューナーレスTVを選ぶ際の確認資料 |
-| `31_Research/50-inch-display-settings.md` | 50型ディスプレイの設定 | permanent | false | 約100cmでの現行設定と見直し条件 |
-| `31_Research/display-connection-ports-comparison.md` | ディスプレイ接続端子の比較 | literature | false | PCと外部画面を接続する確認資料 |
-| `31_Research/large-4k-display-selection-purchase-record.md` | 大型4Kディスプレイの選定・購入記録 | literature | false | 43型から50型への変更と追加費用を扱う中心記録 |
-| `31_Research/macro-keyboard-usage-selection.md` | マクロキーボードの用途と選び方 | literature | false | 購入前の選定観点 |
-| `31_Research/monitor-size-aspect-ratio-guide.md` | モニターサイズと縦横比の比較 | literature | false | 寸法・縦横比・視聴距離の基礎資料 |
-| `31_Research/switch-game-used-price-reasons.md` | Switch版ゲームソフトの中古価格が高くなりやすい理由 | literature | true | 中古価格を比較する観点 |
-| `31_Research/switch-2-microsd-express-card-comparison.md` | Switch 2向けmicroSD Expressカードの比較メモ | fleeting | true | 購入時に公式情報を確認するための一時メモ |
-| `31_Research/switch-2-joycon-cover-necessity.md` | Switch 2のJoy-Conカバーは必要か | fleeting | true | 使用環境と互換性を確認する購入判断メモ |
-| `31_Research/extended-warranty-value-decision.md` | 延長保証の価値を判断する | permanent | true | 製品横断の保証判断軸 |
-| `31_Research/usb-microphone-input-device-troubleshooting.md` | USBマイクが入力デバイスに現れないときの確認手順 | fleeting | true | 認識不良時の切り分け手順 |
-| `31_Research/switch-2-extended-warranty-decision.md` | Switch 2に延長保証を付けるべきか | literature | true | Switch 2固有の保証判断 |
-| `31_Research/switch-2-screen-protector-replacement.md` | Switch2の画面保護フィルム：交換判断 | literature | true | 状態で判断する交換基準 |
-| `31_Research/streaming-usb-microphone-review.md` | 配信用USBマイクの見直し | literature | true | M4Uの使用感から始める改善・買替え資料 |
-| `32_Zk/switch-2-4k-output-games.md` | Switch 2の4K出力対応ゲーム一覧 | fleeting | true | 公式情報の再確認が必要な時点付き調査メモ |
+| パス（ファイル名）                                                      | title                             | type       | draft | 判定根拠                          |
+| -------------------------------------------------------------- | --------------------------------- | ---------- | ----- | ----------------------------- |
+| `31_Research/43-inch-large-display-tunerless-tv-comparison.md` | 43型大型ディスプレイ・チューナーレステレビの比較記録       | literature | false | 43型を検討した経緯を残す履歴資料。現在の推奨とは分離済み |
+| `31_Research/50-inch-4k-workspace-fancyzones-layout.md`        | 50型4Kディスプレイの作業環境とFancyZones配置     | permanent  | false | 採用済みの作業環境・配置の記録               |
+| `31_Research/50-inch-4k-display-video-test-log.md`             | 50型4Kディスプレイの映像テスト記録               | fleeting   | true  | 映像設定の確認結果を残す一時ノート             |
+| `31_Research/koolertron-one-handed-keyboard-setup.md`          | Koolertron片手キーボードの設定方針            | fleeting   | true  | 実機の設定を試すための下書き                |
+| `31_Research/50-inch-display-vesa-mount-safety-check.md`       | 50型ディスプレイのVESA金具取付・安全確認           | permanent  | false | 取付時の判断を統合した最終確認記録             |
+| `31_Research/tunerless-tv-purchase-checklist.md`               | チューナーレステレビを選ぶ際の確認事項             | literature | false | チューナーレスTVを選ぶ際の確認資料            |
+| `31_Research/50-inch-display-settings.md`                      | 50型ディスプレイの設定                      | permanent  | false | 約100cmでの現行設定と見直し条件            |
+| `31_Research/display-connection-ports-comparison.md`           | ディスプレイ接続端子の比較                     | literature | false | PCと外部画面を接続する確認資料              |
+| `31_Research/large-4k-display-selection-purchase-record.md`    | 大型4Kディスプレイの選定・購入記録                | literature | false | 43型から50型への変更と追加費用を扱う中心記録      |
+| `31_Research/macro-keyboard-usage-selection.md`                | マクロキーボードの用途と選び方                   | literature | false | 購入前の選定観点                      |
+| `31_Research/monitor-size-aspect-ratio-guide.md`               | モニターサイズと縦横比の比較                    | literature | false | 寸法・縦横比・視聴距離の基礎資料              |
+| `31_Research/switch-game-used-price-reasons.md`                | Switch版ゲームソフトの中古価格が高くなりやすい理由      | literature | true  | 中古価格を比較する観点                   |
+| `31_Research/switch-2-microsd-express-card-comparison.md`      | Switch 2向けmicroSD Expressカードの比較メモ | fleeting   | true  | 購入時に公式情報を確認するための一時メモ          |
+| `31_Research/switch-2-joycon-cover-necessity.md`               | Switch 2のJoy-Conカバーは必要か           | fleeting   | true  | 使用環境と互換性を確認する購入判断メモ           |
+| `31_Research/extended-warranty-value-decision.md`              | 延長保証の価値を判断する                      | permanent  | true  | 製品横断の保証判断軸                    |
+| `31_Research/usb-microphone-input-device-troubleshooting.md`   | USBマイクが入力デバイスに現れないときの確認手順         | fleeting   | true  | 認識不良時の切り分け手順                  |
+| `31_Research/switch-2-extended-warranty-decision.md`           | Switch 2に延長保証を付けるべきか              | literature | true  | Switch 2固有の保証判断               |
+| `31_Research/switch-2-screen-protector-replacement.md`         | Switch2の画面保護フィルム：交換判断             | literature | true  | 状態で判断する交換基準                   |
+| `31_Research/streaming-usb-microphone-review.md`               | 配信用USBマイクの見直し                     | literature | true  | M4Uの使用感から始める改善・買替え資料          |
+| `32_Zk/switch-2-4k-output-games.md`                            | Switch 2の4K出力対応ゲーム一覧              | fleeting   | true  | 公式情報の再確認が必要な時点付き調査メモ          |
 
 ## Cluster 06：建材・補修材・材料化学
 
@@ -252,41 +252,41 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
-| `31_Research/1液剤と2液剤のメリットとデメリット.md` | 1液剤と2液剤のメリットとデメリット | fleeting | true | ファイル名・title（仮） |
+| `31_Research/one-part-vs-two-part-systems.md` | 1液剤と2液剤のメリットとデメリット | fleeting | true | ファイル名・title（仮） |
 | `31_Research/AC（交流）とDC（直流）の違いまとめ.md` | AC（交流）とDC（直流）の違いまとめ | fleeting | true | ファイル名・title（仮） |
 | `31_Research/building-industrial-material-product-categories.md` | 建築・工業用材料の製品カテゴリー分類 | literature | false | ファイル名・title（仮） |
 | `31_Research/building-industrial-material-product-category-list.md` | 建築・工業用材料の製品カテゴリー 一覧表 | literature | false | ファイル名・title（仮） |
 | `31_Research/building-industrial-material-product-list.md` | 建築・工業用材料の製品一覧表 | literature | false | ファイル名・title（仮） |
-| `31_Research/hydrolysis.md` | 加水分解 | literature | false | ファイル名・title（仮） |
-| `31_Research/UL94 V-0によるプラスチック材料の燃焼性評価.md` | UL94 V-0によるプラスチック材料の燃焼性評価 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/エポキシ樹脂の分類.md` | エポキシ樹脂の分類 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/カチオン系・アニオン系・ノニオン系の整理.md` | カチオン系・アニオン系・ノニオン系の整理 | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/ガラスバルーンについて.md` | ガラスバルーンについて | fleeting | true | ファイル名・title（仮） |
-| `31_Research/コンクリート床の表面処理.md` | コンクリート床の表面処理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/チクソ性とダイラタンシー現象についての理解と比較.md` | チクソ性とダイラタンシー現象についての理解と比較 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/パテ・シーリング材・関連建材製品を分類するためのカテゴリ体系.md` | パテ・シーリング材・関連建材製品を分類するためのカテゴリ体系 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/ベランダ・屋上・バルコニー向け防水材の容量設計に関する整理.md` | ベランダ・屋上・バルコニー向け防水材の容量設計に関する整理 | — | true | ファイル名・title（仮） |
+| `31_Research/chemical-hydrolysis-reaction.md` | 加水分解 | literature | false | ファイル名・title（仮） |
+| `31_Research/ul94-v0-flammability-rating.md` | UL94 V-0によるプラスチック材料の燃焼性評価 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/epoxy-resin-classification.md` | エポキシ樹脂の分類 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/ionic-surfactant-classification.md` | カチオン系・アニオン系・ノニオン系の整理 | ai-generated | true | ファイル名・title（仮） |
+| `31_Research/glass-microballoon-materials.md` | ガラスバルーンについて | fleeting | true | ファイル名・title（仮） |
+| `31_Research/concrete-floor-surface-treatment.md` | コンクリート床の表面処理 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/thixotropy-and-dilatancy-comparison.md` | チクソ性とダイラタンシー現象についての理解と比較 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/putty-sealant-product-taxonomy.md` | パテ・シーリング材・関連建材製品を分類するためのカテゴリ体系 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/waterproofing-material-quantity-design.md` | ベランダ・屋上・バルコニー向け防水材の容量設計に関する整理 | — | true | ファイル名・title（仮） |
 | `31_Research/レンジのワット数と加熱時間の関係.md` | 電子レンジのワット数と加熱時間の換算 | permanent | false | ファイル名・title（仮） |
-| `31_Research/屋根の名称と分類.md` | 屋根の名称と分類 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/化学業界における補修材や建材の立ち位置.md` | 化学業界における補修材や建材の立ち位置 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/roof-names-and-classification.md` | 屋根の名称と分類 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/construction-chemical-product-positioning.md` | 化学業界における補修材や建材の立ち位置 | fleeting | true | ファイル名・title（仮） |
 | `31_Research/建設業・設備業・防水工事業の高齢化と統計活用についての整理.md` | 建設業・設備業・防水工事業の高齢化と統計活用についての整理 | — | true | ファイル名・title（仮） |
-| `31_Research/消化と加水分解の整理.md` | 消化と加水分解の整理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/水性塗料の火気リスク.md` | 水性塗料の火気リスク | — | true | ファイル名・title（仮） |
+| `31_Research/digestion-and-hydrolysis.md` | 消化と加水分解の整理 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/water-based-paint-fire-risks.md` | 水性塗料の火気リスク | — | true | ファイル名・title（仮） |
 | `31_Research/精神科に置けるSDSとTEG.md` | 精神科に置けるSDSとTEG | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/耐熱補修・ガラステープ・FRPに関する学習まとめ.md` | 耐熱補修・ガラステープ・FRPに関する学習まとめ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/大理石と御影石の違い.md` | 大理石と御影石の違い | fleeting | true | ファイル名・title（仮） |
-| `31_Research/断熱・遮熱とエアロゲルについて.md` | 断熱・遮熱とエアロゲルについて | fleeting | true | ファイル名・title（仮） |
-| `31_Research/断熱塗料と遮熱塗料の違い.md` | 断熱塗料と遮熱塗料の違い | — | true | ファイル名・title（仮） |
-| `31_Research/補修・修理・修繕・改修などの言葉の使い分け.md` | 補修・修理・修繕・改修などの言葉の使い分け | literature | false | ファイル名・title（仮） |
-| `31_Research/放熱量・年間削減電力量リーフレット検討内容まとめ.md` | 放熱量・年間削減電力量リーフレット検討内容まとめ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 1 1.md` | 床色に合わせて補修する理由 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 16.md` | 配管に空いた穴の名称と違い | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 2 1.md` | 総パテ作業とは | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 20.md` | 蒸気配管の穴を放置することの問題 | — | true | ファイル名・title（仮） |
+| `31_Research/heat-resistant-repair-glass-tape-frp.md` | 耐熱補修・ガラステープ・FRPに関する学習まとめ | fleeting | true | ファイル名・title（仮） |
+| `31_Research/marble-and-granite-differences.md` | 大理石と御影石の違い | fleeting | true | ファイル名・title（仮） |
+| `31_Research/thermal-insulation-heat-shielding-aerogel.md` | 断熱・遮熱とエアロゲルについて | fleeting | true | ファイル名・title（仮） |
+| `31_Research/insulating-vs-reflective-paints.md` | 断熱塗料と遮熱塗料の違い | — | true | ファイル名・title（仮） |
+| `31_Research/repair-renovation-terms-comparison.md` | 補修・修理・修繕・改修などの言葉の使い分け | literature | false | ファイル名・title（仮） |
+| `31_Research/heat-loss-annual-energy-estimates.md` | 放熱量・年間削減電力量リーフレット検討内容まとめ | fleeting | true | ファイル名・title（仮） |
+| `31_Research/floor-repair-color-matching.md` | 床色に合わせて補修する理由 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/pipe-hole-terminology.md` | 配管に空いた穴の名称と違い | fleeting | true | ファイル名・title（仮） |
+| `31_Research/full-surface-putty-work.md` | 総パテ作業とは | fleeting | true | ファイル名・title（仮） |
+| `31_Research/steam-pipe-leak-risks.md` | 蒸気配管の穴を放置することの問題 | — | true | ファイル名・title（仮） |
 | `31_Research/無題のファイル 22.md` | 断熱塗料リーフレットにおける「算定条件注釈」と表記統一の検討まとめ | fleeting | true | ファイル名・title（仮） |
 | `31_Research/無題のファイル 23.md` | リーフレットに消防法・毒劇法の記載は必要か | fleeting | true | ファイル名・title（仮） |
 | `31_Research/無題のファイル 5 1.md` | 補修材リーフレットのデータ表記・注釈設計 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/枡についてのまとめ.md` | 排水ますの種類・役割・用語整理 | fleeting | false | ファイル名・title（仮） |
+| `31_Research/drainage-inspection-chambers.md` | 排水ますの種類・役割・用語整理 | fleeting | false | ファイル名・title（仮） |
 | `32_Zk/essential-lamination-for-factory-use.md` | 工場利用には欠かせないのラミネート加工 | permanent | false | ファイル名・title（仮） |
 | `32_Zk/history-of-male-and-female-threads.md` | ネジのオス・メス表現の誕生と導入の流れ | literature | false | ファイル名・title（仮） |
 | `32_Zk/mechanical-fit-and-mating.md` | 嵌合 | literature | false | ファイル名・title（仮） |
@@ -294,9 +294,10 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `32_Zk/tds-and-sds-purposes.md` | ビジネス：TDSとSDSの違い | permanent | false | ファイル名・title（仮） |
 | `32_Zk/thermal-paint-for-windows.md` | 塗料タイプの窓用断熱材 | literature | false | ファイル名・title（仮） |
 
+| `31_Research/施工範囲と用語のニュアンス.md` | 施工範囲と用語のニュアンス | fleeting | true | Cluster 11-Eの監査によりCluster 06へ主クラスタ変更 |
 ## Cluster 07：Excel・Power Query・VBA・データ分析
 
-件数：23件。主クラスタの仮配置。
+件数：24件。主クラスタの仮配置。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
@@ -323,7 +324,9 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `31_Research/無題のファイル 25.md` | マージ用の「key_」プリフィクス | fleeting | true | ファイル名・title（仮） |
 | `31_Research/無題のファイル 3 1.md` | プルダウンによる分岐メニュー構築 | fleeting | true | ファイル名・title（仮） |
 | `32_Zk/enable-macros-in-excel.md` | マクロ付きのExcelファイルを編集出来るようにする | permanent | false | ファイル名・title（仮） |
+| `31_Research/kyoto-patty-029-sample-business.md` | Kyoto Patty 029 — 架空サンプル事業の設定 | permanent | false | Cluster 09-Eの監査。Power Query・VBA・分析用の架空サンプル基盤としてCluster 07へ主クラスタ変更。Cluster 08を副クラスタとする |
 
+| `31_Research/正規表現を持ちいた、特定単語の一括置換処理.md` | 正規表現を持ちいた、特定単語の一括置換処理 | fleeting | true | Cluster 11-Eの監査によりCluster 07へ主クラスタ変更 |
 ## Cluster 08：EC・商品管理・マーケティング
 
 件数：14件。主クラスタの仮配置。
@@ -347,38 +350,33 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 09：業務文書・製品情報・社内運用
 
-件数：24件。主クラスタの仮配置。
+件数：19件。主クラスタの配置。Cluster 11-Eから移管された1件を含む。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
-| `31_Research/「労働安全衛生法」とその改正とブルーカラーについて、ホワイトカラーについてまとめ.md` | 「労働安全衛生法」とその改正とブルーカラーについて、ホワイトカラーについてまとめ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/a4-label-manual-feed-lot-editing-workflow.md` | A4ラベルの手差し印刷・LOT編集運用まとめ | — | false | ファイル名・title（仮） |
-| `31_Research/FABEについて.md` | FABEについて | — | true | ファイル名・title（仮） |
-| `31_Research/FABの練習.md` | FAB法で製品説明を簡略化する練習 | fleeting | false | ファイル名・title（仮） |
-| `31_Research/HACCP.md` | HACCP | fleeting | true | ファイル名・title（仮） |
-| `31_Research/kyoto-patty-029-sample-business.md` | Kyoto Patty 029 — 架空サンプル事業の設定 | permanent | false | ファイル名・title（仮） |
-| `31_Research/silver-week-announcement-wording.md` | シルバーウィークとお知らせ表現 | field | false | ファイル名・title（仮） |
-| `31_Research/パソコン冷却技術の変遷（一般向け・マニア向け・業務用）.md` | パソコン冷却技術の変遷（一般向け・マニア向け・業務用） | fleeting | true | ファイル名・title（仮） |
-| `31_Research/会社役員の肩書き・並び順についての整理.md` | 会社役員の肩書き・並び順についての整理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/仕入表・仕入れコード設計の検討まとめ.md` | 仕入表・仕入れコード設計の検討まとめ | — | true | ファイル名・title（仮） |
-| `31_Research/販促用リーフレットに記載するべき危険情報.md` | 販促用リーフレットに記載するべき危険情報 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/包装仕様と製品ラベル.md` | 包装仕様と製品ラベル | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 1 3.md` | ケースラベルの荷姿記載について | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 21.md` | 製品容器ラベル変更のHP掲載用お知らせ文の検討 | fleeting | true | ファイル名・title（仮） |
-| `32_Zk/aislesoft-inc.md` | 株式会社アイルソフト | literature | true | ファイル名・title（仮） |
-| `32_Zk/announcement-update-format.md` | 「お知らせ」を修正するときのラベルと記述方法 | permanent | false | ファイル名・title（仮） |
-| `32_Zk/announcements-vs-guidance.md` | 「ご案内」と「お知らせ」の違い | literature | false | ファイル名・title（仮） |
-| `32_Zk/asking-ai-how-to-take-work-notes.md` | 業務中のメモの取り方をAIに尋ねた話 | permanent | false | ファイル名・title（仮） |
-| `32_Zk/i-ll-inc.md` | 株式会社アイル | literature | true | ファイル名・title（仮） |
-| `32_Zk/inventory-frequency.md` | 棚卸しの回数 | permanent | true | ファイル名・title（仮） |
-| `32_Zk/phase-based-business-understanding.md` | 「聞き手の思考プロセス」と「作業フェーズ」に合わせた業務理解 | fleeting | false | ファイル名・title（仮） |
-| `32_Zk/read-receipt-label.md` | 「受信確認」ラベルを設計 | permanent | false | ファイル名・title（仮） |
-| `32_Zk/two-tips-for-printing-on-label-paper.md` | ラベル紙で印刷するときに気をつけたいこと2選 | permanent | false | ファイル名・title（仮） |
-| `32_Zk/what-is-a-product-requirements-document.md` | PRD：製品要求仕様書とは？ | permanent | false | ファイル名・title（仮） |
+| [occupational-safety-health-workplace-management.md](../../31_Research/occupational-safety-health-workplace-management.md) | 労働安全衛生法と職場の安全管理 | literature | true | 本文再構成後の内容に合わせ、旧titleをaliasとして保持して英語ファイル名へ変更 |
+| [a4-label-manual-feed-lot-editing-workflow.md](../../31_Research/a4-label-manual-feed-lot-editing-workflow.md) | A4ラベルの手差し印刷・LOT編集運用まとめ | — | false | ファイル名・title（仮） |
+| [fabe-product-description-framework.md](../../31_Research/fabe-product-description-framework.md) | FABEによる製品説明と根拠の整理 | literature | true | 本文再構成後の内容に合わせ、旧titleをaliasとして保持して英語ファイル名へ変更 |
+| [fab-product-description-practice.md](../../31_Research/fab-product-description-practice.md) | FAB法で製品説明を簡略化する練習 | literature | false | 内容に沿って英語ファイル名へ変更 |
+| [HACCP.md](../../31_Research/HACCP.md) | HACCP | fleeting | true | ファイル名・title（仮） |
+| [silver-week-announcement-wording.md](../../31_Research/silver-week-announcement-wording.md) | シルバーウィークとお知らせ表現 | field | false | ファイル名・title（仮） |
+| [corporate-officer-titles-order.md](../../31_Research/corporate-officer-titles-order.md) | 会社役員の肩書き・並び順についての整理 | literature | true | 内容に沿って英語ファイル名へ変更 |
+| [procurement-master-code-design.md](../../31_Research/procurement-master-code-design.md) | 仕入品マスターと仕入れコードの設計 | literature | true | 本文再構成後の内容に合わせ、旧titleをaliasとして保持して英語ファイル名へ変更 |
+| [promotional-leaflet-safety-information.md](../../31_Research/promotional-leaflet-safety-information.md) | 販促用リーフレットと危険情報の役割分担 | literature | true | 本文再構成後の内容に合わせ、旧titleをaliasとして保持して英語ファイル名へ変更 |
+| [packaging-specifications-product-labels.md](../../31_Research/packaging-specifications-product-labels.md) | 包装仕様と製品ラベル | literature | true | 内容に沿って英語ファイル名へ変更 |
+| [case-label-quantity-packaging-terms.md](../../31_Research/case-label-quantity-packaging-terms.md) | ケースラベルにおける内容量・入数・荷姿の表記 | literature | true | 本文再構成後の内容に合わせ、旧titleをaliasとして保持して英語ファイル名へ変更 |
+| [product-label-change-announcement.md](../../31_Research/product-label-change-announcement.md) | 製品容器ラベル変更のHP掲載用お知らせ文の検討 | literature | true | 内容に沿って英語ファイル名へ変更 |
+| [announcement-update-format.md](../../32_Zk/announcement-update-format.md) | 「お知らせ」を修正するときのラベルと記述方法 | permanent | false | ファイル名・title（仮） |
+| [announcements-vs-guidance.md](../../32_Zk/announcements-vs-guidance.md) | 「ご案内」と「お知らせ」の違い | literature | false | ファイル名・title（仮） |
+| [asking-ai-how-to-take-work-notes.md](../../32_Zk/asking-ai-how-to-take-work-notes.md) | 業務中のメモの取り方をAIに尋ねた話 | permanent | false | ファイル名・title（仮） |
+| [phase-based-business-understanding.md](../../32_Zk/phase-based-business-understanding.md) | 「聞き手の思考プロセス」と「作業フェーズ」に合わせた業務理解 | fleeting | false | ファイル名・title（仮） |
+| [two-tips-for-printing-on-label-paper.md](../../32_Zk/two-tips-for-printing-on-label-paper.md) | ラベル紙で印刷するときに気をつけたいこと2選 | permanent | false | ファイル名・title（仮） |
+| [what-is-a-product-requirements-document.md](../../32_Zk/what-is-a-product-requirements-document.md) | PRD：製品要求仕様書とは？ | permanent | false | ファイル名・title（仮） |
 
+| [safety-incident-expression-nuance.md](../../31_Research/safety-incident-expression-nuance.md) | 安全資料でよく使われる事故表現のニュアンス比較 | literature | true | Cluster 11-Eの監査によりCluster 09へ主クラスタ変更後、内容に沿って英語ファイル名へ変更 |
 ## Cluster 10：生成AIサービス・AI活用
 
-件数：21件。内容監査済み1件を含む。
+件数：22件。10-A完了後の現役ノート配置。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
@@ -386,18 +384,19 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `31_Research/AIサービスにおける性的・センシティブコンテンツのガードレール整理.md` | AIサービスにおける性的・センシティブコンテンツのガードレール整理 | literature | false | ファイル名・title（仮） |
 | `31_Research/AIによる嘘情報まとめ.md` | AIによる嘘情報まとめ | — | true | ファイル名・title（仮） |
 | `31_Research/AIに設定するカスタム指示についての議論とまとめ.md` | AIに設定するカスタム指示についての議論とまとめ | ai-generated | true | ファイル名・title（仮） |
-| `31_Research/aiの契約を考える.md` | 生成AIサービスの契約構成と費用を考える | ai-generated | true | ファイル名・title（仮） |
+| `31_Research/aiの契約を考える.md` | 生成AIサービスの契約構成と費用を考える | literature | true | Cluster 10-Aで契約比較の判断軸を扱う資料へ再構成 |
+| `31_Research/ai-subscription-cost-examples-2026.md` | 生成AIサービスの契約費用：公開事例（2026年7月調査） | literature | true | Cluster 10-Aで過去の公開事例を中心資料から分離して作成 |
 | `31_Research/AI時代のWeb閲覧・広告収益・個人サイト戦略についての整理.md` | AI時代のWeb閲覧・広告収益・個人サイト戦略についての整理 | literature | false | ファイル名・title（仮） |
 | `31_Research/chatgpt-can-recognize-uploaded-filenames.md` | ChatGPTはアップロードされたファイル名を認識できる | literature | false | ファイル名・title（仮） |
 | `31_Research/chatgpt-text-to-speech.md` | chatpgtの出力を音声にする | fleeting | true | ファイル名・title（仮） |
 | `31_Research/ChatGPTで出来ること.md` | ChatGPTで出来ること | — | true | ファイル名・title（仮） |
-| `31_Research/chatgptの有料課金をやめたらアカウントはどうなる？.md` | chatgptの有料課金をやめたらアカウントはどうなる？ | fleeting | true | ファイル名・title（仮） |
+| `31_Research/chatgptの有料課金をやめたらアカウントはどうなる？.md` | chatgptの有料課金をやめたらアカウントはどうなる？ | fleeting | true | Cluster 10-AでFree移行時の情報保持と機能制限を整理 |
 | `31_Research/chatgptを使った思い出し読書.md` | chatgptを使った思い出し読書 | — | true | ファイル名・title（仮） |
 | `31_Research/X × ChatGPT連携による情報収集・知識整理の検討まとめ.md` | X × ChatGPT連携による情報収集・知識整理の検討まとめ | literature | false | ファイル名・title（仮） |
 | `31_Research/フットペダルと音声入力の組み合わせてテスト.md` | フットペダルと音声入力の組み合わせてテスト | permanent | true | ファイル名・title（仮） |
 | `31_Research/ローカルLLMについて調べる.md` | ローカルLLMについて調べる | — | true | ファイル名・title（仮） |
 | `31_Research/ローカルLLMの概要と、長文要約・文字起こし済みテキスト処理に必要なPC性能まとめ.md` | 日本語名を入ローカルLLMの概要と、長文要約・文字起こし済みテキスト処理に必要なPC性能まとめ力 | literature | false | ファイル名・title（仮） |
-| `31_Research/吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である.md` | 吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である | permanent | false | ファイル名・title（仮） |
+| `31_Research/吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である.md` | 吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である | permanent | false | Cluster 10-Aの監査で、本人の利用頻度の記録として本文を維持 |
 | `31_Research/主要生成AIの年齢制限・ペアレンタルコントロールと、子どもへの使わせ方.md` | 主要生成AIの年齢制限・ペアレンタルコントロールと、子どもへの使わせ方 | literature | true | ファイル名・title（仮） |
 | `31_Research/無題のファイル 6 1.md` | ローカル上でWindowsマシンで、動画の音声を文字起こしするアプリ | — | true | ファイル名・title（仮） |
 | `32_Zk/chatgpt-voice-input-output-shortcut-conflict.md` | ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題 | permanent | false | ファイル名・title（仮） |
@@ -406,66 +405,62 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 11：読書・学習・言語・文章表現
 
-件数：32件。主クラスタの仮配置。
+件数：28件。11-Eで4件を他クラスタへ主配置変更後の現行件数。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
-| `31_Research/「優位性・低価格・簡便性・汎用性・独自性」を表す語彙・言い回し整理.md` | 「優位性・低価格・簡便性・汎用性・独自性」を表す語彙・言い回し整理 | literature | false | ファイル名・title（仮） |
+| `31_Research/product-value-proposition-vocabulary.md` | 「優位性・低価格・簡便性・汎用性・独自性」を表す語彙・言い回し整理 | literature | false | ファイル名・title（仮） |
 | `31_Research/building-a-reading-folder-to-rebuild-the-habit.md` | 読書習慣を取り戻すための仕組みを作る | literature | false | ファイル名・title（仮） |
-| `31_Research/NDCの分類名と記号の表現.md` | NDCの分類名と記号の表現 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/study-topics.md` | 学習したいテーマ一覧 | fleeting | false | ファイル名・title（仮） |
-| `31_Research/コロケーション・コノテーション・コアイメージの整理.md` | コロケーション・コノテーション・コアイメージの整理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/英単語1万語習得法を前提とした語彙学習方針まとめ.md` | 英単語1万語習得法を前提とした語彙学習方針まとめ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/英単語のコアイメージ.md` | 英単語のコアイメージ | — | false | ファイル名・title（仮） |
-| `31_Research/音声チャットしながら読むのは効果的か.md` | 音声チャットしながら読むのは効果的か | fleeting | true | ファイル名・title（仮） |
-| `31_Research/気になった言葉.md` | 気になった言葉 | fleeting | false | ファイル名・title（仮） |
-| `31_Research/顧客の英単語.md` | 顧客の英単語 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/顧客英語の使い分け.md` | 顧客英語の使い分け | fleeting | true | ファイル名・title（仮） |
-| `31_Research/施工範囲と用語のニュアンス.md` | 施工範囲と用語のニュアンス | fleeting | true | ファイル名・title（仮） |
-| `31_Research/正規表現を持ちいた、特定単語の一括置換処理.md` | 正規表現を持ちいた、特定単語の一括置換処理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/知識や疑問だけでなく、英単語や専門用語も組み込みたい.md` | 知識や疑問だけでなく、英単語や専門用語も組み込みたい | fleeting | true | ファイル名・title（仮） |
-| `31_Research/同一ジャンルの本を読んだときの読書メモのまとめかた.md` | 同一ジャンルの本を読んだときの読書メモのまとめかた | fleeting | true | ファイル名・title（仮） |
-| `31_Research/読書法見直しの整理.md` | 読書法見直しの整理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/日本語の感覚.md` | 日本語の感覚 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 15.md` | 安全資料でよく使われる事故表現のニュアンス比較 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/要約とは「要点＝問い×答え×根拠」.md` | 要約の実践フレーム｜問い・答え・根拠 | fleeting | false | ファイル名・title（仮） |
-| `32_Zk/7w4h-grouping.md` | 7W4Hのグループ分け | permanent | false | ファイル名・title（仮） |
+| `31_Research/ndc-classification-name-punctuation.md` | NDCの分類名と記号の表現 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/study-topic-backlog.md` | 学習したいテーマ一覧 | fleeting | false | ファイル名・title（仮） |
+| `31_Research/collocation-connotation-core-image.md` | コロケーション・コノテーション・コアイメージの整理 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/ten-thousand-word-vocabulary-plan.md` | 英単語1万語習得法を前提とした語彙学習方針まとめ | fleeting | true | ファイル名・title（仮） |
+| `31_Research/english-word-core-images.md` | 英単語のコアイメージ | — | false | ファイル名・title（仮） |
+| `31_Research/voice-chat-reading-method.md` | 音声チャットしながら読むのは効果的か | fleeting | true | ファイル名・title（仮） |
+| `31_Research/b2b-customer-terminology.md` | 顧客の英単語 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/oem-customer-terminology.md` | 顧客英語の使い分け | fleeting | true | ファイル名・title（仮） |
+| `31_Research/integrating-terms-into-notes.md` | 知識や疑問だけでなく、英単語や専門用語も組み込みたい | fleeting | true | ファイル名・title（仮） |
+| `31_Research/comparing-notes-within-genre.md` | 同一ジャンルの本を読んだときの読書メモのまとめかた | fleeting | true | ファイル名・title（仮） |
+| `31_Research/reading-method-reflection.md` | 読書法見直しの整理 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/japanese-date-expression-sense.md` | 日本語の感覚 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/question-answer-evidence-summary.md` | 要約の実践フレーム｜問い・答え・根拠 | fleeting | false | ファイル名・title（仮） |
+| `32_Zk/seven-w-four-h-grouping.md` | 7W4Hのグループ分け | permanent | false | ファイル名・title（仮） |
 | `32_Zk/7w4h-song-rabbit-tortoise.md` | ウサギとカメで覚える7W4Hの歌 | permanent | false | ファイル名・title（仮） |
-| `32_Zk/after-all.md` | 副詞「結局」 | literature | false | ファイル名・title（仮） |
+| `32_Zk/conjunctive-adverb-after-all.md` | 副詞「結局」 | literature | false | ファイル名・title（仮） |
 | `32_Zk/bullet-list-writing-rules.md` | 箇条書きの書き方ルール | permanent | false | ファイル名・title（仮） |
 | `32_Zk/conjunctive-adverb-formula-cheatsheet.md` | 接続詞・副詞の “数学的” 早見表 | structure | false | ファイル名・title（仮） |
 | `32_Zk/in-other-words.md` | 副詞「つまり」 | literature | false | ファイル名・title（仮） |
-| `32_Zk/in-short.md` | 副詞「要するに」 | literature | false | ファイル名・title（仮） |
+| `32_Zk/conjunctive-adverb-in-short.md` | 副詞「要するに」 | literature | false | ファイル名・title（仮） |
 | `32_Zk/learn-math-notation-note-taking.md` | 数学記号を使ったメモ書きが出来るようになりたい | literature | false | ファイル名・title（仮） |
-| `32_Zk/math-symbols.md` | 数学記号 | literature | false | ファイル名・title（仮） |
-| `32_Zk/that-is.md` | 副詞「すなわち」 | literature | false | ファイル名・title（仮） |
-| `32_Zk/therefore.md` | 接続詞「だから」 | literature | false | ファイル名・title（仮） |
-| `32_Zk/which-means.md` | 名詞句＋助詞「ということは」 | literature | false | ファイル名・title（仮） |
+| `32_Zk/mathematical-symbol-reference.md` | 数学記号 | literature | false | ファイル名・title（仮） |
+| `32_Zk/conjunctive-adverb-that-is.md` | 副詞「すなわち」 | literature | false | ファイル名・title（仮） |
+| `32_Zk/conjunctive-adverb-therefore.md` | 接続詞「だから」 | literature | false | ファイル名・title（仮） |
+| `32_Zk/conjunctive-adverb-which-means.md` | 名詞句＋助詞「ということは」 | literature | false | ファイル名・title（仮） |
 | `32_Zk/words-of-the-self.md` | 「自分」の言葉の作り方 | literature | false | ファイル名・title（仮） |
 
 ## Cluster 12：健康・運動・食事・生活管理
 
-件数：13件。内容監査済み1件を含む。
+件数：13件。Cluster 12完了後の現役ノート配置。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
-| `31_Research/ハードディスクやSSDの健康状態を見るコマンド入力.md` | ハードディスクやSSDの健康状態を見るコマンド入力 | — | true | ファイル名・title（仮） |
 | `31_Research/筋トレ記録の入力方法改善についての整理.md` | 筋トレ記録の入力方法改善についての整理 | fleeting | true | ファイル名・title（仮） |
 | `31_Research/健康診断についてのまとめ.md` | 健康診断についてのまとめ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/洗面利用での衛生面と清掃負担.md` | 洗面利用での衛生面と清掃負担 | — | true | ファイル名・title（仮） |
+| `31_Research/health-checkup-preparation.md` | 健康診断前の準備：受診先の案内を優先する | literature | true | Cluster 12-Bで個別準備記録から一般資料を分離して作成 |
 | `31_Research/体調不良について.md` | 体調不良について | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 39.md` | マイナ保険証の使い方 | — | true | ファイル名・title（仮） |
-| `31_Research/夜食は悪ではなく時間管理が大切.md` | 夜食は善悪ではなく、時間・量・内容で考える | fleeting | false | ファイル名・title（仮） |
+| `31_Research/myna-insurance-card-use.md` | マイナ保険証の使い方 | literature | true | Cluster 12-Bで公的情報に基づく制度資料へ再構成し、ファイル名を変更 |
+| `31_Research/夜食は悪ではなく時間管理が大切.md` | 夜食の相談メモ | fleeting | true | Cluster 12-Cで個別相談の記録へ再構成 |
+| `31_Research/late-night-eating-considerations.md` | 夜食を考える際の観点 | literature | true | Cluster 12-Cで夜食の一般資料として分離して作成 |
 | `32_Zk/2026-fitness-strength-plan.md` | 2026年の目標：筋力トレーニング | permanent | false | ファイル名・title（仮） |
-| `32_Zk/adaptogen-herbs-overview.md` | アダプトゲンハーブについての概要 | literature | false | ファイル名・title（仮） |
+| `32_Zk/adaptogen-herbs-overview.md` | アダプトゲンハーブについての概要 | literature | true | Cluster 12-Dで出典と安全上の留意点を補い、一般資料へ再構成 |
 | `32_Zk/chocozap-workout-tracking-is-hard-to-use.md` | chocoZAPの運動記録が使いにくい | permanent | false | ファイル名・title（仮） |
-| `32_Zk/difference-between-kampo-and-adaptogens.md` | 漢方とアダプトゲンハーブの違い | literature | false | ファイル名・title（仮） |
+| `32_Zk/difference-between-kampo-and-adaptogens.md` | 漢方とアダプトゲンハーブの違い | literature | true | Cluster 12-Dで製品・概念の違いと注意点を比較する資料へ再構成 |
 | `32_Zk/heart-rate-training-zones.md` | 心拍数トレーニングゾーン | permanent | false | ファイル名・title（仮） |
-| `31_Research/audio-devices-hearing-damage-comparison.md` | イヤホンとヘッドホンでの聴力への影響を調べる | literature | true | Cluster 05の内容監査。購入比較より聴覚安全が中心 |
+| `31_Research/audio-devices-hearing-damage-comparison.md` | イヤホンとヘッドホンでの聴力への影響を調べる | literature | true | Cluster 12-Eで音量・時間・頻度を中心とする一般資料へ更新 |
 
 ## Cluster 13：Windows・ストレージ・PC障害
 
-件数：34件。内容監査済み1件を含む。
+件数：36件。以前の内容監査済み2件を含む。2026-09-15の初回監査で主対象23件、境界確認対象13件を[Cluster 13作業台](cluster-13-windows-storage-pc-incidents.md)へ記録した。境界確認対象の主クラスタ変更は未実施。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
@@ -473,36 +468,38 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `31_Research/Gmailプラグインを使う.md` | Gmailプラグインを使う | — | true | ファイル名・title（仮） |
 | `31_Research/PDFのサイズを圧縮できるソフトウェア、オンラインサービス.md` | PDFのサイズを圧縮できるソフトウェア、オンラインサービス | fleeting | true | ファイル名・title（仮） |
 | `31_Research/PowerRename.md` | PowerRename | — | true | ファイル名・title（仮） |
-| `31_Research/SMB共有フォルダへの入り方.md` | SMB共有フォルダへの入り方 | — | true | ファイル名・title（仮） |
-| `31_Research/storage-error-event-id-7.md` | ストレージ関連エラー イベントID7 | — | true | ファイル名・title（仮） |
+| `31_Research/SMB共有フォルダへ接続する方法.md` | SMB共有フォルダへ接続する方法 | permanent | true | Cluster 13-Dで日本語名へリネームし、利用者向け接続手順として再構成 |
+| `31_Research/ストレージ関連エラー イベントID7.md` | ストレージ関連エラー イベントID7 | — | true | ファイル名・title（仮） |
 | `31_Research/vs codeのインストール場所.md` | vs codeのインストール場所 | fleeting | true | ファイル名・title（仮） |
 | `31_Research/vs codeの制限モードについて.md` | vs codeの制限モードについて | fleeting | true | ファイル名・title（仮） |
 | `31_Research/vscodeとTyporaでマークダウンエディタの違い.md` | vscodeとTyporaでマークダウンエディタの違い | fleeting | true | ファイル名・title（仮） |
 | `31_Research/WeChatについてのまとめ.md` | WeChatについてのまとめ | fleeting | true | ファイル名・title（仮） |
 | `31_Research/what-is-byod.md` | BYODについて | — | true | ファイル名・title（仮） |
-| `31_Research/windows updateの失敗.md` | windows updateの失敗 | fleeting | true | ファイル名・title（仮） |
+| `31_Research/Windows Updateでプレビュー更新が失敗したときの修復判断.md` | Windows Updateでプレビュー更新が失敗したときの修復判断 | literature | true | Cluster 13-Cで日本語名へリネームし、更新失敗時の修復判断として再構成 |
 | `31_Research/Windowsユーザープロファイル障害・SSD不良ブロック調査まとめ.md` | Windowsユーザープロファイル障害・SSD不良ブロック調査まとめ | — | true | ファイル名・title（仮） |
 | `31_Research/Yahoo! JAPANメールをAIで整理する方法についての検討まとめ.md` | Yahoo! JAPANメールをAIで整理する方法についての検討まとめ | — | true | ファイル名・title（仮） |
 | `31_Research/Yahoo！JAPANメールとAI接続.md` | Yahoo！JAPANメールとAI接続 | fleeting | true | ファイル名・title（仮） |
 | `31_Research/yt-dlpによる動画ダウンロード.md` | yt-dlpによる動画ダウンロード | fleeting | true | ファイル名・title（仮） |
 | `31_Research/フェルメール展（2026・大阪中之島美術館）に関する検討内容まとめ.md` | フェルメール展2026｜鑑賞日時とチケット購入経緯 | literature | true | ファイル名・title（仮） |
 | `31_Research/フェルメール展でたどる17世紀オランダ絵画 ― 12作品で学ぶジャンルと時代背景.md` | フェルメール展でたどる17世紀オランダ絵画 ― 12作品で学ぶジャンルと時代背景 | literature | false | ファイル名・title（仮） |
-| `31_Research/ユーザープロファイルが読み目なくなる可能性.md` | ユーザープロファイルが読み目なくなる可能性 | — | true | ファイル名・title（仮） |
+| `31_Research/ユーザープロファイルを読み込めなくなる原因候補.md` | ユーザープロファイルを読み込めなくなる原因候補 | literature | true | Cluster 13-Aで日本語名へリネームし、初期の原因候補として位置付け |
 | `31_Research/ユーザープロファイルを復旧するか、諦めるかの判断基準.md` | ユーザープロファイルを復旧するか、諦めるかの判断基準 | — | true | ファイル名・title（仮） |
 | `31_Research/無題のファイル 1 2.md` | お礼メール | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 13.md` | ssdがbiosに認識されなくなる問題について | field | true | ファイル名・title（仮） |
-| `31_Research/問題把握3.md` | ユーザープロファイル障害の原因調査に要した時間の評価 | — | true | ファイル名・title（仮） |
-| `31_Research/問題把握4.md` | ユーザープロファイル障害とストレージ障害の調査資料 | — | true | ファイル名・title（仮） |
+| `31_Research/LIFEBOOK AシリーズでBIOSからSSDが消えた事例.md` | LIFEBOOK AシリーズでBIOSからSSDが消えた事例 | literature | true | Cluster 13-Bで日本語名へリネームし、単独の業務事例として再構成 |
+| `31_Research/ユーザープロファイル障害の原因調査に要した時間の評価.md` | ユーザープロファイル障害の原因調査に要した時間の評価 | literature | true | Cluster 13-Aで日本語名へリネームし、調査作業量の評価記録として位置付け |
+| `31_Research/ユーザープロファイル障害とストレージ障害の調査資料.md` | ユーザープロファイル障害とストレージ障害の調査資料 | literature | true | Cluster 13-Aで日本語名へリネームし、参照資料一覧として位置付け |
 | `32_Zk/android-gboard-dictionary-import.md` | android端末でGboard辞書を一括インポートする方法 | permanent | false | ファイル名・title（仮） |
 | `32_Zk/caps-lock-remapping-with-keyboard-manager.md` | Keyboard Managerで「caps lock」と決別する | permanent | false | ファイル名・title（仮） |
 | `32_Zk/encode-decode-example.md` | エンコード・デコードの一例 | permanent | false | ファイル名・title（仮） |
 | `32_Zk/ios-gboard-dictionary-import.md` | ios端末でGboard辞書を一括インポートする方法 | literature | false | ファイル名・title（仮） |
-| `32_Zk/smb-shared-folder-management.md` | SMB共有フォルダの管理方法について | permanent | true | ファイル名・title（仮） |
-| `32_Zk/smb-shared-folder-setup.md` | SMB共有フォルダの設定方法 | permanent | false | ファイル名・title（仮） |
+| `32_Zk/WindowsのSMB共有を管理する方法.md` | WindowsのSMB共有を管理する方法 | permanent | true | Cluster 13-Dで日本語名へリネームし、共有元の運用・管理手順として再構成 |
+| `32_Zk/WindowsでSMB共有フォルダを設定する方法.md` | WindowsでSMB共有フォルダを設定する方法 | permanent | false | Cluster 13-Dで日本語名へリネームし、共有作成・権限設定手順として再構成 |
 | `32_Zk/why-japanese-urls-get-encoded.md` | エンコードとデコード | — | false | ファイル名・title（仮） |
 | `32_Zk/why-powertoys-is-not-preinstalled.md` | MicrosoftがWindowsにPower Toysをプリインストールしない理由 | permanent | false | ファイル名・title（仮） |
 | `32_Zk/winmail-dat-how-to-open.md` | winmail.datの開き方 | permanent | false | ファイル名・title（仮） |
-| `31_Research/disk-health-monitoring-software.md` | ハードディスクやSSDの健康状態を見る定番ソフト | — | true | Cluster 05の内容監査。ストレージ障害の切り分け資料 |
+| `31_Research/ハードディスクやSSDの健康状態を見る定番ソフト.md` | ハードディスクやSSDの健康状態を見る定番ソフト | literature | true | Cluster 13-Aで日本語名へリネーム。ストレージ障害の切り分け資料 |
+| `31_Research/ハードディスクやSSDの健康状態を見るコマンド入力.md` | ハードディスクやSSDの健康状態を見るコマンド入力 | — | true | Cluster 12の初回内容監査。Windows標準コマンド、イベントビューアー、SSD障害の切り分けが中心 |
+| `31_Research/パソコン冷却技術の変遷（一般向け・マニア向け・業務用）.md` | パソコン冷却技術の変遷（一般向け・マニア向け・業務用） | fleeting | true | Cluster 09-Eの監査。PC・データセンター冷却の時限性を含む技術資料としてCluster 13へ主クラスタ変更。本文監査はCluster 13で行う |
 
 ## Cluster 14：Git・GitHub・Cloudflare・Web公開基盤
 
@@ -533,10 +530,15 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## Cluster 15：個人プロジェクト・娯楽・残余監査
 
-件数：161件。内容監査前の残余ノートと、Cluster 05の内容監査済み9件を含む。
+件数：166件。内容監査前の残余ノートと、他クラスタの内容監査で主クラスタを変更したノートを含む。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
+| `32_Zk/aislesoft-inc.md` | 株式会社アイルソフト | literature | true | Cluster 09-Eの監査。時限性を含む業務システム事業者調査としてCluster 15へ主クラスタ変更。本文更新時に公式情報を再確認する |
+| `32_Zk/i-ll-inc.md` | 株式会社アイル | literature | true | Cluster 09-Eの監査。時限性を含む業務システム事業者調査としてCluster 15へ主クラスタ変更。本文更新時に公式情報を再確認する |
+| `32_Zk/inventory-frequency.md` | 棚卸しの回数 | fleeting | true | Cluster 09-Eの監査。棚卸しの実務知識ではなく安全注意を含むなぞなぞとしてCluster 15へ主クラスタ変更 |
+| `32_Zk/read-receipt-label.md` | 「受信確認」ラベルを設計 | permanent | false | Cluster 09-Eの監査。個人のメール運用判断が中心のためCluster 15へ主クラスタ変更 |
+| `31_Research/洗面利用での衛生面と清掃負担.md` | 洗面利用での衛生面と清掃負担 | — | true | Cluster 12-Cの監査により、健康管理ではなく残余監査へ主クラスタ変更。本文は未変更 |
 | `31_Research/usb-drive-purpose-separation-policy.md` | USBメモリを用途別に分離する管理方針 | permanent | true | Cluster 05の05-E内容監査。個人データの分離方針が中心であり、購入・接続・設定の判断ではない |
 | `32_Zk/buy-stools-not-storage-boxes.md` | 部屋の整理整頓なら、収納ボックスよりスツールを購入するべき | fleeting | false | Cluster 05の内容監査。生活用品と部屋の整理が中心 |
 | `32_Zk/buying-a-chair-seriously.md` | 椅子の購入を真剣に考える | permanent | false | Cluster 05の内容監査。本人の生活環境と身体負担の記録が中心 |
@@ -698,3 +700,4 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `32_Zk/transparency.md` | 透過性 | permanent | true | ファイル名・title（仮） |
 | `32_Zk/useful-utilities-improve-ux.md` | 優れたユーティリティーの提供はUXを向上させる | permanent | false | ファイル名・title（仮） |
 | `32_Zk/wakayama-city-library.md` | 和歌山市民図書館 | literature | false | ファイル名・title（仮） |
+| `31_Research/気になった言葉.md` | 気になった言葉 | fleeting | false | Cluster 11-Eの監査によりCluster 15へ主クラスタ変更 |

@@ -4,7 +4,7 @@ aliases:
   - ラベル紙で印刷するときに気をつけたいこと2選
 type: permanent
 created: 2026-05-13T18:06:24+09:00
-updated: 2026-05-13T18:06:24+09:00
+updated: 2026-09-13T20:17:57+09:00
 id: 20260513-180624
 permalink:
 draft: false
@@ -34,3 +34,5 @@ tags:
 >https://www.ricoh.co.jp/-/media/Ricoh/Sites/co_jp/printer/paper/pdf/files/ricoh-im-c6010-c5510-c4510-c3510-c3010-c2510-c2010.pdf?rev=5f247ed43080492e976dd5e4bc19f203&sc_lang=ja-JP
 >
 >https://manuals.ricoh.com/mfp/p_manual/IMC6010JPN/ja/booklist/int/269236926.htm
+
+設定忘れを減らすためのプリセット登録は、[プリセットを登録する](register-printing-preset.md)で検討する。

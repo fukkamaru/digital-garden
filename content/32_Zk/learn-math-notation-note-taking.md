@@ -4,7 +4,7 @@ aliases:
   - 数学記号を使ったメモ書きが出来るようになりたい
 type: literature
 created: 2026-04-29T11:48:31+09:00
-updated: 2026-04-29T11:48:31+09:00
+updated: 2026-09-09T23:04:58+09:00
 id: 20260429-114831
 permalink:
 draft: false
@@ -23,4 +23,4 @@ source:
 	- 右辺を左辺で定義する
 		- [パラスの本体は「きのこ」である](pokemon-paras-mushroom-host-theory.md) =: パラスは「きのこポケモン」
 
-[数学記号](math-symbols.md)
+[数学記号](mathematical-symbol-reference.md)

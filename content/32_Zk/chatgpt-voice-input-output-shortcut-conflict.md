@@ -1,33 +1,45 @@
 ---
-title: ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題
+title: ChatGPTの音声入力と「Voice Control for ChatGPT」のショートカット競合
 aliases:
+  - ChatGPTの音声入力と「Voice Control for ChatGPT」のショートカット競合
   - ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題
 type: permanent
 created: 2026-04-26T19:29:35+09:00
-updated: 2026-04-26T19:29:35+09:00
+updated: 2026-09-11T21:59:39+09:00
 id: 20260426-192935
 permalink:
 draft: false
 source:
+tags:
 ---
 
-chatgptで出力したテキストについて、自動で音読してもらうChrome向けの拡張機能「Voice Control for ChatGPT」を導入してみた。機能自体には満足しているけど、私のようなショートカットキーを使っての利用方法では一部問題があった。
+# ChatGPTの音声入力と「Voice Control for ChatGPT」のショートカット競合
 
+Chrome拡張機能「Voice Control for ChatGPT」を導入し、ChatGPTの出力を自動で音読する機能には満足している。一方で、ゲームや配信中に操作数を減らすためショートカットキーを使おうとすると、ChatGPTの音声入力と拡張機能の操作が競合した。
 
-**ショートカットキー：Ctrl+M**
-- chatgpt: 音声入力の開始・停止
-- voice control for chatgpt: 音声入力のON・OFF
-この2つの食合せが微妙に悪い
+これは「音声入力が使えない」という問題ではない。同じキーが二つの機能に割り当てられているため、音声を入力して返答を受け取るまでの手順が、想定より一つ増えるという実体験の記録である。音声入力・送信・音声出力を一つの流れで設計するときは、各機能を有効にするキーまで確認する必要がある。
 
-自分の操作感としては
-1. Ctrl+M
-2. Enter
-3. Enter
-で操作したい。
+## 競合する操作
 
-しかし、実際は
-1. Ctrl+M
-2. Ctrl+M
-3. Enter
-で操作する必要がある。
+| 対象 | `Ctrl + M`の役割 |
+| --- | --- |
+| ChatGPT | 音声入力の開始・停止 |
+| Voice Control for ChatGPT | 音声入力のオン・オフ |
 
+## 操作への影響
+
+理想は、音声入力を始め、発話を終え、返答を受け取るまでを次の三操作で済ませることだった。
+
+1. `Ctrl + M`
+2. `Enter`
+3. `Enter`
+
+しかし実際には、拡張機能との競合のため、次の操作が必要になった。
+
+1. `Ctrl + M`
+2. `Ctrl + M`
+3. `Enter`
+
+音声入力と音声出力を同時に使う場合は、ショートカットの重複を先に確認する。操作数が増えると、ゲームや配信中には意識する負荷が大きくなる。
+
+この問題への対処を考えるときは、拡張機能を削除するかどうかだけで決めない。出力の自動音読に満足しているなら、別のショートカットへ変更できるか、音声入力・送信・出力のどれを足ペダルなど別の入力へ移すかを比較する。音声をテキストで受け取る運用全体は、[[chatgpt-text-to-speech]]を参照する。

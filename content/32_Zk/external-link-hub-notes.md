@@ -5,7 +5,7 @@ aliases:
   - 外部リンクだけのノートはハブとして機能する
 type: permanent
 created: 2025-08-09
-updated: 2026-09-05T21:34:55+09:00
+updated: 2026-09-09T23:04:58+09:00
 id: 20260425-223832
 draft: false
 source:
@@ -35,4 +35,5 @@ URLは変更・消失する可能性があるため、必要に応じてペー�
 
 - [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
 - [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
-- [数学記号](math-symbols.md)
+- [数学記号](mathematical-symbol-reference.md)
+

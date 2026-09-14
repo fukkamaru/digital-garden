@@ -4,14 +4,16 @@ aliases:
   - 建築・工業用材料の製品カテゴリー分類
 type: literature
 created: 2026-08-26T16:02:52+09:00
-updated: 2026-08-26T16:02:52+09:00
+updated: 2026-09-09T16:36:04+09:00
 id: 20260826-160252
 permalink:
 draft: false
 tags:
   - ai-generated
-  - sample
 ---
+
+> [!warning] 仮想データ
+> このノートの製品名・製品コード・分類は、カテゴリ設計を検討するためのサンプルであり、実在製品・仕様・価格情報ではない。
 
 ## 一覧表
 

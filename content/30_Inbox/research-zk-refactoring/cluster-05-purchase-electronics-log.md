@@ -4,7 +4,7 @@ aliases:
   - Research＋ZKリファクタリング作業ログ：購入判断・家電・デジタル機器
 type: fleeting
 created: 2026-09-09T03:18:49+09:00
-updated: 2026-09-09T10:14:08+09:00
+updated: 2026-09-15T14:00:00+09:00
 id: 20260909-031849
 permalink:
 draft: false
@@ -94,6 +94,17 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ用�
 - 結果：一般保証の判断軸とSwitch 2固有の保証判断を相互リンクで分離した。microSD ExpressとJoy-Conカバー、4K出力一覧は、購入・確認時に公式情報を再確認するFleetingノートへ変更した。無関係なリンクを削除した。
 - 検証：原文ブロックは残しておらず、クラスタ内の未解決リンクは0件。
 
-## 完了
+## 05-Rの完了
 
 05-Rの3子クラスタを完了した。退避コピーは、改稿・統合前の21ノート分を`*.pre-full-refactor-2026-09-09.md`として保管している。Cluster 05は、20ノートを現役対象として完了扱いとする。
+
+## 2026-09-15T14:00:00+09:00 — 05-R-D タイトル・ファイル名の命名整合
+
+- 作業内容：本文とtitle・alias・英語ファイル名の対応を再点検した。
+- 結果：`tunerless-tv-disadvantages.md`を`tunerless-tv-purchase-checklist.md`へ改名し、titleを「チューナーレステレビを選ぶ際の確認事項」へ変更した。旧titleはaliasとして保持した。`50-inch-4k-display-video-test-candidates.md`は、本文の「映像テスト記録」に合わせて`50-inch-4k-display-video-test-log.md`へ改名した。
+- 影響処理：中心購入記録の表示リンク、Cluster 05作業台、クラスタ台帳の参照を更新した。
+- 検証：現役ノートと現行管理一覧における旧ファイル名の残存参照は0件。新titleへの内部リンクは解決する。
+
+## Cluster 05の最終状態
+
+Cluster 05は、20ノートを現役対象として完了扱いを維持する。

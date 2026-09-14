@@ -4,7 +4,7 @@ aliases:
   - 接続詞・副詞の “数学的” 早見表
 type: structure
 created: 2026-04-25T22:21:02+09:00
-updated: 2026-04-25T22:21:02+09:00
+updated: 2026-09-09T23:04:58+09:00
 id: 20260425-222102
 draft: false
 source:
@@ -14,11 +14,11 @@ source:
 | 語                        | キーワード | 記号モデル              | 概要                 |
 | ------------------------ | ----- | ------------------ | ------------------ |
 | [つまり](in-other-words.md) | 言い換え  | P ≈ S（ P ⇒ S ）     | 前の文章をほぼ同義の言葉で書き直す  |
-| [すなわち](that-is.md)       | 定義    | P ≡ D              | 「＝」で言い換える正式な定義付け   |
-| [だから](therefore.md)      | 帰結    | P ⇒ Q              | 原因Pから結果Qを導く        |
-| [ということは](which-means.md) | 推論・確認 | P ⇒ Q?             | 原因Pから結果Qを推理する（＝導く） |
-| [要するに](in-short.md)      | 要約    | (P1 ∧ P2 ∧… ∧Pn)   | 複数情報を一つに集約         |
-| [結局](after-all.md)       | 最終結果  | (P1 ∨ P2 ∨ … ∨ Pn) | 紆余曲折を経て行き着く帰着点     |
+| [すなわち](conjunctive-adverb-that-is.md)       | 定義    | P ≡ D              | 「＝」で言い換える正式な定義付け   |
+| [だから](conjunctive-adverb-therefore.md)      | 帰結    | P ⇒ Q              | 原因Pから結果Qを導く        |
+| [ということは](conjunctive-adverb-which-means.md) | 推論・確認 | P ⇒ Q?             | 原因Pから結果Qを推理する（＝導く） |
+| [要するに](conjunctive-adverb-in-short.md)      | 要約    | (P1 ∧ P2 ∧… ∧Pn)   | 複数情報を一つに集約         |
+| [結局](conjunctive-adverb-after-all.md)       | 最終結果  | (P1 ∨ P2 ∨ … ∨ Pn) | 紆余曲折を経て行き着く帰着点     |
 
 ## 記号の位置づけ
 
@@ -36,4 +36,5 @@ source:
 - D: 
 	- Definiton（定義）
 	- 数学、哲学、記号論 / 使う人による（やや文脈的）
+
 

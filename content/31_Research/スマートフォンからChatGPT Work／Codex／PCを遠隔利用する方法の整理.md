@@ -4,733 +4,186 @@ aliases:
   - スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理
 type: literature
 created: 2026-09-02T03:40:15+09:00
-updated: 2026-09-02T03:40:15+09:00
+updated: 2026-09-11T21:59:39+09:00
 id: 20260902-034015
 permalink:
 draft: false
 tags:
   - ai-generated
 ---
-## 1. そもそもの目的
 
-今回の相談の出発点は、
+# スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理
 
-> スマートフォンから、自宅や会社のPC上にあるChatGPT Workを使いたい
+## このノートの役割
 
-というものでした。
+スマートフォンから自宅や職場のPCで行うAI作業へ関わる方法を、クラウド上のWork、Codex Remote、Windowsのリモート操作に分けて整理する。出発点は「スマホでChatGPTを使えるか」ではなく、PC内のObsidian Vault、Excel、ローカルファイル、デスクトップ版のAI作業まで扱いたい場合に、誰がどの画面やファイルを操作するのかを明らかにすることだった。
 
-特に想定していたのは、単にスマホ版ChatGPTで会話することではなく、PC内にある以下のようなローカルデータをChatGPTに扱わせる用途です。
+このノートに残すのは、当時の製品理解と方式選択の基準である。Remote、Work、OS、接続アプリの提供状況や制限は変わり得るため、実際に構築する前には現行の公式資料と端末の画面で確認する。
 
-- Obsidian Vault
+## 最初に確認したかったこと
+
+想定していたのは、スマホで普通に会話することだけではなかった。PC内にある次のようなものを、AI作業の対象にしたいという意図があった。
+
+- Obsidian Vault内のMarkdown
 - Excelファイル
-- Windows上のローカルファイル
+- Windows上のローカルファイルとフォルダ
 - PC上のアプリケーション
 - デスクトップ版ChatGPTのWork
 
-そのため、問題の本質は、
-
-> 「スマホからChatGPTを使えるか」
-
-ではなく、
-
-> 「スマホから、PC上で実行されているローカルWorkやPC内のファイル操作まで制御できるか」
-
-という点にあります。
-
----
-
-## 2. ChatGPT Workには「クラウド側」と「PCローカル側」の違いがある
-
-Workについて最初に整理すべきなのは、スマホ版でも使えるWorkと、デスクトップPCでなければ成立しないWorkがあることです。
-
-### クラウドWork
-
-クラウド上で動作するWorkであれば、スマートフォン版ChatGPTから直接利用できます。
-
-例えば、
+したがって問題は、次の二つを分けて考える必要がある。
 
 ```text
-PCでWorkを開始
-↓
-同じChatGPTアカウントでスマホから開く
-↓
-同じクラウドWorkを確認・継続する
+スマホからクラウド上のAI作業を続けられるか
+
+スマホから、自宅PC上のローカル作業を進められるか
 ```
 
-という使い方が可能です。
+前者ならPCの遠隔操作そのものが不要な場合がある。後者では、スマホ版の会話画面が自宅PCのCドライブへ直接つながるわけではないため、PC側でどう動かすかを別に決めなければならない。
 
-この場合、そもそもPCを「遠隔操作」する必要がありません。
+## 三つの方法を混同しない
 
-スマホ版ChatGPTから直接Workを利用すればよいためです。
+検討の途中で、Work、Codex Remote、Remote Desktopは似た言葉でも操作の主体が異なることが分かった。
 
-### ローカルWork
+| 方法 | 操作の主体 | 主な対象 | PCローカルのファイル | スマホからの関わり方 |
+| --- | --- | --- | --- | --- |
+| スマホ版Work | クラウド上のAI作業 | 調査、クラウド上のファイル、成果物作成 | 直接は扱わない | スマホのChatGPTから直接作業する |
+| Codex Remote | PC上のCodex | Codexへ指示、進行確認、ローカル作業の依頼 | Codex側に許可があれば扱える | スマホからAIへ指示する |
+| Remote Desktop | 利用者自身 | Windows画面、ChatGPT Desktop、Obsidian、Excel | PC画面と同じ範囲で扱う | スマホをPCの画面と操作装置として使う |
 
-一方、PC内のファイルを直接扱うWorkは事情が異なります。
+この違いを一文で言えば、Codex Remoteは「AIにPCを操作させる」方式であり、Remote Desktopは「自分がスマホからPCを操作する」方式である。Workを使うかどうか、ローカルファイルが必要かどうか、PC操作をAIへ任せたいかどうかで、選択が変わる。
 
-例えば、
+## クラウドWork：PCを遠隔操作しない選択
 
-```text
-C:\Users\...\Documents\Obsidian Vault
-```
-
-にあるMarkdownファイルをWorkに整理させたり、
-
-```text
-C:\Users\...\Documents\Excel\
-```
-
-にあるExcelファイルを直接操作させたりする場合です。
-
-このような処理では、Workが実際にそのWindows PC上で動いている必要があります。
-
-したがって、
+クラウド上で動くWorkであれば、PCで始めた作業を同じアカウントのスマホから確認・継続できる場合がある。この場合、PC上のアプリをリモート操作する必要はない。
 
 ```mermaid
 flowchart LR
-    A[PC上のWork] --> B[PC内ローカルファイル]
+    A[PCまたはWebで開始したクラウド作業] --> B[クラウド上のWork]
+    C[スマホ] --> B
+```
+
+向いているのは、Web調査、クラウドブラウザ、ChatGPT上に置いたファイル、PCローカル環境を必要としない成果物作成である。PCの電源状態に左右されず、外出先から直接作業できることが利点になる。
+
+ただし、PC内のObsidianやExcelを直接読ませたい場合は別である。クラウドWorkをスマホで続けられることと、自宅PCのフォルダを操作できることは同じではない。
+
+## ローカルWorkが問題になる場面
+
+たとえば、PC側で次のようなフォルダをAI作業に使いたい場合を考える。
+
+```text
+Windows PC
+├─ Obsidian Vault
+├─ Excel ファイル
+└─ ローカルの資料・アプリ
+```
+
+この場合、AIがPC上で動き、そのフォルダやアプリへの許可を持つ必要がある。
+
+```mermaid
+flowchart LR
+    A[PC上のAI作業] --> B[PC内ローカルファイル]
     B --> C[Obsidian]
     B --> D[Excel]
 ```
 
-という関係になります。
+スマホ版のWorkが、遠隔地からPCのCドライブへ直接アクセスするという考え方にはならない。ここから、PCそのものを操作する方法と、PC上のCodexに作業させる方法を検討する必要が出てきた。
 
-スマホ版Workが、自宅PCのCドライブへ直接アクセスするわけではありません。
+## 方法A：Windowsそのものを遠隔操作する
 
----
-
-## 3. 最初に検討した方法：Windowsそのものをリモート操作する
-
-そこで最初に検討したのが、
-
-> スマホからWindows PCそのものへリモート接続する
-
-方法でした。
-
-構成としては以下です。
+最初に検討したのは、スマホからWindows PCへ接続して、PC画面そのものを操作する方法だった。
 
 ```mermaid
 flowchart LR
-    A[スマートフォン]
-    B[リモートデスクトップ]
-    C[自宅Windows PC]
-    D[ChatGPT Desktop]
-    E[Obsidian]
-    F[Excel]
-
-    A --> B --> C
-    C --> D
-    C --> E
-    C --> F
+    A[スマートフォン] --> B[リモートデスクトップ]
+    B --> C[自宅のWindows PC]
+    C --> D[ChatGPT Desktop / Work]
+    C --> E[Obsidian]
+    C --> F[Excel]
 ```
 
-この方法であれば、スマホから見ているのは「PCの画面そのもの」です。
+この方式では、スマホから見ているのはPC上の画面そのものである。そのため、ChatGPT Desktop、Work、Obsidian、Excel、エクスプローラー、確認ダイアログまで、普段PCの前で行う操作をそのまま扱える。
 
-そのため、
+### Chrome Remote Desktopを候補にした理由
 
-- ChatGPT Desktop
-- Work
-- Obsidian
-- Excel
-- エクスプローラー
-- Windows上の確認ダイアログ
+導入が比較的単純で、Windows Homeでも使える候補としてChrome Remote Desktopを検討した。主に想定していたのは、Workへ追加指示を出す、途中結果を確認する、承認画面を操作する、といった軽い遠隔作業である。
 
-などをまとめて操作できます。
+| 観点 | 当時の検討での位置づけ |
+| --- | --- |
+| 導入 | 比較的始めやすい候補 |
+| Windowsの版 | Homeでも候補にできる |
+| 用途 | PC画面の確認、軽い操作、PC版Workへの指示 |
+| 利点 | ChatGPT固有の機能に依存せず、PC上のアプリをまとめて操作できる |
+| 注意点 | 小さなスマホ画面での精密操作、PCの電源とスリープ、通信状態 |
 
-つまりChatGPTの機能に依存せず、
+この方式は、AIに任せる対象を増やすためではなく、PC版Workそのものを使い続けたいときの選択肢である。
 
-> 「PCの前にスマホから遠隔で座る」
+### TailscaleとWindows RDPを検討した理由
 
-方式です。
+もう一つ、より本格的なリモート操作として、TailscaleとWindows Remote Desktopを組み合わせる案を検討した。スマホとPCを仮想的なプライベートネットワークへつなぎ、その上でWindowsのリモートデスクトップを使う考え方である。
 
----
+ただし、Windows標準のRDPで接続される側になるには、Windowsのエディションが条件になる。当時の整理では、Windows HomeではChrome Remote Desktop、Windows ProならChrome Remote DesktopまたはTailscale＋RDPを比較する、という位置づけだった。
 
-## 4. Chrome Remote Desktop
+設定量が増えるため、最初から高度な構成を作る必要はない。PC版Workを外出先から少し確認するだけなら、まず簡単な候補で操作感を確かめる方がよい。
 
-その用途の最も簡単な候補として挙げたのが、Chrome Remote Desktopです。
+### 電源・スリープは別の前提条件
 
-構成は非常に単純です。
-
-```mermaid
-flowchart LR
-    S[スマホ]
-    C[Chrome Remote Desktop]
-    P[Windows PC]
-
-    S --> C --> P
-```
-
-PC側にChrome Remote Desktopを設定しておけば、外出先のスマホからWindows画面へアクセスできます。
-
-そのWindows上で、
-
-```text
-ChatGPT Desktop
-↓
-Work
-↓
-Obsidian Vault
-```
-
-という通常のPC操作を行います。
-
-### Chrome Remote Desktopの特徴
-
-|項目|内容|
-|---|---|
-|導入難易度|比較的低い|
-|Windows Home|利用可能|
-|Windows Pro|利用可能|
-|Android|利用可能|
-|iPhone|利用可能|
-|ポート開放|基本不要|
-|PC画面の遠隔操作|可能|
-|ChatGPT Desktop|操作可能|
-|Obsidian|操作可能|
-|Excel|操作可能|
-|主な用途|確認・軽操作・Workへの指示|
-
-特に、
-
-> Workに追加指示を出す  
-> 処理結果を確認する  
-> 承認画面をクリックする
-
-程度の用途であれば、かなり現実的です。
-
----
-
-## 5. より本格的な方法：Tailscale + Windows RDP
-
-もう一つの候補として、
-
-> Tailscale + Windows Remote Desktop
-
-という構成も検討しました。
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[Tailscale]
-    C[Windows RDP]
-    D[自宅PC]
-
-    A --> B --> C --> D
-```
-
-Tailscaleによって、スマホとWindows PCを仮想的なプライベートネットワーク内に置き、その中でWindows Remote Desktopを使います。
-
-Chrome Remote Desktopより設定は増えますが、Windowsのリモートデスクトップ環境としてはより本格的です。
-
-ただし重要な制約があります。
-
-### Windows HomeではRDPホストになれない
-
-Windows標準Remote Desktopで「接続される側」となるには、基本的にWindows Pro以上が必要です。
-
-そのため、
-
-|Windows Edition|推奨候補|
-|---|---|
-|Windows Home|Chrome Remote Desktop|
-|Windows Pro|Chrome Remote Desktop / Tailscale + RDP|
-
-という整理になります。
-
----
-
-## 6. PCの電源・スリープ問題
-
-リモート操作を行う場合、PCが利用可能な状態である必要があります。
-
-基本条件は、
+リモート操作には、PCが接続可能な状態であることが必要になる。
 
 ```text
 PC電源：ON
-ネットワーク：接続
-スリープ：無効
-ディスプレイ：OFFでも可
+ネットワーク：接続済み
+スリープ：接続を妨げない設定
+ディスプレイ：OFFでもよい場合がある
 ```
 
-です。
+PCが電源オフや完全なスリープ状態なら、通常は接続できない。Wake on LANのように遠隔からPCを起動する発展案も候補にはなるが、BIOS／UEFI、LAN、ルーター、ネットワーク構成などの条件が増える。最初は、外出する日にPCを使える状態にしておくという運用で足りるかを確認する。
 
-PCが完全にスリープしたり、電源OFFになった場合は、通常のリモート接続はできません。
+## 方法B：Codex RemoteはPC画面のリモコンではない
 
-そこで将来的な発展案として、
+途中で重要になったのが、ChatGPTの「Remote」という言葉だった。当初は、スマホからPCのChatGPT Desktop全体やWorkをマウス操作する機能ではないか、と考えた。しかし、この理解は修正が必要だった。
 
-> Wake on LAN
-
-も候補になります。
-
-構成は、
+Codex Remoteは、概念的にはPC上で動くCodexセッションをスマホから扱う機能である。
 
 ```mermaid
 flowchart LR
-    A[スマホ]
-    B[Wake on LAN]
-    C[自宅PC起動]
-    D[リモート接続]
-
-    A --> B --> C --> D
+    A[スマホ] --> B[Codex Remote]
+    B --> C[PC上のCodex]
+    C --> D[許可されたローカルファイル・アプリ]
 ```
 
-です。
+つまり、スマホからChatGPT Desktopの画面全体を直接なぞるのではなく、PC上のCodexへ追加指示を出し、進行を確認し、必要な回答や承認を返す。Codex自身がPC上でアプリやファイルを扱う権限を持つ場合は、結果としてスマホからローカル作業を進められることがある。
 
-ただしWake on LANは、
-
-- BIOS / UEFI
-- LANアダプター
-- ルーター
-- ネットワーク構成
-- 有線LAN / Wi-Fi
-
-などの条件が絡むため、最初から導入する必要はありません。
-
-最初は、
-
-> 外出する日はPCを起動状態にしておく
-
-程度で十分です。
-
----
-
-# 7. その後に出てきた重要な論点：ChatGPTの「Remote」
-
-ここでユーザーから、
-
-> ChatGPTには「Codex Remote / Remote」があり、スマートフォンからPC上のCodexやデスクトップアプリを遠隔操作できるという説明を見た
-
-という指摘がありました。
-
-ここが今回の一番重要な整理ポイントです。
-
-当初の説明では、
-
-> ChatGPT Remoteではなく、Windows自体をRemote Desktopで操作する
-
-という方向を中心に説明しました。
-
-しかし調べた情報を見ると、
-
-> ChatGPTのRemoteを使えば、PCのChatGPT Desktopそのものをスマホから操作できるのではないか
-
-という疑問が生じました。
-
-この点を改めて整理しました。
-
----
-
-# 8. ChatGPT Remoteは「デスクトップアプリ全体のリモコン」ではない
-
-結論としては、
-
-> ChatGPTのRemoteは、ChatGPT Desktop全体を遠隔操作する機能ではありません。
-
-より正確には、
-
-> PC上で動作しているCodexセッションを、スマートフォンから操作する機能
-
-です。
-
-つまり、
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[ChatGPT Remote]
-    C[PC上のCodex]
-
-    A --> B --> C
-```
-
-です。
-
-これを、
-
-```text
-スマホ
-↓
-ChatGPT Desktopアプリ全体
-↓
-Work
-```
-
-として操作する機能ではありません。
-
----
-
-# 9. Remoteから操作できるもの
-
-現時点で整理すると、概念的には次のようになります。
-
-|対象|スマホRemote|
-|---|--:|
-|Codexセッション|○|
-|Codexへの追加指示|○|
-|Codexの進行確認|○|
-|Codexへの質問回答|○|
-|Codexの操作承認|○|
-|Codexが操作しているPCアプリ|○ 条件付き|
-|ChatGPT Desktopそのもの|×|
-|Workセッションそのもの|×|
-|ローカルWorkをRemoteから操作|×|
-
-つまりRemoteは、
-
-> PCのChatGPT Desktopをスマホからマウス操作する
-
-ものではなく、
-
-> PC上で動いているCodexエージェントへスマホから指示を出す
-
-仕組みです。
-
----
-
-# 10. なぜ「PC上のアプリを遠隔操作できる」という説明も間違いではないのか
-
-ここが少し紛らわしいところです。
-
-Codexには、Windows環境でアプリケーションを操作するComputer Use系の機能があります。
-
-そのため、
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[Remote]
-    C[PC上のCodex]
-    D[Windowsアプリ]
-
-    A --> B --> C --> D
-```
-
-ということができます。
-
-CodexがPC上で、
-
-```text
-画面を見る
-↓
-アプリをクリックする
-↓
-文字を入力する
-↓
-ファイルを操作する
-```
-
-といった処理を行い、そのCodexへスマートフォンからRemoteで指示できます。
-
-したがって、
-
-> スマートフォンからPC上のアプリを遠隔操作できる
-
-という説明は、完全な誤りではありません。
-
-ただし正確には、
+ただし経路は、次のようになる。
 
 ```text
 スマホ
 ↓
 Codex Remote
 ↓
-Codex
+PC上のCodex
 ↓
-Windowsアプリ
+Windowsアプリ・ローカルファイル
 ```
 
-です。
+スマホがWindowsアプリを直接操作しているわけではない。この区別は、画面を細かく自分で確認したいのか、作業内容をAIへ依頼して結果を確認したいのかを決める際に重要である。
 
-スマホから直接Windowsアプリを操作しているわけではありません。
+## WorkとCodex Remoteは別の経路
 
----
+この検討で修正したかったもう一つの点は、WorkとCodex Remoteを同じものとして扱わないことである。
 
-# 11. WorkとCodex Remoteは別物
+| 経路 | 意味 |
+| --- | --- |
+| PC版Work → ローカルファイル → Obsidian／Excel | PC版Workを利用者が使う経路 |
+| スマホ → Codex Remote → PC上のCodex → ローカルファイル／アプリ | Codexへ作業を依頼する経路 |
+| スマホ → Remote Desktop → Windows PC → PC版Work | 利用者がPC画面を遠隔操作する経路 |
 
-今回の最重要ポイントはここです。
+そのため、「WorkをRemoteから操作できるが、勧めない」というよりも、「WorkそのものをCodex Remoteで遠隔操作する機能と、Codexにローカル作業を依頼する経路は別」と整理する方が正確である。
 
-Workを使う場合：
+## Obsidian整理に当てはめる
 
-```mermaid
-flowchart LR
-    A[PC版Work]
-    B[ローカルファイル]
-    C[Obsidian / Excel]
+たとえば、スマホからObsidianのInboxを整理したい場合、二つの考え方がある。
 
-    A --> B --> C
-```
-
-Codex Remoteを使う場合：
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[Remote]
-    C[PC上のCodex]
-    D[ローカルファイル / アプリ]
-
-    A --> B --> C --> D
-```
-
-という別系統になります。
-
-Remoteから、
-
-```text
-PC版ChatGPT
-↓
-Work
-```
-
-を操作するわけではありません。
-
-したがって、
-
-> 「WorkをRemoteから操作できるが、おすすめしない」
-
-という話ではありません。
-
-正しくは、
-
-> 「WorkをRemoteから操作する機能としては提供されていない」
-
-です。
-
----
-
-# 12. クラウドWorkならそもそもRemote不要
-
-Workについてはもう一つ重要な点があります。
-
-クラウドWorkであれば、
-
-```text
-PCでWorkを開始
-↓
-スマホ版ChatGPTを開く
-↓
-同じWorkを継続
-```
-
-という利用ができます。
-
-したがってクラウドWorkの場合、
-
-> Remoteを使ってPC版ChatGPTを操作する
-
-必要そのものがありません。
-
-スマートフォン版ChatGPTから直接同じWorkへアクセスします。
-
----
-
-# 13. 問題になるのは「ローカルWork」
-
-今回の用途で本当に問題になるのは、
-
-> PC内のObsidian VaultやExcelファイルをWorkに直接扱わせたい
-
-場合です。
-
-例えば、
-
-```text
-C:\Users\...\Obsidian\
-```
-
-というPC内ローカルフォルダをWorkに整理させている場合、
-
-そのWorkはPC側で動いています。
-
-スマホ版Workから、
-
-```text
-自宅PCのCドライブ
-```
-
-へ直接アクセスするわけにはいきません。
-
-また、そのローカルWorkをChatGPT Remoteから操作する仕組みもありません。
-
-したがってこの用途では、現在のところ別の方法が必要になります。
-
----
-
-# 14. 現在考えられる3つの運用パターン
-
-ここまでを整理すると、実際の運用は次の3パターンになります。
-
-|方法|主な用途|PCローカルファイル|スマホ操作|
-|---|---|--:|--:|
-|スマホ版Work|クラウド作業|×|◎|
-|Codex Remote|PC上のCodexによる作業|○|◎|
-|Remote Desktop|PCそのものの操作|○|○|
-
-それぞれ性質がかなり違います。
-
----
-
-# 15. 方法A：スマホ版Work
-
-構成：
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[ChatGPT Work]
-    C[クラウド環境]
-
-    A --> B --> C
-```
-
-適しているのは、
-
-- Web調査
-- クラウドブラウザ
-- ChatGPT上のファイル
-- クラウドにある作業
-- PCローカル環境を必要としない作業
-
-です。
-
-最大の利点は、
-
-> PCが不要
-
-なことです。
-
-一方、
-
-```text
-C:\Users\...
-```
-
-などのPCローカルファイルへ直接アクセスする用途には向きません。
-
----
-
-# 16. 方法B：Codex Remote
-
-構成：
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[Codex Remote]
-    C[自宅PC Codex]
-    D[ローカルファイル]
-    E[Windowsアプリ]
-
-    A --> B --> C
-    C --> D
-    C --> E
-```
-
-これは、
-
-> PC上のAIエージェントへスマホから指示する
-
-方式です。
-
-用途によっては、今回考えている
-
-> スマホからPC上のObsidianをAIに整理させる
-
-という目的にかなり適しています。
-
-Workを遠隔操作するのではなく、
-
-> Codex自身にObsidian Vaultやローカルファイルを扱わせる
-
-考え方です。
-
----
-
-# 17. 方法C：Windows Remote Desktop
-
-構成：
-
-```mermaid
-flowchart LR
-    A[スマホ]
-    B[Chrome Remote Desktop等]
-    C[Windows PC]
-    D[ChatGPT Work]
-    E[Obsidian]
-    F[Excel]
-
-    A --> B --> C
-    C --> D
-    C --> E
-    C --> F
-```
-
-これは、
-
-> AIを遠隔操作するのではなく、PCそのものを遠隔操作する
-
-方式です。
-
-この方法なら、現在PC上で行っていることをほぼそのままスマホから実行できます。
-
-したがって、
-
-> 「どうしてもWorkを使いたい」
-
-のであれば、現時点ではこれが最も確実です。
-
----
-
-# 18. Codex RemoteとRemote Desktopの根本的な違い
-
-この2つは一見似ていますが、実際には思想がかなり違います。
-
-### Codex Remote
-
-```text
-自分
-↓
-AIへ指示
-↓
-AIがPCを操作
-```
-
-です。
-
-### Remote Desktop
-
-```text
-自分
-↓
-スマホからPCを直接操作
-```
-
-です。
-
-つまり、
-
-```mermaid
-flowchart TD
-    A[スマホからPC作業をしたい]
-
-    A --> B{誰がPCを操作する？}
-
-    B -->|AI| C[Codex Remote]
-    B -->|自分| D[Remote Desktop]
-```
-
-と考えると分かりやすくなります。
-
----
-
-# 19. Obsidian整理に当てはめた場合
-
-例えば、
-
-> ObsidianのInboxを整理したい
-
-とします。
-
-### Work方式
+### PC版Workをそのまま使いたい場合
 
 ```text
 スマホ
@@ -739,188 +192,58 @@ Remote Desktop
 ↓
 自宅PC
 ↓
-ChatGPT Desktop
-↓
-Work
+ChatGPT Desktop / Work
 ↓
 Obsidian Vault
 ```
 
-となります。
+これは、普段PCで行っているWorkの流れを保ったまま、操作する場所だけをスマホへ移す方法である。画面を自分で見て、どの操作をするか判断したい場合に向く。
 
-これは現在PCでWorkを使っている運用をそのまま維持できます。
-
-### Codex Remote方式
+### Codexへローカル作業を任せる場合
 
 ```text
 スマホ
 ↓
 Codex Remote
 ↓
-自宅PCのCodex
+自宅PC上のCodex
 ↓
 Obsidian Vault
 ```
 
-となります。
+これはWorkを遠隔操作するのではなく、CodexにMarkdown編集、YAML修正、ファイル名変更、スクリプト実行、大量処理などを依頼する考え方である。作業範囲を明確に指定し、AIが行った変更を確認する運用が必要になる。
 
-こちらではWorkを使わず、Codexに直接ローカルファイルを整理させます。
+## 方式を選ぶ基準
 
-もし、
-
-- Markdownファイル編集
-- YAML修正
-- ファイル移動
-- ファイル名変更
-- スクリプト実行
-- 大量処理
-
-などが中心なら、Codexの方がむしろ適している可能性があります。
-
-一方、
-
-- Web調査
-- 人間との対話
-- 複数ステップの調査整理
-- ChatGPT Work固有の機能
-
-を重視するならWorkの方が適しています。
-
----
-
-# 20. 今回の理解の修正点
-
-今回の対話を通じて、一つ重要な修正がありました。
-
-最初は、
-
-> ChatGPT RemoteではWorkを操作できないので、Chrome Remote Desktop等を使う
-
-という説明をしました。
-
-これは結論としては「Workについては」正しいものの、ChatGPT Remoteの能力については説明が不足していました。
-
-より正確には、
-
-```text
-ChatGPT Remote
-＝
-Codex専用の遠隔操作機能
-```
-
-であり、
-
-```text
-ChatGPT Remote
-≠
-ChatGPT Desktop全体のリモートデスクトップ
-```
-
-です。
-
-ただしCodex自体がPCアプリを操作できるため、
-
-> 結果的にPC内のアプリやファイルをスマホから操作できるケースがある
-
-という点が重要です。
-
----
-
-# 21. 現時点での結論
-
-今回の目的を、
-
-> スマホから自宅PCのAI作業を管理し、必要ならObsidianやExcelなどPCローカルデータを扱わせる
-
-とすると、選択肢は以下のようになります。
+最終的には、スマホから何をしたいのかを先に決める。
 
 ```mermaid
 flowchart TD
-    A[スマホから作業したい]
-
-    A --> B{PCローカルファイルが必要？}
-
+    A[スマホからAI作業をしたい] --> B{PCローカルファイルが必要か}
     B -->|不要| C[スマホ版Work]
-    B -->|必要| D{Workである必要がある？}
-
-    D -->|はい| E[Remote Desktop + PC版Work]
-    D -->|いいえ| F[Codex Remote]
-
-    E --> G[Chrome Remote Desktop等]
-    F --> H[PC上のCodex]
+    B -->|必要| D{PCを誰が操作するか}
+    D -->|自分| E[Remote Desktop + PC版Work]
+    D -->|AI| F[Codex Remote]
 ```
 
-要するに、
+| したいこと | まず比較する方法 |
+| --- | --- |
+| クラウド上の調査や作業をスマホで続けたい | スマホ版Work |
+| PC版Workへ追加指示を出し、画面を確認したい | Remote Desktop |
+| PC上のObsidianやローカルファイルをAIに処理させたい | Codex Remote |
+| ExcelやWindows画面を自分で直接操作したい | Remote Desktop |
+| PCを触らず、作業内容をAIへ任せて結果を確認したい | Codex Remote |
 
-**クラウド作業ならスマホ版Work。**
+## 最終整理と次の確認
 
-**PCローカル作業をAIに任せるならCodex Remote。**
+> クラウド作業ならスマホからWorkを直接使う。PCのローカルファイルを使う作業では、PC画面を自分で操作したいならRemote Desktop、PC上のAIへ作業を任せたいならCodex Remoteを検討する。
 
-**PC版Workそのものを使いたいならWindowsをRemote Desktopで操作する。**
+この結論は、どれか一つを唯一の正解にするものではない。重要なのは、クラウド上の作業、PC版Work、Codexによるローカル作業、Windows画面の遠隔操作を同じ「スマホから使う」という言葉で混同しないことである。
 
-という3分割で考えると整理しやすくなります。
+実際に環境を選ぶ前には、次を小さく確認する。
 
----
-
-# 22. 今後検討すべき点
-
-実際に環境を構築するなら、次に決めるべきなのは、
-
-> 「スマホから何をしたいのか」
-
-です。
-
-例えば、
-
-```text
-A. Workに指示を追加したいだけ
-B. Workの処理結果を確認したい
-C. Obsidian VaultをAIに整理させたい
-D. ExcelファイルをAIに処理させたい
-E. Windows画面を直接操作したい
-F. PCを触らず完全にAIへ任せたい
-```
-
-によって最適な方式が変わります。
-
-今回の話から見ると、特に比較価値が高いのは、
-
-```text
-Codex Remote
-vs
-Chrome Remote Desktop + Work
-```
-
-です。
-
-これは単なる技術比較ではなく、
-
-> 「AIにPC操作を任せるか」
-
-と
-
-> 「自分がPCを遠隔操作してWorkを使うか」
-
-という運用思想の違いになります。
-
----
-
-## 最終整理
-
-最も短くまとめると、
-
-> **ChatGPT RemoteはChatGPT Desktop全体のリモート操作機能ではなく、PC上のCodexをスマートフォンから操作する機能。**
-> 
-> **Workのクラウドセッションはスマホから直接利用できる。**
-> 
-> **PCローカルファイルを使うWorkをスマホから使いたい場合は、Work自体をRemoteで操作することはできないため、Chrome Remote Desktop等でWindowsそのものを操作する必要がある。**
-> 
-> **一方、Workにこだわらなければ、Codex Remoteを利用してPC上のCodexにローカル作業を任せるという別ルートがある。**
-
-したがって、今回の目的に対する主要候補は、
-
-**① スマホ版Work**  
-**② Codex Remote**  
-**③ Chrome Remote Desktop等 + PC版Work**
-
-の3つであり、特にローカルObsidianやExcelを扱う用途では、**②と③を比較して選ぶ**のが妥当です。
+1. スマホから必要なのは、指示追加、進行確認、ファイル編集、PC画面操作のどれか。
+2. 作業対象はクラウド上だけか、ObsidianやExcelなどPCローカルを含むか。
+3. 変更は自分で画面を見て判断したいか、AIへ範囲を指定して任せたいか。
+4. PCの電源、スリープ、ネットワーク、Windowsのエディションが候補の前提を満たすか。
+5. 遠隔からの書き込み、移動、削除をする場合に、対象と結果を確認できる運用になっているか。

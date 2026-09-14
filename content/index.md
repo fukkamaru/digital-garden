@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-04-25T16:08:39+09:00
+updated: 2026-09-09T23:04:58+09:00
 id: 20260425-160839
 draft: false
 ---
@@ -37,9 +37,10 @@ draft: false
 - [言葉と思考の軌跡](words-and-thoughts.md)
 - [調べたいことメモ](research-notes.md)
 - [気になった言葉](気になった言葉.md)
-- [勉強したいこと](study-topics.md)
+- [勉強したいこと](study-topic-backlog.md)
 - [旅行へ行きたい](travel-wishlist.md)
 
 - [ぽこあポケモン](pokoa-pokemon.md)
 - [使ってみたいアイテム](things-i-want-to-try.md)
 - [個人的ブックマーク](personal-bookmarks.md)
+

@@ -2,13 +2,12 @@
 title: 棚卸しの回数
 aliases:
   - 棚卸しの回数
-type: permanent
+type: fleeting
 created: 2026-04-25T18:16:28+09:00
-updated: 2026-04-25T18:16:28+09:00
+updated: 2026-09-15T00:29:59+09:00
 id: 20260425-181628
 draft: true
 tags:
-  - なぞなぞ
   - field
 ---
 昔は4回、今は2回。  

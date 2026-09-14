@@ -2,71 +2,67 @@
 title: ハードディスクやSSDの健康状態を見るコマンド入力
 aliases:
   - ハードディスクやSSDの健康状態を見るコマンド入力
-type:
+type: literature
 created: 2026-08-22T23:01:28+09:00
-updated: 2026-09-01T19:28:44+09:00
+updated: 2026-09-15T02:17:39+09:00
 id: 20260822-230128
 permalink:
 draft: true
 tags:
   - ai-generated
 ---
-はい。会社PCで**勝手にソフトをインストールしにくい**なら、まずWindows標準機能だけでかなり確認できます。
+# ハードディスクやSSDの健康状態を見るコマンド入力
 
-特におすすめは **PowerShell + イベントビューアー** です。
+このノートは、会社PCで新しいソフトを追加しにくい場合に、Windows標準機能でストレージの状態を確認する候補をまとめたものだ。ここにあるコマンドは、実行候補または確認方法であり、このノート自体はCF-LVでの実行結果を記録していない。
 
-### 1. PowerShellでSSD/HDDの健康状態を見る
+CF-LVで実際に行った操作、コマンドの出力、イベントの時刻、レジストリ変更の経緯は、[Windowsユーザープロファイル障害・SSD不良ブロック調査まとめ](Windowsユーザープロファイル障害・SSD不良ブロック調査まとめ.md)を正本とする。
 
-PowerShellを「管理者として実行」して、まずこれです。
+## 最初にデータ保全と操作の種類を分ける
 
-```
+ストレージ障害が疑われるときは、診断を始める前に、必要なデータを別媒体または別端末へ保全する。確認コマンドと修復コマンドは同じ扱いにしない。
+
+|分類|候補|位置付け|
+|---|---|---|
+|状態確認|`Get-PhysicalDisk`、`Get-StorageReliabilityCounter`、イベントビューアー、`chkdsk C:`|端末の状態や記録を確認する|
+|修復を伴う操作|`chkdsk C: /f`、`chkdsk C: /r`|ファイルシステムへ変更を加えるため、データ保全後に実行の可否を判断する|
+
+画面上の健康状態が正常であることだけで、ストレージI/Oエラーが起きていないとは結論づけない。
+
+## 1. PowerShellでWindowsの認識状態を確認する
+
+PowerShellを管理者として開き、まず物理ディスクの種類、健康状態、動作状態を確認する。
+
+```powershell
 Get-PhysicalDisk | Format-Table FriendlyName, MediaType, HealthStatus, OperationalStatus, Size
 ```
 
-たとえば、
+表示例は次のようになる。
 
-```
+```text
 FriendlyName        MediaType  HealthStatus  OperationalStatus
 -------------       ---------  ------------  -----------------
 SAMSUNG MZV...      SSD        Healthy       OK
 ```
 
-のように出ます。
+`HealthStatus`には`Healthy`、`Warning`、`Unhealthy`などが表示される。`Warning`や`Unhealthy`はWindowsが異常を認識している手がかりになるが、`Healthy`だけで問題が存在しないと断定しない。
 
-`HealthStatus` が
+対応しているSSDやドライバーでは、次のコマンドで追加情報を取得できる場合がある。
 
-- `Healthy` → 正常判定
-- `Warning`
-- `Unhealthy`
-
-なら、Windows側でも異常を認識しています。
-
-さらに対応しているSSDなら、
-
-```
+```powershell
 Get-PhysicalDisk | Get-StorageReliabilityCounter
 ```
 
-で、
+取得できる項目には、`Temperature`、`PowerOnHours`、`ReadErrorsTotal`、`WriteErrorsTotal`、`Wear`、`StartStopCycleCount`などがある。項目が空欄の場合は、Windows標準APIから値を取得できない可能性を示すだけで、正常の証明ではない。
 
-- Temperature
-- PowerOnHours
-- ReadErrorsTotal
-- WriteErrorsTotal
-- Wear
-- StartStopCycleCount
+詳細表示が必要な場合は次を使う。
 
-などを取得できる場合があります。
+```powershell
+Get-PhysicalDisk | Get-StorageReliabilityCounter | Format-List *
+```
 
-ただし、**SSDやドライバによっては項目が空欄になります**。これは「正常」という意味ではなく、「Windows標準APIでは取得できない」というだけです。
+## 2. イベントビューアーで時系列を確認する
 
-### 2. イベントビューアーを確認
-
-今回のPCでは、むしろこちらが非常に重要です。
-
-**イベントビューアー → Windowsログ → システム**
-
-で、以下のソースを確認します。
+イベントビューアーの **Windowsログ → システム** を開き、障害が起きた時刻帯の記録を確認する。主な確認対象は次のソースである。
 
 - `Disk`
 - `Ntfs`
@@ -76,70 +72,56 @@ Get-PhysicalDisk | Get-StorageReliabilityCounter
 - `iaStorAC`
 - `volmgr`
 
-特に、
+イベントIDでは、次のような記録を確認候補にする。
 
-- イベントID **7**：不良ブロック
-- **51**：ページング操作中のエラー
-- **129**：ストレージデバイスへのリセット
-- **153**：I/O操作の再試行
-- **157**：ディスクが突然取り外された
+|イベントID|確認する内容|
+|---:|---|
+|7|不良ブロックとして記録されたアクセス異常|
+|51|ページング操作中のエラー|
+|129|ストレージデバイスへのリセット|
+|153|I/O操作の再試行|
+|157|ディスクが突然取り外された記録|
 
-あたりは重要です。
+CF-LVの事例では、Disk系の記録をUser Profile Serviceの記録と同じ時刻帯で確認することが重要だった。イベントログの単発の表示ではなく、発生回数、継続性、データ破損の有無を合わせて見る。
 
-今回のように**数日間にわたり100件単位でディスク系エラーが出ている**なら、CrystalDiskInfoで「正常」と出たとしても、イベントログの方を軽視すべきではありません。
+## 3. CHKDSKでファイルシステムを確認する
 
-### 3. CHKDSK
+`chkdsk`は、NTFSなどファイルシステムの整合性を確認するためのコマンドであり、SSDそのものの健康状態を診断するものではない。
 
-ファイルシステム側を見るなら、
+まず状態を確認する候補は次である。
 
-```
+```powershell
 chkdsk C:
 ```
 
-これは基本的に読み取り確認なので、まず実行して構いません。
+次の二つは修復を伴うため、障害が疑われるストレージでは、先に必要なデータを保全する。
 
-ただし、
-
-```
+```powershell
 chkdsk C: /f
 ```
 
-や
-
-```
+```powershell
 chkdsk C: /r
 ```
 
-は修復処理まで行うため、障害が疑われるSSDでは**先に必要データをバックアップしてから**の方が安全です。
+ファイルシステムに問題がないという結果と、ストレージの読み書き経路に問題がないという結論は別である。イベントログや自己診断情報も合わせて判断する。
 
-重要なのは、`chkdsk` は**SSDそのものの健康診断ではありません**。NTFSなどのファイルシステムの整合性確認です。
+## 4. メーカー純正ツールを使う場合
 
-### 4. SSDメーカー純正ツール
+SSDメーカーと社内ルールを確認できる場合は、メーカー純正ツールでS.M.A.R.T.情報を確認できることがある。候補には、Samsung Magician、Western Digital Dashboard、Crucial Storage Executive、Intel系ツール、KIOXIA系ツールなどがある。
 
-SSDメーカーが分かれば、
+ただし、会社PCではインストール制限や保守契約が関わる場合がある。許可なく追加せず、必要なら保守窓口や管理者へ確認する。[ハードディスクやSSDの健康状態を見る定番ソフト](ハードディスクやSSDの健康状態を見る定番ソフト.md)は、自己診断情報を表示する補助ソフトの位置付けを扱う。
 
-- Samsung Magician
-- Western Digital Dashboard
-- Crucial Storage Executive
-- Intel系ツール
-- KIOXIA系ツール
+## このノートを使う順序
 
-などでもSMART情報を確認できます。
+```text
+必要なデータを保全する
+    ↓
+PowerShellでWindowsの認識状態を確認する
+    ↓
+イベントビューアーで同時刻帯の記録を確認する
+    ↓
+ファイルシステム確認・メーカー資料・保守対応の要否を判断する
+```
 
-ただし会社PCなら、これもインストール制限に引っかかる可能性があります。
-
----
-
-今回なら、**新しいソフトを入れずに**
-
-1. `Get-PhysicalDisk`
-2. `Get-StorageReliabilityCounter`
-3. イベントビューアーのDisk系エラー
-
-この3つを先に確認するのが適切です。
-
-特にCF-LVの問題調査なら、まずPowerShellで上の2コマンドを実行して、その結果を貼ってもらえれば読み解けます。
-
----
-
-Get-PhysicalDisk | Get-StorageReliabilityCounter | Format-List *
+この順序は、原因を自動的に確定する手順ではない。実際の症状、端末の業務上の重要性、保守条件に応じて、次に行う操作を決める。

@@ -4,7 +4,7 @@ aliases:
   - Research＋ZKリファクタリング作業台：購入判断・家電・デジタル機器
 type: fleeting
 created: 2026-09-09T03:44:57+09:00
-updated: 2026-09-09T10:14:08+09:00
+updated: 2026-09-15T14:15:00+09:00
 id: 20260909-034457
 permalink:
 draft: false
@@ -21,10 +21,43 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 ## 現在の状態
 
 - 親クラスタ：Cluster 05「購入判断・家電・デジタル機器」
-- 状態：完了。05-Rで全文の再構成、リンク再検証、統合・削除を完了した
+- 状態：完了。05-Rで全文の再構成、リンク再検証、統合・削除、命名整合を完了した
 - 開始時の台帳上の仮配置：33件
 - 現在の中心対象：20件（21件を監査し、固定金具の判断ノート1件をVESA安全確認ノートへ統合）
 - 今回の開始時判断：33件にはCluster 05の中心対象でない候補が混在していたため、05-Aで対象境界を監査した
+
+## 現役対象ノート
+
+現在Cluster 05に属する20ノートへの入口。リンク表示名は各ノートのtitleに合わせ、ファイル名はVault内で一意な英語slugを使う。
+
+### 大型ディスプレイ
+
+- [43型大型ディスプレイ・チューナーレステレビの比較記録](43-inch-large-display-tunerless-tv-comparison.md)
+- [50型4Kディスプレイの作業環境とFancyZones配置](50-inch-4k-workspace-fancyzones-layout.md)
+- [50型4Kディスプレイの映像テスト記録](50-inch-4k-display-video-test-log.md)
+- [50型ディスプレイのVESA金具取付・安全確認](50-inch-display-vesa-mount-safety-check.md)
+- [チューナーレステレビを選ぶ際の確認事項](tunerless-tv-purchase-checklist.md)
+- [50型ディスプレイの設定](50-inch-display-settings.md)
+- [ディスプレイ接続端子の比較](display-connection-ports-comparison.md)
+- [大型4Kディスプレイの選定・購入記録](large-4k-display-selection-purchase-record.md)
+- [モニターサイズと縦横比の比較](monitor-size-aspect-ratio-guide.md)
+
+### 入力機器・音声
+
+- [Koolertron片手キーボードの設定方針](koolertron-one-handed-keyboard-setup.md)
+- [マクロキーボードの用途と選び方](macro-keyboard-usage-selection.md)
+- [USBマイクが入力デバイスに現れないときの確認手順](usb-microphone-input-device-troubleshooting.md)
+- [配信用USBマイクの見直し](streaming-usb-microphone-review.md)
+
+### Switch 2・保証・アクセサリー
+
+- [Switch版ゲームソフトの中古価格が高くなりやすい理由](switch-game-used-price-reasons.md)
+- [Switch 2向けmicroSD Expressカードの比較メモ](switch-2-microsd-express-card-comparison.md)
+- [Switch 2のJoy-Conカバーは必要か](switch-2-joycon-cover-necessity.md)
+- [延長保証の価値を判断する](extended-warranty-value-decision.md)
+- [Switch 2に延長保証を付けるべきか](switch-2-extended-warranty-decision.md)
+- [Switch2の画面保護フィルム：交換判断](switch-2-screen-protector-replacement.md)
+- [Switch 2の4K出力対応ゲーム一覧](switch-2-4k-output-games.md)
 
 ## 子クラスタ
 
@@ -36,6 +69,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 | 05-D | Switch 2の購入後判断 |   7 | 延長保証、ストレージ、保護用品、ゲーム購入判断の関係を監査する                           | 完了              |
 | 05-E | 入力・音声・USB周辺機器  |   5 | キーボード、マイク、USBメモリの購入・設定・障害対応を分ける                           | 完了              |
 | 05-R | リファクタリング完了監査   |  21 | 英語slugへの改名、日本語title・aliasesの正規化、本文の再構成、リンク再検証を行う | 完了 |
+| 05-R-D | タイトル・ファイル名の命名整合 | 2 | 本文とtitle・alias・英語ファイル名のずれを是正する | 完了 |
 
 #### 05-Rの校正単位と予定Workスレッド境界
 
@@ -44,13 +78,14 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 | 05-R-A | 大型ディスプレイ 10件 | 完了 | 選定・設置・利用に共通する購入経緯と実機文脈を共有する |
 | 05-R-B | キーボード・配信用USBマイク 4件 | 完了 | 入力機器の用途・設定・購入判断を共有する |
 | 05-R-C | Switch 2関連 7件 | 完了 | 保証・保護用品・ストレージ・ゲーム購入の判断を共有する |
+| 05-R-D | タイトル・ファイル名の命名整合 2件 | 完了 | 本文の役割とtitle・alias・英語ファイル名の対応だけを見直す |
 
 05-R-A、05-R-B、05-R-Cは、それぞれ独立したWorkスレッド境界候補とする。各単位の校正・検証完了時に、同じ親クラスタ用ログへ1件追記する。
 
 ### 05-A：対象境界の監査
 
 - `31_Research/audio-devices-hearing-damage-comparison.md`
-- `31_Research/disk-health-monitoring-software.md`
+- `31_Research/ハードディスクやSSDの健康状態を見る定番ソフト.md`
 - `31_Research/スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md`
 - `32_Zk/buy-stools-not-storage-boxes.md`
 - `32_Zk/buying-a-chair-seriously.md`
@@ -67,7 +102,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 
 - Cluster 10へ移管：`スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md`
 - Cluster 12へ移管：`audio-devices-hearing-damage-comparison.md`
-- Cluster 13へ移管：`disk-health-monitoring-software.md`
+- Cluster 13へ移管：`ハードディスクやSSDの健康状態を見る定番ソフト.md`
 - Cluster 15へ移管：スツール、椅子、クリアファイル、iPhone充電、洋服ブラシ、Clippyに関する8件
 
 11件は購入・家電・デジタル機器の中心判断ではなく、AI運用、健康、PC障害、または個人生活・残余監査が中心だった。既存ノートの本文、YAML、リンク、ファイル配置は変更していない。台帳の主クラスタだけを更新した。
@@ -75,7 +110,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 ### 05-B：大型ディスプレイの選定
 
 - `31_Research/43-inch-large-display-tunerless-tv-comparison.md`
-- `31_Research/tunerless-tv-disadvantages.md`
+- `31_Research/tunerless-tv-purchase-checklist.md`
 - `31_Research/display-connection-ports-comparison.md`
 - `31_Research/large-4k-display-selection-purchase-record.md`
 - `31_Research/monitor-size-aspect-ratio-guide.md`
@@ -95,7 +130,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 - `large-4k-display-selection-purchase-record.md`を、43型・50型・55型の価格と保証比較、43型から50型への変更、60型を見送った理由、モニター台を含む実コストを扱う中心記録候補とする
 - `43-inch-large-display-tunerless-tv-comparison.md`は、43型を検討した当時の候補比較と条件を中心記録へ統合する候補とする
 - `monitor-size-aspect-ratio-guide.md`は、サイズ・縦横比・実寸の再利用可能な基礎資料として維持し、50型を選んだ個別経緯は中心記録へ置く
-- `tunerless-tv-disadvantages.md`と`display-connection-ports-comparison.md`は独立した基礎資料として維持し、中心記録との関係をリンクで示す候補とする
+- `tunerless-tv-purchase-checklist.md`と`display-connection-ports-comparison.md`は独立した基礎資料として維持し、中心記録との関係をリンクで示す候補とする
 - 43型比較ノートの退避・削除・入口ノート化は、実行直前に対象、統合先、リンク処理を示して改めて確認する
 
 具体的な本文改訂では、当時の価格・保証条件を調査時点の記録として扱う。現在の価格、製品仕様、保証条件を現行の推奨として記す場合は、実行直前に公式情報で確認する。
@@ -111,7 +146,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 ### 05-C：大型ディスプレイの設置・利用
 
 - `31_Research/50-inch-4k-workspace-fancyzones-layout.md`
-- `31_Research/50-inch-4k-display-video-test-candidates.md`
+- `31_Research/50-inch-4k-display-video-test-log.md`
 - `31_Research/50-inch-display-mount-installation-decisions.md`
 - `31_Research/50-inch-display-vesa-mount-safety-check.md`
 - `31_Research/50-inch-display-settings.md`
