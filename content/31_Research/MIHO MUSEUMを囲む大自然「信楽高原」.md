@@ -4,10 +4,10 @@ aliases:
   - MIHO MUSEUMを囲む大自然「信楽高原」
 type: permanent
 created: 2026-08-10T09:34:11+09:00
-updated: 2026-09-06T05:34:11+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260810-093411
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

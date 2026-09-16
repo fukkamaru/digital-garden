@@ -4,10 +4,10 @@ aliases:
   - チクソ性とダイラタンシー現象についての理解と比較
 type: literature
 created: 2026-06-10T21:47:42+09:00
-updated: 2026-09-09T15:10:04+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260610-214742
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

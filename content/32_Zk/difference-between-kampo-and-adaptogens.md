@@ -4,10 +4,10 @@ aliases:
   - 漢方とアダプトゲンハーブの違い
 type: literature
 created: 2026-04-28T21:45:08+09:00
-updated: 2026-09-11T19:43:05+09:00
+updated: 2026-09-17T07:42:09+09:00
 id: 20260428-214508
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

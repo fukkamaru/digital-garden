@@ -1,10 +1,10 @@
 ---
-title: Research＋ZKリファクタリング作業台：健康・運動・食事・生活管理
+title: Research＋ZKリファクタリング作業台：12：健康・運動・食事・生活管理
 aliases:
-  - Research＋ZKリファクタリング作業台：健康・運動・食事・生活管理
+  - Research＋ZKリファクタリング作業台：12：健康・運動・食事・生活管理
 type: fleeting
 created: 2026-09-09T23:40:37+09:00
-updated: 2026-09-11T19:50:41+09:00
+updated: 2026-09-17T04:05:00+09:00
 id: 20260909-234037
 permalink:
 draft: false
@@ -30,30 +30,30 @@ Cluster 12「健康・運動・食事・生活管理」の親クラスタ内部�
 
 | ID | 子クラスタ | 主な対象 | 状態 |
 | --- | --- | --- | --- |
-| 12-A | 運動の目標・記録・強度判断 | `2026-fitness-strength-plan.md`、`chocozap-workout-tracking-is-hard-to-use.md`、`筋トレ記録の入力方法改善についての整理.md`、`heart-rate-training-zones.md` | 完了（2026-09-10） |
-| 12-B | 体調・健康診断・保険利用 | `体調不良について.md`、`健康診断についてのまとめ.md`、`health-checkup-preparation.md`、`myna-insurance-card-use.md` | 完了（2026-09-10） |
-| 12-C | 食事と生活衛生 | `夜食は悪ではなく時間管理が大切.md`、`late-night-eating-considerations.md` | 完了（2026-09-10）。洗面利用ノートはCluster 15へ主クラスタ変更 |
-| 12-D | アダプトゲンと漢方 | `adaptogen-herbs-overview.md`、`difference-between-kampo-and-adaptogens.md` | 完了（2026-09-11） |
-| 12-E | 聴覚安全 | `audio-devices-hearing-damage-comparison.md` | 完了（2026-09-11） |
+| 12-A | 運動の目標・記録・強度判断 | [2026年の目標：筋力トレーニング](../../32_Zk/2026-fitness-strength-plan.md)、[chocoZAPの運動記録が使いにくい](../../32_Zk/chocozap-workout-tracking-is-hard-to-use.md)、[筋トレ記録の入力方法改善についての整理](../../31_Research/strength-training-record-entry-improvements.md)、[心拍数トレーニングゾーン](../../32_Zk/heart-rate-training-zones.md) | 完了（2026-09-10） |
+| 12-B | 体調・健康診断・保険利用 | [体調不良について](../../31_Research/temporary-health-condition-record.md)、[健康診断についてのまとめ](../../31_Research/health-checkup-preparation-record.md)、[健康診断前の準備：受診先の案内を優先する](../../31_Research/health-checkup-preparation.md)、[マイナ保険証の使い方](../../31_Research/myna-insurance-card-use.md) | 完了（2026-09-10） |
+| 12-C | 食事と生活衛生 | [夜食の相談メモ](../../31_Research/late-night-snacking-consultation.md)、[夜食を考える際の観点](../../31_Research/late-night-eating-considerations.md) | 完了（2026-09-10）。洗面利用ノートはCluster 15へ主クラスタ変更 |
+| 12-D | アダプトゲンと漢方 | [アダプトゲンハーブについての概要](../../32_Zk/adaptogen-herbs-overview.md)、[漢方とアダプトゲンハーブの違い](../../32_Zk/difference-between-kampo-and-adaptogens.md) | 完了（2026-09-11） |
+| 12-E | 聴覚安全 | [イヤホンとヘッドホンでの聴力への影響を調べる](../../31_Research/audio-devices-hearing-damage-comparison.md) | 完了（2026-09-11） |
 
 ## 12-A 完了結果
 
 - `2026-fitness-strength-plan.md`は、本人の年次目標として変更せず維持した。
-- `chocozap-workout-tracking-is-hard-to-use.md`、`筋トレ記録の入力方法改善についての整理.md`、`AppSheetを使ったトレーニング記録アプリ.md`は、本人の利用経験、試作前の課題整理、実装記録を分け、相互の関係をリンクで明示した。
+- `chocozap-workout-tracking-is-hard-to-use.md`、`strength-training-record-entry-improvements.md`、`AppSheetを使ったトレーニング記録アプリ.md`は、本人の利用経験、試作前の課題整理、実装記録を分け、相互の関係をリンクで明示した。
 - `AppSheetを使ったトレーニング記録アプリ.md`はCluster 07を主クラスタとして維持し、12-Aでは横断的な実装記録として扱った。
 - `heart-rate-training-zones.md`は、ユーザー確認によりAI由来の一般資料とし、`type: literature`と`ai-generated`タグへ変更した。本文の健康情報は変更していない。
 - 大きく再構成した2ノートは、同じ`31_Research`フォルダの日付付き`.退避`へ変更前全文を保存し、内容一致を確認した。
 
 ## 12-B 完了結果
 
-- `体調不良について.md`は、本人が共有した経緯と症状だけを残すFleeting Noteへ再構成した。診断・薬・受診に関するAI回答は現役ノートから外し、日付付き退避に保存した。
-- `健康診断についてのまとめ.md`は、個別の健診準備記録へ縮小した。一般的な健診前の準備は、新しい`health-checkup-preparation.md`へLiteratureとして分離した。
+- `temporary-health-condition-record.md`は、本人が共有した経緯と症状だけを残すFleeting Noteへ再構成した。診断・薬・受診に関するAI回答は現役ノートから外し、日付付き退避に保存した。
+- `health-checkup-preparation-record.md`は、個別の健診準備記録へ縮小した。一般的な健診前の準備は、新しい`health-checkup-preparation.md`へLiteratureとして分離した。
 - `myna-insurance-card-use.md`は、`無題のファイル 39.md`を内容に合う英語ファイル名へ変更した制度資料である。現行の公的情報を根拠にした`literature`として維持する。
 - 大きく再構成した3ノートは、同じ`31_Research`フォルダの日付付き`.退避`へ変更前全文を保存し、内容一致を確認した。
 
 ## 12-C 完了結果
 
-- `夜食は悪ではなく時間管理が大切.md`は、相談時の状況とそのときの整理だけを残すFleeting Noteへ再構成した。変更前全文は同じフォルダの日付付き`.退避`へ保存し、内容一致を確認した。
+- `late-night-snacking-consultation.md`は、相談時の状況とそのときの整理だけを残すFleeting Noteへ再構成した。変更前全文は同じフォルダの日付付き`.退避`へ保存し、内容一致を確認した。
 - 夜食に関する一般的な食事・睡眠の観点は、`late-night-eating-considerations.md`としてLiterature Noteへ分離した。変更直前に厚生労働省の公的資料で確認した。
 - `洗面利用での衛生面と清掃負担.md`は、Fukkamaruの指示により本文へは触れず、台帳上の主クラスタだけをCluster 15へ変更した。
 
@@ -102,3 +102,4 @@ Cluster 12「健康・運動・食事・生活管理」の親クラスタ内部�
 
 1. Cluster 12の子クラスタ12-A〜12-Eを完了した。
 2. 次に扱うクラスタは、ロードマップとFukkamaruの選択に従って決める。
+

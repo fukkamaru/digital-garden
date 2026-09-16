@@ -4,10 +4,10 @@ aliases:
   - 蒸気配管の穴を放置することの問題
 type: literature
 created: 2026-04-29T11:39:14+09:00
-updated: 2026-09-09T16:31:15+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260429-113914
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - ai-generated

@@ -4,7 +4,7 @@ aliases:
   - 前提の相対性
 type: permanent
 created: 2026-05-13T17:01:04+09:00
-updated: 2026-05-13T17:01:04+09:00
+updated: 2026-09-17T01:39:11+09:00
 id: 20260513-170104
 permalink:
 draft: false
@@ -14,5 +14,4 @@ tags:
 
 → [優れたユーティリティーの提供はUXを向上させる](useful-utilities-improve-ux.md)で言及した、マイクロソフトはpower toysをプリインストール化するべきという考えも、同様のことが言える。
 
-∵[MicrosoftがWindowsにPower Toysをプリインストールしない理由](why-powertoys-is-not-preinstalled.md)
-
+∵[PowerToysがWindowsに標準搭載されない理由](why-powertoys-is-not-preinstalled.md)

@@ -4,10 +4,10 @@ aliases:
   - 水性塗料の火気リスク
 type: literature
 created: 2026-06-11T19:49:03+09:00
-updated: 2026-09-09T15:54:15+09:00
+updated: 2026-09-17T07:42:09+09:00
 id: 20260611-194903
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

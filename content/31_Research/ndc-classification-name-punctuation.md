@@ -1,18 +1,19 @@
 ---
-title: NDCの分類名と記号の表現
+title: NDC分類名における記号の読み方
 aliases:
+  - NDC分類名における記号の読み方
   - NDCの分類名と記号の表現
 type: fleeting
 created: 2026-06-20T13:32:20+09:00
-updated: 2026-09-09T23:05:21+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260620-133220
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---
 
-# NDCの分類名と記号の表現
+# NDC分類名における記号の読み方
 
 ## このノートの位置づけ
 

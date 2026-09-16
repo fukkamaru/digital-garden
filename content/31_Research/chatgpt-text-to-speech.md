@@ -5,10 +5,10 @@ aliases:
   - chatpgtの出力を音声にする
 type: fleeting
 created: 2026-04-29T11:40:43+09:00
-updated: 2026-09-11T21:59:39+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260429-114043
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - ai-generated

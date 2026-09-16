@@ -5,10 +5,10 @@ aliases:
   - 販促用リーフレットに記載するべき危険情報
 type: literature
 created: 2026-06-11T20:52:37+09:00
-updated: 2026-09-15T00:48:47+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-205237
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

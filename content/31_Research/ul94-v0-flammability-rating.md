@@ -4,10 +4,10 @@ aliases:
   - UL94 V-0によるプラスチック材料の燃焼性評価
 type: literature
 created: 2026-06-10T21:37:47+09:00
-updated: 2026-09-09T15:54:15+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260610-213747
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

@@ -5,10 +5,10 @@ aliases:
   - 50型4Kディスプレイの映像テスト候補
 type: fleeting
 created: 2026-06-17T19:25:42+09:00
-updated: 2026-09-15T14:00:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260617-192542
 permalink:
-draft: true
+draft: false
 tags:
   - display
   - video-test

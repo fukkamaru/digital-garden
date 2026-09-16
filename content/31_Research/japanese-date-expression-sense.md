@@ -1,18 +1,19 @@
 ---
-title: 日本語の感覚
+title: 「中旬頃」「下旬以降」の日付表現の読み方
 aliases:
+  - 「中旬頃」「下旬以降」の日付表現の読み方
   - 日本語の感覚
 type: fleeting
 created: 2026-06-30T22:32:59+09:00
-updated: 2026-09-09T23:05:21+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260630-223259
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---
 
-# 日本語の感覚
+# 「中旬頃」「下旬以降」の日付表現の読み方
 
 ## このノートの位置づけ
 

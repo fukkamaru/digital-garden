@@ -4,10 +4,10 @@ aliases:
   - 夜食を考える際の観点
 type: literature
 created: 2026-09-10T20:20:10+09:00
-updated: 2026-09-10T20:20:10+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260910-202010
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---
@@ -16,7 +16,7 @@ tags:
 
 ## このノートの役割
 
-夜遅い食事と睡眠・生活習慣について、公的資料に示された一般的な考え方をまとめるLiterature Note。個別の相談内容や食べる物の選択は[夜食の相談メモ](夜食は悪ではなく時間管理が大切.md)に残す。
+夜遅い食事と睡眠・生活習慣について、公的資料に示された一般的な考え方をまとめるLiterature Note。個別の相談内容や食べる物の選択は[夜食の相談メモ](late-night-snacking-consultation.md)に残す。
 
 ## 時刻だけで単純化しない
 
@@ -37,4 +37,5 @@ tags:
 - [厚生労働省「良い目覚めは良い眠りから」](https://e-kennet.mhlw.go.jp/wp/wp-content/themes/targis_mhlw/pdf/leaf-sleep_a5.pdf)
 - [厚生労働省「交代制勤務者の食生活に関する留意点」](https://kennet.mhlw.go.jp/information/information/food/e-04-004)
 - [厚生労働省「働く人の睡眠と健康」](https://kokoro.mhlw.go.jp/e_sleep/)
+
 

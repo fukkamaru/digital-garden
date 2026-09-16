@@ -1,7 +1,7 @@
 ---
-title: Research＋ZKリファクタリング作業台：旅行・交通の意思決定
+title: Research＋ZKリファクタリング作業台：02：旅行・交通の意思決定
 aliases:
-  - Research＋ZKリファクタリング作業台：旅行・交通の意思決定
+  - Research＋ZKリファクタリング作業台：02：旅行・交通の意思決定
 type: fleeting
 created: 2026-09-05T22:49:25+09:00
 updated: 2026-09-06T08:39:39+09:00

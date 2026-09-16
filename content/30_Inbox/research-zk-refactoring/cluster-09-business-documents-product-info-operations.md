@@ -1,10 +1,10 @@
 ---
-title: Research＋ZK作業台：業務文書・製品情報・社内運用
+title: Research＋ZKリファクタリング作業台：09：業務文書・製品情報・社内運用
 aliases:
-  - Research＋ZK作業台：業務文書・製品情報・社内運用
+  - Research＋ZKリファクタリング作業台：09：業務文書・製品情報・社内運用
 type: fleeting
 created: 2026-09-13T20:12:21+09:00
-updated: 2026-09-15T01:21:10+09:00
+updated: 2026-09-17T03:20:00+09:00
 id: 20260913-201221
 permalink:
 draft: false
@@ -28,17 +28,17 @@ Cluster 09「業務文書・製品情報・社内運用」の子クラスタ、�
 
 ## 対象範囲と台帳差異
 
-ロードマップの主な入口には`無題のファイル 5 1.md`および`中間ファイルの名称を考える.md`が記載されているが、現行台帳のCluster 09対象には含まれていない。対象を無断で広げず、この2ノートは今回の内容監査の範囲外とする。
+ロードマップの主な入口には`repair-material-leaflet-data-annotation-design.md`および`中間ファイルの名称を考える.md`が記載されているが、現行台帳のCluster 09対象には含まれていない。対象を無断で広げず、この2ノートは今回の内容監査の範囲外とする。
 
 ## 子クラスタと進捗
 
 | ID   | 子クラスタ       | 主な対象                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 状態             |
 | ---- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| 09-A | 製品ラベル・包装・印刷 | [packaging-specifications-product-labels.md](../../31_Research/packaging-specifications-product-labels.md)、[a4-label-manual-feed-lot-editing-workflow.md](../../31_Research/a4-label-manual-feed-lot-editing-workflow.md)、[case-label-quantity-packaging-terms.md](../../31_Research/case-label-quantity-packaging-terms.md)、[two-tips-for-printing-on-label-paper.md](../../32_Zk/two-tips-for-printing-on-label-paper.md)、[register-printing-preset.md](../register-printing-preset.md)                                                                               | 完了（2026-09-13） |
-| 09-B | 販促表現と安全情報   | [fabe-product-description-framework.md](../../31_Research/fabe-product-description-framework.md)、[fab-product-description-practice.md](../../31_Research/fab-product-description-practice.md)、[HACCP.md](../../31_Research/HACCP.md)、[promotional-leaflet-safety-information.md](../../31_Research/promotional-leaflet-safety-information.md)、[safety-incident-expression-nuance.md](../../31_Research/safety-incident-expression-nuance.md)、[occupational-safety-health-workplace-management.md](../../31_Research/occupational-safety-health-workplace-management.md) | 完了（2026-09-14） |
-| 09-C | 公開お知らせ・組織情報 | [product-label-change-announcement.md](../../31_Research/product-label-change-announcement.md)、[silver-week-announcement-wording.md](../../31_Research/silver-week-announcement-wording.md)、[announcement-update-format.md](../../32_Zk/announcement-update-format.md)、[announcements-vs-guidance.md](../../32_Zk/announcements-vs-guidance.md)、[corporate-officer-titles-order.md](../../31_Research/corporate-officer-titles-order.md)                                                                                                                                | 完了（2026-09-15） |
-| 09-D | 仕入・在庫・業務設計  | [procurement-master-code-design.md](../../31_Research/procurement-master-code-design.md)、[asking-ai-how-to-take-work-notes.md](../../32_Zk/asking-ai-how-to-take-work-notes.md)、[phase-based-business-understanding.md](../../32_Zk/phase-based-business-understanding.md)、[what-is-a-product-requirements-document.md](../../32_Zk/what-is-a-product-requirements-document.md)                                                                                                                                                                                         | 完了（2026-09-15） |
-| 09-E | 境界・役割監査     | [kyoto-patty-029-sample-business.md](../../31_Research/kyoto-patty-029-sample-business.md)、[aislesoft-inc.md](../../32_Zk/aislesoft-inc.md)、[i-ll-inc.md](../../32_Zk/i-ll-inc.md)、[inventory-frequency.md](../../32_Zk/inventory-frequency.md)、[read-receipt-label.md](../../32_Zk/read-receipt-label.md)、[パソコン冷却技術の変遷（一般向け・マニア向け・業務用）.md](<../../31_Research/パソコン冷却技術の変遷（一般向け・マニア向け・業務用）.md>) | 完了（2026-09-15） |
+| 09-A | 製品ラベル・包装・印刷 | [包装仕様と製品ラベル](../../31_Research/packaging-specifications-product-labels.md)、[A4ラベルの手差し印刷・LOT編集運用まとめ](../../31_Research/a4-label-manual-feed-lot-editing-workflow.md)、[ケースラベルにおける内容量・入数・荷姿の表記](../../31_Research/case-label-quantity-packaging-terms.md)、[ラベル紙で印刷するときに気をつけたいこと2選](../../32_Zk/two-tips-for-printing-on-label-paper.md)、[プリセットを登録する](../register-printing-preset.md) | 完了（2026-09-13） |
+| 09-B | 販促表現と安全情報 | [FABEによる製品説明と根拠の整理](../../31_Research/fabe-product-description-framework.md)、[FAB法で製品説明を簡略化する練習](../../31_Research/fab-product-description-practice.md)、[HACCP](../../31_Research/HACCP.md)、[販促用リーフレットと危険情報の役割分担](../../31_Research/promotional-leaflet-safety-information.md)、[安全資料でよく使われる事故表現のニュアンス比較](../../31_Research/safety-incident-expression-nuance.md)、[労働安全衛生法と職場の安全管理](../../31_Research/occupational-safety-health-workplace-management.md) | 完了（2026-09-14） |
+| 09-C | 公開お知らせ・組織情報 | [製品容器ラベル変更のHP掲載用お知らせ文の検討](../../31_Research/product-label-change-announcement.md)、[シルバーウィークとお知らせ表現](../../31_Research/silver-week-announcement-wording.md)、[「お知らせ」を修正するときのラベルと記述方法](../../32_Zk/announcement-update-format.md)、[「ご案内」と「お知らせ」の違い](../../32_Zk/announcements-vs-guidance.md)、[会社役員の肩書き・並び順についての整理](../../31_Research/corporate-officer-titles-order.md) | 完了（2026-09-15） |
+| 09-D | 仕入・在庫・業務設計 | [仕入品マスターと仕入れコードの設計](../../31_Research/procurement-master-code-design.md)、[業務中のメモの取り方をAIに尋ねた話](../../32_Zk/asking-ai-how-to-take-work-notes.md)、[「聞き手の思考プロセス」と「作業フェーズ」に合わせた業務理解](../../32_Zk/phase-based-business-understanding.md)、[PRD：製品要求仕様書とは？](../../32_Zk/what-is-a-product-requirements-document.md) | 完了（2026-09-15） |
+| 09-E | 境界・役割監査 | [Kyoto Patty 029 — 架空サンプル事業の設定](../../31_Research/kyoto-patty-029-sample-business.md)、[株式会社アイルソフト](../../32_Zk/aislesoft-inc.md)、[株式会社アイル](../../32_Zk/i-ll-inc.md)、[棚卸しの回数](../../32_Zk/inventory-frequency.md)、[「受信確認」ラベルを設計](../../32_Zk/read-receipt-label.md)、[パソコン冷却技術の変遷（一般向け・マニア向け・業務用）](<../../31_Research/パソコン冷却技術の変遷（一般向け・マニア向け・業務用）.md>) | 完了（2026-09-15） |
 
 ## 09-A 完了結果
 

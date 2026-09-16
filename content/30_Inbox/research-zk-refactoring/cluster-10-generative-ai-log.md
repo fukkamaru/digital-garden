@@ -4,7 +4,7 @@ aliases:
   - Research＋ZK作業ログ：生成AIサービス・AI活用
 type: fleeting
 created: 2026-09-11T20:12:26+09:00
-updated: 2026-09-13T00:00:00+09:00
+updated: 2026-09-17T02:30:53+09:00
 id: 20260911-201227
 permalink:
 draft: true
@@ -28,7 +28,7 @@ Cluster 10「生成AIサービス・AI活用」の親クラスタ用ログ。子
 
 - 作業内容：生成AIサービスの契約費用、Freeへのプラン移行、本人のChatGPT利用頻度の記録を、内容・関係・役割の3軸で監査した。
 - 結果：他者が公開した具体的な費用・複数アカウントの事例だけを別ノートへ分離し、契約を比較する判断軸、費用帯、月額・年額・APIの使い分けは主ノートへ統合して校正した。Freeへの移行ノートは、チャット・カスタムGPT・プロジェクト・ファイルの保持と、編集・追加・上限の変化を分けて整理した。本人の利用頻度ノートは、原文と画像を維持した。
-- 対象：`31_Research/aiの契約を考える.md`、`31_Research/ai-subscription-cost-examples-2026.md`、`31_Research/chatgptの有料課金をやめたらアカウントはどうなる？.md`、`31_Research/吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である.md`
+- 対象：`31_Research/generative-ai-subscription-costs.md`、`31_Research/ai-subscription-cost-examples-2026.md`、`31_Research/chatgpt-subscription-cancellation.md`、`31_Research/chatgpt-weekly-usage-limits.md`
 - 判断・理由：具体的な費用は契約判断の材料として保持する一方、過去の個人事例を現行の料金・規約・推奨と混同しない。アカウント移行時は、データが残ることと機能・上限が同じであることを分けて扱う。
 - 保全：大きく再構成した3ノートの変更前全文を同じフォルダの日付付き`.退避`へ保存し、内容一致を確認した。
 - 次のアクション／未解決事項：10-B「ChatGPTの機能・カスタム指示・コンテキスト」を詳細監査する。時限性がある機能・利用条件を更新する場合は、変更直前に公式資料を確認する。
@@ -37,7 +37,7 @@ Cluster 10「生成AIサービス・AI活用」の親クラスタ用ログ。子
 
 - 作業内容：ChatGPTの実行形態、添付ファイル名の認識条件、カスタム指示、ツェッテルカステン専用コンテキストのテスト記録を、内容・関係・役割の3軸で監査した。
 - 結果：製品比較ノートは、DriveからObsidianへの受け渡しを検討した背景、外部サービス連携・ローカルPCアクセス・作業の進め方という三つの比較軸、スマホとPCの役割分担、削除前の保存確認という判断過程を再構成した。添付ファイル名ノートは、サムネイル生成のHTML設計書方式を出発点として、認識条件と限界、ファイル名・添付状態・内容の三段階照合を整理した。カスタム指示ノートは有効なtypeとタグへ修正し、出発点、情報の置き場所、限界、書き方、公開された利用者の体験談、最終評価を一つの論理として組み直した。テスト記録は実施結果と公開状態を維持し、現在の保存先への整理移動だけを追記した。
-- 対象：`31_Research/ChatGPTで出来ること.md`、`31_Research/chatgpt-can-recognize-uploaded-filenames.md`、`31_Research/AIに設定するカスタム指示についての議論とまとめ.md`、`32_Zk/zettelkasten-context-test.md`
+- 対象：`31_Research/chatgpt-capabilities.md`、`31_Research/chatgpt-can-recognize-uploaded-filenames.md`、`31_Research/ai-custom-instructions-discussion.md`、`32_Zk/zettelkasten-context-test.md`
 - 判断・理由：実行環境と接続したAppの権限を混同せず、時限仕様は現在の画面・公式情報を確認する前提へ置いた。実際に行ったテスト結果は、後からの整理移動によって書き換えない。
 - 保全：大きく再構成した3ノートの変更前全文を同じフォルダの日付付き`.退避`へ保存した。
 
@@ -45,7 +45,7 @@ Cluster 10「生成AIサービス・AI活用」の親クラスタ用ログ。子
 
 - 作業内容：音声入力・出力、自動送信、フットペダル、配信中の画面配置、ショートカット競合、スマホからの遠隔利用について、会話記録と実テストを区別して再監査した。
 - 結果：音声入力ノートは、音声会話モードとマイク入力の違い、停止操作が必要という制約、フットペダル、iPad・外部モニター・スマホの画面配置までを、ゲーム・配信中にテキスト返答を受け取るための操作設計として再構成した。ショートカット競合ノートは、拡張機能を残したい背景と、操作数が増える具体的な問題を保った。遠隔利用ノートは、クラウドWork、Codex Remote、Remote Desktopを「PCを誰が操作するか」で比較し、Chrome Remote Desktop、Tailscale＋RDP、Windowsの版、電源・スリープ条件を検討過程として残した。実テストノートは本文を変更していない。
-- 対象：`31_Research/chatgpt-text-to-speech.md`、`31_Research/フットペダルと音声入力の組み合わせてテスト.md`、`32_Zk/chatgpt-voice-input-output-shortcut-conflict.md`、`31_Research/スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md`
+- 対象：`31_Research/chatgpt-text-to-speech.md`、`31_Research/foot-pedal-voice-input-test.md`、`32_Zk/chatgpt-voice-input-output-shortcut-conflict.md`、`31_Research/remote-access-chatgpt-codex-pc.md`
 - 判断・理由：製品仕様の断定ではなく、当時の実機観察、選択肢、条件変化、最終的な操作判断を保存する。テスト記録は後から一般論へ置換しない。
 - 保全：大きく再構成した2ノートの変更前全文を同じフォルダの日付付き`.退避`へ保存した。
 
@@ -53,7 +53,7 @@ Cluster 10「生成AIサービス・AI活用」の親クラスタ用ログ。子
 
 - 作業内容：ローカルLLMの試用・購入判断、文字起こし済み長文の処理性能、Windows上のローカル文字起こし手段を、用途ごとの処理経路と必要性能に分けて再監査した。
 - 結果：PC購入判断ノートは、現在PCの位置づけ、VRAMとRAMを優先する理由、8〜16GB VRAMの現実的な比較、100万円級の限界、クラウドAIとの役割分担を統合した。長文処理ノートは、音声認識までPCで行う前提と、別端末で文字起こしを済ませる前提の違いを冒頭から追えるようにした。文字起こしアプリのノートは、ツール比較を、動画・音声からテキスト、要約・再構成、Obsidian向けMarkdownまでの処理全体の入口として組み直した。
-- 対象：`31_Research/ローカルLLMについて調べる.md`、`31_Research/ローカルLLMの概要と、長文要約・文字起こし済みテキスト処理に必要なPC性能まとめ.md`、`31_Research/無題のファイル 6 1.md`
+- 対象：`31_Research/local-llm-pc-purchase-decision.md`、`31_Research/local-llm-long-text-processing.md`、`31_Research/windows-local-transcription-apps.md`
 - 判断・理由：機種・価格・モデルの数値は当時の比較材料として残し、購入時の現行確認を必要とする時限情報として扱う。ファイル名が「無題」のノートは、明示指示がないため名前を維持した。
 - 保全：大きく再構成した3ノートの変更前全文を同じフォルダの日付付き`.退避`へ保存した。
 - 次のアクション／未解決事項：10-E「信頼性・安全性・年齢制限」を開始する際は、規約・年齢制限・ガードレールを現行の公式資料で確認してから、本文変更案を提示する。
@@ -62,7 +62,7 @@ Cluster 10「生成AIサービス・AI活用」の親クラスタ用ログ。子
 
 - 作業内容：AIの誤案内、センシティブコンテンツの扱い、生成AIの年齢制限・家庭内利用について、個別の出来事と調査時点の一般情報を混同しない形で全文を読み直し、再構成した。
 - 結果：誤案内のノートは、AIが示した操作と実際に確認できた経路の食い違いを、なぜ「嘘をつかれた」と判断したのかが読める訂正記録として組み直した。ガードレールのノートは、年齢、現実性、同意、露出、目的、媒体という判断軸と、拒否される回答を迂回する方法を求めない前提を整理した。年齢制限ノートは、サービスの調査時点の比較と、子どもに使わせる際の家庭内の判断・ルールを分離した。
-- 対象：`31_Research/AIによる嘘情報まとめ.md`、`31_Research/AIサービスにおける性的・センシティブコンテンツのガードレール整理.md`、`31_Research/主要生成AIの年齢制限・ペアレンタルコントロールと、子どもへの使わせ方.md`
+- 対象：`31_Research/ai-misinformation-corrections.md`、`31_Research/ai-content-safety-guardrails.md`、`31_Research/generative-ai-age-limits-parental-controls.md`
 - 判断・理由：個別の失敗・確認結果は一般論で置き換えず、サービスの年齢・安全仕様は調査時点の情報であることを本文へ残した。タイトルが本文の判断と一致するノートは変更していない。
 - 保全：3ノートの変更前全文を同じフォルダの日付付き`.退避-2026-09-13.md`へ保存した。
 
@@ -70,6 +70,6 @@ Cluster 10「生成AIサービス・AI活用」の親クラスタ用ログ。子
 
 - 作業内容：対話による読書、XからObsidianへの知識化、AI時代のWebと個人サイト、運動メニューの試作を、元の会話・実データ・判断過程を残して全文再構成した。
 - 結果：読書ノートは、本人の発話を引用、AIの問いを明示して、要約を頼む読書ではなく対話から考えを育てる記録として再構成した。Xノートは、X APIが取得、ChatGPTが分類・比較、Obsidianがテーマ単位の最終保存先という役割分担に統合し、料金は2026-09-03調査時点の試算とした。Web戦略ノートは、AI閲覧と広告計測の差、利用者・運営者・個人サイトの三者の選択を因果関係で統合した。運動ノートは、先週の運動データから次週メニューを作成できるかの試作として再構成し、実際の記録とメニューを保持した。
-- 対象：`31_Research/chatgptを使った思い出し読書.md`、`31_Research/X × ChatGPT連携による情報収集・知識整理の検討まとめ.md`、`31_Research/AI時代のWeb閲覧・広告収益・個人サイト戦略についての整理.md`、`32_Zk/create-training-plan-with-chatgpt.md`
+- 対象：`31_Research/chatgpt-reflective-reading.md`、`31_Research/x-chatgpt-knowledge-workflow.md`、`31_Research/ai-web-advertising-personal-site-strategy.md`、`32_Zk/create-training-plan-with-chatgpt.md`
 - 判断・理由：AIによる要約だけを保管せず、出典、本人の発話、実際の試行、調査時点、未決定事項を残す。運動メニュー試作はユーザー判断によりCluster 10に維持した。
 - 保全：4ノートの変更前全文を同じフォルダの日付付き`.退避-2026-09-13.md`へ保存した。XノートとWeb戦略ノートは、部分修正ではなく原文を最初から最後まで読み直した後に、詳細な統合構成へ作り直した。

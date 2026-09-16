@@ -1,10 +1,11 @@
 ---
-title: 数学記号
+title: 数学記号の参照先
 aliases:
+  - 数学記号の参照先
   - 数学記号
 type: literature
 created: 2025-08-09
-updated: 2026-09-09T23:05:21+09:00
+updated: 2026-09-16T18:09:23+09:00
 id: 20260425-225027
 draft: false
 source:

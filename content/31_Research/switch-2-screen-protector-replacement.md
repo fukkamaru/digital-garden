@@ -5,10 +5,10 @@ aliases:
   - Switch2のフィルムについて
 type: literature
 created: 2026-04-29T11:32:30+09:00
-updated: 2026-09-09T14:15:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260429-113230
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - switch2

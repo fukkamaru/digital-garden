@@ -4,10 +4,10 @@ aliases:
   - 製品容器ラベル変更のHP掲載用お知らせ文の検討
 type: literature
 created: 2026-06-11T20:06:25+09:00
-updated: 2026-09-14T23:56:10+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-200625
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

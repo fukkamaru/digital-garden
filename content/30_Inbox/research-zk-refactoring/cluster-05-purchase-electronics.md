@@ -1,10 +1,10 @@
 ---
-title: Research＋ZKリファクタリング作業台：購入判断・家電・デジタル機器
+title: Research＋ZKリファクタリング作業台：05：購入判断・家電・デジタル機器
 aliases:
-  - Research＋ZKリファクタリング作業台：購入判断・家電・デジタル機器
+  - Research＋ZKリファクタリング作業台：05：購入判断・家電・デジタル機器
 type: fleeting
 created: 2026-09-09T03:44:57+09:00
-updated: 2026-09-15T14:15:00+09:00
+updated: 2026-09-17T02:30:53+09:00
 id: 20260909-034457
 permalink:
 draft: false
@@ -86,7 +86,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 
 - `31_Research/audio-devices-hearing-damage-comparison.md`
 - `31_Research/ハードディスクやSSDの健康状態を見る定番ソフト.md`
-- `31_Research/スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md`
+- `31_Research/remote-access-chatgpt-codex-pc.md`
 - `32_Zk/buy-stools-not-storage-boxes.md`
 - `32_Zk/buying-a-chair-seriously.md`
 - `32_Zk/clippy-vs-caps-lock-which-is-more-hated.md`
@@ -100,7 +100,7 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 
 #### 監査結果
 
-- Cluster 10へ移管：`スマートフォンからChatGPT Work／Codex／PCを遠隔利用する方法の整理.md`
+- Cluster 10へ移管：`remote-access-chatgpt-codex-pc.md`
 - Cluster 12へ移管：`audio-devices-hearing-damage-comparison.md`
 - Cluster 13へ移管：`ハードディスクやSSDの健康状態を見る定番ソフト.md`
 - Cluster 15へ移管：スツール、椅子、クリアファイル、iPhone充電、洋服ブラシ、Clippyに関する8件

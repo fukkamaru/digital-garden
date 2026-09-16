@@ -4,10 +4,10 @@ aliases:
   - マイナ保険証の使い方
 type: literature
 created: 2026-04-29T11:36:20+09:00
-updated: 2026-09-10T20:05:47+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260429-113620
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - ai-generated

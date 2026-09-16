@@ -4,10 +4,10 @@ aliases:
   - 屋根の名称と分類
 type: literature
 created: 2026-06-10T20:39:44+09:00
-updated: 2026-09-09T16:21:54+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260610-203944
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

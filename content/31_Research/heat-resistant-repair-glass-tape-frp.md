@@ -4,10 +4,10 @@ aliases:
   - 耐熱補修・ガラステープ・FRPに関する学習まとめ
 type: literature
 created: 2026-06-11T19:36:09+09:00
-updated: 2026-09-09T16:31:15+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-193609
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

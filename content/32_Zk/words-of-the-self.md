@@ -1,10 +1,11 @@
 ---
-title: 「自分」の言葉の作り方
+title: 自分の言葉をつくるための接続表現
 aliases:
+  - 自分の言葉をつくるための接続表現
   - 「自分」の言葉の作り方
 type: literature
 created: 2025-07-21
-updated: 2026-09-09T23:04:58+09:00
+updated: 2026-09-16T18:09:23+09:00
 id: 20260425-154652
 draft: false
 source:

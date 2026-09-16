@@ -5,10 +5,10 @@ aliases:
   - FABEについて
 type: literature
 created: 2026-06-15T23:12:11+09:00
-updated: 2026-09-15T00:48:47+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260615-231211
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

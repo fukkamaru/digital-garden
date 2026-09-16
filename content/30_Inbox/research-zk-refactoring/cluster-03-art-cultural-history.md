@@ -1,7 +1,7 @@
 ---
-title: Research＋ZKリファクタリング作業台：美術鑑賞・文化史
+title: Research＋ZKリファクタリング作業台：03：美術鑑賞・文化史
 aliases:
-  - Research＋ZKリファクタリング作業台：美術鑑賞・文化史
+  - Research＋ZKリファクタリング作業台：03：美術鑑賞・文化史
 type: fleeting
 created: 2026-09-06T08:39:39+09:00
 updated: 2026-09-08T22:20:00+09:00

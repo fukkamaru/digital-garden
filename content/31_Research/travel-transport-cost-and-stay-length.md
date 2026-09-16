@@ -4,10 +4,10 @@ aliases:
   - 旅行の交通費負担を予算比率と滞在日数で考える
 type: literature
 created: 2026-09-06T02:00:19+09:00
-updated: 2026-09-06T05:20:53+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260906-020019
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

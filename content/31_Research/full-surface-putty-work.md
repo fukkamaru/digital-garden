@@ -4,10 +4,10 @@ aliases:
   - 総パテ作業とは
 type: literature
 created: 2026-06-11T20:29:03+09:00
-updated: 2026-09-09T16:09:29+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-202903
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - パテ・シーリング材・関連建材製品を分類するためのカテゴリ体系
 type: structure
 created: 2026-06-20T19:16:11+09:00
-updated: 2026-09-09T16:36:04+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260620-191611
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

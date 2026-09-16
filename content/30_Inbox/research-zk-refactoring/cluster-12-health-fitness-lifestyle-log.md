@@ -52,8 +52,8 @@ Cluster 12「健康・運動・食事・生活管理」の親クラスタ用ロ�
 ## 2026-09-10T20:20:10+09:00 — 12-C 食事と生活衛生
 
 - 作業内容：夜食の個別相談と一般的な食事・睡眠情報を分離し、洗面利用のノートは本文を変更せず主クラスタだけを見直した。
-- 結果：`夜食は悪ではなく時間管理が大切.md`を個別相談のFleeting Noteへ再構成し、一般的な観点を`late-night-eating-considerations.md`としてLiterature Noteに分離した。`洗面利用での衛生面と清掃負担.md`はCluster 15へ主クラスタ変更した。
-- 対象：`31_Research/夜食は悪ではなく時間管理が大切.md`、`31_Research/late-night-eating-considerations.md`、`31_Research/洗面利用での衛生面と清掃負担.md`
+- 結果：`late-night-snacking-consultation.md`を個別相談のFleeting Noteへ再構成し、一般的な観点を`late-night-eating-considerations.md`としてLiterature Noteに分離した。`洗面利用での衛生面と清掃負担.md`はCluster 15へ主クラスタ変更した。
+- 対象：`31_Research/late-night-snacking-consultation.md`、`31_Research/late-night-eating-considerations.md`、`31_Research/洗面利用での衛生面と清掃負担.md`
 - 判断・理由：個別の食事選択を一般情報と混ぜず、一般資料は公的な睡眠・食生活資料を根拠とする。洗面利用のノートは健康管理の中心対象ではなく、内容の意味を変えずに残余監査へ移す。
 - 保全：夜食ノートの変更前全文を同じフォルダの日付付き`.退避`へ保存し、内容一致を確認した。洗面利用ノートの本文、YAML、ファイル名は変更していない。
 - 主要な参照元：[厚生労働省「良い目覚めは良い眠りから」](https://e-kennet.mhlw.go.jp/wp/wp-content/themes/targis_mhlw/pdf/leaf-sleep_a5.pdf)、[厚生労働省「交代制勤務者の食生活に関する留意点」](https://kennet.mhlw.go.jp/information/information/food/e-04-004)、[厚生労働省「働く人の睡眠と健康」](https://kokoro.mhlw.go.jp/e_sleep/)
@@ -63,7 +63,7 @@ Cluster 12「健康・運動・食事・生活管理」の親クラスタ用ロ�
 
 - 作業内容：一時的な体調不良の相談、健康診断前の個別準備、マイナ保険証の制度説明を内容・関係・役割の3軸で監査し、個別記録と一般資料へ実際に分離した。
 - 結果：体調不良ノートは本人の経緯と症状だけを残すFleetingへ再構成した。健診の個別準備記録から、一般的な準備を`health-checkup-preparation.md`としてLiteratureへ分離した。マイナ保険証ノートは、公的情報に基づく`literature`へ再構成し、`myna-insurance-card-use.md`へリネームした。
-- 対象：`31_Research/体調不良について.md`、`31_Research/健康診断についてのまとめ.md`、`31_Research/health-checkup-preparation.md`、`31_Research/myna-insurance-card-use.md`
+- 対象：`31_Research/temporary-health-condition-record.md`、`31_Research/health-checkup-preparation-record.md`、`31_Research/health-checkup-preparation.md`、`31_Research/myna-insurance-card-use.md`
 - 判断・理由：個別の経緯と症状は一般的な医学資料と混ぜず、AI由来の個別助言は現役ノートから外して退避へ保持した。時限性がある制度情報は、公的情報を確認したLiteratureとして分離した。
 - 主要な参照元：[厚生労働省：資格確認方法](https://www.mhlw.go.jp/stf/newpage_50657.html)、[厚生労働省：資格確認書](https://www.mhlw.go.jp/stf/newpage_45470.html)、[マイナポータル：健康保険証の登録確認](https://faq.myna.go.jp/faq/show/3500?back=front%2Fcategory%3Ashow&category_id=110&page=1&site_domain=default&sort=sort_access&sort_order=desc)
 - 次のアクション／未解決事項：12-C「食事と生活衛生」を詳細監査する。制度・医療情報の事実を更新する場合は、変更直前に公的機関または医療機関の資料で確認する。
@@ -72,6 +72,7 @@ Cluster 12「健康・運動・食事・生活管理」の親クラスタ用ロ�
 
 - 作業内容：運動目標、chocoZAPの記録上の課題、AppSheetによる記録入力の試作・運用、心拍数トレーニングゾーンを内容・関係・役割の3軸で監査した。
 - 結果：年次目標は維持。利用経験、試作前の課題整理、実装記録を別役割として整理し、相互の関係をリンクで明示した。AI由来の一般資料である心拍数ノートは`literature`と`ai-generated`へ更新し、本文の健康情報は変更しなかった。
-- 対象：`31_Research/筋トレ記録の入力方法改善についての整理.md`、`32_Zk/chocozap-workout-tracking-is-hard-to-use.md`、`31_Research/AppSheetを使ったトレーニング記録アプリ.md`、`32_Zk/heart-rate-training-zones.md`
+- 対象：`31_Research/strength-training-record-entry-improvements.md`、`32_Zk/chocozap-workout-tracking-is-hard-to-use.md`、`31_Research/AppSheetを使ったトレーニング記録アプリ.md`、`32_Zk/heart-rate-training-zones.md`
 - 判断・理由：実装記録はCluster 07を主クラスタに維持し、12-Aでは横断的な記録として参照した。AppSheetの個別・一括入力は実運用中で、ページ区切り方式のUI改善は未実施である。
 - 次のアクション／未解決事項：12-B「体調・健康診断・保険利用」を詳細監査する。健康・制度情報の事実を更新する場合は、変更直前に公的機関または医療機関の資料で確認する。
+

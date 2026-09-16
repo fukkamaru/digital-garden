@@ -4,10 +4,10 @@ aliases:
   - ガラスバルーンについて
 type: literature
 created: 2026-06-15T23:33:48+09:00
-updated: 2026-09-09T15:26:04+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260615-233348
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

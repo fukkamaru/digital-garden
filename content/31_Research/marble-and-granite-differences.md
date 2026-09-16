@@ -4,10 +4,10 @@ aliases:
   - 大理石と御影石の違い
 type: literature
 created: 2026-06-10T21:23:34+09:00
-updated: 2026-09-09T16:09:29+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260610-212334
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

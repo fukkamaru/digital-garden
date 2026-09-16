@@ -1,7 +1,7 @@
 ---
-title: Research＋ZKリファクタリング作業台：ノートの役割と運用原則
+title: Research＋ZKリファクタリング作業台：01：ノートの役割と運用原則
 aliases:
-  - Research＋ZKリファクタリング作業台：ノートの役割と運用原則
+  - Research＋ZKリファクタリング作業台：01：ノートの役割と運用原則
 type: fleeting
 created: 2026-09-05T20:53:54+09:00
 updated: 2026-09-05T21:57:42+09:00

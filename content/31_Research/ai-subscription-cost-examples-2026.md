@@ -4,10 +4,10 @@ aliases:
   - 生成AIサービスの契約費用：公開事例（2026年7月調査）
 type: literature
 created: 2026-09-11T20:33:27+09:00
-updated: 2026-09-11T21:50:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260911-203327
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - カチオン系・アニオン系・ノニオン系の整理
 type: literature
 created: 2026-07-29T07:20:31+09:00
-updated: 2026-09-09T15:10:04+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260729-072031
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

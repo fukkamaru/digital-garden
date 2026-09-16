@@ -1,13 +1,14 @@
 ---
-title: 顧客英語の使い分け
+title: OEM・受託製造における顧客関連用語
 aliases:
+  - OEM・受託製造における顧客関連用語
   - 顧客英語の使い分け
 type: fleeting
 created: 2026-06-12T20:55:52+09:00
-updated: 2026-09-09T23:05:21+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260612-205552
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---
@@ -90,6 +91,5 @@ tags:
 
 という感じが自然です。  
 かなり実務っぽく言うなら、**「委託元 = client」「取引管理上の顧客 = customer」** で分けるのが一番おすすめです。
-
 
 

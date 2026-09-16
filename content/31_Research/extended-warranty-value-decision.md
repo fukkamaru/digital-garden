@@ -5,10 +5,10 @@ aliases:
   - 家電量販店の保証に入る価値はあるのか？計算する
 type: permanent
 created: 2026-04-29T08:13:11+09:00
-updated: 2026-09-09T14:15:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260429-081311
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - warranty

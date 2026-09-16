@@ -4,7 +4,7 @@ aliases:
   - QuartzにおけるURL設計
 type: permanent
 created: 2026-04-26T10:59:40+09:00
-updated: 2026-04-26T10:59:40+09:00
+updated: 2026-09-17T01:39:11+09:00
 id: 20260426-105940
 draft: false
 source:
@@ -27,7 +27,7 @@ Quartzで公開されるノートは、**ノートタイトル（マークダウ
 - 公開URLはファイル名が使われる。
 	- UIDを使う→**UID**となる。
 	- 日本語タイトルにする→**文字コードが化ける**
-		- ※例：[encode-decode-example](encode-decode-example.md)
+		- ※例：[URLエンコードとデコードの具体例](url-encoding-decoding-examples.md)
 - **[Quartzのpermalinkは恒久的ではない]**
 	- 致命的だが技術的な問題なので仕方がない。
 

@@ -5,10 +5,10 @@ aliases:
   - ケースラベルの荷姿記載について
 type: literature
 created: 2026-06-11T20:18:31+09:00
-updated: 2026-09-15T00:48:47+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-201831
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

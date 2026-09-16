@@ -1,13 +1,14 @@
 ---
-title: 顧客の英単語
+title: B2B売上管理における顧客・販路の英語用語
 aliases:
+  - B2B売上管理における顧客・販路の英語用語
   - 顧客の英単語
 type: fleeting
 created: 2026-06-11T21:35:57+09:00
-updated: 2026-09-09T23:05:21+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-213557
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

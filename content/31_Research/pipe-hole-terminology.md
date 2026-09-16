@@ -4,10 +4,10 @@ aliases:
   - 配管に空いた穴の名称と違い
 type: literature
 created: 2026-06-11T19:44:11+09:00
-updated: 2026-09-09T16:31:15+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-194411
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

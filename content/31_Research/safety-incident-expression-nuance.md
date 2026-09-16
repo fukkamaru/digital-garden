@@ -4,10 +4,10 @@ aliases:
   - 安全資料でよく使われる事故表現のニュアンス比較
 type: literature
 created: 2026-06-11T19:01:20+09:00
-updated: 2026-09-13T21:00:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-190120
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

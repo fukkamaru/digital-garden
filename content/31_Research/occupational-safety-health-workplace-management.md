@@ -5,10 +5,10 @@ aliases:
   - 「労働安全衛生法」とその改正とブルーカラーについて、ホワイトカラーについてまとめ
 type: literature
 created: 2026-06-10T21:14:06+09:00
-updated: 2026-09-15T00:48:47+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260610-211406
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

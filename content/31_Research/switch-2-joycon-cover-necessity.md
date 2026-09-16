@@ -5,10 +5,10 @@ aliases:
   - Switch2のジョイコンカバーについて必要か調べる
 type: fleeting
 created: 2026-04-29T08:05:05+09:00
-updated: 2026-09-09T14:10:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260429-080505
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - switch2

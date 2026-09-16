@@ -5,10 +5,10 @@ aliases:
   - 仕入表・仕入れコード設計の検討まとめ
 type: literature
 created: 2026-08-13T09:49:24+09:00
-updated: 2026-09-15T00:48:47+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260813-094924
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

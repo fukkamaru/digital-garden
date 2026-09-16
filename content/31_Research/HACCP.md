@@ -4,10 +4,10 @@ aliases:
   - HACCP
 type: literature
 created: 2026-06-11T21:21:07+09:00
-updated: 2026-09-14T22:40:00+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-212107
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

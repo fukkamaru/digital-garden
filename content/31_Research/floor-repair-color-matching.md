@@ -4,10 +4,10 @@ aliases:
   - 床色に合わせて補修する理由
 type: literature
 created: 2026-06-11T19:12:58+09:00
-updated: 2026-09-09T16:09:29+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-191258
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

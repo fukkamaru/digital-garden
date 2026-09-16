@@ -1,10 +1,11 @@
 ---
-title: 名詞句＋助詞「ということは」
+title: 「ということは」の用法
 aliases:
+  - 「ということは」の用法
   - 名詞句＋助詞「ということは」
 type: literature
 created: 2025-07-21
-updated: 2026-09-09T23:05:21+09:00
+updated: 2026-09-16T18:09:23+09:00
 id: 20260425-163108
 draft: false
 source:

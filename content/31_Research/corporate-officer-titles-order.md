@@ -4,10 +4,10 @@ aliases:
   - 会社役員の肩書き・並び順についての整理
 type: literature
 created: 2026-06-11T21:12:09+00:00
-updated: 2026-09-15T00:00:33+09:00
+updated: 2026-09-17T07:33:40+09:00
 id: 20260611-211209
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

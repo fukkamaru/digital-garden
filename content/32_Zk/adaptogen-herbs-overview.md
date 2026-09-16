@@ -4,10 +4,10 @@ aliases:
   - アダプトゲンハーブについての概要
 type: literature
 created: 2026-04-28T20:32:56+09:00
-updated: 2026-09-11T19:43:05+09:00
+updated: 2026-09-17T07:42:09+09:00
 id: 20260428-203256
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---
