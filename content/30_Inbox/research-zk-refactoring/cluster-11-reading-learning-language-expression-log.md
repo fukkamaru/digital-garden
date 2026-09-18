@@ -7,7 +7,7 @@ created: 2026-09-09T17:23:36+09:00
 updated: 2026-09-16T18:47:17+09:00
 id: 20260909-172337
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

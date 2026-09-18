@@ -1,185 +1,192 @@
 ---
-title: VBAで個別ファイルをガッチャンコする その4
+title: 管理部署別棚卸ファイル切り出しVBA：拡張版
 aliases:
   - VBAで個別ファイルをガッチャンコする その4
-type:
+  - 管理部署別棚卸ファイルの切り出し
+type: literature
 created: 2026-08-13T11:13:32+09:00
-updated: 2026-09-01T19:28:44+09:00
+updated: 2026-09-18T04:06:51+09:00
 id: 20260813-111332
 permalink:
-draft: true
+draft: false
 tags:
-  - ai-generated
+  - vba
+  - historical-note
+  - inventory
 ---
-# VBAで個別ファイルをガッチャンコする その4
+# 管理部署別棚卸ファイル切り出しVBA：拡張版
+
+これは、[[VBAで個別のファイルをガッチャンコする その1|初期版]]へ、出力後のテーブル化、品名順ソート、列のグループ化、金額列の式を加えた当時の拡張コードである。元コードは開発履歴として変更していない。
+
+このコードは「個別ファイルの結合」ではなく、管理部署ごとのファイルを出力する処理である。既存ファイルの上書き回避、元ブックを変更しない抽出、テーブルの相対列番号、例外時の後始末を加えた後継例は[[safe-department-inventory-workbook-export|管理部署別棚卸ファイルを安全に切り出すVBA]]に分離した。
 
 ## VBAコード
 
 ```vba
 Sub CreateFilteredDepartmentFiles()
     ' 変数宣言
-    Dim ws As Worksheet
-    Dim wsSourceUsage As Worksheet
-    Dim wsSourceUnused As Worksheet
-    Dim rng As Range
-    Dim cell As Range
-    Dim departmentList As Collection
-    Dim departmentName As Variant
-    Dim newWorkbook As Workbook
-    Dim currentDirectory As String
-    Dim sourceDataUsage As Range
-    Dim sourceDataUnused As Range
-    Dim colNumUsage As Long
-    Dim colNumUnused As Long
+    Dim departmentListSheet As Worksheet
+    Dim activeSourceSheet As Worksheet
+    Dim inactiveSourceSheet As Worksheet
+    Dim departmentRange As Range
+    Dim departmentCell As Range
+    Dim uniqueDepartments As Collection
+    Dim currentDepartment As Variant
+    Dim departmentWorkbook As Workbook
+    Dim outputFolderPath As String
+    Dim activeDataRange As Range
+    Dim inactiveDataRange As Range
+    Dim activeDepartmentColumn As Long
+    Dim inactiveDepartmentColumn As Long
 
     ' シートの設定
-    Set ws = ThisWorkbook.Sheets("管理部署一覧")
-    Set wsSourceUsage = ThisWorkbook.Sheets("使用")
-    Set wsSourceUnused = ThisWorkbook.Sheets("不使用と廃番")
+    Set departmentListSheet = ThisWorkbook.Sheets("管理部署一覧")
+    Set activeSourceSheet = ThisWorkbook.Sheets("使用")
+    Set inactiveSourceSheet = ThisWorkbook.Sheets("不使用と廃番")
 
     ' "管理部署一覧"の"管理部署"列の範囲を設定
     Dim departmentColumn As Range
-    Set departmentColumn = ws.Rows(1).Find(What:="管理部署", LookIn:=xlValues, LookAt:=xlWhole)
+    Set departmentColumn = departmentListSheet.Rows(1).Find(What:="管理部署", LookIn:=xlValues, LookAt:=xlWhole)
 
     If departmentColumn Is Nothing Then
         MsgBox "管理部署列が見つかりませんでした！", vbCritical
         Exit Sub
     Else
         ' "管理部署"列の範囲を設定
-        Set rng = ws.Range(departmentColumn.Offset(1, 0), ws.Cells(ws.Rows.Count, departmentColumn.Column).End(xlUp))
+        Set departmentRange = departmentListSheet.Range(departmentColumn.Offset(1, 0), departmentListSheet.Cells(departmentListSheet.Rows.Count, departmentColumn.Column).End(xlUp))
     End If
 
     ' ユニークな部署名を保存するコレクションを作成
-    Set departmentList = New Collection
+    Set uniqueDepartments = New Collection
 
     ' 範囲内の各セルをループしてユニークな部署名を取得
     On Error Resume Next
-    For Each cell In rng
-        If cell.value <> "" Then
-            departmentList.Add cell.value, CStr(cell.value)
+    For Each departmentCell In departmentRange
+        If departmentCell.value <> "" Then
+            uniqueDepartments.Add departmentCell.value, CStr(departmentCell.value)
         End If
     Next cell
     On Error GoTo 0
 
     ' 現在のディレクトリを取得
-    currentDirectory = ThisWorkbook.Path
+    outputFolderPath = ThisWorkbook.Path
 
     ' データ範囲を設定
-    Set sourceDataUsage = wsSourceUsage.Range("A1").CurrentRegion
-    Set sourceDataUnused = wsSourceUnused.Range("A1").CurrentRegion
+    Set activeDataRange = activeSourceSheet.Range("A1").CurrentRegion
+    Set inactiveDataRange = inactiveSourceSheet.Range("A1").CurrentRegion
 
     ' "管理部署"の列番号を取得
-    colNumUsage = 0
-    colNumUnused = 0
+    activeDepartmentColumn = 0
+    inactiveDepartmentColumn = 0
     On Error Resume Next
-    colNumUsage = wsSourceUsage.Rows(1).Find(What:="管理部署", LookIn:=xlValues, LookAt:=xlWhole).Column
-    colNumUnused = wsSourceUnused.Rows(1).Find(What:="管理部署", LookIn:=xlValues, LookAt:=xlWhole).Column
+    activeDepartmentColumn = activeSourceSheet.Rows(1).Find(What:="管理部署", LookIn:=xlValues, LookAt:=xlWhole).Column
+    inactiveDepartmentColumn = inactiveSourceSheet.Rows(1).Find(What:="管理部署", LookIn:=xlValues, LookAt:=xlWhole).Column
     On Error GoTo 0
 
     ' "管理部署"列が見つからない場合のエラーメッセージ
-    If colNumUsage = 0 Or colNumUnused = 0 Then
+    If activeDepartmentColumn = 0 Or inactiveDepartmentColumn = 0 Then
         MsgBox "管理部署列がいずれかのシートに見つかりませんでした！", vbCritical
         Exit Sub
     End If
 
     ' 各部署名ごとに新しいExcelファイルを作成
-    For Each departmentName In departmentList
+    For Each currentDepartment In uniqueDepartments
         ' 新しいブックを作成
-        Set newWorkbook = Workbooks.Add
+        Set departmentWorkbook = Workbooks.Add
 
         ' 新しいシートを追加して名前を変更
-        With newWorkbook
+        With departmentWorkbook
             .Sheets(1).Name = "使用"
             .Sheets.Add(After:=.Sheets(1)).Name = "不使用と廃番"
-            .SaveAs fileName:=currentDirectory & "\石切棚卸表_原料_" & departmentName & ".xlsx"
+            .SaveAs fileName:=outputFolderPath & "\石切棚卸表_原料_" & currentDepartment & ".xlsx"
         End With
 
         ' 部署名でデータをフィルターし、新しいブックの"使用"シートにコピー
-        wsSourceUsage.ListObjects("棚卸表_原料_使用").Range.AutoFilter Field:=colNumUsage, Criteria1:=departmentName
-        wsSourceUsage.ListObjects("棚卸表_原料_使用").Range.SpecialCells(xlCellTypeVisible).Copy Destination:=newWorkbook.Sheets("使用").Range("A1")
-        wsSourceUsage.AutoFilterMode = False
+        activeSourceSheet.ListObjects("棚卸表_原料_使用").Range.AutoFilter Field:=activeDepartmentColumn, Criteria1:=currentDepartment
+        activeSourceSheet.ListObjects("棚卸表_原料_使用").Range.SpecialCells(xlCellTypeVisible).Copy Destination:=departmentWorkbook.Sheets("使用").Range("A1")
+        activeSourceSheet.AutoFilterMode = False
 
         ' コピー先のデータをテーブル化し、スタイルを設定、名前を変更、セル幅を文字幅に合わせて調整
-        Dim tblUsage As ListObject
-        Set tblUsage = newWorkbook.Sheets("使用").ListObjects.Add(xlSrcRange, newWorkbook.Sheets("使用").Range("A1").CurrentRegion, , xlYes)
-        tblUsage.TableStyle = "TableStyleLight1"
-        tblUsage.Name = "棚卸表_原料_使用"
-        newWorkbook.Sheets("使用").Columns.AutoFit
+        Dim activeOutputTable As ListObject
+        Set activeOutputTable = departmentWorkbook.Sheets("使用").ListObjects.Add(xlSrcRange, departmentWorkbook.Sheets("使用").Range("A1").CurrentRegion, , xlYes)
+        activeOutputTable.TableStyle = "TableStyleLight1"
+        activeOutputTable.Name = "棚卸表_原料_使用"
+        departmentWorkbook.Sheets("使用").Columns.AutoFit
 
         ' 品名で昇順にソート
         With newWorkbook.Sheets("使用").Sort
             .SortFields.Clear
-            .SortFields.Add Key:=tblUsage.ListColumns("品名").Range, Order:=xlAscending
-            .SetRange tblUsage.Range
+            .SortFields.Add Key:=activeOutputTable.ListColumns("品名").Range, Order:=xlAscending
+            .SetRange activeOutputTable.Range
             .Header = xlYes
             .Apply
         End With
 
         ' グループ化と折りたたみ
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("使用"), "発注単位")
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("使用"), "数量_202402", "数量_202210")
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("使用"), "単価_202402", "単価_202210")
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("使用"), "金額_202402", "金額_202210")
-        Call GroupAndCollapseColumnsFrom(newWorkbook.Sheets("使用"), "Registration Date")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("使用"), "発注単位")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("使用"), "数量_202402", "数量_202210")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("使用"), "単価_202402", "単価_202210")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("使用"), "金額_202402", "金額_202210")
+        Call GroupAndCollapseColumnsFrom(departmentWorkbook.Sheets("使用"), "Registration Date")
 
         ' "金額_202406"列に計算式を代入
-        Dim lastRow As Long
-        Dim quantityCol As Long
-        Dim priceCol As Long
-        Dim amountCol As Long
-        With newWorkbook.Sheets("使用")
-            lastRow = .Cells(.Rows.Count, 1).End(xlUp).Row
-            quantityCol = tblUsage.ListColumns("数量_202406").Index
-            priceCol = tblUsage.ListColumns("単価_202406").Index
-            amountCol = tblUsage.ListColumns("金額_202406").Index
-            .Range(.Cells(2, amountCol), .Cells(lastRow, amountCol)).FormulaR1C1 = "=RC[" & (quantityCol - amountCol) & "]*RC[" & (priceCol - amountCol) & "]"
+        Dim lastDataRow As Long
+        Dim quantityColumnIndex As Long
+        Dim unitPriceColumnIndex As Long
+        Dim amountColumnIndex As Long
+        With departmentWorkbook.Sheets("使用")
+            lastDataRow = .Cells(.Rows.Count, 1).End(xlUp).Row
+            quantityColumnIndex = activeOutputTable.ListColumns("数量_202406").Index
+            unitPriceColumnIndex = activeOutputTable.ListColumns("単価_202406").Index
+            amountColumnIndex = activeOutputTable.ListColumns("金額_202406").Index
+            .Range(.Cells(2, amountColumnIndex), .Cells(lastDataRow, amountColumnIndex)).FormulaR1C1 = "=RC[" & (quantityColumnIndex - amountColumnIndex) & "]*RC[" & (unitPriceColumnIndex - amountColumnIndex) & "]"
         End With
 
         ' 部署名でデータをフィルターし、新しいブックの"不使用と廃番"シートにコピー
-        wsSourceUnused.ListObjects("棚卸表_原料_不使用と廃番").Range.AutoFilter Field:=colNumUnused, Criteria1:=departmentName
-        wsSourceUnused.ListObjects("棚卸表_原料_不使用と廃番").Range.SpecialCells(xlCellTypeVisible).Copy Destination:=newWorkbook.Sheets("不使用と廃番").Range("A1")
-        wsSourceUnused.AutoFilterMode = False
+        inactiveSourceSheet.ListObjects("棚卸表_原料_不使用と廃番").Range.AutoFilter Field:=inactiveDepartmentColumn, Criteria1:=currentDepartment
+        inactiveSourceSheet.ListObjects("棚卸表_原料_不使用と廃番").Range.SpecialCells(xlCellTypeVisible).Copy Destination:=departmentWorkbook.Sheets("不使用と廃番").Range("A1")
+        inactiveSourceSheet.AutoFilterMode = False
 
         ' コピー先のデータをテーブル化し、スタイルを設定、名前を変更、セル幅を文字幅に合わせて調整
-        Dim tblUnused As ListObject
-        Set tblUnused = newWorkbook.Sheets("不使用と廃番").ListObjects.Add(xlSrcRange, newWorkbook.Sheets("不使用と廃番").Range("A1").CurrentRegion, , xlYes)
-        tblUnused.TableStyle = "TableStyleLight1"
-        tblUnused.Name = "棚卸表_原料_不使用と廃番"
-        newWorkbook.Sheets("不使用と廃番").Columns.AutoFit
+        Dim inactiveOutputTable As ListObject
+        Set inactiveOutputTable = departmentWorkbook.Sheets("不使用と廃番").ListObjects.Add(xlSrcRange, departmentWorkbook.Sheets("不使用と廃番").Range("A1").CurrentRegion, , xlYes)
+        inactiveOutputTable.TableStyle = "TableStyleLight1"
+        inactiveOutputTable.Name = "棚卸表_原料_不使用と廃番"
+        departmentWorkbook.Sheets("不使用と廃番").Columns.AutoFit
 
         ' 品名で昇順にソート
         With newWorkbook.Sheets("不使用と廃番").Sort
             .SortFields.Clear
-            .SortFields.Add Key:=tblUsage.ListColumns("品名").Range, Order:=xlAscending
-            .SetRange tblUsage.Range
+            .SortFields.Add Key:=activeOutputTable.ListColumns("品名").Range, Order:=xlAscending
+            .SetRange activeOutputTable.Range
             .Header = xlYes
             .Apply
         End With
 
         ' グループ化と折りたたみ
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("不使用と廃番"), "発注単位")
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("不使用と廃番"), "数量_202402", "数量_202210")
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("不使用と廃番"), "単価_202402", "単価_202210")
-        Call GroupAndCollapseColumns(newWorkbook.Sheets("不使用と廃番"), "金額_202402", "金額_202210")
-        Call GroupAndCollapseColumnsFrom(newWorkbook.Sheets("不使用と廃番"), "Registration Date")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("不使用と廃番"), "発注単位")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("不使用と廃番"), "数量_202402", "数量_202210")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("不使用と廃番"), "単価_202402", "単価_202210")
+        Call GroupAndCollapseColumns(departmentWorkbook.Sheets("不使用と廃番"), "金額_202402", "金額_202210")
+        Call GroupAndCollapseColumnsFrom(departmentWorkbook.Sheets("不使用と廃番"), "Registration Date")
 
         ' "金額_202406"列に計算式を代入
-        With newWorkbook.Sheets("不使用と廃番")
-            lastRow = .Cells(.Rows.Count, 1).End(xlUp).Row
-            quantityCol = tblUnused.ListColumns("数量_202406").Index
-            priceCol = tblUnused.ListColumns("単価_202406").Index
-            amountCol = tblUnused.ListColumns("金額_202406").Index
-            .Range(.Cells(2, amountCol), .Cells(lastRow, amountCol)).FormulaR1C1 = "=RC[" & (quantityCol - amountCol) & "]*RC[" & (priceCol - amountCol) & "]"
+        With departmentWorkbook.Sheets("不使用と廃番")
+            lastDataRow = .Cells(.Rows.Count, 1).End(xlUp).Row
+            quantityColumnIndex = inactiveOutputTable.ListColumns("数量_202406").Index
+            unitPriceColumnIndex = inactiveOutputTable.ListColumns("単価_202406").Index
+            amountColumnIndex = inactiveOutputTable.ListColumns("金額_202406").Index
+            .Range(.Cells(2, amountColumnIndex), .Cells(lastDataRow, amountColumnIndex)).FormulaR1C1 = "=RC[" & (quantityColumnIndex - amountColumnIndex) & "]*RC[" & (unitPriceColumnIndex - amountColumnIndex) & "]"
         End With
 
         ' 新しいブックを閉じる
-        newWorkbook.Close SaveChanges:=True
-    Next departmentName
+        departmentWorkbook.Close SaveChanges:=True
+    Next currentDepartment
 
     ' 元のシートの全データを表示
     On Error Resume Next
-    If wsSourceUsage.FilterMode Then wsSourceUsage.ShowAllData
-    If wsSourceUnused.FilterMode Then wsSourceUnused.ShowAllData
+    If activeSourceSheet.FilterMode Then activeSourceSheet.ShowAllData
+    If inactiveSourceSheet.FilterMode Then inactiveSourceSheet.ShowAllData
     On Error GoTo 0
 
     ' ユーザーに完了メッセージを表示

@@ -1,17 +1,17 @@
 ---
-title: Power Query：List.Accumulateを使った置換マスタによる一括置換
-aliases:
-  - Power Query：List.Accumulateを使った置換マスタによる一括置換
-type:
+title: Power Queryで置換マスタを使い一括置換する方法
+type: literature
 created: 2026-08-13T10:09:28+09:00
-updated: 2026-09-01T19:28:44+09:00
+updated: 2026-09-18T02:50:06+09:00
 id: 20260813-100928
 permalink:
 draft: true
 tags:
   - ai-generated
 ---
-### 基本コード
+## 実運用で使用していたコード
+
+次の記法は、実際に使用していた置換処理として残す。置換マスタの各行を順番に適用し、直前までの結果を次の処理へ渡す、という`List.Accumulate`の基本構造を確認するための例でもある。
 
 ```m
 List.Accumulate(
@@ -162,3 +162,39 @@ y{1} = 置換後
 ```
 
 `List.Accumulate`のポイントは、**「初期値から開始して、リストを1件ずつ処理し、その結果を次の処理へ渡していく」**こと。今回の置換処理では、「前回までの置換結果に次の置換ルールを適用する」という用途で使っている。
+
+## 文字列の一部を置換する場合の推奨例
+
+上の実運用コードは記録として維持する。一方、得意先名の一部分など、テキスト内の一部を置換する意図を明示したい場合は、`Replacer.ReplaceText`を用いる。
+
+```m
+let
+    OrderedMaster = Table.Sort(得意先名置換マスタ, {{"優先順位", Order.Ascending}}),
+    ReplacementRows = Table.ToRows(
+        Table.SelectColumns(OrderedMaster, {"置換前", "置換後"})
+    ),
+    Result = List.Accumulate(
+        ReplacementRows,
+        [コード付き_得意先名],
+        (state, current) =>
+            Replacer.ReplaceText(state, current{0}, current{1})
+    )
+in
+    Result
+```
+
+この書き方にする理由は、次の3点。
+
+| 観点 | 理由 |
+| --- | --- |
+| 置換の意図 | `Replacer.ReplaceText`により、文字列の一部を置換する処理だと読み取れる。 |
+| マスタの列順 | `Table.SelectColumns`で「置換前」「置換後」だけを明示してから行リスト化するため、優先順位などの列を追加しても`current{0}`・`current{1}`の意味が変わらない。 |
+| 再現性 | 優先順位を持たせることで、短い語を先に置換してしまう、置換後の語が次の置換対象になる、といった連鎖の結果を検証しやすい。 |
+
+たとえば、`Kyoto Patty 029`の表記を統一する場合は、置換マスタとテスト値を分けて管理する。
+
+| 優先順位 | 置換前 | 置換後 | テスト入力 | 期待値 |
+| --- | --- | --- | --- | --- |
+| 10 | `KYO Patty` | `Kyoto Patty 029` | `KYO Patty（催事）` | `Kyoto Patty 029（催事）` |
+
+適用前には、置換マスタの順序を含めてテスト値と期待値を確認する。元データは`Raw`として保持し、変換結果は`Standard`で扱う。データ層の役割は[[kyoto-patty-029-sample-business|Kyoto Patty 029の架空事業設定とデータ設計]]を参照する。

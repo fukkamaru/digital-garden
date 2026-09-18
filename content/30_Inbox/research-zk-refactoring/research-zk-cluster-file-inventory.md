@@ -4,7 +4,7 @@ aliases:
   - Research＋ZK仮クラスタ・ファイル台帳
 type: fleeting
 created: 2026-09-08T21:03:56+09:00
-updated: 2026-09-17T05:14:14+09:00
+updated: 2026-09-18T05:19:33+09:00
 id: 20260908-210356
 permalink:
 draft: false
@@ -22,7 +22,7 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 
 ## 対象と集計基準
 
-- 対象：`31_Research` 364件、`32_Zk` 175件、合計 539件
+- 対象：`31_Research` 382件、`32_Zk` 188件、合計 570件
 - 含む：現役の`.md`ファイル。type、draftの値を問わない
 - 除く：ファイル名に`.退避`を含む復元用ファイル
 - 根拠：既存ロードマップ、既存作業台、ファイル名、YAML `title`
@@ -38,7 +38,7 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | 04 | YouTubeサムネイル・ビジュアル制作 | 25 | 既存ロードマップの仮クラスタ |
 | 05 | 購入判断・家電・デジタル機器 | 22 | 内容監査済み。中心対象のみ残す |
 | 06 | 建材・補修材・材料化学 | 42 | 既存ロードマップの仮クラスタ |
-| 07 | Excel・Power Query・VBA・データ分析 | 24 | 既存ロードマップの仮クラスタ |
+| 07 | Excel・Power Query・VBA・データ分析 | 32 | 07-A〜07-Eを完了 |
 | 08 | EC・商品管理・マーケティング | 13 | Cluster 08初回監査により4件をCluster 15へ主クラスタ変更し、R-Login関連2件を1件へ統合後、認証に関する論点を3件の新規ノートへ分割 |
 | 09 | 業務文書・製品情報・社内運用 | 25 | 既存ロードマップの仮クラスタ |
 | 10 | 生成AIサービス・AI活用 | 21 | 内容監査済み1件を追加。残りは既存ロードマップの仮クラスタ |
@@ -287,36 +287,46 @@ ResearchとZettelkastenの現役Markdownを、ファイル単位で既存クラ�
 | `31_Research/repair-scope-location-scale-terms.md` | 補修表現における範囲・箇所・規模の違い | fleeting | true | 06-Ieで本文を再構成し、title・英名を整備 |
 ## Cluster 07：Excel・Power Query・VBA・データ分析
 
-件数：24件。主クラスタの仮配置。
+件数：35件。主クラスタの配置。正規表現置換ノートの初期案・現行設計、一般的な実践ノート、「チーズかまぼこ」実データのケーススタディ、依存プルダウンの初期案、GA4／Looker Studioの初期検討履歴、棚卸の分割・再集約後継例、架空事業の補助ノートを含む。削除済み「その3」の退避ノートはアーカイブのため含めない。
 
 | パス（ファイル名） | title | type | draft | 判定根拠 |
 |---|---|---|---|---|
-| `31_Research/AppSheetを使ったトレーニング記録アプリ.md` | AppSheetを使ったトレーニング記録アプリ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/CSV学習データを使った対話学習・マインドマップ作成の整理.md` | CSV学習データを使った対話学習・マインドマップ作成の整理 | — | true | ファイル名・title（仮） |
-| `31_Research/ECサイトとGA4を連携するメリット.md` | ECサイトとGA4を連携するメリット | fleeting | true | ファイル名・title（仮） |
-| `31_Research/GA4とLooker Studioにおけるページとランディングページの違い、関連するディメンションの意味.md` | GA4とLooker Studioにおけるページとランディングページの違い、関連するディメンションの意味 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/GA4における総ユーザー、アクティブユーザー、新規ユーザーの違い.md` | GA4における総ユーザー、アクティブユーザー、新規ユーザーの違い | fleeting | true | ファイル名・title（仮） |
-| `31_Research/GA4についての調べごと.md` | GA4についての調べごと | fleeting | true | ファイル名・title（仮） |
-| `31_Research/GA4の「キーイベント関連メトリクス」の意味と、「セッション キーイベント率」の解釈方法.md` | GA4の「キーイベント関連メトリクス」の意味と、「セッション キーイベント率」の解釈方法 | — | true | ファイル名・title（仮） |
-| `31_Research/GA4のfile_downloadが何をもって「ダウンロード」と判断するのか.md` | GA4のfile_downloadが何をもって「ダウンロード」と判断するのか | fleeting | true | ファイル名・title（仮） |
-| `31_Research/Looker Studio「期間設定」のページ間同期についての整理.md` | Looker Studio「期間設定」のページ間同期についての整理 | fleeting | true | ファイル名・title（仮） |
-| `31_Research/Power Query：List.Accumulateを使った置換マスタによる一括置換.md` | Power Query：List.Accumulateを使った置換マスタによる一括置換 | — | true | ファイル名・title（仮） |
-| `31_Research/vbaでシートをコピーするときのフィルターとグループ化の挙動について.md` | vbaでシートをコピーするときのフィルターとグループ化の挙動について | — | true | ファイル名・title（仮） |
-| `31_Research/VBAで個別のファイルをガッチャンコする その1.md` | VBAで個別のファイルをガッチャンコする その1 | — | true | ファイル名・title（仮） |
-| `31_Research/VBAで個別のファイルをガッチャンコする その2.md` | VBAで個別のファイルをガッチャンコする その2 | — | true | ファイル名・title（仮） |
-| `31_Research/VBAで個別ファイルをガッチャンコする その3.md` | VBAで個別ファイルをガッチャンコする その3 | — | true | ファイル名・title（仮） |
-| `31_Research/VBAで個別ファイルをガッチャンコする その4.md` | VBAで個別ファイルをガッチャンコする その4 | — | true | ファイル名・title（仮） |
-| `31_Research/エクセルに計算式を文字列として表示したい.md` | Excelで数式を文字列として表示する方法 | fleeting | false | ファイル名・title（仮） |
-| `31_Research/スプレッドシートで組み合わせ.md` | スプレッドシートで組み合わせ | fleeting | true | ファイル名・title（仮） |
-| `31_Research/データクレンジングのファイル構成と命名を考える.md` | データクレンジングのファイル構成と命名を考える | fleeting | true | ファイル名・title（仮） |
-| `31_Research/パワークエリで文字列前後のスペースを削除して、連続するスペースを1つにする.md` | Power Queryで文字列の前後・連続スペースを整理する | — | false | ファイル名・title（仮） |
-| `31_Research/売上分析表から除外する.md` | 売上分析表から除外する | — | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 25.md` | マージ用の「key_」プリフィクス | fleeting | true | ファイル名・title（仮） |
-| `31_Research/無題のファイル 3 1.md` | プルダウンによる分岐メニュー構築 | fleeting | true | ファイル名・title（仮） |
-| `32_Zk/enable-macros-in-excel.md` | マクロ付きのExcelファイルを編集出来るようにする | permanent | false | ファイル名・title（仮） |
-| `31_Research/kyoto-patty-029-sample-business.md` | Kyoto Patty 029 — 架空サンプル事業の設定 | permanent | false | Cluster 09-Eの監査。Power Query・VBA・分析用の架空サンプル基盤としてCluster 07へ主クラスタ変更。Cluster 08を副クラスタとする |
+| `31_Research/appsheet-workout-recording-app-implementation-history.md` | AppSheetによる筋トレ記録アプリの実装記録 | fleeting | true | 実装結果だけでなく、既存シートの採用、ID、計算の責務、一括入力設計の迷いと判断を残す作業記録として校正。 |
+| `31_Research/csv-qa-to-mindmap-knowledge-network.md` | CSVのQ&Aデータをマインドマップと知識ネットワークへ変換する記録 | — | true | CSVの`category`・`question`・`answer`・`remarks`を意味構造とMermaidマインドマップへ変換する流れを整理。 |
+| `31_Research/ecommerce-ga4-measurement-design.md` | ECサイトにおけるGA4計測設計の判断基準 | literature | false | 07-Eで、EC基幹との役割分担、eコマースイベント、検証・照合の順序を再構成。 |
+| `31_Research/ga4-page-and-landing-page-analysis.md` | GA4のページ分析とランディングページ分析 | literature | false | 07-Eで、閲覧ページとセッション入口、フィールドの選び方を整理。 |
+| `31_Research/ga4-user-metrics.md` | GA4の総ユーザー・アクティブユーザー・新規ユーザー | literature | false | 07-Eで、各ユーザー指標をユニークユーザーとして定義し直した。 |
+| `31_Research/ga4-site-analysis-kpi-design.md` | GA4サイト分析のKPI設計 | literature | false | 07-Eで、到達・関心・意向・主要成果とキーイベント／広告コンバージョンを分離。 |
+| `31_Research/ga4-key-event-metrics-and-rate.md` | GA4のキーイベント数・セッションキーイベント率・ユーザーキーイベント率 | literature | false | 07-Eで、実測例を保持したまま分母・概算・解釈を修正。 |
+| `31_Research/ga4-file-download-measurement.md` | GA4のfile_downloadは何を計測するか | literature | false | 07-Eで、リンククリックと保存・読了を区別して再構成。 |
+| `31_Research/looker-studio-date-range-control-scope.md` | Looker Studioにおける期間コントロールの適用範囲 | literature | false | 07-Eで、ページ内適用と既定期間を分け、ページ間同期を前提にしない設計へ更新。 |
+| `31_Research/ga4-initial-analysis-notes.md` | GA4初期運用の検討記録 | literature | false | 07-Eで、CV代替イベントを混在させていた初期案と見直し理由を保存。 |
+| `31_Research/looker-studio-date-range-control-initial-review.md` | Looker Studio期間コントロール初期検討の記録 | literature | false | 07-Eで、初期の誤案内とページ単位で扱う判断を保存。 |
+| `31_Research/power-query-replacement-master-bulk-replace.md` | Power Queryで置換マスタを使い一括置換する方法 | literature | true | 07-Bで実運用の記法を保存し、部分文字列置換の推奨例と置換順序の検証観点を追記。 |
+| `31_Research/vba-sheet-copy-visible-cells-column-grouping.md` | VBAにおけるシート複製・表示セル抽出・列グループ化 | literature | true | 07-Cで、シート複製と表示セル抽出の目的・失敗時の扱いを再構成。 |
+| `31_Research/VBAで個別のファイルをガッチャンコする その1.md` | 管理部署別棚卸ファイル切り出しVBA：初期版 | literature | false | 07-Cで、当時のコードを保った開発履歴として整理。その3と完全一致することを確認。 |
+| `31_Research/VBAで個別のファイルをガッチャンコする その2.md` | 部署別棚卸ファイル再集約VBA：初期版 | literature | false | 07-Cで、当時のコードを保った再集約の開発履歴として整理。 |
+| `31_Research/VBAで個別ファイルをガッチャンコする その4.md` | 管理部署別棚卸ファイル切り出しVBA：拡張版 | literature | false | 07-Cで、当時のコードを保った拡張開発履歴として整理。 |
+| `31_Research/safe-department-inventory-workbook-export.md` | 管理部署別棚卸ファイルを安全に切り出すVBA | literature | false | 07-Cで新設。元ブックを変更せず、既存出力を上書きしない後継例。 |
+| `31_Research/safe-department-inventory-workbook-combine.md` | 部署別棚卸ファイルを安全に再集約するVBA | literature | false | 07-Cで新設。新しい`.xlsm`を作り、全入力検証後に再集約する後継例。 |
+| `31_Research/inventory-split-and-combine-refactored-vba.md` | 棚卸ファイルの分割・再集約を分けたVBAリファクタリング例 | literature | false | 07-Cで新設。安全な切り出し・再集約の後継例を呼び分ける、読みやすい実行入口。 |
+| `31_Research/エクセルに計算式を文字列として表示したい.md` | Excelで数式を文字列として表示する方法 | literature | false | 07-Dで本文を維持し、typeを整備。 |
+| `31_Research/google-sheets-generate-all-combinations.md` | Google スプレッドシートで全組み合わせを生成する | literature | true | 07-Dで食品系の架空データへ更新し、直積と対応マスタの使い分けを追記。 |
+| `31_Research/data-cleansing-file-organization-and-naming.md` | データクレンジングにおけるファイル構成と命名規則 | literature | true | 07-Aで公開用のRaw／Standard／Analysis／Report設計へ更新。初期案は別ノートとして保持。 |
+| `31_Research/パワークエリで文字列前後のスペースを削除して、連続するスペースを1つにする.md` | Power Queryで文字列の前後・連続スペースを整理する | literature | false | 07-Bで実運用の関数を保存し、空白種別を明示する推奨例と検証手順を追記 |
+| `31_Research/sales-analysis-exclusion-criteria-management.md` | 売上分析における除外条件の管理 | — | true | 07-Aで、分析条件を管理するマスタ設計として再構成。 |
+| `31_Research/power-query-merge-key-design.md` | Power Queryにおける結合キーの設計と管理 | literature | true | Cluster 07-Aで本文を再構成し、title・英語ファイル名・typeを整備 |
+| `31_Research/google-sheets-dependent-dropdown-design.md` | Google スプレッドシートにおける依存プルダウンの設計 | literature | true | 07-Dでリネーム・再構成。既存の候補表構成を残し、補助範囲と入力規則を分ける安全な設計を追加。 |
+| `32_Zk/enable-macros-in-excel.md` | マクロ付きのExcelファイルを編集出来るようにする | permanent | false | 07-Cで、個別ファイルの確認・ブロック解除と信頼済み場所の最小権限運用へ更新。 |
+| `31_Research/kyoto-patty-029-sample-business.md` | Kyoto Patty 029の架空事業設定とデータ設計 | permanent | false | 07-Aで公開用の架空サンプル事業・データ設計として再構成。Power Query・VBA・分析の共通基盤。 |
+| `31_Research/kyoto-patty-029-fictional-staff.md` | Kyoto Patty 029の架空スタッフ一覧 | literature | true | 07-Aで新設。架空事業設定にリンクする、スタッフ・経営陣の一覧。 |
+| `31_Research/data-cleansing-initial-design-review.md` | データクレンジング構成の初期案と見直し | literature | true | 07-Aで新設。初期案を削除せず、現行設計を採用した理由とともに保存。 |
 
-| `31_Research/正規表現を持ちいた、特定単語の一括置換処理.md` | 正規表現を持ちいた、特定単語の一括置換処理 | fleeting | true | Cluster 11-Eの監査によりCluster 07へ主クラスタ変更 |
+| `31_Research/regex-based-product-name-normalization-initial-review.md` | 正規表現による品名表記ゆれ置換の初期案と制約 | literature | true | 07-Bで初期のAI生成案を履歴化。Power Query・VBAの正規表現非対応な置換関数と、入力例・期待値の不整合を記録。 |
+| `31_Research/product-name-notation-normalization-design.md` | 品名表記ゆれを正規化する設計 | literature | true | 07-Bで新設。Raw保持、正規化、マスタ照合、例外管理、テスト値による現行設計。 |
+| `31_Research/chaotic-product-name-variation-normalization-methods.md` | 表記ゆれの多い品名データを段階的に正規化する方法 | literature | true | 07-Bで新設。表記ゆれの種類、対応マスタ・置換・要素解析・正規表現・例外キューの選択と、推奨ハイブリッド方式を整理。 |
+| `31_Research/cheese-kamaboko-product-name-normalization-case.md` | チーズかまぼこの表記ゆれを正規化する実データケース | literature | true | 07-Bで新設。33件の入力を要素別に分類し、旧期待値との不整合、別名マスタ・Power Query結合・正規表現による抽出の役割を整理。 |
+| `31_Research/dependent-dropdown-initial-design-review.md` | 依存プルダウン設計の初期検討 | literature | true | 07-Dで新設。初期の検討内容と、入力規則へ式を直接指定しない見直し理由を記録。 |
 ## Cluster 08：EC・商品管理・マーケティング
 
 件数：13件。主クラスタの配置。Cluster 06から移管された1件を含む。初回監査により4件をCluster 15へ主クラスタ変更し、R-Login関連2件を1件へ統合後、認証に関する論点を3件の新規ノートへ分割。

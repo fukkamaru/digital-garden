@@ -1,17 +1,24 @@
 ---
-title: VBAで個別のファイルをガッチャンコする その2
+title: 部署別棚卸ファイル再集約VBA：初期版
 aliases:
   - VBAで個別のファイルをガッチャンコする その2
-type:
+  - 部署別棚卸ファイルの再集約
+type: literature
 created: 2026-08-13T10:12:57+09:00
-updated: 2026-09-01T19:28:44+09:00
+updated: 2026-09-18T04:34:24+09:00
 id: 20260813-101257
 permalink:
-draft: true
+draft: false
 tags:
-  - ai-generated
+  - vba
+  - historical-note
+  - inventory
 ---
-# VBAで個別のファイルをガッチャンコする その2
+# 部署別棚卸ファイル再集約VBA：初期版
+
+これは、[[VBAで個別のファイルをガッチャンコする その1|部署別ファイルの切り出し]]後に、各部署が棚卸入力したファイルを1つの棚卸ブックへ戻すために当時作成した初期コードである。コードブロックは開発履歴として変更していない。
+
+初期版は現在の元ブックへ追記する構造である。各棚卸サイクルを新しいファイルとして残す現在の運用に合わせ、既存の`.xlsm`をコピーしてコピー側だけを再集約する後継例は[[safe-department-inventory-workbook-combine|部署別棚卸ファイルを安全に再集約するVBA]]に分離した。
 
 ## VBAコード
 
@@ -20,118 +27,118 @@ Option Explicit
 
 Sub CombineDepartmentFiles()
     ' 変数宣言
-    Dim ws As Worksheet                  ' シート変数
-    Dim rng As Range                     ' 管理部署の範囲変数
-    Dim cell As Range                    ' 各セル変数
-    Dim departmentList As Collection     ' 部署名コレクション
-    Dim departmentName As Variant        ' 部署名変数
-    Dim sourceWorkbook As Workbook       ' ソースブック変数
-    Dim currentDirectory As String       ' 現在のディレクトリ変数
-    Dim fileName As String               ' ファイル名変数
-    Dim wsSource As Worksheet            ' ソースシート変数
-    Dim wsUsage As Worksheet             ' デスティネーションシート変数（使用）
-    Dim wsUnused As Worksheet            ' デスティネーションシート変数（不使用と廃番）
-    Dim lastRowUsage As Long             ' 最終行番号（使用）
-    Dim lastRowUnused As Long            ' 最終行番号（不使用と廃番）
-    Dim headerRange As Range             ' ヘッダー範囲変数
-    Dim headerText As String             ' ヘッダーテキスト変数
+    Dim departmentListSheet As Worksheet
+    Dim departmentRange As Range
+    Dim departmentCell As Range
+    Dim uniqueDepartments As Collection
+    Dim currentDepartment As Variant
+    Dim departmentWorkbook As Workbook
+    Dim sourceFolderPath As String
+    Dim departmentFilePath As String
+    Dim inputWorksheet As Worksheet
+    Dim aggregateActiveSheet As Worksheet
+    Dim aggregateInactiveSheet As Worksheet
+    Dim nextActiveRow As Long
+    Dim nextInactiveRow As Long
+    Dim headerRowRange As Range
+    Dim headerSignature As String
 
     ' シートの設定
-    Set ws = ThisWorkbook.Sheets("管理部署一覧")
+    Set departmentListSheet = ThisWorkbook.Sheets("管理部署一覧")
 
     ' "管理部署一覧"の"管理部署"列の範囲を設定
-    Set rng = ws.Range("A2:A" & ws.Cells(ws.Rows.Count, "A").End(xlUp).Row)
+    Set departmentRange = departmentListSheet.Range("A2:A" & departmentListSheet.Cells(departmentListSheet.Rows.Count, "A").End(xlUp).Row)
 
     ' ユニークな部署名を保存するコレクションを作成
-    Set departmentList = New Collection
+    Set uniqueDepartments = New Collection
 
     ' 範囲内の各セルをループしてユニークな部署名を取得
     On Error Resume Next
-    For Each cell In rng
-        If cell.Value <> "" Then
-            departmentList.Add cell.Value, CStr(cell.Value)
+    For Each departmentCell In departmentRange
+        If departmentCell.Value <> "" Then
+            uniqueDepartments.Add departmentCell.Value, CStr(departmentCell.Value)
         End If
     Next cell
     On Error GoTo 0
 
     ' 現在のディレクトリを取得
-    currentDirectory = ThisWorkbook.Path
+    sourceFolderPath = ThisWorkbook.Path
 
     ' デスティネーションシートを設定または作成
     On Error Resume Next
-    Set wsUsage = ThisWorkbook.Sheets("使用")
-    Set wsUnused = ThisWorkbook.Sheets("不使用と廃番")
+    Set aggregateActiveSheet = ThisWorkbook.Sheets("使用")
+    Set aggregateInactiveSheet = ThisWorkbook.Sheets("不使用と廃番")
     On Error GoTo 0
 
-    If wsUsage Is Nothing Then
-        Set wsUsage = ThisWorkbook.Sheets.Add(After:=ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count))
-        wsUsage.Name = "使用"
+    If aggregateActiveSheet Is Nothing Then
+        Set aggregateActiveSheet = ThisWorkbook.Sheets.Add(After:=ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count))
+        aggregateActiveSheet.Name = "使用"
     End If
 
-    If wsUnused Is Nothing Then
-        Set wsUnused = ThisWorkbook.Sheets.Add(After:=ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count))
-        wsUnused.Name = "不使用と廃番"
+    If aggregateInactiveSheet Is Nothing Then
+        Set aggregateInactiveSheet = ThisWorkbook.Sheets.Add(After:=ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count))
+        aggregateInactiveSheet.Name = "不使用と廃番"
     End If
 
     ' 各部署名ごとにファイルを結合
-    For Each departmentName In departmentList
+    For Each currentDepartment In uniqueDepartments
         ' ファイル名を設定
-        fileName = currentDirectory & "\棚卸表_原料_" & departmentName & ".xlsx"
+        departmentFilePath = sourceFolderPath & "\棚卸表_原料_" & currentDepartment & ".xlsx"
         
         ' ファイルが存在するか確認
-        If Dir(fileName) <> "" Then
+        If Dir(departmentFilePath) <> "" Then
             ' ソースブックを開く
-            Set sourceWorkbook = Workbooks.Open(fileName)
+            Set departmentWorkbook = Workbooks.Open(departmentFilePath)
             
             ' "使用"シートのデータを結合
             On Error Resume Next
-            Set wsSource = sourceWorkbook.Sheets("使用")
+            Set inputWorksheet = departmentWorkbook.Sheets("使用")
             On Error GoTo 0
-            If Not wsSource Is Nothing Then
-                lastRowUsage = wsUsage.Cells(wsUsage.Rows.Count, "A").End(xlUp).Row + 1
-                If lastRowUsage = 2 Then lastRowUsage = 1 ' データがない場合ヘッダ行
-                wsSource.UsedRange.Copy Destination:=wsUsage.Range("A" & lastRowUsage)
+            If Not inputWorksheet Is Nothing Then
+                nextActiveRow = aggregateActiveSheet.Cells(aggregateActiveSheet.Rows.Count, "A").End(xlUp).Row + 1
+                If nextActiveRow = 2 Then nextActiveRow = 1 ' データがない場合ヘッダ行
+                inputWorksheet.UsedRange.Copy Destination:=aggregateActiveSheet.Range("A" & nextActiveRow)
             End If
             
             ' "不使用と廃番"シートのデータを結合
             On Error Resume Next
-            Set wsSource = sourceWorkbook.Sheets("不使用と廃番")
+            Set inputWorksheet = departmentWorkbook.Sheets("不使用と廃番")
             On Error GoTo 0
-            If Not wsSource Is Nothing Then
-                lastRowUnused = wsUnused.Cells(wsUnused.Rows.Count, "A").End(xlUp).Row + 1
-                If lastRowUnused = 2 Then lastRowUnused = 1 ' データがない場合ヘッダ行
-                wsSource.UsedRange.Copy Destination:=wsUnused.Range("A" & lastRowUnused)
+            If Not inputWorksheet Is Nothing Then
+                nextInactiveRow = aggregateInactiveSheet.Cells(aggregateInactiveSheet.Rows.Count, "A").End(xlUp).Row + 1
+                If nextInactiveRow = 2 Then nextInactiveRow = 1 ' データがない場合ヘッダ行
+                inputWorksheet.UsedRange.Copy Destination:=aggregateInactiveSheet.Range("A" & nextInactiveRow)
             End If
             
             ' ソースブックを閉じる
-            sourceWorkbook.Close SaveChanges:=False
+            departmentWorkbook.Close SaveChanges:=False
         End If
-    Next departmentName
+    Next currentDepartment
 
     ' 重複ヘッダー行の削除
-    Set headerRange = wsUsage.Rows(1)
-    headerText = Join(Application.WorksheetFunction.Transpose(Application.WorksheetFunction.Transpose(headerRange.Value)), ",")
-    RemoveDuplicateHeaders wsUsage, headerText
+    Set headerRowRange = aggregateActiveSheet.Rows(1)
+    headerSignature = Join(Application.WorksheetFunction.Transpose(Application.WorksheetFunction.Transpose(headerRowRange.Value)), ",")
+    RemoveDuplicateHeaders aggregateActiveSheet, headerSignature
 
-    Set headerRange = wsUnused.Rows(1)
-    headerText = Join(Application.WorksheetFunction.Transpose(Application.WorksheetFunction.Transpose(headerRange.Value)), ",")
-    RemoveDuplicateHeaders wsUnused, headerText
+    Set headerRowRange = aggregateInactiveSheet.Rows(1)
+    headerSignature = Join(Application.WorksheetFunction.Transpose(Application.WorksheetFunction.Transpose(headerRowRange.Value)), ",")
+    RemoveDuplicateHeaders aggregateInactiveSheet, headerSignature
 
     ' ユーザーに完了メッセージを表示
     MsgBox "すべての部署のデータが結合されました。"
 End Sub
 
-Sub RemoveDuplicateHeaders(ws As Worksheet, headerText As String)
-    Dim lastRow As Long
-    Dim i As Long
-    Dim currentRowText As String
+Sub RemoveDuplicateHeaders(targetWorksheet As Worksheet, expectedHeaderSignature As String)
+    Dim lastDataRow As Long
+    Dim rowIndex As Long
+    Dim currentRowSignature As String
     
-    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    lastDataRow = targetWorksheet.Cells(targetWorksheet.Rows.Count, "A").End(xlUp).Row
     
-    For i = lastRow To 2 Step -1
-        currentRowText = Join(Application.WorksheetFunction.Transpose(Application.WorksheetFunction.Transpose(ws.Rows(i).Value)), ",")
-        If currentRowText = headerText Then
-            ws.Rows(i).Delete
+    For rowIndex = lastDataRow To 2 Step -1
+        currentRowSignature = Join(Application.WorksheetFunction.Transpose(Application.WorksheetFunction.Transpose(targetWorksheet.Rows(rowIndex).Value)), ",")
+        If currentRowSignature = expectedHeaderSignature Then
+            targetWorksheet.Rows(rowIndex).Delete
         End If
     Next i
 End Sub
