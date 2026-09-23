@@ -2,13 +2,12 @@
 title: Quartzの公開・非公開を設定する
 aliases:
   - Quartzの公開・非公開を設定する
-type: permanent
+type:
 created: 2026-05-09T21:21:53+09:00
-updated: 2026-05-09T21:21:53+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260509-212153
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 Quartzには特定の条件に基づいてコンテンツをフィルタリングするプラグインが2つ実装されている。それぞれの違いはブラックリスト形式またはホワイトリスト形式かの違で、好きな方を使えば良い。

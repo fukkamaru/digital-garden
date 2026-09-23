@@ -3,12 +3,12 @@ title: winmail.datが届く原因と対処方法
 aliases:
   - winmail.datが届く原因と対処方法
   - winmail.datの開き方
-type: permanent
+type:
 created: 2026-01-10
-updated: 2026-09-16T20:09:43+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-175758
 permalink:
-draft: false
+draft: true
 tags:
   - field
   - ai-generated

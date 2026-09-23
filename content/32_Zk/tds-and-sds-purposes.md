@@ -2,12 +2,12 @@
 title: ビジネス：TDSとSDSの違い
 aliases:
   - ビジネス：TDSとSDSの違い
-type: permanent
+type:
 created: 2026-05-08T05:17:03+09:00
-updated: 2026-09-09T15:54:15+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260508-051703
 permalink:
-draft: false
+draft: true
 tags:
   - field
 ---

@@ -4,9 +4,9 @@ aliases:
   - ios端末でGboard辞書を一括インポートする方法
 type: literature
 created: 2025-07-31
-updated: 2026-04-25T23:40:21+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-234021
-draft: false
+draft: true
 source:
 ---
 - Gboardアプリ内にインポート / エクポートの項目なし

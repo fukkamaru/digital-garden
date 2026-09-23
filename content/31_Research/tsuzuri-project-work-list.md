@@ -4,10 +4,10 @@ aliases:
   - 綴プロジェクトの作品リスト
 type: literature
 created: 2026-06-24T18:30:20+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260624-183020
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

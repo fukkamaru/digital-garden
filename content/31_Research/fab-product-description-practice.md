@@ -4,10 +4,10 @@ aliases:
   - FAB法で製品説明を簡略化する練習
 type: literature
 created: 2026-06-20T18:08:28+09:00
-updated: 2026-09-13T21:35:00+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260620-180828
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

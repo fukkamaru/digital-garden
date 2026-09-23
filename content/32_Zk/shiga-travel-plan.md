@@ -5,11 +5,10 @@ aliases:
   - 滋賀旅行｜MIHO MUSEUM・信楽｜旅行プラン
 type: literature
 created: 2026-08-05T11:51:00+09:00
-updated: 2026-09-06T05:34:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260805-115100
 permalink:
-draft: false
-tags:
+draft: true
 ---
 [MIHO MUSEUM](https://www.miho.jp/)にある虹色に輝く[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)を主目的にして、瀬田の唐橋と信楽を散策する計画だった。
 

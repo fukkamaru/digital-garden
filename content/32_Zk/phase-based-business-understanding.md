@@ -5,10 +5,10 @@ aliases:
   - 「聞き手の思考プロセス」と「作業フェーズ」に合わせて使い分ける
 type: fleeting
 created: 2026-04-26T00:03:28+09:00
-updated: 2026-09-15T00:08:11+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-000328
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

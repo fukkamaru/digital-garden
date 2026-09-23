@@ -2,11 +2,11 @@
 title: QuartzにおけるURL設計
 aliases:
   - QuartzにおけるURL設計
-type: permanent
+type:
 created: 2026-04-26T10:59:40+09:00
-updated: 2026-09-17T01:39:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-105940
-draft: false
+draft: true
 source:
   - https://quartz.jzhao.xyz/features/private-pages
 ---

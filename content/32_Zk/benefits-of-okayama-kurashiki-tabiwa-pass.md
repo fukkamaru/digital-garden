@@ -4,10 +4,10 @@ aliases:
   - 「岡山・倉敷 tabiwaぐるりんパス」の勧め
 type: literature
 created: 2026-08-20T21:09:10+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260820-210910
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---
@@ -50,4 +50,4 @@ tags:
 
 一つの都市や一つの施設だけを訪れる場合は、都度払いの方が安い可能性がある。対象施設が多いこと自体を価値にせず、実際に予定した交通と入場料だけで[割引切符は旅程を決めてから通常料金と比較する](compare-discount-passes-after-planning-the-itinerary.md)。
 
-岡山と倉敷を回る日数の判断は、[岡山と倉敷を両方回るなら1泊以上を前提にする](go-to-okayama-and-kurashiki.md)にまとめている。
+岡山と倉敷を回る日数の判断は、[岡山と倉敷を巡る旅行は1泊以上を基本にする](okayama-kurashiki-overnight-travel.md)にまとめている。

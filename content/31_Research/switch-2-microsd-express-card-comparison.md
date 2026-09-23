@@ -6,15 +6,11 @@ aliases:
   - switch2向けSDカードのメーカー違い
 type: fleeting
 created: 2026-04-29T08:04:16+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-080416
 permalink:
-draft: false
+draft: true
 source:
-tags:
-  - switch2
-  - storage
-  - research-needed
 ---
 
 # Switch 2向けmicroSD Expressカードの比較メモ

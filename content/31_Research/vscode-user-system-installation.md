@@ -4,12 +4,12 @@ aliases:
   - VS Codeのユーザーインストールとシステムインストール
   - vs codeのインストール場所
   - VS Codeのインストール場所
-type: permanent
+type:
 created: 2026-06-20T17:01:49+09:00
-updated: 2026-09-17T07:42:09+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-170149
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

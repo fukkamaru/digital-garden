@@ -2,12 +2,12 @@
 title: 割引切符は旅程を決めてから通常料金と比較する
 aliases:
   - 割引切符は旅程を決めてから通常料金と比較する
-type: permanent
+type:
 created: 2026-09-06T00:51:50+09:00
-updated: 2026-09-06T00:51:50+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260906-005150
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---
@@ -52,7 +52,7 @@ tags:
 ## この基準を使う資料
 
 - [東京観光と関東日帰りで使う周遊券（2026年調査）](tokyo-kanto-transport-passes-2026.md)
-- [近鉄週末フリーパスで遠出する候補](kintetsu-weekend-free-pass-trip-ideas.md)
+- [近鉄週末フリーパスの行き先候補と使い方](kintetsu-weekend-free-pass-trip-ideas.md)
 - [姫路城下まち1000円クーポン付きデジタルチケット（2026年）](himeji-castle-digital-ticket-with-coupon.md)
 - [和歌山観光デジタルきっぷ（2026年調査）](wakayama-sightseeing-digital-ticket.md)
 

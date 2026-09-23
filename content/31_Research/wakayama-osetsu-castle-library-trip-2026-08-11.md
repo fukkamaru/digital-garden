@@ -5,10 +5,10 @@ aliases:
   - 和歌山旅行｜芦雪・和歌山城・図書館｜実績
 type: literature
 created: 2026-08-12T11:41:32+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260812-114132
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---
@@ -40,7 +40,7 @@ tags:
 - [芦雪生動](osetsu-in-motion.md)
 - 図録の購入
 - 和歌山城と周辺施設の見学
-- [和歌山市民図書館](wakayama-city-library.md)の見学・休憩
+- [和歌山市民図書館の公式情報メモ](wakayama-city-library-source.md)の見学・休憩
 - 和歌山ラーメン
 - ポケモンマンホールの撮影
 - 大阪方面に戻ってからchocoZAP
@@ -56,7 +56,7 @@ tags:
 
 ### 当初の予定
 
-1. 和歌山市駅から[和歌山市民図書館](wakayama-city-library.md)を見学する。
+1. 和歌山市駅から[和歌山市民図書館の公式情報メモ](wakayama-city-library-source.md)を見学する。
 2. バスで和歌山県立博物館へ向かい、蘆雪展を鑑賞する。
 3. 山為食堂で和歌山ラーメンを食べる。
 4. 和歌山城、わかやま歴史館、西之丸庭園、御橋廊下、動物園を見学する。

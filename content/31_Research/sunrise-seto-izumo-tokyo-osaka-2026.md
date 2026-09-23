@@ -4,10 +4,10 @@ aliases:
   - 東京→大阪方面：サンライズ＋姫路新幹線テクニック
 type: literature
 created: 2026-06-17T17:23:48+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260617-172348
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

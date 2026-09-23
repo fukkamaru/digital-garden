@@ -2,12 +2,12 @@
 title: 電子レンジのワット数と加熱時間の換算
 aliases:
   - 電子レンジのワット数と加熱時間の換算
-type: permanent
+type:
 created: 2026-08-10T10:22:47+09:00
-updated: 2026-09-15T18:35:44+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260810-102247
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

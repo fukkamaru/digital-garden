@@ -4,10 +4,10 @@ aliases:
   - 曜変天目茶碗と天目茶碗の世界
 type: literature
 created: 2026-06-30T22:53:01+09:00
-updated: 2026-09-06T17:21:03+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260630-225301
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

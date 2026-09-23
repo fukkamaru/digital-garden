@@ -4,10 +4,10 @@ aliases:
   - chatgptの有料課金をやめたらアカウントはどうなる？
 type: fleeting
 created: 2026-06-17T13:53:48+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260617-135348
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -2,12 +2,12 @@
 title: markdownlinkを採用
 aliases:
   - markdownlinkを採用
-type: permanent
+type:
 created: 2026-04-26T17:35:18+09:00
-updated: 2026-04-26T17:35:18+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-173518
 permalink:
-draft: false
+draft: true
 ---
 
 **obsidianで採用されるリンク記述方式**

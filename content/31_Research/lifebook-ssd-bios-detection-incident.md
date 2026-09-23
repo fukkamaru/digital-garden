@@ -6,10 +6,10 @@ aliases:
   - LIFEBOOK AシリーズのSSD未認識
 type: literature
 created: 2026-04-29T07:23:17+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-072317
 permalink:
-draft: false
+draft: true
 tags:
   - field
   - ai-generated

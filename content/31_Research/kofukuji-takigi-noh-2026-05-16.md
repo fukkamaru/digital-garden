@@ -4,10 +4,10 @@ aliases:
   - 興福寺 薪御能（2026年5月16日）についての整理
 type: literature
 created: 2026-06-10T22:10:32+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260610-221032
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

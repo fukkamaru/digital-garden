@@ -4,11 +4,11 @@ aliases:
   - 7W4Hの要素とグループ分け
   - 7W4Hのグループ分け
   - 5W1H
-type: permanent
+type:
 created: 2025-08-02
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-001155
-draft: false
+draft: true
 source:
 ---
 1. 関係者

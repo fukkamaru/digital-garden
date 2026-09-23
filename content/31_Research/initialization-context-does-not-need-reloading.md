@@ -4,10 +4,10 @@ aliases:
   - 初期化用コンテキストは毎ターン読み直す必要がない
 type: literature
 created: 2026-08-30T23:32:53+09:00
-updated: 2026-08-30T23:32:53+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260830-233253
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

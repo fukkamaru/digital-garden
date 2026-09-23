@@ -5,10 +5,10 @@ aliases:
   - 「優位性・低価格・簡便性・汎用性・独自性」を表す語彙・言い回し整理
 type: literature
 created: 2026-09-03T21:29:29+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260903-212929
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -2,14 +2,12 @@
 title: 生活を変える
 aliases:
   - 生活を変える
-type: permanent
+type:
 created: 2026-05-23T19:25:44+09:00
-updated: 2026-05-23T19:25:44+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260523-192544
 permalink:
 draft: false
-tags:
-  - journal
 ---
 **2025/05/01**
 通勤は電車を降りたら25分まで休憩してから、駅を出る

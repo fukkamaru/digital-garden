@@ -4,10 +4,10 @@ aliases:
   - AI時代のWeb閲覧・広告収益・個人サイト戦略についての整理
 type: literature
 created: 2026-09-03T20:10:42+09:00
-updated: 2026-09-13T00:00:00+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260903-201042
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

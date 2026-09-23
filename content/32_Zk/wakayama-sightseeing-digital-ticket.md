@@ -5,10 +5,10 @@ aliases:
   - 和歌山かんこうデジタルきっぷ
 type: literature
 created: 2026-08-02T20:41:41+09:00
-updated: 2026-09-06T01:39:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260802-204141
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

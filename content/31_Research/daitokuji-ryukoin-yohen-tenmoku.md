@@ -4,11 +4,10 @@ aliases:
   - 大徳寺 龍光院「国宝 曜変天目」まとめ
 type: literature
 created: 2026-08-30T19:53:52+09:00
-updated: 2026-08-30T19:53:52+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260830-195352
 permalink:
-draft: false
-tags:
+draft: true
 ---
 # 大徳寺 龍光院「国宝 曜変天目」まとめ
 

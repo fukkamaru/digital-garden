@@ -4,10 +4,10 @@ aliases:
   - 排水ますの種類・役割・用語整理
 type: literature
 created: 2026-06-10T21:39:32+09:00
-updated: 2026-09-09T16:21:54+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260610-213932
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

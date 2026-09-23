@@ -4,9 +4,9 @@ aliases:
   - 塗料タイプの窓用断熱材
 type: literature
 created: 2026-04-25T19:27:58+09:00
-updated: 2026-09-09T15:26:04+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-192758
-draft: false
+draft: true
 source:
 ---
 

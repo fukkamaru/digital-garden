@@ -5,10 +5,10 @@ aliases:
   - 海外旅行検討メモ（関西在住 / 一人旅前提）
 type: literature
 created: 2026-06-17T12:42:18+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260617-124218
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

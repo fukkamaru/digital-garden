@@ -4,10 +4,10 @@ aliases:
   - 2026年に見られる曜変天目・耀変天目
 type: fleeting
 created: 2026-06-17T18:55:53+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260617-185553
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

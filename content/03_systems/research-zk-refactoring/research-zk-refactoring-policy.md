@@ -4,7 +4,7 @@ aliases:
   - Research＋ZKリファクタリング 作業方針
 type: fleeting
 created: 2026-09-08T21:03:55+09:00
-updated: 2026-09-13T00:00:00+09:00
+updated: 2026-09-22T21:14:14+09:00
 id: 20260908-210355
 permalink:
 draft: false
@@ -97,7 +97,7 @@ AIに依存しなければ整理できない状態を固定化せず、作業を
 - ResearchとZKを別々に整理せず、同じ知識空間として本文、主張、役割、リンクを突き合わせる
 - Researchの内容が、既存カードとの重複、補強、対立、新規Permanent候補、Literatureとしての継続保持、MOC / Structure変更のどれに当たるかを検討する
 - `.退避`を含む退避ファイルは、内容監査の対象外。ただし復元・変更履歴の確認では参照する
-- `30_Inbox/research-zk-refactoring/` は、この作業期間だけの管理領域
+- `03_systems/research-zk-refactoring/work/` は、この作業期間だけの管理領域
 
 ## 上位ルール
 
@@ -412,7 +412,7 @@ ChatGPTで作業対象、変更候補、作業結果を一覧表として提示�
 
 ## 一時作業領域
 
-- 管理方針、ロードマップ、クラスタ作業台、仮クラスタ台帳を`30_Inbox/research-zk-refactoring/`へ置く
+- ロードマップ、クラスタ作業台、仮クラスタ台帳、親クラスタ用ログを`03_systems/research-zk-refactoring/work/`へ置く
 - 公開ノートをクラスタ可視化だけのために移動しない
 - 全体完了後、この管理領域の整理・削除はFukkamaruへ確認してから行う
 

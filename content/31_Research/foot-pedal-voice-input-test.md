@@ -2,13 +2,13 @@
 title: フットペダルと音声入力の組み合わせのテスト
 type: fleeting
 created: 2026-04-26T19:26:14+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-192614
 aliases:
   - フットペダルと音声入力の組み合わせのテスト
   - フットペダルと音声入力の組み合わせてテスト
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated

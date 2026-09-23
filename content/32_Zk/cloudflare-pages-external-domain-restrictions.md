@@ -2,13 +2,12 @@
 title: 外部カスタムドメインをCloudflare Pagesで利用する場合の制限
 aliases:
   - 外部カスタムドメインをCloudflare Pagesで利用する場合の制限
-type: permanent
+type:
 created: 2026-05-10T01:42:34+09:00
-updated: 2026-05-10T01:42:34+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260510-014234
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 >[!info]

@@ -5,9 +5,9 @@ aliases:
   - 接続詞・副詞の “数学的” 早見表
 type: structure
 created: 2026-04-25T22:21:02+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-222102
-draft: false
+draft: true
 source:
 ---
 ## 早見表

@@ -2,11 +2,11 @@
 title: 外部環境で得た知識と内省知の切り分け方
 aliases:
   - 外部環境で得た知識と内省知の切り分け方
-type: permanent
+type:
 created: 2026-04-26T10:30:48+09:00
-updated: 2026-09-05T20:53:54+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-103048
-draft: false
+draft: true
 source:
 ---
 ノートの役割と、知識を得た経路は別の軸として扱う。

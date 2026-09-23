@@ -5,10 +5,10 @@ aliases:
   - 建設業・設備業・防水工事業の高齢化と統計活用についての整理
 type: literature
 created: 2026-06-15T23:06:20+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260615-230620
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

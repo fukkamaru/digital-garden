@@ -4,10 +4,10 @@ aliases:
   - 「花を愛でる 古きを尊ぶ」の注目作品
 type: literature
 created: 2026-08-02T09:57:10+09:00
-updated: 2026-09-08T20:01:27+09:00
+updated: 2026-09-24T07:05:41+09:00
 id: 20260802-095710
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

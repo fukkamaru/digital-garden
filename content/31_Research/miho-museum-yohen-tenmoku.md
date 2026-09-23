@@ -4,10 +4,10 @@ aliases:
   - MIHO MUSEUMの曜変天目について
 type: literature
 created: 2026-08-13T02:28:59+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260813-022859
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -5,10 +5,10 @@ aliases:
   - 滋賀旅行｜MIHO MUSEUM・信楽｜実績
 type: literature
 created: 2026-08-12T13:53:06+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260812-135306
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - ツェッテルカステン向けのVaultのフォルダ構成
 type: literature
 created: 2026-08-30T16:51:21+09:00
-updated: 2026-09-05T20:53:54+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260830-165121
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

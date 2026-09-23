@@ -5,15 +5,11 @@ aliases:
   - Switch2のフィルムについて
 type: literature
 created: 2026-04-29T11:32:30+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-113230
 permalink:
-draft: false
+draft: true
 source:
-tags:
-  - switch2
-  - protection
-  - maintenance
 ---
 
 # Switch2の画面保護フィルム：交換判断

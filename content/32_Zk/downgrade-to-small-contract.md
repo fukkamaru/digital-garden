@@ -2,14 +2,14 @@
 title: 月額費用を押さえるために小口契約にダウングレードする選択肢
 aliases:
   - 月額費用を押さえるために小口契約にダウングレードする選択肢
-type: permanent
+type:
 created: 2026-04-28T19:07:55+09:00
-updated: 2026-04-28T19:07:55+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260428-190755
 permalink:
 tags:
   - field
-draft: false
+draft: true
 ---
 amazon seller（大口）契約における退会時の注意点
 - 各種資料へアクセス出来なくなる

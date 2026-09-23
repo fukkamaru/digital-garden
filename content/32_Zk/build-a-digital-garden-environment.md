@@ -1,12 +1,12 @@
 ---
 title: デジタルガーデンの環境を構築する
-type: permanent
+type:
 created: 2026-04-25T11:46:14+09:00
-updated: 2026-04-25T11:46:14+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-114614
 aliases:
   - デジタルガーデンの環境を構築する
-draft: false
+draft: true
 source: https://jmatsuzaki.com/archives/28115
 ---
 

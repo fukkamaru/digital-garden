@@ -3,17 +3,12 @@ title: 50型4Kディスプレイの作業環境とFancyZones配置
 aliases:
   - 50型4Kディスプレイの作業環境とFancyZones配置
   - 50インチ・4Kディスプレイでの作業環境とFancyZones配置設計まとめ
-type: permanent
+type:
 created: 2026-06-17T19:22:15+09:00
-updated: 2026-09-09T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-192215
 permalink:
-draft: false
-tags:
-  - display
-  - windows
-  - fancyzones
-  - workspace
+draft: true
 ---
 
 # 50型4Kディスプレイの作業環境とFancyZones配置

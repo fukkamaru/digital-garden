@@ -5,10 +5,10 @@ aliases:
   - chatgptを使った思い出し読書
 type: literature
 created: 2026-04-26T21:47:27+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-214727
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated

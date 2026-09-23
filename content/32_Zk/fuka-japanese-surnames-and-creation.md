@@ -1,12 +1,12 @@
 ---
 title: 「ふか」ではじまる日本の苗字と創作
-type: ai-generated
+type: literature
 created: 2026-04-26T00:05:51+09:00
-updated: 2026-04-26T00:05:51+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-000551
 aliases:
   - 「ふか」ではじまる日本の苗字と創作
-draft: false
+draft: true
 source:
   - AI
 tags:

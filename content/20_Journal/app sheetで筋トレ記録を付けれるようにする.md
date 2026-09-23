@@ -2,9 +2,9 @@
 title: app sheetで筋トレ記録を付けれるようにする
 aliases:
   - app sheetで筋トレ記録を付けれるようにする
-type: journal
+type:
 created: 2026-08-01T09:35:52+09:00
-updated: 2026-08-01T09:35:52+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260801-093552
 permalink:
 draft: true

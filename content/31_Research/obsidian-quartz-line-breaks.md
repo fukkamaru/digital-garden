@@ -2,12 +2,12 @@
 title: obsidianとquartzにおける改行問題
 type:
 created: 2026-04-26T18:33:26+09:00
-updated: 2026-04-26T18:33:26+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-183326
 aliases:
   - obsidianとquartzにおける改行問題
 permalink:
-draft: false
+draft: true
 source:
 ---
 markdownとquartz4の関係で、適切な場所で改行されていない問題を解決したい

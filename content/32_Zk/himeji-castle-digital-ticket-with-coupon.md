@@ -5,10 +5,10 @@ aliases:
   - 姫路城下まち1000円クーポンの使い道を考える
 type: literature
 created: 2026-08-29T10:10:52+09:00
-updated: 2026-09-06T00:51:50+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260829-101052
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

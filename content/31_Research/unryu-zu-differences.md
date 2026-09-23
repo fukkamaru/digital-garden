@@ -4,10 +4,10 @@ aliases:
   - 雲龍図の違い
 type: literature
 created: 2026-04-29T11:34:09+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-113409
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated

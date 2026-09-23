@@ -5,14 +5,10 @@ aliases:
   - 部署別棚卸ファイルの再集約
 type: literature
 created: 2026-08-13T10:12:57+09:00
-updated: 2026-09-18T04:34:24+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260813-101257
 permalink:
-draft: false
-tags:
-  - vba
-  - historical-note
-  - inventory
+draft: true
 ---
 # 部署別棚卸ファイル再集約VBA：初期版
 

@@ -5,10 +5,10 @@ aliases:
   - 大阪市立東洋陶磁美術館の特別展「MOCOコレクション オムニバス―初公開・久々の公開―PART2」
 type: literature
 created: 2026-07-29T07:32:03+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260729-073203
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

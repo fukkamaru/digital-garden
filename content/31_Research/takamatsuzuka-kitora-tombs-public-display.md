@@ -4,10 +4,10 @@ aliases:
   - 高松塚古墳とキトラ古墳3 公開とは？
 type: literature
 created: 2026-05-02T18:23:34+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260502-182334
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated

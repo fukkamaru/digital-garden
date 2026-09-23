@@ -4,10 +4,10 @@ aliases:
   - 大和西大寺駅を起点とした交通ルート
 type: literature
 created: 2026-06-30T23:31:42+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260630-233142
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - バイセップカールの正しいフォーム
 type: literature
 created: 2026-04-29T11:31:44+09:00
-updated: 2026-04-29T11:31:44+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-113144
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

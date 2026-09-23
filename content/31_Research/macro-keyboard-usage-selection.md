@@ -5,14 +5,10 @@ aliases:
   - マクロキーボードの参考サイト
 type: literature
 created: 2026-06-17T19:39:26+09:00
-updated: 2026-09-09T14:10:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-193926
 permalink:
-draft: false
-tags:
-  - keyboard
-  - macro
-  - purchase-reference
+draft: true
 ---
 
 # マクロキーボードの用途と選び方

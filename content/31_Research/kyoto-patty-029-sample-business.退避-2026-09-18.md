@@ -3,17 +3,14 @@ title: Kyoto Patty 029 — 架空サンプル事業の設定
 aliases:
   - Kyoto Patty 029
   - KYOU Patty
-type: permanent
+type:
 created: 2026-09-04T03:23:23+09:00
-updated: 2026-09-04T03:39:46+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260904-032323
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
-  - sample
-  - fictional-business
-  - data-analysis
 ---
 
 # Kyoto Patty 029 — 架空サンプル事業の設定

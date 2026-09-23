@@ -4,10 +4,10 @@ aliases:
   - 調べたいことメモ
 type: fleeting
 created: 2026-05-23T18:41:53+09:00
-updated: 2026-09-01T19:28:44+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260523-184153
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

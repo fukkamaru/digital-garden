@@ -5,10 +5,10 @@ aliases:
   - 放熱量・年間削減電力量リーフレット検討内容まとめ
 type: fleeting
 created: 2026-06-12T20:51:50+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260612-205150
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

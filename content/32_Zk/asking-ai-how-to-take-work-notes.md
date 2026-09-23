@@ -2,13 +2,12 @@
 title: 業務中のメモの取り方をAIに尋ねた話
 aliases:
   - 業務中のメモの取り方をAIに尋ねた話
-type: permanent
+type:
 created: 2026-08-19T01:03:47+09:00
-updated: 2026-09-15T00:08:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260819-010347
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 # 業務中のメモの取り方をAIに尋ねた話

@@ -4,10 +4,10 @@ aliases:
   - My Context作成を依頼する安全なプロンプト
 type:
 created: 2026-08-22T23:15:15+09:00
-updated: 2026-09-01T07:42:17+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260822-231515
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

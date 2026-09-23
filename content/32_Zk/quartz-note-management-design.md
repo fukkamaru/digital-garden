@@ -2,12 +2,12 @@
 title: Quartzにおけるノートの管理設計
 aliases:
   - Quartzにおけるノートの管理設計
-type: permanent
+type:
 created: 2026-04-26T17:41:29+09:00
-updated: 2026-09-05T20:53:54+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-174129
 permalink:
-draft: false
+draft: true
 source:
 ---
 大量のノートを長期的に管理するには、分類を増やして置き場所を細かく決めるより、少数の安定した規則とリンクを中心にした方がよい。

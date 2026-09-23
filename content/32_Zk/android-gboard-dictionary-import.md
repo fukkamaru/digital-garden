@@ -2,11 +2,11 @@
 title: android端末でGboard辞書を一括インポートする方法
 aliases:
   - android端末でGboard辞書を一括インポートする方法
-type: permanent
+type:
 created: 2025-07-30
-updated: 2026-04-25T23:43:12+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-234312
-draft: false
+draft: true
 source:
 ---
 

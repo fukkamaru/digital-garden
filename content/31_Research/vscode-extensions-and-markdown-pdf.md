@@ -4,10 +4,10 @@ aliases:
   - VScodeで拡張機能追加のエラーとMarkdown PDFについて
 type: fleeting
 created: 2026-06-20T18:10:41+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260620-181041
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

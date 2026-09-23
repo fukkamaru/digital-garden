@@ -4,11 +4,10 @@ aliases:
   - Gitエコシステムまとめ
 type: structure
 created: 2026-05-13T10:45:13+09:00
-updated: 2026-05-13T10:45:13+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260513-104513
 permalink:
-draft: false
-tags:
+draft: true
 ---
 Gitおよびその周辺サービスについての解説リンクをまとめたもの。
 

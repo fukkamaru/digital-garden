@@ -2,12 +2,12 @@
 title: チケットの待機番号から在庫数や購入確率を推定しない
 aliases:
   - チケットの待機番号から在庫数や購入確率を推定しない
-type: permanent
+type:
 created: 2026-09-06T08:39:39+09:00
-updated: 2026-09-06T08:39:39+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260906-083939
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

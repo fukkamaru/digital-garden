@@ -4,12 +4,12 @@ aliases:
   - WindowsでSMB共有フォルダを設定する方法
   - SMB共有フォルダの設定方法
   - WindowsでSMB共有を作成する方法
-type: permanent
+type:
 created: 2026-08-19T16:04:31+09:00
-updated: 2026-09-17T01:36:22+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260819-160431
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - 健康診断前の準備：受診先の案内を優先する
 type: literature
 created: 2026-09-10T20:05:47+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260910-200547
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

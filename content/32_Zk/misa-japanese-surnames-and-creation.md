@@ -1,11 +1,12 @@
 ---
 title: 「みさ」ではじまる日本の苗字と創作
-type: ai-generated
+type: literature
 created: 2026-04-26T10:01:37+09:00
-updated: 2026-04-26T10:01:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-100137
-aliases: []
-draft: false
+aliases:
+  - 「みさ」ではじまる日本の苗字と創作
+draft: true
 source:
 tags:
   - ai-generated

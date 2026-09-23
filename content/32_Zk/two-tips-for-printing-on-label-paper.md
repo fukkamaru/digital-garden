@@ -2,12 +2,12 @@
 title: ラベル紙で印刷するときに気をつけたいこと2選
 aliases:
   - ラベル紙で印刷するときに気をつけたいこと2選
-type: permanent
+type:
 created: 2026-05-13T18:06:24+09:00
-updated: 2026-09-13T20:17:57+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260513-180624
 permalink:
-draft: false
+draft: true
 tags:
   - field
 ---

@@ -4,11 +4,10 @@ aliases:
   - Obsidian / Quartz における改行思想と Zettelkasten 運用についての議論整理
 type:
 created: 2026-05-09T07:36:50+09:00
-updated: 2026-05-09T07:36:50+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260509-073650
 permalink:
-draft: false
-tags:
+draft: true
 ---
 # Obsidian / Quartz における改行思想と Zettelkasten 運用についての議論整理
 

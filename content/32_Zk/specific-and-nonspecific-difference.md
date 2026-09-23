@@ -4,11 +4,13 @@ aliases:
   - 特異的抵抗と非特異的抵抗の違い
 type: literature
 created: 2026-04-28T21:41:05+09:00
-updated: 2026-04-28T21:41:05+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260428-214105
 permalink:
-draft: false
+draft: true
 source:
+tags:
+  - field
 ---
 - 特異的
 	- ワクチン：特定のウイルスに効く

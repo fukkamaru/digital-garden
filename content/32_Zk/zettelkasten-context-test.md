@@ -4,10 +4,10 @@ aliases:
   - ツェッテルカステン専用コンテキストの動作確認
 type: fleeting
 created: 2026-09-05T18:34:00+09:00
-updated: 2026-09-11T21:09:00+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260905-183400
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

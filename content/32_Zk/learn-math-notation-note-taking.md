@@ -5,10 +5,10 @@ aliases:
   - 数学記号を使ったメモ書きが出来るようになりたい
 type: literature
 created: 2026-04-29T11:48:31+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-114831
 permalink:
-draft: false
+draft: true
 source:
 ---
 

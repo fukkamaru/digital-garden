@@ -5,15 +5,10 @@ aliases:
   - Switch2で4K出力対応のゲームソフト一覧
 type: fleeting
 created: 2026-08-22T22:29:20+09:00
-updated: 2026-09-17T07:42:09+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-222920
 permalink:
-draft: false
-tags:
-  - switch2
-  - 4k
-  - game-reference
-  - source-verification-needed
+draft: true
 ---
 
 # Switch 2の4K出力対応ゲーム一覧

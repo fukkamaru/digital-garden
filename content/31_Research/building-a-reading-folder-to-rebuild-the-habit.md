@@ -5,10 +5,10 @@ aliases:
   - 読書習慣を取り戻すための仕組みを作る
 type: literature
 created: 2026-08-30T16:46:53+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260830-164653
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

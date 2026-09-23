@@ -2,12 +2,12 @@
 title: obsidian pluginについて色々とまとめる
 type: fleeting
 created: 2026-04-26T17:26:54+09:00
-updated: 2026-04-26T17:26:54+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-172654
 aliases:
   - obsidian pluginについて色々とまとめる
 permalink:
-draft: false
+draft: true
 source:
 ---
 結論から言うと、これらは役割で3グループに分かれる：

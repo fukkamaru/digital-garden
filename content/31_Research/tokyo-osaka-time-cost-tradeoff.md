@@ -5,10 +5,10 @@ aliases:
   - 東京～大阪間の移動における時間とコストの関係
 type: literature
 created: 2026-08-30T18:19:50+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260830-181950
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

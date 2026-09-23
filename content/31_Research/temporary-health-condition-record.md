@@ -4,10 +4,10 @@ aliases:
   - 体調不良について
 type: fleeting
 created: 2026-06-24T17:37:29+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260624-173729
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

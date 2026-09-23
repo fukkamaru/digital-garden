@@ -2,13 +2,12 @@
 title: 前提の相対性
 aliases:
   - 前提の相対性
-type: permanent
+type:
 created: 2026-05-13T17:01:04+09:00
-updated: 2026-09-17T01:39:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260513-170104
 permalink:
-draft: false
-tags:
+draft: true
 ---
 人それぞれ異なる前提・知識・経験・価値観を持っているため、自分の常識は他人の常識に必ずしも一致しない。
 

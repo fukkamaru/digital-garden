@@ -1,13 +1,15 @@
 ---
-title: 近鉄週末フリーパスで遠出する候補
+title: 近鉄週末フリーパスの行き先候補と使い方
 aliases:
+  - 近鉄週末フリーパスの行き先候補と使い方
+  - 近鉄週末フリーパスで遠出する候補
   - 近鉄週末フリーパス5000円で遠出する候補
 type: literature
 created: 2026-08-29T19:05:00+09:00
-updated: 2026-09-06T00:51:50+09:00
+updated: 2026-09-23T21:21:53+09:00
 id: 20260829-190500
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -2,13 +2,12 @@
 title: Canvaのフォルダ構成を考える
 aliases:
   - Canvaのフォルダ構成を考える
-type: permanent
+type:
 created: 2026-08-22T20:11:48+09:00
-updated: 2026-08-22T20:11:48+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-201148
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 - 00_Inbox：整理中のもの

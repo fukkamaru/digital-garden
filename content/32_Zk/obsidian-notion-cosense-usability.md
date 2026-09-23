@@ -2,13 +2,12 @@
 title: Obsidian, Notion, Cosenseの使い勝手
 aliases:
   - Obsidian, Notion, Cosenseの使い勝手
-type: permanent
+type:
 created: 2026-05-27T20:58:10+09:00
-updated: 2026-05-27T20:58:10+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260527-205810
 permalink:
-draft: false
-tags:
+draft: true
 ---
 ## Obsidian
 マークダウンファイルをそのまま利用するノートアプリ。

@@ -4,12 +4,12 @@ aliases:
   - URLで日本語がエンコードされる理由
   - エンコードとデコード
   - 日本語URLがバグる理由
-type: permanent
+type:
 created: 2026-04-26T17:22:53+09:00
-updated: 2026-09-17T01:39:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-172253
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

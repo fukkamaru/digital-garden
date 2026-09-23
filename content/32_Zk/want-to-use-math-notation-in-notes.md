@@ -4,10 +4,10 @@ aliases:
   - 数学記号を使ったメモ書きを身につけたい
 type: fleeting
 created: 2026-09-16T18:09:23+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260916-180923
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

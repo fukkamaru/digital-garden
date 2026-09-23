@@ -2,14 +2,12 @@
 title: 言葉と思考の軌跡
 aliases:
   - 言葉と思考の軌跡
-type: permanent
+type:
 created: 2026-05-22T22:58:43+09:00
-updated: 2026-05-22T22:58:43+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260522-225843
 permalink:
 draft: false
-tags:
-  - journal
 ---
 
 

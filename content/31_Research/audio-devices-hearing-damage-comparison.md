@@ -2,12 +2,12 @@
 title: イヤホンとヘッドホンでの聴力への影響を調べる
 type: literature
 created: 2026-04-29T08:03:06+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-080306
 aliases:
   - イヤホンとヘッドホンでの聴力への影響を調べる
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

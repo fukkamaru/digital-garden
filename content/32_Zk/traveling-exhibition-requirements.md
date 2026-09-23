@@ -4,10 +4,10 @@ aliases:
   - 特別展が巡回する条件
 type: literature
 created: 2026-05-02T14:24:59+09:00
-updated: 2026-09-08T21:41:35+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260502-142459
 permalink:
-draft: false
+draft: true
 source:
 ---
 

@@ -5,10 +5,10 @@ aliases:
   - 中之島香雪美術館にて大原美術館所蔵「名画への旅」虎次郎の夢
 type: literature
 created: 2026-06-10T23:22:20+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260610-232220
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

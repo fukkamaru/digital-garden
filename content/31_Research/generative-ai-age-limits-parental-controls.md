@@ -4,10 +4,10 @@ aliases:
   - 主要生成AIの年齢制限・ペアレンタルコントロールと、子どもへの使わせ方
 type: literature
 created: 2026-09-03T20:09:55+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260903-200955
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

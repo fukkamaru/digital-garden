@@ -5,14 +5,10 @@ aliases:
   - GA4の分析方針
 type: literature
 created: 2026-06-20T18:35:31+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-183531
 permalink:
-draft: false
-tags:
-  - ga4
-  - kpi
-  - web-analysis
+draft: true
 ---
 
 GA4のイベントを成果指標にする前に、事業上の成果との距離を分けて設計する。イベントが発生した事実と、営業上の有効リード・受注が確定した事実は同じではない。

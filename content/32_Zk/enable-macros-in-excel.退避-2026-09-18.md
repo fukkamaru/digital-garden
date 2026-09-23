@@ -1,14 +1,14 @@
 ---
 title: マクロ付きのExcelファイルを編集出来るようにする
-type: permanent
+type:
 created: 2026-04-27T20:15:14+09:00
-updated: 2026-04-27T20:15:14+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260427-201514
 aliases:
   - マクロ付きのExcelファイルを編集出来るようにする
   - エクセル
 permalink:
-draft: false
+draft: true
 tags:
   - field
 ---

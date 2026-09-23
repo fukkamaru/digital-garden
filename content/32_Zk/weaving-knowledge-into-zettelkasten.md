@@ -2,13 +2,12 @@
 title: 知識や経験を自分のネットワークに編み込んでいく
 aliases:
   - 知識や経験を自分のネットワークに編み込んでいく
-type: permanent
+type:
 created: 2026-05-09T22:49:07+09:00
-updated: 2026-09-05T21:34:55+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260509-224907
 permalink:
-draft: false
-tags:
+draft: true
 ---
 Zettelkastenへ知識を取り込むことは、すべての情報を同じ形式へ変換したり、一つの分類へ収めたりすることではない。
 

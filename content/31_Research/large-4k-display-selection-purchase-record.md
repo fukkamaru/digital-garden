@@ -5,14 +5,10 @@ aliases:
   - でっかいディスプレイを購入する
 type: literature
 created: 2026-06-17T19:36:42+09:00
-updated: 2026-09-09T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-193642
 permalink:
-draft: false
-tags:
-  - display
-  - 4k
-  - purchase-history
+draft: true
 ---
 
 # 大型4Kディスプレイの選定・購入記録

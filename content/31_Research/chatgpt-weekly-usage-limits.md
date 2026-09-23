@@ -2,13 +2,12 @@
 title: 吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である
 aliases:
   - 吾輩は、ChatGPTの週間利用制限すら使い切れない凡人である
-type: permanent
+type:
 created: 2026-08-22T10:29:27+09:00
-updated: 2026-09-11T20:43:21+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-102927
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 AIを安く使える時代だからこそ、今のうちに目的を見定めてしっかりと使いたい倒したい。

@@ -2,11 +2,11 @@
 title: メモ同士のリンクとバックリンクの関係を理解する
 aliases:
   - メモ同士のリンクとバックリンクの関係を理解する
-type: permanent
+type:
 created: 2026-04-25T18:02:10+09:00
-updated: 2026-04-25T18:02:10+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-180210
-draft: false
+draft: true
 source:
 ---
 

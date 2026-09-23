@@ -4,10 +4,10 @@ aliases:
   - 補修・修理・修繕・改修などの言葉の使い分け
 type: literature
 created: 2026-05-13T16:40:19+09:00
-updated: 2026-09-09T16:09:29+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260513-164019
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

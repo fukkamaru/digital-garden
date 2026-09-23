@@ -3,12 +3,12 @@ title: 先週の運動データからChatGPTに次週メニューを作成させ
 aliases:
   - 先週の運動データからChatGPTに次週メニューを作成させたテスト
   - トレーニングメニューをchatgptに作成してもらう
-type: permanent
+type:
 created: 2026-04-26T21:53:40+09:00
-updated: 2026-09-13T00:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-215340
 permalink:
-draft: false
+draft: true
 ---
 
 # 先週の運動データからChatGPTに次週メニューを作成させたテスト

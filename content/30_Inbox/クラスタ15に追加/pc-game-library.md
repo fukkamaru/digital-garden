@@ -1,0 +1,103 @@
+---
+title: PCゲームライブラリ（Steam / Epic Games Store）
+aliases:
+  - PCゲームライブラリ（Steam / Epic Games Store）
+  - PCゲーム所持タイトル一覧（Steam / Epic Games Store）
+type: index
+created: 2026-09-21T20:32:54+09:00
+updated: 2026-09-23T22:00:58+09:00
+id: 20260921-203254
+permalink:
+draft: true
+---
+# PCゲームライブラリ（Steam / Epic Games Store）
+
+PCゲームの所持状況を、購入・配布元のプラットフォーム別に整理する。所持状況の更新はこのノートを正本とし、購入判断には[ゲーム購入ガイド一覧](振り分け中/game-purchase-guides-index.md)も併用する。
+
+今後、ゲーム購入を検討するときは、以下を確認するための基準リストとして使う。
+
+- すでに所持しているタイトルとの重複購入防止
+- Steam / Epic Games Storeなど、どのプラットフォームで所持しているかの確認
+- セール時の購入候補整理
+- シリーズ作品の不足タイトル確認
+- Switch 2など、他プラットフォーム版を購入する必要性の判断
+
+ゲーム名は、原則として各ストア上の正式名称を使用する。
+
+## Steam
+
+|タイトル|
+|---|
+|ACE COMBAT™ 7: SKIES UNKNOWN|
+|Anno 1800|
+|Assassin's Creed Valhalla|
+|Cities: Skylines II|
+|Nioh: Complete Edition|
+|Desperados III|
+|Detroit: Become Human|
+|農家は Replace() されました|
+|Stray|
+|Tales of ARISE|
+|TUNIC|
+|Undertale|
+|ウィッチャー３ ワイルドハント コンプリートエディション|
+
+Steamについては、現時点で **13タイトル** を記録している。
+
+## Epic Games Store
+
+|タイトル|備考|
+|---|---|
+|DEATH STRANDING||
+|Ghostwire: Tokyo||
+|The Outer Worlds: Spacer's Choice Edition||
+|Ghostrunner||
+|Marvel's Guardians of the Galaxy||
+|ホグワーツ・レガシー||
+|『ホグワーツ・レガシー』クリエーターキット|ゲーム本編とは別の制作・編集用関連ツール|
+|ゼンレスゾーンゼロ|基本プレイ無料タイトル|
+
+Epic Games Storeについては、ゲーム本編と関連ツールを区別して管理する。
+
+### 「秘密と過去と彼女達」について
+
+当初、「秘密と過去と彼女達」を独立したゲームタイトルとして記録していたが、これはゲーム名ではない。
+
+『ゼンレスゾーンゼロ』Ver.3.2の名称である、
+
+> 秘密と、過去と、彼女たちと
+
+を指していたため、所持タイトルとしては **『ゼンレスゾーンゼロ』** に修正する。
+
+同様に、イベント名・DLC名・エディション名・アップデート名などをゲーム本編と誤認しないようにする。
+
+## 所持ゲーム管理ルール
+
+今後、タイトルを追加するときは次のルールで正規化する。
+
+1. ユーザー入力が略称・カタカナ表記・音写でも、可能な限り正式タイトルを確認する。
+2. Steam版ならSteam、Epic版ならEpic Games Store上の表記を優先する。
+3. Complete EditionやSpacer's Choice Editionなど、所持しているエディションが明確な場合はエディション名まで記録する。
+4. DLC・Creator Kit・サウンドトラック・ツール類は、本編とは区別して記録する。
+5. 基本プレイ無料タイトルも、実際に利用している・ライブラリ管理対象であれば所持リストに含める。
+6. 今後ゲーム購入を比較するときは、このリストと照合して重複購入を避ける。
+
+## 現時点での用途
+
+この一覧は単なる蔵書的なゲーム一覧ではなく、購入判断の基礎データとして扱う。
+
+特に、
+
+- Steam版とSwitch 2版のどちらを買うか
+- Epicで無料配布された作品をSteamで買い直す必要があるか
+- Complete Editionを持っているためDLCを追加購入する必要がないか
+- シリーズ作品のうち何をすでに持っているか
+- セール時に「安いから」という理由だけで重複購入しないか
+
+といった判断に利用する。
+
+今後タイトルが増えた場合は、このノートを継続更新する。
+
+## 関連ノート
+
+- [Epic Games Store・EAのPCゲーム無料配布履歴](epic-ea-free-game-history.md)：所持タイトルが過去の無料配布で取得したものかを照合するための履歴。

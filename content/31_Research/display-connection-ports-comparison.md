@@ -4,15 +4,10 @@ aliases:
   - ディスプレイ接続端子の比較
 type: literature
 created: 2026-06-17T19:30:50+09:00
-updated: 2026-09-09T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-193050
 permalink:
-draft: false
-tags:
-  - display
-  - connection
-  - usb-c
-  - hdmi
+draft: true
 ---
 
 # ディスプレイ接続端子の比較

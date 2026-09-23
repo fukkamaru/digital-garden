@@ -4,14 +4,10 @@ aliases:
   - Looker Studio「期間設定」のページ間同期についての初期検討
 type: literature
 created: 2026-06-20T22:35:35+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260918-070502
 permalink:
-draft: false
-tags:
-  - looker-studio
-  - historical-note
-  - decision-history
+draft: true
 ---
 
 これは、閲覧モードにおける期間設定のページ間同期を検討した経緯である。現行の仕様整理は[[looker-studio-date-range-control-scope|Looker Studioにおける期間コントロールの適用範囲]]を正とする。

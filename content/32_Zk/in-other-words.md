@@ -5,9 +5,9 @@ aliases:
   - 副詞「つまり」
 type: literature
 created: 2025-07-21
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-163227
-draft: false
+draft: true
 source:
 ---
 
@@ -27,7 +27,7 @@ source:
 	- 「R団」とは、つまり「ロケット団」のことですね。
 		- ※ネタバレ注意
 	- エビワラーのパンチは時速500km/hです。つまり、リニア中央新幹線と同じ速さです。
-		- ※ [エビワラーのパンチ速度を計算し、身近な速さと比較した](hitmonchan-punch-speed-calculation.md)
+		- ※ [エビワラーのパンチ速度を身近な速度と比較する](hitmonchan-punch-speed-comparison.md)
 
 
 

@@ -2,13 +2,12 @@
 title: トークン消費量を抑えるための基礎的なスレッド管理
 aliases:
   - トークン消費量を抑えるための基礎的なスレッド管理
-type: permanent
+type:
 created: 2026-08-22T10:52:37+09:00
-updated: 2026-08-22T10:52:37+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-105237
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 通常のChatで足りる内容はChatで済ませることで、Codex / Work側の利用量は抑えやすくなる。

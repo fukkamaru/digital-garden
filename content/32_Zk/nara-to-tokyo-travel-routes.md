@@ -4,10 +4,10 @@ aliases:
   - 奈良から東京へ遊びに行く交通ルート
 type: literature
 created: 2026-05-02T13:43:34+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260502-134334
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated

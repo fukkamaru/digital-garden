@@ -2,12 +2,12 @@
 title: 大原美術館と地中美術館を１日で楽しめるのか？
 aliases:
   - 大原美術館と地中美術館を１日で楽しめるのか？
-type: permanent
+type:
 created: 2026-05-02T13:34:06+09:00
-updated: 2026-05-02T13:34:06+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260502-133406
 permalink:
-draft: false
+draft: true
 ---
 
 出発駅からの移動時間

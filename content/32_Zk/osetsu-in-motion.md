@@ -6,11 +6,10 @@ aliases:
   - 芦雪生動
 type: literature
 created: 2026-08-02T21:03:13+09:00
-updated: 2026-09-06T19:13:53+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260802-210313
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 # 特別展「蘆雪生動―南紀 無量寺への旅―」鑑賞記録

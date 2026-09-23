@@ -5,14 +5,10 @@ aliases:
   - GA4のページとランディングページの違い
 type: literature
 created: 2026-06-20T17:16:27+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-171627
 permalink:
-draft: false
-tags:
-  - ga4
-  - looker-studio
-  - web-analysis
+draft: true
 ---
 
 「ページ」と「ランディングページ」は、同じURLを別の問いで見るための区別である。前者は**どのページが読まれたか**、後者は**どのページからセッションが始まったか**を表す。

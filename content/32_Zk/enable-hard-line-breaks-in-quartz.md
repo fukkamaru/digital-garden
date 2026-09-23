@@ -2,12 +2,12 @@
 title: QuartzにHardLineBreaksを導入
 aliases:
   - QuartzにHardLineBreaksを導入
-type: permanent
+type:
 created: 2026-05-03T20:25:28+09:00
-updated: 2026-09-17T01:39:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260503-202528
 permalink:
-draft: false
+draft: true
 source:
 ---
 ## hard line breakによる強制改行

@@ -2,12 +2,12 @@
 title: 「お知らせ」を修正するときのラベルと記述方法
 aliases:
   - 「お知らせ」を修正するときのラベルと記述方法
-type: permanent
+type:
 created: 2026-05-02T10:58:16+09:00
-updated: 2026-09-14T23:56:10+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260502-105816
 permalink:
-draft: false
+draft: true
 tags:
   - field
 ---

@@ -5,10 +5,10 @@ aliases:
   - chatpgtの出力を音声にする
 type: fleeting
 created: 2026-04-29T11:40:43+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-114043
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated
@@ -123,4 +123,4 @@ PCを使えばペダルやキー割当の自由度は上がる。しかし、ゲ
 3. ChatGPTをどの画面に置くかを、スマホ、iPad、外部モニターで比較する。
 4. それでも操作回数が問題になる場合だけ、無音検知などの自動化を検討する。
 
-ショートカットやペダルとの具体的な競合は、[[chatgpt-voice-input-output-shortcut-conflict]]、実際のフットペダル試行は[[フットペダルと音声入力の組み合わせてテスト]]に分けて扱う。
+ショートカットやペダルとの具体的な競合は、[[chatgpt-voice-input-output-shortcut-conflict|ChatGPTの音声入力と「Voice Control for ChatGPT」のショートカット競合]]、実際のフットペダル試行は[[フットペダルと音声入力の組み合わせてテスト]]に分けて扱う。

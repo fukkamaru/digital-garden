@@ -4,11 +4,10 @@ aliases:
   - ツェッテルカステン用YAMLフロントマター
 type:
 created: 2026-08-20T07:31:55+09:00
-updated: 2026-08-20T07:31:55+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260820-073155
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 > [!YAML]

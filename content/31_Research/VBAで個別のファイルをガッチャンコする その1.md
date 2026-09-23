@@ -5,14 +5,10 @@ aliases:
   - 管理部署別棚卸ファイルの切り出し
 type: literature
 created: 2026-08-13T10:11:24+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260813-101124
 permalink:
-draft: false
-tags:
-  - vba
-  - historical-note
-  - inventory
+draft: true
 ---
 # 管理部署別棚卸ファイル切り出しVBA：初期版
 

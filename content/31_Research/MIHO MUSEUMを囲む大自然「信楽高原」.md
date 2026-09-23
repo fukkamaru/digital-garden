@@ -2,12 +2,12 @@
 title: MIHO MUSEUMを囲む大自然「信楽高原」
 aliases:
   - MIHO MUSEUMを囲む大自然「信楽高原」
-type: permanent
+type: fleeting
 created: 2026-08-10T09:34:11+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-24T07:05:41+09:00
 id: 20260810-093411
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

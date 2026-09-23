@@ -4,12 +4,12 @@ aliases:
   - WindowsのSMB共有を管理する方法
   - SMB共有フォルダの管理方法について
   - Windowsの共有フォルダー管理
-type: permanent
+type:
 created: 2026-08-17T20:00:51+09:00
-updated: 2026-09-17T07:42:09+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260817-200051
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

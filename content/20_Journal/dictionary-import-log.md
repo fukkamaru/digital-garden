@@ -2,14 +2,12 @@
 title: 辞書インポート試行ログ
 aliases:
   - 辞書インポート試行ログ
-type: permanent
+type:
 created: 2025-07-30
-updated: 2026-05-02T06:52:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260502-065251
 permalink:
 draft: false
-tags:
-  - journal
 ---
 
 **Gboardへのインポート・エクスポート設定画面を探す。** ※なかなか見つからない

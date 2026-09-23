@@ -4,10 +4,10 @@ aliases:
   - 京都国立博物館　北野天神　見るべきリスト
 type: literature
 created: 2026-06-10T23:42:49+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260610-234249
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

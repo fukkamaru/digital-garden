@@ -4,9 +4,9 @@ aliases:
   - iphoneでおすそ分け充電
 type: literature
 created: 2025-11-19
-updated: 2026-04-25T18:00:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-180040
-draft: false
+draft: true
 source:
 ---
 iphone15以降のUSB-Type C端末なら、

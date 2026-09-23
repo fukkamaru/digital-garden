@@ -5,11 +5,10 @@ aliases:
   - 和歌山旅行｜芦雪・和歌山城・マリーナシティ｜旅行プラン
 type: literature
 created: 2026-08-02T09:13:07+09:00
-updated: 2026-09-06T05:40:22+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260802-091307
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 [芦雪生動](osetsu-in-motion.md)が開催された和歌山県立博物館を主目的にして、和歌山城と和歌山マリーナシティをつなぐ計画だった。
@@ -43,7 +42,7 @@ tags:
 9:36ごろ到着予定
 
 県立博物館へ直行する前に駅周辺を見る
-- [和歌山市民図書館](wakayama-city-library.md)
+- [和歌山市民図書館の公式情報メモ](wakayama-city-library-source.md)
 	- 本を読むことが目的ではない
 	- オシャレ空間を見る
 	- 長居はしない

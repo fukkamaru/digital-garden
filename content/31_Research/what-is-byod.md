@@ -4,11 +4,10 @@ aliases:
   - BYODについて
 type:
 created: 2026-08-30T19:05:53+09:00
-updated: 2026-08-30T19:05:53+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260830-190553
 permalink:
 draft: true
-tags:
 ---
 BYODは **Bring Your Own Device** の略で、直訳すると「自分の端末を持ち込む」という意味です。
 

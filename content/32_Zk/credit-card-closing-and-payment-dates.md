@@ -2,13 +2,12 @@
 title: クレジットカードの締め日と支払日
 aliases:
   - クレジットカードの締め日と支払日
-type: permanent
+type:
 created: 2026-08-17T21:53:38+09:00
-updated: 2026-08-17T21:53:38+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260817-215338
 permalink:
 draft: true
-tags:
 ---
 
 

@@ -3,12 +3,12 @@ title: URLエンコードとデコードの具体例
 aliases:
   - URLエンコードとデコードの具体例
   - エンコード・デコードの一例
-type: permanent
+type:
 created: 2026-05-09T21:16:48+09:00
-updated: 2026-09-17T01:39:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260509-211648
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - 加水分解
 type: literature
 created: 2026-05-13T16:27:28+09:00
-updated: 2026-09-09T14:51:57+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260513-162728
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

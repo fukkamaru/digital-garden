@@ -2,12 +2,12 @@
 title: 買う理由が値段ならやめるべき。買わない理由が値段なら買うべき
 aliases:
   - 買う理由が値段ならやめるべき。買わない理由が値段なら買うべき
-type: permanent
+type:
 created: 2026-04-29T09:30:42+09:00
-updated: 2026-04-29T09:30:42+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-093042
 permalink:
-draft: false
+draft: true
 source:
 ---
 意思決定の主軸がどちらにあるのか問われている

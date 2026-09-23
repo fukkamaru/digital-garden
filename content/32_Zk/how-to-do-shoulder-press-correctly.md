@@ -4,11 +4,10 @@ aliases:
   - ショルダープレスの正しいフォーム
 type: literature
 created: 2026-05-16T10:42:59+09:00
-updated: 2026-05-16T10:42:59+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260516-104259
 permalink:
-draft: false
-tags:
+draft: true
 ---
 ## マシン・ショルダープレスの基本
 

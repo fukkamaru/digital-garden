@@ -1,0 +1,59 @@
+---
+title: ローカルHTML/CSSで表示したサムネイルの出力試行
+aliases:
+  - サムネイル制作ワークフロー整理
+type: literature
+created: 2026-08-30T21:30:38+09:00
+updated: 2026-09-23T18:45:30+09:00
+id: 20260830-213038
+permalink:
+draft: true
+tags:
+  - ai-generated
+---
+
+# ローカルHTML/CSSで表示したサムネイルの出力試行
+
+## 何を試したか
+
+AIとの対話で構成を検討し、最終的な文字・写真・余白はローカルHTML/CSSで直接表示する方法を試した。HTMLは、実素材を同じフォルダから読み込み、ブラウザで開くと完成サムネイルが表示される状態を目指した。
+
+初期のAI生成方式との比較と転換理由は[AI生成方式からローカルHTML/CSS方式へ切り替えた判断](thumbnail-ai-generation-to-local-html-decision.md)に残す。
+
+## 当時の役割分担
+
+| 担当 | 行ったこと |
+| --- | --- |
+| AIとの対話 | 訴求、コピー、素材の役割、構成、配色の検討 |
+| HTML/CSS | 文字、素材の位置、クロップ、余白、色、最終表示 |
+| ブラウザとDevTools | 表示確認と完成領域のPNG書き出し |
+
+## 出力で試した操作
+
+3840×2160pxの完成領域を一つのルート要素で囲み、DevToolsの `Capture node screenshot` で、その要素だけを書き出す方法を試した。
+
+```text
+HTML/CSSで完成表示
+  ↓
+完成領域の要素を選択
+  ↓
+Capture node screenshot
+  ↓
+PNGのサイズと範囲を確認
+```
+
+## 発生した問題
+
+- サムネイル本体ではなく外側の要素を選ぶと、ブラウザ背景や余白まで保存された。
+- 実際に選ぶべきルート要素を、HTML構造とハイライトで確かめる必要があった。
+- 出力されたPNGが意図した3840×2160pxになるかは、環境ごとに確認が必要だった。
+
+## 当時の次の案
+
+HTML自身に保存機能を加えるのではなく、手動書き出しが負担になった場合は、完成領域だけを保存するChrome拡張機能を別に作る案を考えた。これは実装済みではない。
+
+## 関連記録
+
+- 縞鋼板案件のHTML条件：[HTMLサムネイル制作：設計記録](html-thumbnail-design-record.md)
+- GUIでの編集可能性の試行：[Canva CodeからFigmaへ移った編集試行](canva-code-to-figma-editing-trial.md)
+- Cluster 04全体の経緯：[サムネイル制作方式の探索：Cluster 04 の記録構造](thumbnail-production-history-structure.md)

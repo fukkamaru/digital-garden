@@ -2,13 +2,12 @@
 title: PRD：製品要求仕様書とは？
 aliases:
   - PRD：製品要求仕様書とは？
-type: permanent
+type:
 created: 2026-08-29T18:34:50+09:00
-updated: 2026-09-15T00:08:11+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260829-183450
 permalink:
-draft: false
-tags:
+draft: true
 ---
 ビジネスシーンにおいて、一般に **Product Requirements Document（プロダクト要求仕様書／製品要求仕様書）** のことを指す。
 

@@ -5,10 +5,10 @@ aliases:
   - ChatGPTはアップロードされたファイル名を認識できる
 type: literature
 created: 2026-08-30T23:34:41+09:00
-updated: 2026-09-11T21:59:39+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260830-233441
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

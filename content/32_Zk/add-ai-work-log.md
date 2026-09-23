@@ -2,13 +2,12 @@
 title: AI作業ログを追加する
 aliases:
   - AI作業ログを追加する
-type: permanent
+type:
 created: 2026-08-22T14:52:10+09:00
-updated: 2026-08-22T14:52:10+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-145210
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 **2026/08/22 時点の内容**

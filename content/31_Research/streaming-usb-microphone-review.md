@@ -5,15 +5,11 @@ aliases:
   - 配信用のマイクについて見直す
 type: literature
 created: 2026-04-29T07:03:37+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-070337
 permalink:
-draft: false
+draft: true
 source:
-tags:
-  - microphone
-  - streaming
-  - purchase-reference
 ---
 
 # 配信用USBマイクの見直し

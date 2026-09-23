@@ -2,11 +2,11 @@
 title: 2026年の目標：筋力トレーニング
 aliases:
   - 2026年の目標：筋力トレーニング
-type: permanent
+type:
 created: 2026-01-17
-updated: 2026-04-25T19:24:37+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-192437
-draft: false
+draft: true
 source:
 ---
 

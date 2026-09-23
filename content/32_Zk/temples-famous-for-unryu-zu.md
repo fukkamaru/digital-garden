@@ -2,12 +2,12 @@
 title: 雲龍図で有名な寺
 aliases:
   - 雲龍図で有名な寺
-type: permanent
+type:
 created: 2026-04-30T23:25:01+09:00
-updated: 2026-09-08T20:01:27+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260430-232501
 permalink:
-draft: false
+draft: true
 source:
 ---
 

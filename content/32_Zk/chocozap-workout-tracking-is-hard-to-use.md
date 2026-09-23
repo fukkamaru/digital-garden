@@ -2,13 +2,12 @@
 title: chocoZAPの運動記録が使いにくい
 aliases:
   - chocoZAPの運動記録が使いにくい
-type: permanent
+type:
 created: 2026-08-21T22:19:27+09:00
-updated: 2026-09-10T19:39:31+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260821-221927
 permalink:
-draft: false
-tags:
+draft: true
 ---
 チョコザップのアプリ内運動記録システムが使いにくい。
 - マシン選択が不便なUI

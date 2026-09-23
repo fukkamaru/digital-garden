@@ -2,13 +2,12 @@
 title: AI作業ログの作成準備
 aliases:
   - AI作業ログの作成準備
-type: permanent
+type:
 created: 2026-08-22T12:49:05+09:00
-updated: 2026-08-22T12:49:05+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-124905
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 事故が起きたときにログがないと、どういった作業のどういった流れで問題が起きたのか把握できない。

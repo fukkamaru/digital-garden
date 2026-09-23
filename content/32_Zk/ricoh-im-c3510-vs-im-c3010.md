@@ -4,12 +4,12 @@ aliases:
   - RICOH IM C3510 VS RICOH IM C3010
 type: literature
 created: 2026-05-27T16:53:17+09:00
-updated: 2026-05-27T16:53:17+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260527-165317
 permalink:
 tags:
   - field
-draft: false
+draft: true
 ---
 
 2機種の違いは、ほぼ「速度」と「価格」

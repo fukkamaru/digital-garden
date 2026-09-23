@@ -4,10 +4,10 @@ aliases:
   - 化学業界における補修材や建材の立ち位置
 type: literature
 created: 2026-06-11T19:54:00+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260611-195400
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

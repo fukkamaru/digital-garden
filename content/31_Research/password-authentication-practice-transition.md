@@ -4,10 +4,10 @@ aliases:
   - 定期変更から多要素認証へ：認証設計の変化
 type: literature
 created: 2026-09-17T05:23:33+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260917-052333
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

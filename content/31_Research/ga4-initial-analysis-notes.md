@@ -4,14 +4,10 @@ aliases:
   - GA4についての調べごと（初期記録）
 type: literature
 created: 2026-06-20T18:35:31+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260918-070501
 permalink:
-draft: false
-tags:
-  - ga4
-  - historical-note
-  - decision-history
+draft: true
 ---
 
 これは、定例GA4レポートを始める段階で行った初期検討を残すための記録である。現在の運用基準は[[ga4-site-analysis-kpi-design|GA4サイト分析のKPI設計]]を正とする。

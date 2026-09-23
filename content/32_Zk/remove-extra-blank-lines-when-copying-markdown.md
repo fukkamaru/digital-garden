@@ -2,13 +2,12 @@
 title: マークダウンをコピーしたときの余計な空白行をなくす
 aliases:
   - マークダウンをコピーしたときの余計な空白行をなくす
-type: permanent
+type:
 created: 2026-08-26T19:17:09+09:00
-updated: 2026-08-26T19:17:09+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260826-191709
 permalink:
-draft: false
-tags:
+draft: true
 ---
 ![369](Pasted%20image%2020260826191711.png)
 

@@ -5,10 +5,10 @@ aliases:
   - スマートEXによる新幹線割引「早特」には5種類の割引がある
 type: literature
 created: 2026-08-30T18:39:15+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260830-183915
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

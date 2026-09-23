@@ -6,10 +6,10 @@ aliases:
   - 日本国内旅行でよく使われる主要な宿泊予約サイト
 type: literature
 created: 2026-08-01T09:37:11+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260801-093711
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

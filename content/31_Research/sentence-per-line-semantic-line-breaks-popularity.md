@@ -2,12 +2,12 @@
 title: sentence per lineとsemantic line breaksはどちらが人気ですか？
 type:
 created: 2026-04-26T21:24:31+09:00
-updated: 2026-04-26T21:24:31+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-212431
 aliases:
   - sentence per lineとsemantic line breaksはどちらが人気ですか？
 permalink:
-draft: false
+draft: true
 source:
 ---
 sentence per lineとsemantic line breaksはどちらが人気ですか？ 英語圏および日本語圏について、それぞれ教えて

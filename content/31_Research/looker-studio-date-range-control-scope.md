@@ -4,13 +4,10 @@ aliases:
   - Looker Studio「期間設定」のページ間同期についての整理
 type: literature
 created: 2026-06-20T22:35:35+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-223535
 permalink:
-draft: false
-tags:
-  - looker-studio
-  - reporting
+draft: true
 ---
 
 Looker Studioの期間コントロールは、閲覧者が選んだ期間を**そのコントロールが置かれたページのグラフ**へ適用する。グループ化や対象グラフの選択で適用範囲を狭められる。公式仕様はページ内の適用範囲を定義しているため、複数ページをまたぐ閲覧者の選択状態を前提としたレポート設計にはしない。[^date-control]

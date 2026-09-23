@@ -2,16 +2,12 @@
 title: 50型ディスプレイのVESA金具取付・安全確認
 aliases:
   - 50型ディスプレイのVESA金具取付・安全確認
-type: permanent
+type:
 created: 2026-06-17T19:32:00+09:00
-updated: 2026-09-09T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-193200
 permalink:
-draft: false
-tags:
-  - display
-  - vesa
-  - safety
+draft: true
 ---
 
 # 50型ディスプレイのVESA金具取付・安全確認

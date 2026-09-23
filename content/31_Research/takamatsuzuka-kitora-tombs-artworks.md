@@ -4,10 +4,10 @@ aliases:
   - 高松塚古墳とキトラ古墳2
 type: literature
 created: 2026-05-02T18:22:12+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260502-182212
 permalink:
-draft: false
+draft: true
 source:
 tags:
   - ai-generated

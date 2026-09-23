@@ -4,10 +4,10 @@ aliases:
   - オレンジブックとモノタロウの違い
 type: literature
 created: 2026-05-11T19:26:51+09:00
-updated: 2026-05-11T19:26:51+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260511-192651
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

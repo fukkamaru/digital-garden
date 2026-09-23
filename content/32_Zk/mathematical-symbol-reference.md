@@ -5,9 +5,9 @@ aliases:
   - 数学記号
 type: literature
 created: 2025-08-09
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-225027
-draft: false
+draft: true
 source:
 ---
 [数学記号の表 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E8%A8%98%E5%8F%B7)<br>

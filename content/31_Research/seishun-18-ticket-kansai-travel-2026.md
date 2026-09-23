@@ -5,10 +5,10 @@ aliases:
   - 青春18きっぷを利用
 type: literature
 created: 2026-06-17T13:47:02+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260617-134702
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

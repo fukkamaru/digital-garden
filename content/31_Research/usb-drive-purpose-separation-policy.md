@@ -2,16 +2,12 @@
 title: USBメモリを用途別に分離する管理方針
 aliases:
   - USBメモリを用途別に分離する管理方針
-type: permanent
+type:
 created: 2026-08-13T09:42:51+09:00
-updated: 2026-09-09T09:54:10+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260813-094251
 permalink:
 draft: true
-tags:
-  - usb
-  - data-management
-  - personal-boundary
 ---
 
 # USBメモリを用途別に分離する管理方針

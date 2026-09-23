@@ -4,15 +4,11 @@ aliases:
   - Switch版ゲームソフトの中古価格が高くなりやすい理由
 type: literature
 created: 2026-04-29T07:58:27+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-075827
 permalink:
-draft: false
+draft: true
 source:
-tags:
-  - switch
-  - game-purchase
-  - market-reference
 ---
 
 # Switch版ゲームソフトの中古価格が高くなりやすい理由

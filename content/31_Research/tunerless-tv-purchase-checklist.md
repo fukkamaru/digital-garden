@@ -5,14 +5,10 @@ aliases:
   - チューナーレステレビのデメリット
 type: literature
 created: 2026-06-17T19:28:15+09:00
-updated: 2026-09-15T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-192815
 permalink:
-draft: false
-tags:
-  - tunerless-tv
-  - streaming
-  - display
+draft: true
 ---
 
 # チューナーレステレビを選ぶ際の確認事項

@@ -2,11 +2,11 @@
 title: ウサギとカメで覚える7W4Hの歌
 aliases:
   - ウサギとカメで覚える7W4Hの歌
-type: permanent
+type:
 created: 2025-07-31
-updated: 2026-04-25T23:52:31+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-235231
-draft: false
+draft: true
 source:
 ---
 

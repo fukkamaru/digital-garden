@@ -4,14 +4,10 @@ aliases:
   - Switch2で4K出力対応のゲームソフト一覧
 type: literature
 created: 2026-08-22T22:29:20+09:00
-updated: 2026-09-09T09:42:23+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-222920
 permalink:
-draft: false
-tags:
-  - switch2
-  - 4k
-  - game-reference
+draft: true
 ---
 
 > [!warning] このノートの位置付け

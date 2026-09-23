@@ -4,14 +4,10 @@ aliases:
   - GA4のfile_downloadが何をもって「ダウンロード」と判断するのか
 type: literature
 created: 2026-06-20T18:17:02+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-181702
 permalink:
-draft: false
-tags:
-  - ga4
-  - measurement
-  - web-analysis
+draft: true
 ---
 
 GA4の標準 `file_download` は、利用可能にした拡張計測により、**対象拡張子のファイルへ向かうリンクがクリックされたこと**を記録するイベントである。PCへの保存完了、ファイルの閲覧完了、資料の読了を測るイベントではない。[^enhanced]

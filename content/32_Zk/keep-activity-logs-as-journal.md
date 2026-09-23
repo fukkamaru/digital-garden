@@ -2,13 +2,12 @@
 title: 活動記録はジャーナルとして残す
 aliases:
   - 活動記録はジャーナルとして残す
-type: permanent
+type:
 created: 2026-05-09T21:21:59+09:00
-updated: 2026-09-05T21:21:56+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260509-212159
 permalink:
-draft: false
-tags:
+draft: true
 ---
 目的に向かって行った作業の経過は`20_Journal`に残し、その過程で得た再利用可能な判断基準や設計原則はPermanent Noteとして`32_Zk`へ切り出す。
 

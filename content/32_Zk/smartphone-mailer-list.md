@@ -1,12 +1,12 @@
 ---
 title: スマホ向け「メーラー」一覧表
-type: ai-generated
+type: literature
 created: 2025-08-14
-updated: 2026-04-25T23:26:52+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260425-232652
 aliases:
   - スマホ向け「メーラー」一覧表
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

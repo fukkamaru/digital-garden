@@ -4,10 +4,10 @@ aliases:
   - ユーザープロファイル障害の原因調査に要した時間の評価
 type: literature
 created: 2026-08-22T22:47:03+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260822-224703
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

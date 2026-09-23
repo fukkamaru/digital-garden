@@ -4,10 +4,10 @@ aliases:
   - エポキシ樹脂の分類
 type: literature
 created: 2026-06-11T20:10:57+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260611-201057
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

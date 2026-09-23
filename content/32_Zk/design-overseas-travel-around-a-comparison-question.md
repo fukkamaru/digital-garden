@@ -2,12 +2,12 @@
 title: 海外旅行は訪問国数より比較したい問いを先に決める
 aliases:
   - 海外旅行は訪問国数より比較したい問いを先に決める
-type: permanent
+type:
 created: 2026-09-06T06:14:41+09:00
-updated: 2026-09-06T06:14:41+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260906-061441
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

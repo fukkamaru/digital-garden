@@ -2,12 +2,12 @@
 title: 大本山の代表例
 type: literature
 created: 2026-04-30T23:01:58+09:00
-updated: 2026-09-08T22:15:00+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260430-230158
 aliases:
   - 大本山の代表例
 permalink:
-draft: false
+draft: true
 source:
 ---
 

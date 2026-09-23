@@ -4,10 +4,10 @@ aliases:
   - GitHub Pagesの主な制限
 type: literature
 created: 2026-05-13T07:36:03+09:00
-updated: 2026-05-13T07:36:03+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260513-073603
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

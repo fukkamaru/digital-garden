@@ -4,10 +4,9 @@ aliases:
   - タイプ別カード一覧表
 type: structure
 created: 2026-04-25T21:35:14+09:00
-updated: 2026-04-25T21:35:14+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-213514
 draft: false
-tags:
 ---
 - Obsidian上で分析作業を行うためのページ
 

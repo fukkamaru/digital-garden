@@ -3,16 +3,13 @@ title: 延長保証の価値を判断する
 aliases:
   - 延長保証の価値を判断する
   - 家電量販店の保証に入る価値はあるのか？計算する
-type: permanent
+type:
 created: 2026-04-29T08:13:11+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-081311
 permalink:
-draft: false
+draft: true
 source:
-tags:
-  - warranty
-  - purchase-decision
 ---
 
 # 延長保証の価値を判断する

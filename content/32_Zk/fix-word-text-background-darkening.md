@@ -2,12 +2,12 @@
 title: Wordで背景色の付いた図形の上に文字を置くと、その周辺部分だけ背景色が濃くなる問題の解決
 aliases:
   - Wordで「背景色付きボックスの上に文字を置くと、文字部分だけ背景色が濃くなる」問題の解決
-type: permanent
+type:
 created: 2026-05-02T07:09:02+09:00
-updated: 2026-05-02T07:09:02+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260502-070902
 permalink:
-draft: false
+draft: true
 tags:
   - field
 ---

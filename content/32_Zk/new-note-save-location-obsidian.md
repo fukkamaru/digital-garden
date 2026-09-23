@@ -2,11 +2,11 @@
 title: Obsidianの保管庫を変更した場合、新規ノートはどこに保存されるのか？
 aliases:
   - Obsidianの保管庫を変更した場合、新規ノートはどこに保存されるのか？
-type: permanent
+type:
 created: 2026-04-22
-updated: 2026-04-25T16:24:37+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260425-162437
-draft: false
+draft: true
 source:
 ---
 

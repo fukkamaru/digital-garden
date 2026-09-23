@@ -4,13 +4,10 @@ aliases:
   - GA4における総ユーザー、アクティブユーザー、新規ユーザーの違い
 type: literature
 created: 2026-06-20T17:02:48+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-170248
 permalink:
-draft: false
-tags:
-  - ga4
-  - web-analysis
+draft: true
 ---
 
 GA4の「ユーザー」は、レポートでどの指標を使っているかを確認して読む。特に総ユーザーを「訪問回数の合計」とは扱わない。

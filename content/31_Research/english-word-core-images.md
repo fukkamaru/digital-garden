@@ -5,10 +5,10 @@ aliases:
   - 英単語のコアイメージ
 type:
 created: 2026-05-13T17:31:32+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260513-173132
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

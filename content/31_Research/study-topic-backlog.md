@@ -5,10 +5,10 @@ aliases:
   - 学習したいテーマ一覧
 type: fleeting
 created: 2026-04-26T19:15:50+09:00
-updated: 2026-09-16T18:09:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260426-191550
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

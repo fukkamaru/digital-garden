@@ -2,12 +2,12 @@
 title: 全国チェーン店で理解する「本山」
 aliases:
   - 全国チェーン店で理解する「本山」
-type: permanent
+type:
 created: 2026-04-30T19:49:52+09:00
-updated: 2026-09-08T22:15:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260430-194952
 permalink:
-draft: false
+draft: true
 source:
 ---
 

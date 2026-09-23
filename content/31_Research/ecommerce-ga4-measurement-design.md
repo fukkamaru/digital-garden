@@ -5,14 +5,10 @@ aliases:
   - ECサイトにおけるGA4計測設計
 type: literature
 created: 2026-06-20T22:53:42+09:00
-updated: 2026-09-18T04:06:51+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-225342
 permalink:
-draft: false
-tags:
-  - ga4
-  - ecommerce
-  - measurement-design
+draft: true
 ---
 
 ECサイトの受注画面だけでは、売上や注文数は把握できても、購入に至る前の行動と施策の影響は追いにくい。GA4は、売上管理を置き換えるものではなく、**集客から購入までの行動を、改善のために読む計測基盤**として位置付ける。

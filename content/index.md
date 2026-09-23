@@ -24,6 +24,12 @@ draft: false
 > それは、いつしか宇宙と成り、秩序ある体系だった宇宙へと変貌するでしょう。
 
 
+
+
+
+
+
+
 - [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
 - [Analytics](analytics.md)
 
@@ -44,3 +50,4 @@ draft: false
 - [使ってみたいアイテム](things-i-want-to-try.md)
 - [個人的ブックマーク](personal-bookmarks.md)
 
+[Cluster 04 サムネイル制作方式の探索](thumbnail-production-history-structure.md)

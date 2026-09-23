@@ -3,12 +3,12 @@ title: 嵐山では渡月橋を渡る前に飲食を済ませるべきだった
 aliases:
   - 嵐山では渡月橋を渡る前に飲食を済ませるべきだった
   - 渡月橋を渡った先はテイクアウトが少ない
-type: permanent
+type:
 created: 2026-06-30T23:15:51+09:00
-updated: 2026-09-09T01:19:37+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260630-231551
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

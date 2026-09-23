@@ -4,10 +4,10 @@ aliases:
   - 旗艦店（フラグシップストア）
 type: literature
 created: 2026-04-30T20:16:23+09:00
-updated: 2026-04-30T20:16:23+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260430-201623
 permalink:
-draft: false
+draft: true
 source:
 ---
 企業が展開する店舗の中で、コンセプトやイメージを最も濃く体現し、

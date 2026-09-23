@@ -1,13 +1,13 @@
 ---
 title: quartzのグラフビューの調整
-type: permanent
+type:
 created: 2026-04-29T23:57:24+09:00
-updated: 2026-04-29T23:57:24+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260429-235724
 aliases:
   - quartzグラフビューの調整
 permalink:
-draft: false
+draft: true
 source:
 ---
 サイト上のグラフビューを拡大表示すると、ノード同士が近くフォントサイズも大きいせいで、

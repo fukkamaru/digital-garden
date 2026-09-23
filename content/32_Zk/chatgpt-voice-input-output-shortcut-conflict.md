@@ -3,14 +3,13 @@ title: ChatGPTの音声入力と「Voice Control for ChatGPT」のショート�
 aliases:
   - ChatGPTの音声入力と「Voice Control for ChatGPT」のショートカット競合
   - ChatGTPの音声入力と「Voice Control for ChatGPT」によるショートカットの競合問題
-type: permanent
+type:
 created: 2026-04-26T19:29:35+09:00
-updated: 2026-09-11T21:59:39+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260426-192935
 permalink:
-draft: false
+draft: true
 source:
-tags:
 ---
 
 # ChatGPTの音声入力と「Voice Control for ChatGPT」のショートカット競合
@@ -42,4 +41,4 @@ Chrome拡張機能「Voice Control for ChatGPT」を導入し、ChatGPTの出力
 
 音声入力と音声出力を同時に使う場合は、ショートカットの重複を先に確認する。操作数が増えると、ゲームや配信中には意識する負荷が大きくなる。
 
-この問題への対処を考えるときは、拡張機能を削除するかどうかだけで決めない。出力の自動音読に満足しているなら、別のショートカットへ変更できるか、音声入力・送信・出力のどれを足ペダルなど別の入力へ移すかを比較する。音声をテキストで受け取る運用全体は、[[chatgpt-text-to-speech]]を参照する。
+この問題への対処を考えるときは、拡張機能を削除するかどうかだけで決めない。出力の自動音読に満足しているなら、別のショートカットへ変更できるか、音声入力・送信・出力のどれを足ペダルなど別の入力へ移すかを比較する。音声をテキストで受け取る運用全体は、[[chatgpt-text-to-speech|ChatGPTの音声入力・出力と自動送信の検討]]を参照する。

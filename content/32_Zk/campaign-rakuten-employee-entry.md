@@ -4,11 +4,10 @@ aliases:
   - 楽天最強プランのご案内
 type: literature
 created: 2026-05-11T20:09:12+09:00
-updated: 2026-05-11T20:09:12+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260511-200912
 permalink:
-draft: false
-tags:
+draft: true
 ---
 楽天モバイルはココから飛んで契約する。
 

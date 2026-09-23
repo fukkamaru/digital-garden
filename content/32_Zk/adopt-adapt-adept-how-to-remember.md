@@ -1,13 +1,13 @@
 ---
 title: adopt, adapt, adeptの違いと覚え方
-type: permanent
+type:
 created: 2026-04-28T22:18:06+09:00
-updated: 2026-04-28T22:18:06+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260428-221806
 aliases:
   - adopt, adapt, adeptの違いと覚え方
 permalink:
-draft: false
+draft: true
 source:
 ---
 

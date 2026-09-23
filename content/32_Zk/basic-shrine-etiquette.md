@@ -4,11 +4,10 @@ aliases:
   - 神社での基本的な作法・マナー
 type: literature
 created: 2026-01-10
-updated: 2026-01-10
+updated: 2026-09-23T22:00:58+09:00
 id: 20260527-210142
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 

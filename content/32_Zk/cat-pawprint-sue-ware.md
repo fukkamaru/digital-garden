@@ -4,11 +4,10 @@ aliases:
   - 猫の足跡付き須恵器
 type: literature
 created: 2026-06-06T12:27:54+09:00
-updated: 2026-09-08T22:15:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260606-122754
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 # 猫の足跡付き須恵器

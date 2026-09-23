@@ -5,14 +5,10 @@ aliases:
   - Koolertron片手キーボードのおすすめ設定
 type: fleeting
 created: 2026-06-20T17:29:34+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260620-172934
 permalink:
-draft: false
-tags:
-  - keyboard
-  - macro
-  - setup-draft
+draft: true
 ---
 
 # Koolertron片手キーボードの設定方針

@@ -4,10 +4,10 @@ aliases:
   - 記録媒体と磁石の関係
 type: literature
 created: 2026-04-29T15:18:45+09:00
-updated: 2026-04-29T15:18:45+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260429-151845
 permalink:
-draft: false
+draft: true
 source:
 ---
 

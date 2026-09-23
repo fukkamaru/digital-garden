@@ -4,11 +4,10 @@ aliases:
   - Zettelkasten Refactoring Flow
 type:
 created: 2026-09-14T21:21:22+09:00
-updated: 2026-09-14T21:21:22+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260914-212122
 permalink:
 draft: true
-tags:
 ---
 # Zettelkasten Refactoring Flow
 
@@ -21,7 +20,7 @@ tags:
 実作業では、以下を併用する。
 
 - `Obsidian Zettelkasten Ai Operations.md` — Zettelkasten全体に共通する操作ルール
-- `zk-refactoring-policy.md` — リファクタリング固有の目的・判断基準・方針
+- `research-zk-refactoring-policy.md` — リファクタリング固有の目的・判断基準・方針
 - 本文書 — リファクタリングを実施するための作業手順
 
 これらが競合する場合、本Flowだけを根拠に操作を拡張しない。判断できない場合はFukkamaruへ確認する。
@@ -200,7 +199,7 @@ Workスレッドは固定のノート数・子クラスタ数・トークン数�
 
 ### 7.1 対象確認・分析
 
-現在の子クラスタについて対象ノートと作業範囲を確定し、`zk-refactoring-policy.md` に従って分析する。
+現在の子クラスタについて対象ノートと作業範囲を確定し、`research-zk-refactoring-policy.md` に従って分析する。
 
 必要に応じて以下を検討する。
 

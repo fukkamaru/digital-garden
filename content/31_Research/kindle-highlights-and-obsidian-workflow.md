@@ -4,10 +4,10 @@ aliases:
   - Kindleハイライトとobsidian運用についての整理
 type: fleeting
 created: 2026-06-10T22:07:36+09:00
-updated: 2026-09-01T19:28:44+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260610-220736
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

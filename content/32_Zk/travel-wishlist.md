@@ -4,11 +4,10 @@ aliases:
   - 旅行へ行きたい
 type: index
 created: 2026-06-03T11:28:33+09:00
-updated: 2026-09-06T13:50:52+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260603-112833
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 行きたい場所、具体化した旅行計画、訪問後の記録を見渡すための索引。開催期間、料金、交通条件、作品の展示状況は変わるため、ここでは候補を把握し、具体的な条件は旅行計画またはResearchで管理する。
@@ -87,7 +86,7 @@ tags:
 
 ### 岡山・倉敷
 
-旅程の前提は[岡山と倉敷を両方回るなら1泊以上を前提にする](go-to-okayama-and-kurashiki.md)で扱う。
+旅程の前提は[岡山と倉敷を巡る旅行は1泊以上を基本にする](okayama-kurashiki-overnight-travel.md)で扱う。
 
 - 岡山城
 - 岡山後楽園

@@ -4,11 +4,10 @@ aliases:
   - ツェッテルカステン変更履歴
 type: structure
 created: 2026-09-17T05:14:14+09:00
-updated: 2026-09-17T05:50:28+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260917-051414
 permalink:
 draft: true
-tags:
 ---
 
 # ツェッテルカステン変更履歴

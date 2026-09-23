@@ -3,15 +3,12 @@ title: 50型ディスプレイの設定
 aliases:
   - 50型ディスプレイの設定
   - ディスプレイの設定 その2
-type: permanent
+type:
 created: 2026-06-17T19:35:24+09:00
-updated: 2026-09-09T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-193524
 permalink:
-draft: false
-tags:
-  - display
-  - settings
+draft: true
 ---
 
 # 50型ディスプレイの設定

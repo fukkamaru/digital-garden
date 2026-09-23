@@ -4,14 +4,10 @@ aliases:
   - 棚卸VBAの読みやすい実行入口
 type: literature
 created: 2026-09-18T05:19:33+09:00
-updated: 2026-09-18T05:19:33+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260918-051933
 permalink:
-draft: false
-tags:
-  - vba
-  - inventory
-  - refactoring
+draft: true
 ---
 
 分割と再集約は逆向きの処理であり、1つの巨大なマクロにはしない。実行入口だけを明確にし、実装は[[safe-department-inventory-workbook-export|安全な切り出し]]と[[safe-department-inventory-workbook-combine|安全な再集約]]へ分ける。

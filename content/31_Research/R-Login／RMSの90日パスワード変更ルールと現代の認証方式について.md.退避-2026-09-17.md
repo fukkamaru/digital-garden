@@ -4,10 +4,10 @@ aliases:
   - R-Login／RMSの90日パスワード変更ルールと現代の認証方式について
 type: literature
 created: 2026-09-03T21:05:55+09:00
-updated: 2026-09-03T21:05:55+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260903-210555
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

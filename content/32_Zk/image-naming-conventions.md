@@ -2,12 +2,12 @@
 title: 画像ファイルの命名規則
 aliases:
   - 画像ファイルの命名規則
-type: permanent
+type: literature
 created: 2026-05-02T06:20:30+09:00
-updated: 2026-05-02T06:20:30+09:00
+updated: 2026-09-24T07:05:41+09:00
 id: 20260502-062030
 permalink:
-draft: false
+draft: true
 source:
 ---
 
@@ -85,19 +85,3 @@ repairing-wooden-deck-posts-inline03-finish-1920x1280.jpg
 | `manual`  | 説明用画像        | 取扱説明、注意説明               |
 | `sns`     | SNS用画像       | X、Instagram、Facebookなど  |
 | `ogp`     | OGP画像        | SNSシェア用画像               |
-
-
-| role      | 日本語訳・意味      |
-| --------- | ------------ |
-| `product` | 製品画像         |
-| `thumb`   | サムネイル・アイキャッチ |
-| `banner`  | バナー          |
-| `main`    | メイン画像        |
-| `inline`  | 本文中画像        |
-| `diagram` | 図解           |
-| `chart`   | グラフ          |
-| `step`    | 手順画像         |
-| `logo`    | ロゴ           |
-| `sample`  | サンプル画像       |
-
-

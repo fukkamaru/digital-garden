@@ -2,12 +2,12 @@
 title: 交通手段は運賃ではなく総費用と自由時間で比較する
 aliases:
   - 交通手段は運賃ではなく総費用と自由時間で比較する
-type: permanent
+type:
 created: 2026-09-06T00:07:23+09:00
-updated: 2026-09-06T00:24:08+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260906-000723
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

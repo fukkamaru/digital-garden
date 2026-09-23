@@ -6,10 +6,10 @@ aliases:
   - Windows Updateでコンポーネントとシステムファイルを修復する
 type: literature
 created: 2026-06-17T17:48:16+09:00
-updated: 2026-09-17T07:42:09+09:00
+updated: 2026-09-23T18:45:30+09:00
 id: 20260617-174816
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

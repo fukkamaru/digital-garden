@@ -2,13 +2,12 @@
 title: Amazonの配送制限
 aliases:
   - Amazonの配送制限
-type: permanent
+type:
 created: 2026-05-11T19:38:08+09:00
-updated: 2026-05-11T19:38:08+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260511-193808
 permalink:
-draft: false
-tags:
+draft: true
 ---
 
 どうやら**大型・かさばる商品扱い**のものは、**配送地域や配送方法に制限があるらしい**。Amazonで商品を購入しようとしたら、選択された住所に発送が出来ないから、**削除または住所変更を求められた。**

@@ -3,12 +3,12 @@ title: 工場で使う印刷物のラミネート加工
 aliases:
   - 工場で使う印刷物のラミネート加工
   - 工場利用には欠かせないのラミネート加工
-type: permanent
+type:
 created: 2026-05-13T16:55:42+09:00
-updated: 2026-09-15T18:35:44+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260513-165542
 permalink:
-draft: false
+draft: true
 tags:
   - field
 ---

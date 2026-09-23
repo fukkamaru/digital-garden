@@ -4,12 +4,12 @@ aliases:
   - SMB共有フォルダへ接続する方法
   - SMB共有フォルダへの入り方
   - WindowsからSMB共有フォルダへ接続する方法
-type: permanent
+type:
 created: 2026-08-22T23:10:03+09:00
-updated: 2026-09-17T07:33:40+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260822-231003
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

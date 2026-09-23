@@ -5,14 +5,10 @@ aliases:
   - モニターサイズについて
 type: literature
 created: 2026-06-17T19:40:20+09:00
-updated: 2026-09-09T14:00:00+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260617-194020
 permalink:
-draft: false
-tags:
-  - display
-  - size
-  - aspect-ratio
+draft: true
 ---
 
 # モニターサイズと縦横比の比較

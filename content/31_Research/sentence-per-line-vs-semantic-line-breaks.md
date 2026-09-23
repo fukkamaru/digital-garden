@@ -3,11 +3,10 @@ title: Sentence per linettooとSemantic line breaksの違い
 aliases: []
 type:
 created: 2026-05-08T05:22:45+09:00
-updated: 2026-05-08T05:22:45+09:00
+updated: 2026-09-23T22:00:58+09:00
 id: 20260508-052245
 permalink:
-draft: false
-tags:
+draft: true
 ---
 - Sentence per line  
     → 1文ごと改行  
