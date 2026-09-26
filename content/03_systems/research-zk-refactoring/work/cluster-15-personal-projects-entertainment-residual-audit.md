@@ -4,7 +4,7 @@ aliases:
   - Research＋ZKリファクタリング作業台：15：個人プロジェクト・娯楽・残余監査
 type: fleeting
 created: 2026-09-20T20:26:12+09:00
-updated: 2026-09-23T22:11:46+09:00
+updated: 2026-09-26T17:49:03+09:00
 id: 20260920-202612
 permalink:
 draft: false
@@ -21,33 +21,33 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 ## 現在の状態
 
 - 親クラスタ：Cluster 15「個人プロジェクト・娯楽・残余監査」
-- 状態：監査中（2026-09-22）。Fukkamaruの判断により、Cluster 14より先に扱う。
+- 状態：監査中（2026-09-26）。15-05、15-04、15-01は完了済み。15-01では21ノートを監査し、前半11件はFukkamaruの判断により変更不要として維持した。後半10件（No.12〜21）は修正済み検証基準と実ファイルを照合し、12〜20は変更不要、21は空の箇条書き1行だけを削除した。主クラスタの再配置は行っていない。
 - 台帳上の対象：278件。既存表の実パス174件に加え、Fukkamaruの明示指示により`30_Inbox/クラスタ15に追加`の現役104件を追加した。既存・追加は単一の対象一覧へ統合し、出自を区切り行で保持する。本文が現行購入ガイドと完全一致した旧コピー11件は、2026-09-22に`.退避`へ変更して本文監査の対象外とした。フォルダ内の既存`.退避`16件も復元用であり、本文監査の対象外とする。
 - 内容別の子クラスタ：[Cluster 15内容別子クラスタ台帳](cluster-15-content-subcluster-map.md)を正本とする。全278件を主題と利用場面で15クラスタへ割り当て済みであり、既存・追加・保存フォルダ・過去の作業工程は分類軸に使わない。
-- 次の処理順：Fukkamaruの明示指示により、15-08「芸術・文化・創作」21件を先に扱い、その後に15-06「映像・画像・配信制作」13件を扱う。
+- 次の処理順：15-02「AIサービス・モデル利用」を、初回作業単位、予定Work境界、閲覧と変更の境界を提示してから監査する。
 - 既存のCluster 15作業台・親クラスタ用ログはなかったため、このノートと親ログを新規作成した。
 - 中心課題：他クラスタの中心課題に入らなかったノートを「その他」として固定せず、内容、関係、役割を監査して、既存クラスタへの移管、小さな新規クラスタ、単独維持、統合候補、意図的保留を区別する。
 - スレッド由来の内容：スレッド内容を一括転記しない。ノートとして残す目的、発話者・時点・出典、転記先の役割を確認できたものだけを候補として扱う。
 
 ## 子クラスタと進捗
 
-| ID | 内容別子クラスタ | 件数 | 状態 |
-| --- | --- | --- | --- |
-| 15-01 | AI・知識管理の運用 | 21 | 分類完了。内容監査は未着手 |
-| 15-02 | AIサービス・モデル利用 | 24 | 分類完了。内容監査は未着手 |
-| 15-03 | 文書・データ・デジタル作業 | 25 | 完了（2026-09-22） |
-| 15-04 | PC・Web・ソフトウェア基盤 | 12 | 分類完了。内容監査は未着手 |
-| 15-05 | 製品・業務・産業知識 | 31 | 分類完了。内容監査は未着手 |
-| 15-06 | 映像・画像・配信制作 | 13 | 分類完了。内容監査は未着手 |
-| 15-07 | ゲーム・インタラクティブ娯楽 | 26 | 完了（2026-09-22） |
-| 15-08 | 芸術・文化・創作 | 21 | 分類完了。内容監査は未着手 |
-| 15-09 | 旅行・地域・移動 | 21 | 完了（2026-09-23。本文・YAML・タイトル・ファイル名・参照を整理） |
-| 15-10 | 個人の購入・サービス判断 | 18 | 分類完了。内容監査は未着手 |
-| 15-11 | 生活・住環境・個人運用 | 15 | 完了（2026-09-22） |
-| 15-12 | 健康・医療・心理 | 17 | 完了（2026-09-22。心理検査2件を1件へ統合） |
-| 15-13 | 言語・概念・基礎知識 | 17 | 完了（2026-09-22） |
-| 15-14 | 自然科学・材料・食 | 10 | 完了（2026-09-23。本文・YAML・タイトル・ファイル名・参照を整理） |
-| 15-15 | 仕事・労働・制度 | 6 | 完了（2026-09-23。本文・YAML・タイトル・ファイル名・参照を整理） |
+| ID    | 内容別子クラスタ        | 件数  | 状態                                        |
+| ----- | --------------- | --- | ----------------------------------------- |
+| 15-01 | AI・知識管理の運用      | 21  | 完了（2026-09-26。前半11件は維持、後半10件を検証。主クラスタ再配置なし） |
+| 15-02 | AIサービス・モデル利用    | 24  | 分類完了。内容監査は未着手 |
+| 15-03 | 文書・データ・デジタル作業   | 25  | 完了（2026-09-22）                            |
+| 15-04 | PC・Web・ソフトウェア基盤 | 12  | 完了（2026-09-26。本文・YAML・タイトル・ファイル名・参照を整理。問題把握1・2を1ノートへ統合） |
+| 15-05 | 製品・業務・産業知識      | 24  | 完了（2026-09-26）                             |
+| 15-06 | 映像・画像・配信制作      | 13  | 完了（2026-09-24。本文・YAML・タイトル・ファイル名・参照を整理）   |
+| 15-07 | ゲーム・インタラクティブ娯楽  | 26  | 完了（2026-09-22）                            |
+| 15-08 | 芸術・文化・創作        | 21  | 完了（2026-09-24。本文・YAML・タイトル・ファイル名・参照を整理）   |
+| 15-09 | 旅行・地域・移動        | 21  | 完了（2026-09-23。本文・YAML・タイトル・ファイル名・参照を整理）   |
+| 15-10 | 個人の購入・サービス判断    | 18  | 完了（2026-09-25。本文・YAML・タイトル・英語ファイル名・参照を整理） |
+| 15-11 | 生活・住環境・個人運用     | 15  | 完了（2026-09-22）                            |
+| 15-12 | 健康・医療・心理        | 17  | 完了（2026-09-22。心理検査2件を1件へ統合）               |
+| 15-13 | 言語・概念・基礎知識      | 17  | 完了（2026-09-22）                            |
+| 15-14 | 自然科学・材料・食       | 10  | 完了（2026-09-23。本文・YAML・タイトル・ファイル名・参照を整理）   |
+| 15-15 | 仕事・労働・制度        | 6   | 完了（2026-09-23。本文・YAML・タイトル・ファイル名・参照を整理）   |
 
 ## 予定Workスレッド境界
 
@@ -101,11 +101,29 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 2. AI側とZK側のROOT分離ルールを現行コンテキストへ採用するか、具体的な文面・適用範囲・既存ルールとの優先順位を検討する。
 3. 新規Workflowを作るかどうかは、現行文書の責務重複を別途比較してから決定する。
 
+## 15-01後半10ノートの修正済み検証基準（2026-09-26）
+
+Fukkamaruが修正した、次スレッドで実ファイルと照合するための判断・本文変更案。これは実装済みの記録ではない。本文、YAML、ファイル名、リンク、公開状態、外部サービス設定は変更していない。
+
+| No. | ノート | 判断 | 本文変更案 |
+| ---: | --- | --- | --- |
+| 12 | AI時代のDigital Gardenにおける公開・限定公開の設計 | 長い検討記録。Cloudflare Accessや`visibility`は将来案で、現行設定ではない。 | 冒頭で「設計検討記録」と明示し、公開／限定公開／完全非公開の考え方、前提、未決事項を表に集約する。実装手順・設定案は「未実施の案」として残す。 |
+| 13 | AI整理済みObsidianノートを公開可能な知識へ育てる方針 | AI生成物を知識へ育てる思想と、話者表示などの実装案が混在している。 | 「知識の成熟モデル」と「将来の表示・テンプレート案」を分け、現行運用ではない試作案を明示する。 |
+| 14 | Obsidianの最短経路リンクと相対パスの比較・判断 | 比較・判断の記録として価値がある。設定の現況確認は未実施。 | 比較軸、採用理由、前提、未確認事項を表へ整理する。「現在の設定値」ではなく、当時の採用判断として表現を統一する。 |
+| 15 | ResearchとZettelkastenをクラスタ単位でリファクタリングする | 現行リファクタリングの出発点となった構想記録。本文中の図がコードブロック化されていない。 | 冒頭で経緯・現行正本との関係を示す。クラスタ処理モデルをMermaidとして正しく整形し、実施済み方針と当時の未解決事項を区別する。 |
+| 16 | Quartzのモバイル表示で表とMermaidを読みやすくする | Quartz側の表示設計案。実環境のDOMや設定は未確認。 | 表／Mermaid／余白の方針と、実装前の確認事項を整理する。CSS・JavaScriptの実装提案は未検証案として保持する。 |
+| 17 | メモ同士のリンクとバックリンクの関係を理解する | 短く、リンクとバックリンクの向きの説明が逆になっている。 | 「発信元ノート→リンク先ノート」「リンク先ノート→発信元一覧としてのバックリンク」を図と短い例で正確に書き直す。 |
+| 18 | 外部環境で得た知識と内省知の切り分け方 | `type`と由来を分ける中心主張は有効。ただし本文の`permanent`表記は現行の許可typeと整合しない。 | `type`の現行運用に合わせ、過去のPermanent概念との関係を注記する。`field`はユーザーが由来を判断して付ける、という原則を明確化する。 |
+| 19 | 完了済みクラスタの公開化記録（2026-09-17） | 日付付きの変更履歴として完結している。 | 冒頭で「2026-09-17時点の実施記録」と明示し、対象・変更・除外理由を要約する。公開化したノート一覧は証跡として維持する。 |
+| 20 | 削除済みノートへのDead Link運用と公開Webの設計 | 大規模な調査・設計記録。Quartz実装やSEO／AI検索の議論を、現行ルールと誤認しやすい。 | 結論、Obsidian内の履歴表現、公開Web上の扱い、未実施のQuartz実装案を分離する。冒頭で「調査・将来設計」であることを示す。 |
+| 21 | 調べたいことの一覧 | 未整理の調査バックログとして役割が明確。 | 本文は原則維持。見出し階層・箇条書きの表記だけを必要最小限に整え、未作成リンクや調査済み項目を推測で変更しない。 |
+
 ## 次のアクション
 
-1. 次に扱う内容別子クラスタを選ぶ。
+1. 15-01後半10件の実ファイルを、上の検証基準と一件ずつ照合する。
 2. 変更候補は、対象・影響・退避方法を示して承認を得てから実施する。
-3. 子クラスタの完了結果は親ログへ記録してから次へ進む。
+3. 残る11件は、初回監査の設計と閲覧境界を示してから扱う。
+4. 15-01全21件の処理と検証が完了した場合だけ、親ログへ子クラスタの結果を記録する。
 
 ## 15-07の完了記録（2026-09-22）
 
@@ -121,27 +139,27 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 
 ### 15-01 AI・知識管理の運用
 
-- [AIがObsidian / Zettelkasten / Quartzを操作するための運用コンテキスト設計](../../30_Inbox/クラスタ15に追加/AIがObsidian, Zettelkasten, Quartzを操作するための運用コンテキスト設計.md)
-- [AIとのチャットで用語を統一すると誤解を減らせる](../../30_Inbox/クラスタ15に追加/AIとのチャットで用語を統一すると誤解を減らせる.md)
+- [AIがObsidian / Zettelkasten / Quartzを操作するための運用コンテキスト設計](../../30_Inbox/クラスタ15に追加/ai-obsidian-zettelkasten-operations-design.md)
+- [AIとのチャットで用語を統一すると誤解を減らせる](../../30_Inbox/クラスタ15に追加/ai-chat-terminology-consistency.md)
 - [AIに尋ねた質問をメモとして残す判断基準](../../32_Zk/criteria-for-saving-ai-questions.md)
-- [AI管理領域とZettelkasten領域のフォルダ境界を明示する](../../30_Inbox/クラスタ15に追加/AI管理領域とZettelkasten領域のフォルダ境界を明示する.md)
-- [AI作業の再現性を高めるにはポリシー・ワークフロー・ハンドオフを分離する](../../30_Inbox/クラスタ15に追加/AI作業の再現性を高めるにはポリシー・ワークフロー・ハンドオフを分離する.md)
-- [AI作業ログの作成準備](../../32_Zk/preparing-ai-work-log.md)
-- [AI作業ログを追加する](../../32_Zk/add-ai-work-log.md)
-- [AI時代の個人サイト／Digital Gardenにおいて、何を公開し、何を限定公開にするべきか](../../30_Inbox/クラスタ15に追加/AI時代の個人サイト／Digital Gardenにおいて、何を公開し、何を限定公開にするべきか.md)
-- [AI整理済みObsidianノートを公開可能な知識へ昇華する方針](../../30_Inbox/クラスタ15に追加/AI整理済みObsidianノートを公開可能な知識へ昇華する方針.md)
-- [Obsidianにおける「最短経路パス」と「相対パス」の比較・判断整理](../../30_Inbox/クラスタ15に追加/Obsidianにおける「最短経路パス」と「相対パス」の比較・判断整理.md)
-- [ObsidianのResearchフォルダをクラスタ分けする](../../30_Inbox/クラスタ15に追加/ObsidianのResearchフォルダをクラスタ分けする.md)
-- [Quartz公開Digital Gardenのスマホ縦表示で表・Mermaidを読みやすくする](../../30_Inbox/クラスタ15に追加/Quartz公開Digital Gardenのスマホ縦表示で表・Mermaidを読みやすくする.md)
-- [ZettelkastenのWork管理ログをどこに置くか](../../30_Inbox/クラスタ15に追加/ZettelkastenのWork管理ログをどこに置くか.md)
-- [Zettelkastenリファクタリング運用ルールの整理](../../30_Inbox/クラスタ15に追加/Zettelkastenリファクタリング運用ルールの整理.md)
-- [コピペ用プロンプト](../../30_Inbox/クラスタ15に追加/コピペ用プロンプト.md)
-- [メモ同士のリンクとバックリンクの関係を理解する](../../32_Zk/quotation-hierarchy.md)
+- [AI管理領域とZettelkasten領域のフォルダ境界を明示する](../../30_Inbox/クラスタ15に追加/ai-zettelkasten-root-boundaries.md)
+- [AI作業の再現性を高めるPolicy・Workflow・Handoffの分離](../../30_Inbox/クラスタ15に追加/ai-policy-workflow-handoff-separation.md)
+- [AI作業ログの導入準備と記録方針](../../32_Zk/ai-work-log-implementation-preparation.md)
+- [AI作業ログの導入記録](../../32_Zk/ai-work-log-implementation-record.md)
+- [AI時代のDigital Gardenにおける公開・限定公開の設計](../../30_Inbox/クラスタ15に追加/digital-garden-publication-access-design.md)
+- [AI整理済みObsidianノートを公開可能な知識へ育てる方針](../../30_Inbox/クラスタ15に追加/ai-curated-notes-publication-policy.md)
+- [Obsidianの最短経路リンクと相対パスの比較・判断](../../30_Inbox/クラスタ15に追加/obsidian-shortest-path-relative-paths.md)
+- [ResearchとZettelkastenをクラスタ単位でリファクタリングする](../../30_Inbox/クラスタ15に追加/research-zettelkasten-cluster-refactoring.md)
+- [Quartzのモバイル表示で表とMermaidを読みやすくする](../../30_Inbox/クラスタ15に追加/quartz-mobile-table-mermaid-layout.md)
+- [Zettelkastenリファクタリングの作業管理記録を置く場所](../../30_Inbox/クラスタ15に追加/zettelkasten-refactoring-work-records.md)
+- [Zettelkastenリファクタリングの運用構成と処理手順](../../30_Inbox/クラスタ15に追加/zettelkasten-refactoring-operations-guide.md)
+- [楽天市場向け建材背景画像の生成プロンプト](../../30_Inbox/クラスタ15に追加/rakuten-building-materials-background-prompt.md)
+- [メモ同士のリンクとバックリンクの関係を理解する](../../32_Zk/note-links-and-backlinks.md)
 - [外部環境で得た知識と内省知の切り分け方](../../32_Zk/separating-external-and-reflective-knowledge.md)
-- [完了済みクラスタの公開化一覧](../../30_Inbox/クラスタ15に追加/振り分け中/completed-cluster-publication-record.md)
-- [削除済みノートへのDead Link運用](../../30_Inbox/クラスタ15に追加/削除済みノートへのDead Link運用.md)
-- [調べたいことメモ](../../31_Research/research-notes.md)
-- [複数AIでObsidianのZettelkasten整理を分担する運用](../../30_Inbox/クラスタ15に追加/複数AIでObsidianのZettelkasten整理を分担する運用.md)
+- [完了済みクラスタの公開化記録（2026-09-17）](../../30_Inbox/クラスタ15に追加/振り分け中/completed-cluster-publication-record.md)
+- [削除済みノートへのDead Link運用と公開Webの設計](../../30_Inbox/クラスタ15に追加/deleted-note-dead-link-policy.md)
+- [調べたいことの一覧](../../31_Research/research-topics-list.md)
+- [複数AIによるZettelkasten整理の分担方針（2026年9月の検討記録）](../../30_Inbox/クラスタ15に追加/multi-ai-zettelkasten-work-allocation.md)
 
 ### 15-02 AIサービス・モデル利用
 
@@ -199,18 +217,17 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 
 ### 15-04 PC・Web・ソフトウェア基盤
 
-- [iphoneでおすそ分け充電](../../32_Zk/iphone-charge-sharing.md)
-- [Sakulalaによる生体認証プラットフォームサービス](../../31_Research/無題のファイル 38.md)
+- [iphoneでおすそ分け充電](../../32_Zk/iphone-wired-charge-sharing-rental-decision.md)
+- [SAKULaLaによる生体認証プラットフォームサービス](../../31_Research/sakulala-biometric-service-store-observation.md)
 - [USBメモリを用途別に分離する管理方針](../../31_Research/usb-drive-purpose-separation-policy.md)
-- [WindowsのDiskイベントID 7とユーザープロファイル変更後の再発について](../../30_Inbox/クラスタ15に追加/WindowsのDiskイベントID 7とユーザープロファイル変更後の再発について.md)
-- [データセンターの冷却特集](../../31_Research/データセンターの冷却特集.md)
-- [パソコンで特定のアプリの音量を下げる](../../31_Research/パソコンで特定のアプリの音量を下げる.md)
-- [マイクロソフトのイルカとキーボードのcaps lockはどちらの方が嫌われているのか？](../../32_Zk/clippy-vs-caps-lock-which-is-more-hated.md)
-- [リファクタリング前のコード。](../../31_Research/リファクタリング前のコード。.md)
-- [ワードプレスでのリダイレクション設定](../../31_Research/ワードプレスでのリダイレクション設定.md)
+- [WindowsのDiskイベントID 7とユーザープロファイル変更後の再発について](../../30_Inbox/クラスタ15に追加/windows-disk-event-id-7-profile-recurrence.md)
+- [データセンターの冷却特集](../../31_Research/data-center-cooling-feature-product-fit.md)
+- [パソコンで特定のアプリの音量を下げる](../../31_Research/windows-app-volume-adjustment.md)
+- [マイクロソフトのイルカとキーボードのcaps lockはどちらの方が嫌われているのか？](../../32_Zk/clippy-caps-lock-comparison-question.md)
+- [リファクタリング前のコード。](../../31_Research/power-query-receipt-date-transformation.md)
+- [ワードプレスでのリダイレクション設定](../../31_Research/wordpress-redirect-configuration-options.md)
 - [交流・直流の基本とACアダプター表記](../../31_Research/ac-dc-basics-adapter-labels.md)
-- [問題把握1](../../31_Research/問題把握1.md)
-- [問題把握2](../../31_Research/問題把握2.md)
+- [Windows障害の切り分け：症状から下位原因へ進む診断フロー](../../31_Research/windows-troubleshooting-diagnostic-flow.md)
 
 ### ~~15-05 製品・業務・産業知識~~
 
@@ -219,7 +236,7 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 - [電力量と電力削減量：技術表現と実務表記の使い分け](../../31_Research/electric-energy-and-power-reduction-terminology.md)
 - [BtoB製品リーフレットの会社情報配置](../../30_Inbox/クラスタ15に追加/btob-leaflet-company-information-layout.md)
 - [SDGsと8がけ社会と施工業界](../../31_Research/sdgs-eight-tenths-society-construction-industry.md)
-- [ファイル名の縦横比表記：ar記法](../../31_Research/recommended-filename-aspect-ratio-format.md)
+- [ファイル名の縦横比表記：ar記法](../../31_Research/aspect-ratio-filename-convention.md)
 - [安全在庫算定におけるケース単位とバラ単位の扱い](../../31_Research/safety-stock-case-and-unit-management.md)
 - [楽天市場では基本商品を絞り、特殊下地は問い合わせ対応にする](../../30_Inbox/クラスタ15に追加/rakuten-basic-products-and-special-substrates.md)
 - [楽天市場のスマホ向け小バナー設計とグランドオープン告知の違い](../../30_Inbox/クラスタ15に追加/rakuten-mobile-small-banner-design.md)
@@ -231,29 +248,29 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 - [現物添付](../../31_Research/physical-sample-attachment.md)
 - [施工作業以外に発生する作業の名称まとめ](../../31_Research/non-installation-work-terminology.md)
 - [自己消火性と難燃性](../../31_Research/self-extinguishing-and-flame-retardancy.md)
-- [少子高齢化・人口減少による人手不足と施工業界の高齢化を背景としたPRストーリーの構築](../../31_Research/construction-industry-labor-shortage-pr-story.md)
+- [施工業界の人手不足を背景にした軽量建材のPRストーリー](../../31_Research/lightweight-materials-pr-story.md)
 - [水処理特集とコンタミの関係整理](../../31_Research/water-treatment-and-contamination.md)
 - [製品カテゴリーとタグ](../../31_Research/product-categories-and-tags.md)
-- [製品関連ファイルは `marketing/products` に集約する](../../30_Inbox/クラスタ15に追加/product-files-in-marketing-products.md)
+- [製品関連ファイルは `marketing/products` に集約する](../../30_Inbox/クラスタ15に追加/product-file-organization.md)
 - [特定ECルートの売上増加：要因仮説の検証](../../31_Research/ec-sales-increase-hypothesis-analysis.md)
 - [売上推移グラフの軸設計に関する整理](../../31_Research/sales-trend-chart-axis-design.md)
 - [保温材の燃えやすさについて](../../31_Research/insulation-material-combustibility.md)
 
 ### 15-06 映像・画像・配信制作
 
-- [Googleスライドの「セクション管理」と特定スライドの画像エクスポートまとめ](../../31_Research/Googleスライドの「セクション管理」と特定スライドの画像エクスポートまとめ.md)
-- [youtubeアナリティクスのインプレッション数の仕組み](../../31_Research/youtubeアナリティクスのインプレッション数の仕組み.md)
-- [チャンネル分けを考える判断基準](../../31_Research/無題のファイル 26.md)
-- [プリンターの印刷方法について](../../31_Research/プリンターの印刷方法について.md)
-- [プリントパック入稿時にグレーが濃くなる問題](../../30_Inbox/クラスタ15に追加/プリントパック入稿時にグレーが濃くなる問題.md)
+- [Googleスライドの「セクション管理」と特定スライドの画像エクスポートまとめ](../../31_Research/google-slides-section-management-and-slide-image-export.md)
+- [YouTubeアナリティクスにおけるインプレッションの扱い](../../31_Research/youtube-analytics-impressions-explained.md)
+- [チャンネル分けを考える判断基準](../../31_Research/channel-separation-decision-criteria.md)
+- [Windowsプリンタードライバーの印刷ジョブ設定](../../31_Research/windows-printer-job-settings.md)
+- [プリントパック入稿時にグレーが濃くなる問題](../../30_Inbox/クラスタ15に追加/printpac-gray-tone-shift.md)
 - [ラベル紙印刷プリセットの確認](../../30_Inbox/クラスタ15に追加/振り分け中/label-paper-printing-preset-investigation.md)
 - [画像ファイルの命名規則](../../32_Zk/image-naming-conventions.md)
-- [継続的な画像共有ではファイル転送より共有場所を固定する](../../30_Inbox/クラスタ15に追加/継続的な画像共有ではファイル転送より共有場所を固定する.md)
-- [写真や動画を整理する](../../31_Research/写真や動画を整理する.md)
+- [継続的な画像共有ではファイル転送より共有場所を固定する](../../30_Inbox/クラスタ15に追加/persistent-image-sharing-location.md)
+- [iPhone・iPadからWindows外付けHDDへ写真・動画を保存するSMB運用](../../31_Research/iphone-ipad-to-windows-hdd-smb-photo-video-workflow.md)
 - [代替テキストの必要性](../../32_Zk/need-for-alt-text.md)
-- [展示会における写真入りミニカード](../../31_Research/展示会における写真入りミニカード.md)
-- [動画アーカイブではRAW・クリーンマスター・完成版を分けて保存する](../../30_Inbox/クラスタ15に追加/動画アーカイブではRAW・クリーンマスター・完成版を分けて保存する.md)
-- [動画公開時間はBtoB・BtoCと閲覧時間帯で分けて考える](../../30_Inbox/クラスタ15に追加/動画公開時間はBtoB・BtoCと閲覧時間帯で分けて考える.md)
+- [展示会で写真入りミニカードを活用する目的と設計](../../31_Research/exhibition-photo-mini-card-purpose-and-design.md)
+- [動画アーカイブではRAW・クリーンマスター・完成版を分けて保存する](../../30_Inbox/クラスタ15に追加/video-archive-raw-clean-master-deliverable.md)
+- [動画公開時間はBtoB・BtoCと閲覧時間帯で分けて考える](../../30_Inbox/クラスタ15に追加/video-publishing-time-by-audience.md)
 
 ### ~~15-07 ゲーム・インタラクティブ娯楽~~
 
@@ -288,25 +305,25 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 ### 15-08 芸術・文化・創作
 
 - [「花を愛でる 古きを尊ぶ」の注目作品](../../32_Zk/admiring-flowers-honoring-the-past-highlights.md)
-- [『ライオン・キング：ムファサ』感想](../../31_Research/『ライオン・キング：ムファサ』感想.md)
+- [『ライオン・キング：ムファサ』感想](../../31_Research/mufasa-the-lion-king-impressions.md)
 - [5x5クリエイト](../../32_Zk/sandbox-5x5-creation-method.md)
-- [MIHO MUSEUMを囲む大自然「信楽高原」](../../31_Research/MIHO MUSEUMを囲む大自然「信楽高原」.md)
-- [あをによし　奈良の都は　咲く花の　薫ふがごとく　今盛りなり](../../31_Research/無題のファイル 7.md)
+- [MIHO MUSEUMを囲む大自然「信楽高原」](../../31_Research/miho-museum-and-shigaraki-highlands.md)
+- [あをによし：奈良を讃える枕詞と歌](../../31_Research/aoniyoshi-nara-poem-meaning.md)
 - [アーモンドタルトの食べ方](../../32_Zk/how-to-eat-almond-tart.md)
-- [インスタレーションとラボラトリー](../../30_Inbox/クラスタ15に追加/インスタレーションとラボラトリー.md)
-- [おーいお茶 ピュアグリーン vs おーいお茶レモン](../../31_Research/pure-green-vs-oi-ocha-lemon.md)
-- [ピンク色の家の活用法](../../31_Research/ピンク色の家の活用法.md)
-- [フェルメール展 鑑賞メモ](../../30_Inbox/クラスタ15に追加/フェルメール展 鑑賞メモ.md)
-- [河鍋暁斎の世界 2026｜鑑賞ガイド簡易版](../../30_Inbox/クラスタ15に追加/河鍋暁斎の世界 2026｜鑑賞ガイド簡易版.md)
-- [河鍋暁斎の世界 2026｜鑑賞ガイド詳細版](../../30_Inbox/クラスタ15に追加/河鍋暁斎の世界 2026｜鑑賞ガイド詳細版.md)
-- [隈研吾、山本理顕、安藤忠雄](../../31_Research/無題のファイル 3.md)
-- [笹本晃作品の見方―物・力・身体・行為](../../30_Inbox/クラスタ15に追加/笹本晃作品の見方―物・力・身体・行為.md)
-- [床と天井の素材・模様の意識の仕方](../../31_Research/floor-and-ceiling-material-design-awareness.md)
-- [赤レンガ倉庫を作りたい](../../31_Research/build-red-brick-warehouse.md)
+- [インスタレーションとラボラトリー](../../30_Inbox/クラスタ15に追加/installation-and-laboratory.md)
+- [おーいお茶 ピュアグリーン vs おーいお茶レモン](../../31_Research/oi-ocha-pure-green-vs-lemon.md)
+- [ピンクの家キットの活用アイデア](../../31_Research/pink-house-kit-uses.md)
+- [フェルメール展 鑑賞メモ](../../30_Inbox/クラスタ15に追加/vermeer-exhibition-viewing-notes.md)
+- [河鍋暁斎の世界 2026｜鑑賞ガイド簡易版](../../30_Inbox/クラスタ15に追加/kawanabe-kyosai-2026-viewing-guide-brief.md)
+- [河鍋暁斎の世界 2026｜鑑賞ガイド詳細版](../../30_Inbox/クラスタ15に追加/kawanabe-kyosai-2026-viewing-guide-detailed.md)
+- [隈研吾・山本理顕・安藤忠雄の建築思想比較](../../31_Research/kengo-kuma-riken-yamamoto-tadao-ando-comparison.md)
+- [笹本晃作品の見方―物・力・身体・行為](../../30_Inbox/クラスタ15に追加/akiko-sasamoto-viewing-framework.md)
+- [サンドボックス建築における床・天井の素材と模様](../../31_Research/sandbox-floor-ceiling-material-design.md)
+- [サンドボックスで赤レンガ倉庫を目玉にする景観設計](../../31_Research/red-brick-warehouse-landmark-design.md)
 - [草花をオシャレに散りばめるテクニック](../../31_Research/natural-looking-flower-placement-tips.md)
 - [特別企画展　花を愛でる　古きを尊ぶ](../../32_Zk/admiring-flowers-honoring-the-past.md)
-- [虹色みぃつけた！｜感想メモ](../../31_Research/虹色みぃつけた！｜感想メモ.md)
-- [忍者発祥の地が意外と近くにあった話](../../31_Research/忍者発祥の地が意外と近くにあった話.md)
+- [虹色みぃつけた！｜感想メモ](../../31_Research/rainbow-discovery-viewing-notes.md)
+- [伊賀・甲賀忍者を巡る日帰り移動メモ](../../31_Research/iga-koka-ninja-day-trip-notes.md)
 - [臨済宗の代表的な宗派](../../32_Zk/major-rinzai-sects.md)
 
 ### ~~15-09 旅行・地域・移動~~
@@ -335,24 +352,24 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 
 ### 15-10 個人の購入・サービス判断
 
-- [Amazonの配送制限](../../32_Zk/amazon-delivery-restrictions.md)
-- [FamiPay翌月払いの基本運用](../../30_Inbox/クラスタ15に追加/FamiPay翌月払いの基本運用.md)
-- [Kindle蔵書管理は「NDC判定」と「Amazonへの反映」を分離して自動化する](../../30_Inbox/クラスタ15に追加/Kindle蔵書管理は「NDC判定」と「Amazonへの反映」を分離して自動化する.md)
-- [NSFWの目的専用に用意するオススメな性能と価格帯](../../32_Zk/nsfw-optimized-performance-range.md)
-- [オレンジブックとモノタロウの違い](../../32_Zk/orange-book-monotaro-comparison.md)
-- [クレジットカードの締め日と支払日](../../32_Zk/credit-card-closing-and-payment-dates.md)
-- [ジョーシンポイントの活用方法について考える](../../31_Research/無題のファイル.md)
-- [ゼッテリアとマクドナルドの月見バーガー比較と店舗別価格差](../../30_Inbox/クラスタ15に追加/ゼッテリアとマクドナルドの月見バーガー比較と店舗別価格差.md)
-- [チケットぴあの定価リセールの仕組みと手数料（2026年調査）](../../31_Research/チケットぴあのリセールサービスについて.md)
-- [ファミペイ翌月払いと2026年9月キャンペーンの整理](../../30_Inbox/クラスタ15に追加/ファミペイ翌月払いと2026年9月キャンペーンの整理.md)
-- [回転寿司のコスパを計算する](../../31_Research/無題のファイル 8.md)
-- [楽天最強プランのご案内](../../32_Zk/campaign-rakuten-employee-entry.md)
-- [期間限定ファミマポイントはPOSAカード購入に使える](../../30_Inbox/クラスタ15に追加/期間限定ファミマポイントはPOSAカード購入に使える.md)
-- [月額費用を押さえるために小口契約にダウングレードする選択肢](../../32_Zk/downgrade-to-small-contract.md)
-- [三井住友カードの引き落とし忘れについての整理](../../32_Zk/sumitomo-mitsui-card-missed-payment-response.md)
-- [千空のモイスチャーゲル アロエnと、ニベアの青缶](../../31_Research/無題のファイル 1.md)
-- [買う理由が値段ならやめるべき。買わない理由が値段なら買うべき](../../32_Zk/buy-for-value-not-price.md)
-- [無料キャンペーンのオファーを受けとる](../../32_Zk/claim-free-campaign-offer.md)
+- [Amazonの配送先エラーを確認する](../../32_Zk/amazon-delivery-address-error-checks.md)
+- [FamiPay翌月払いの残高・締め日・支払日の確認（2026年9月）](../../30_Inbox/クラスタ15に追加/famipay-deferred-payment-balance-and-due-dates.md)
+- [Kindle蔵書のNDC分類とCollection反映を分離する](../../30_Inbox/クラスタ15に追加/kindle-ndc-classification-and-collection-workflow.md)
+- [NSFW用途の中古Windowsタブレット選定メモ（2026年1月）](../../32_Zk/nsfw-used-windows-tablet-selection.md)
+- [オレンジブックとモノタロウの事業・流通モデル比較](../../32_Zk/orange-book-monotaro-business-models.md)
+- [個人用クレジットカードの締め日・支払日メモ](../../32_Zk/personal-card-closing-and-payment-dates.md)
+- [ジョーシンポイントの失効前の使い道を考える](../../31_Research/joshin-points-before-expiry.md)
+- [月見バーガーの価格・PFC比較（ゼッテリア／マクドナルド、2026年9月）](../../30_Inbox/クラスタ15に追加/tsukimi-burger-price-and-pfc-comparison-2026.md)
+- [チケットぴあ定価リセールの条件と手数料（2026年調査）](../../31_Research/pia-face-value-resale-terms-and-fees-2026.md)
+- [FamiPay翌月払い新規登録キャンペーンとPOSAカード利用（2026年9月）](../../30_Inbox/クラスタ15に追加/famipay-deferred-payment-posa-campaign-2026.md)
+- [回転寿司でタンパク質を選ぶ際のコスパ](../../31_Research/conveyor-belt-sushi-protein-cost-efficiency.md)
+- [楽天モバイル従業員紹介URLの記録（2026年5月）](../../32_Zk/rakuten-mobile-employee-referral-url-2026.md)
+- [期間限定ファミマポイントでPOSAカードを購入する際の確認（2026年9月）](../../30_Inbox/クラスタ15に追加/famipay-limited-points-posa-card-checks-2026.md)
+- [Amazon Seller大口から小口へ移行する際の確認](../../32_Zk/amazon-seller-plan-downgrade-checklist.md)
+- [三井住友カードの残高不足後の再引落記録（2026年8月）](../../32_Zk/smbc-card-repayment-after-insufficient-funds.md)
+- [保湿ジェルとクリームの使用感・注意点の比較](../../31_Research/moisturizing-gel-and-cream-comparison.md)
+- [買う理由が値段ならやめるべき。買わない理由が値段なら買うべき](../../32_Zk/purchase-decisions-value-before-price.md)
+- [ChatGPTの解約前無料継続オファーの記録（2026年8月）](../../32_Zk/chatgpt-retention-offer-2026.md)
 
 ### ~~15-11 生活・住環境・個人運用~~
 

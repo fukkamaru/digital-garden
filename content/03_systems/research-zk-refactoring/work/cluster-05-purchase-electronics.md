@@ -89,9 +89,9 @@ Cluster 05「購入判断・家電・デジタル機器」の親クラスタ内�
 - `31_Research/remote-access-chatgpt-codex-pc.md`
 - `32_Zk/buy-stools-not-storage-boxes.md`
 - `32_Zk/buying-a-chair-seriously.md`
-- `32_Zk/clippy-vs-caps-lock-which-is-more-hated.md`
+- `32_Zk/clippy-caps-lock-comparison-question.md`
 - `32_Zk/how-to-use-clear-files-effectively.md`
-- `32_Zk/iphone-charge-sharing.md`
+- `32_Zk/iphone-wired-charge-sharing-rental-decision.md`
 - `32_Zk/my-clear-files.md`
 - `32_Zk/stools-as-functional-decor.md`
 - `32_Zk/suit-clothes-brush-buying-guide.md`

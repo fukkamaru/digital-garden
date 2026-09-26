@@ -32,8 +32,8 @@ Cluster 12「健康・運動・食事・生活管理」の親クラスタ用ロ�
 ## 2026-09-11T19:50:41+09:00 — 12-E 聴覚安全
 
 - 作業内容：イヤホンとヘッドホンの聴覚への影響を、機器の形状ではなく、音量・時間・頻度を中心に監査した。関連するWindowsのアプリ別音量調整ノートも校正した。
-- 結果：`audio-devices-hearing-damage-comparison.md`を、固定的な安全順位や未確認の数値を外し、WHOの安全な聴取の情報を根拠にしたLiterature Noteへ更新した。`パソコンで特定のアプリの音量を下げる.md`は、操作手順を維持して校正し、両ノートを相互リンクした。
-- 対象：`31_Research/audio-devices-hearing-damage-comparison.md`、`31_Research/パソコンで特定のアプリの音量を下げる.md`
+- 結果：`audio-devices-hearing-damage-comparison.md`を、固定的な安全順位や未確認の数値を外し、WHOの安全な聴取の情報を根拠にしたLiterature Noteへ更新した。`windows-app-volume-adjustment.md`は、操作手順を維持して校正し、両ノートを相互リンクした。
+- 対象：`31_Research/audio-devices-hearing-damage-comparison.md`、`31_Research/windows-app-volume-adjustment.md`
 - 判断・理由：イヤホンとヘッドホンのどちらが安全かを機器の形状だけから一律には決められない。再生音量・聴取時間・曝露頻度を中心にし、騒音下では遮音性・ノイズキャンセリングで増音を避けるという関係を明示した。
 - 保全：聴覚安全ノートの変更前全文を同じフォルダの日付付き`.退避`へ保存し、内容一致を確認した。アプリ別音量調整ノートは、校正と関連リンクの追加のみで退避は作成していない。
 - 主要な参照元：[WHO：Safe listening](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening)、[WHO-ITU：Safe listening devices and systems](https://www.who.int/publications-detail-redirect/9789241515276)

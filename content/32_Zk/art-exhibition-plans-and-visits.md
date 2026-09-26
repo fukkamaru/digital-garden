@@ -4,7 +4,7 @@ aliases:
   - 展覧会の鑑賞予定と記録
 type: index
 created: 2026-09-06T13:50:52+09:00
-updated: 2026-09-23T18:45:30+09:00
+updated: 2026-09-24T19:27:36+09:00
 id: 20260906-135052
 permalink:
 draft: true
@@ -65,7 +65,7 @@ tags:
 |ゴッホの跳ね橋と印象派の画家たち|あべのハルカス美術館|2026年7月に鑑賞。[鑑賞ガイド](harukas-van-gogh-exhibition-guide.md)・[出品目録](harukas-van-gogh-exhibition-catalog.md)|
 |大ゴッホ展 第1期「夜のカフェテラス」|神戸市立博物館|鑑賞済み。正確な鑑賞日は記録から確認できない。[鑑賞記録](kobe-van-gogh-night-cafe-terrace-visit.md)・[神戸市立博物館](https://www.kobecitymuseum.jp/exhibition/detail?exhibition=383)|
 |渡―あこがれの舶来品―|藤田美術館|2026年6月に国宝「曜変天目茶碗」を鑑賞。[曜変天目4碗の鑑賞記録](yohen-tenmoku-2026-viewing-record.md)|
-|虹色みぃつけた！|MIHO MUSEUM|2026年8月8日に重要文化財「耀変天目」を鑑賞。[曜変天目4碗の鑑賞記録](yohen-tenmoku-2026-viewing-record.md)・[感想メモ](虹色みぃつけた！｜感想メモ.md)・[滋賀旅行の実績](shiga-miho-shigaraki-trip-2026-08-08.md)|
+|虹色みぃつけた！|MIHO MUSEUM|2026年8月8日に重要文化財「耀変天目」を鑑賞。[曜変天目4碗の鑑賞記録](yohen-tenmoku-2026-viewing-record.md)・[感想メモ](rainbow-discovery-viewing-notes.md)・[滋賀旅行の実績](shiga-miho-shigaraki-trip-2026-08-08.md)|
 |蘆雪生動―南紀 無量寺への旅―|和歌山県立博物館|2026年8月11日に鑑賞し、図録を購入。[鑑賞記録](osetsu-in-motion.md)・[和歌山旅行の実績](wakayama-osetsu-castle-library-trip-2026-08-11.md)|
 |サラ・モリス 取引権限|大阪中之島美術館|[サラ・モリス展](sarah-morris-exhibition.md)|
 |応挙塾／若冲にトリハダ|嵯峨嵐山文華館／福田美術館|[嵐山日帰り旅行の費用分析](arashiyama-day-trip-cost-analysis.md)|

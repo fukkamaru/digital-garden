@@ -4,7 +4,7 @@ aliases:
   - Research＋ZKリファクタリング作業台：08：EC・商品管理・マーケティング
 type: fleeting
 created: 2026-09-17T04:29:28+09:00
-updated: 2026-09-17T05:59:08+09:00
+updated: 2026-09-25T23:48:04+09:00
 id: 20260917-042928
 permalink:
 draft: false
@@ -48,10 +48,10 @@ Cluster 08「EC・商品管理・マーケティング」の親クラスタ内�
 
 次の4件は、初回監査でCluster 08の中心課題との関係が弱いと確認した。保存場所、本文、YAML、ファイル名、公開状態、既存リンクは変更していない。
 
-- [Amazonの配送制限](amazon-delivery-restrictions.md)：個人の購入体験が中心。
+- [Amazonの配送先エラーを確認する](amazon-delivery-address-error-checks.md)：個人の購入体験が中心。
 - [会計用語](accounting-terms.md)：ECとの直接の関係が弱い一般的な会計用語のメモ。
-- [楽天最強プランのご案内](campaign-rakuten-employee-entry.md)：個人向けかつ期限付きのキャンペーンリンク。
-- [無料キャンペーンのオファーを受けとる](claim-free-campaign-offer.md)：個人のサービス利用時に提示された期限付きオファーの記録。
+- [楽天モバイル従業員紹介URLの記録（2026年5月）](rakuten-mobile-employee-referral-url-2026.md)：個人向けかつ期限付きのキャンペーンリンク。
+- [ChatGPTの解約前無料継続オファーの記録（2026年8月）](chatgpt-retention-offer-2026.md)：個人のサービス利用時に提示された期限付きオファーの記録。
 
 ## 子クラスタと進捗
 

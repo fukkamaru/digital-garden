@@ -1,10 +1,11 @@
 ---
-title: 完了済みクラスタの公開化一覧
+title: 完了済みクラスタの公開化記録（2026-09-17）
 aliases:
+  - 完了済みクラスタの公開化記録（2026-09-17）
   - 完了済みクラスタの公開化一覧
 type: fleeting
 created: 2026-09-17T07:44:56+09:00
-updated: 2026-09-17T07:44:56+09:00
+updated: 2026-09-26T11:27:00+09:00
 id: 20260917-074456
 permalink:
 draft: true
@@ -12,7 +13,15 @@ tags:
   - ai-generated
 ---
 
-# 完了済みクラスタの公開化一覧
+# 完了済みクラスタの公開化記録（2026-09-17）
+
+> これは2026-09-17時点の公開化作業の記録である。下記の公開状態や対象一覧を、現在の公開設定として解釈しない。
+
+| 項目 | 記録した内容 |
+| --- | --- |
+| 対象 | 完了済みクラスタの現行主対象から108件 |
+| 変更 | draft: true から draft: false への変更 |
+| 除外 | 会社の実務環境を含むA4ラベル運用ノート |
 
 2026-09-17に、完了済みクラスタの現行主対象から`draft: true`だった108件を公開化した記録。
 
@@ -66,7 +75,7 @@ tags:
 - [ローカルLLMの概要と、長文要約・文字起こし済みテキスト処理に必要なPC性能](local-llm-long-text-processing.md)
 - [ローカルLLMを試す・購入を判断するためのPC性能](local-llm-pc-purchase-decision.md)
 - [大理石と御影石の違い](marble-and-granite-differences.md)
-- [MIHO MUSEUMを囲む大自然「信楽高原」](MIHO MUSEUMを囲む大自然「信楽高原」.md)
+- [MIHO MUSEUMを囲む大自然「信楽高原」](miho-museum-and-shigaraki-highlands.md)
 - [現代のパスワード管理の基本](modern-password-management-principles.md)
 - [マイナ保険証の使い方](myna-insurance-card-use.md)
 - [NDC分類名における記号の読み方](ndc-classification-name-punctuation.md)
@@ -124,7 +133,7 @@ tags:
 - [Windowsユーザープロファイル障害・SSD不良ブロック調査まとめ](windows-profile-ssd-read-errors.md)
 - [ハードディスクやSSDの健康状態を見るコマンド入力](windows-storage-health-check-commands.md)
 - [大阪駅から青春18きっぷで各都道府県へ向かう所要時間目安（2026年AI調査）](youth-18-ticket-travel-times-from-osaka.md)
-- [チケットぴあの定価リセールの仕組みと手数料（2026年調査）](チケットぴあのリセールサービスについて.md)
+- [チケットぴあ定価リセールの条件と手数料（2026年調査）](pia-face-value-resale-terms-and-fees-2026.md)
 - [アダプトゲンハーブについての概要](adaptogen-herbs-overview.md)
 - [漢方とアダプトゲンハーブの違い](difference-between-kampo-and-adaptogens.md)
 - [Switch 2の4K出力対応ゲーム一覧](switch-2-4k-output-games.md)

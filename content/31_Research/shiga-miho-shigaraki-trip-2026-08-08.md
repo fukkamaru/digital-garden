@@ -5,7 +5,7 @@ aliases:
   - 滋賀旅行｜MIHO MUSEUM・信楽｜実績
 type: literature
 created: 2026-08-12T13:53:06+09:00
-updated: 2026-09-23T18:45:30+09:00
+updated: 2026-09-24T19:27:36+09:00
 id: 20260812-135306
 permalink:
 draft: true
@@ -130,7 +130,7 @@ JR奈良駅から新大宮駅へ歩く途中、chocoZAP新大宮店に立ち寄�
 - 16:16　信楽駅行きのバスに乗車。
 
 展示エリアのうち、パンフレットで赤・青に示されている場所は、景観を含めて撮影禁止だった。
-展示の感想は[虹色みぃつけた！｜感想メモ](虹色みぃつけた！｜感想メモ.md)、作品の位置づけは[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)に分けている。
+展示の感想は[虹色みぃつけた！｜感想メモ](rainbow-discovery-viewing-notes.md)、作品の位置づけは[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)に分けている。
 
 #### 昼食
 

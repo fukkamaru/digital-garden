@@ -4,7 +4,7 @@ aliases:
   - MIHO MUSEUMの曜変天目について
 type: literature
 created: 2026-08-13T02:28:59+09:00
-updated: 2026-09-23T18:45:30+09:00
+updated: 2026-09-24T19:27:36+09:00
 id: 20260813-022859
 permalink:
 draft: true
@@ -113,7 +113,7 @@ MIHO所蔵品には、油滴状の斑文が内外面に広く見られ、内面�
 本人は、2026年8月8日にMIHO MUSEUMの夏季特別展「虹色みぃつけた！」で、この重要文化財を鑑賞した。
 
 - 旅行全体：[滋賀旅行｜MIHO MUSEUM・信楽｜実績](shiga-miho-shigaraki-trip-2026-08-08.md)
-- 展覧会の感想：[虹色みぃつけた！｜感想メモ](虹色みぃつけた！｜感想メモ.md)
+- 展覧会の感想：[虹色みぃつけた！｜感想メモ](rainbow-discovery-viewing-notes.md)
 - 曜変天目4碗の進捗：[2026年に見られる曜変天目・耀変天目](yohen-tenmoku-2026-viewing-record.md)
 - 曜変と油滴の比較観点：[2026年の曜変天目・油滴天目鑑賞計画](yuteki-yohen-tenmoku-viewing-plan.md)
 

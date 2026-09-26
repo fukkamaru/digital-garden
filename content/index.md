@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-09-09T23:04:58+09:00
+updated: 2026-09-26T10:38:08+09:00
 id: 20260425-160839
 draft: false
 ---
@@ -41,7 +41,7 @@ draft: false
 	- [ディップスの正しいフォーム](how-to-do-dips-correctly.md)
 	- [心拍数トレーニングゾーン](heart-rate-training-zones.md)
 - [言葉と思考の軌跡](words-and-thoughts.md)
-- [調べたいことメモ](research-notes.md)
+- [調べたいことの一覧](research-topics-list.md)
 - [気になった言葉](気になった言葉.md)
 - [勉強したいこと](study-topic-backlog.md)
 - [旅行へ行きたい](travel-wishlist.md)

@@ -4,7 +4,7 @@ aliases:
   - 2026年に見られる曜変天目・耀変天目
 type: fleeting
 created: 2026-06-17T18:55:53+09:00
-updated: 2026-09-23T18:45:30+09:00
+updated: 2026-09-24T19:27:36+09:00
 id: 20260617-185553
 permalink:
 draft: true
@@ -74,7 +74,7 @@ tags:
 - 展覧会の会期：2026年7月4日～8月30日
 - 位置づけ：国宝3碗とは別の、曜変現象を持つ重要文化財
 
-旅行全体の記録は[滋賀旅行｜MIHO MUSEUM・信楽｜実績](shiga-miho-shigaraki-trip-2026-08-08.md)、展覧会の感想は[虹色みぃつけた！｜感想メモ](虹色みぃつけた！｜感想メモ.md)、作品の詳しい位置づけは[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)に分けている。
+旅行全体の記録は[滋賀旅行｜MIHO MUSEUM・信楽｜実績](shiga-miho-shigaraki-trip-2026-08-08.md)、展覧会の感想は[虹色みぃつけた！｜感想メモ](rainbow-discovery-viewing-notes.md)、作品の詳しい位置づけは[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)に分けている。
 
 #### 後日追記する感想
 
