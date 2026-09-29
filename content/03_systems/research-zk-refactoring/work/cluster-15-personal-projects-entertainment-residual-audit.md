@@ -4,7 +4,7 @@ aliases:
   - Research＋ZKリファクタリング作業台：15：個人プロジェクト・娯楽・残余監査
 type: fleeting
 created: 2026-09-20T20:26:12+09:00
-updated: 2026-09-26T17:49:03+09:00
+updated: 2026-09-30T06:12:19+09:00
 id: 20260920-202612
 permalink:
 draft: false
@@ -21,10 +21,10 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 ## 現在の状態
 
 - 親クラスタ：Cluster 15「個人プロジェクト・娯楽・残余監査」
-- 状態：監査中（2026-09-26）。15-05、15-04、15-01は完了済み。15-01では21ノートを監査し、前半11件はFukkamaruの判断により変更不要として維持した。後半10件（No.12〜21）は修正済み検証基準と実ファイルを照合し、12〜20は変更不要、21は空の箇条書き1行だけを削除した。主クラスタの再配置は行っていない。
+- 状態：完了（2026-09-30）。内容別子クラスタ15-01〜15-15はすべて完了した。15-02は台帳上の24ノートを完了とし、同時に指定された台帳外の関連2ノートも横断対象として文章・タイトル・英語ファイル名を整理した。主クラスタの再配置は行っていない。
 - 台帳上の対象：278件。既存表の実パス174件に加え、Fukkamaruの明示指示により`30_Inbox/クラスタ15に追加`の現役104件を追加した。既存・追加は単一の対象一覧へ統合し、出自を区切り行で保持する。本文が現行購入ガイドと完全一致した旧コピー11件は、2026-09-22に`.退避`へ変更して本文監査の対象外とした。フォルダ内の既存`.退避`16件も復元用であり、本文監査の対象外とする。
 - 内容別の子クラスタ：[Cluster 15内容別子クラスタ台帳](cluster-15-content-subcluster-map.md)を正本とする。全278件を主題と利用場面で15クラスタへ割り当て済みであり、既存・追加・保存フォルダ・過去の作業工程は分類軸に使わない。
-- 次の処理順：15-02「AIサービス・モデル利用」を、初回作業単位、予定Work境界、閲覧と変更の境界を提示してから監査する。
+- 次の候補：Cluster 14「Git・GitHub・Cloudflare・Web公開基盤」。実環境とGit状態の確認を含むため、開始には別途の明示指示を要する。
 - 既存のCluster 15作業台・親クラスタ用ログはなかったため、このノートと親ログを新規作成した。
 - 中心課題：他クラスタの中心課題に入らなかったノートを「その他」として固定せず、内容、関係、役割を監査して、既存クラスタへの移管、小さな新規クラスタ、単独維持、統合候補、意図的保留を区別する。
 - スレッド由来の内容：スレッド内容を一括転記しない。ノートとして残す目的、発話者・時点・出典、転記先の役割を確認できたものだけを候補として扱う。
@@ -34,7 +34,7 @@ Cluster 15「個人プロジェクト・娯楽・残余監査」の親クラス�
 | ID    | 内容別子クラスタ        | 件数  | 状態                                        |
 | ----- | --------------- | --- | ----------------------------------------- |
 | 15-01 | AI・知識管理の運用      | 21  | 完了（2026-09-26。前半11件は維持、後半10件を検証。主クラスタ再配置なし） |
-| 15-02 | AIサービス・モデル利用    | 24  | 分類完了。内容監査は未着手 |
+| 15-02 | AIサービス・モデル利用    | 24  | 完了（2026-09-30。本文再構成、Mermaid復元、title・英語ファイル名・参照を整理） |
 | 15-03 | 文書・データ・デジタル作業   | 25  | 完了（2026-09-22）                            |
 | 15-04 | PC・Web・ソフトウェア基盤 | 12  | 完了（2026-09-26。本文・YAML・タイトル・ファイル名・参照を整理。問題把握1・2を1ノートへ統合） |
 | 15-05 | 製品・業務・産業知識      | 24  | 完了（2026-09-26）                             |
@@ -118,7 +118,7 @@ Fukkamaruが修正した、次スレッドで実ファイルと照合するた�
 | 20 | 削除済みノートへのDead Link運用と公開Webの設計 | 大規模な調査・設計記録。Quartz実装やSEO／AI検索の議論を、現行ルールと誤認しやすい。 | 結論、Obsidian内の履歴表現、公開Web上の扱い、未実施のQuartz実装案を分離する。冒頭で「調査・将来設計」であることを示す。 |
 | 21 | 調べたいことの一覧 | 未整理の調査バックログとして役割が明確。 | 本文は原則維持。見出し階層・箇条書きの表記だけを必要最小限に整え、未作成リンクや調査済み項目を推測で変更しない。 |
 
-## 次のアクション
+## 15-01時点の次のアクション（履歴）
 
 1. 15-01後半10件の実ファイルを、上の検証基準と一件ずつ照合する。
 2. 変更候補は、対象・影響・退避方法を示して承認を得てから実施する。
@@ -161,32 +161,32 @@ Fukkamaruが修正した、次スレッドで実ファイルと照合するた�
 - [調べたいことの一覧](../../31_Research/research-topics-list.md)
 - [複数AIによるZettelkasten整理の分担方針（2026年9月の検討記録）](../../30_Inbox/クラスタ15に追加/multi-ai-zettelkasten-work-allocation.md)
 
-### 15-02 AIサービス・モデル利用
+### ~~15-02 AIサービス・モデル利用~~
 
-- [AIサービス × 外部ツール連携・AIエージェント構築事例 Deep Research](../../30_Inbox/クラスタ15に追加/AIサービス × 外部ツール連携・AIエージェント構築事例 Deep Research.md)
-- [AIサービス・モデル別「ファイル部分読み込み」とトークン消費の比較調査](../../30_Inbox/クラスタ15に追加/AIサービス・モデル別「ファイル部分読み込み」とトークン消費の比較調査.md)
-- [AIサブスク比較と複数AI運用の検討](../../30_Inbox/クラスタ15に追加/AIサブスク比較と複数AI運用の検討.md)
-- [AIローカルファイル操作は「モデル性能」より料金体系・Agent Harness・Quota設計で選ぶ](../../30_Inbox/クラスタ15に追加/AIローカルファイル操作は「モデル性能」より料金体系・Agent Harness・Quota設計で選ぶ.md)
-- [AI有料プランの割引・キャンペーン比較 ― Claude Pro・Google AI Pro・Perplexity Pro](../../30_Inbox/クラスタ15に追加/AI有料プランの割引・キャンペーン比較 ― Claude Pro・Google AI Pro・Perplexity Pro.md)
-- [ChatGPT Workでファイルアクセス拒否が繰り返される原因と切り分け](../../30_Inbox/クラスタ15に追加/ChatGPT Workでファイルアクセス拒否が繰り返される原因と切り分け.md)
-- [ChatGPT WorkとCodexは料金体系・クレジット・使用量上限を共有する](../../30_Inbox/クラスタ15に追加/ChatGPT WorkとCodexは料金体系・クレジット・使用量上限を共有する.md)
-- [ChatGPT WorkのFastモードとは何か](../../30_Inbox/クラスタ15に追加/ChatGPT WorkのFastモードとは何か.md)
-- [ChatGPT Workの利用制限・完全リセット・長時間運用](../../30_Inbox/クラスタ15に追加/ChatGPT Workの利用制限・完全リセット・長時間運用.md)
-- [ChatGPTの特定スレッドを1ファイルとして保存する方法](../../30_Inbox/クラスタ15に追加/ChatGPTの特定スレッドを1ファイルとして保存する方法.md)
-- [ChatGPT風のMermaid図をObsidian・Quartzで再現する方針](../../30_Inbox/クラスタ15に追加/ChatGPT風のMermaid図をObsidian・Quartzで再現する方針.md)
-- [Google AI Creditsの日本購入制限と法規制](../../30_Inbox/クラスタ15に追加/Google AI Creditsの日本購入制限と法規制.md)
-- [Google AI ProとPerplexity Proのローカルファイル操作](../../30_Inbox/クラスタ15に追加/Google AI ProとPerplexity Proのローカルファイル操作.md)
-- [Google Antigravity無料版はローカルファイル操作にどこまで使えるか](../../30_Inbox/クラスタ15に追加/Google Antigravity無料版はローカルファイル操作にどこまで使えるか.md)
-- [KimiのClaude利用問題とAIモデル蒸留の境界](../../30_Inbox/クラスタ15に追加/KimiのClaude利用問題とAIモデル蒸留の境界.md)
-- [Perplexity Proを調査専用AIとして使い倒す運用設計](../../30_Inbox/クラスタ15に追加/Perplexity Proを調査専用AIとして使い倒す運用設計.md)
-- [Perplexity Research Backlogの設計と運用](../../30_Inbox/クラスタ15に追加/Perplexity Research Backlogの設計と運用.md)
-- [Perplexityは2026年時点で検索・調査の専門AIとして評価する](../../30_Inbox/クラスタ15に追加/Perplexityは2026年時点で検索・調査の専門AIとして評価する.md)
-- [Windows版ChatGPT Work Localのローカルファイル編集不具合と切り分け](../../30_Inbox/クラスタ15に追加/Windows版ChatGPT Work Localのローカルファイル編集不具合と切り分け.md)
-- [Workのモデル・推論レベルとZettelkasten整理作業の使い分け](../../30_Inbox/クラスタ15に追加/Workのモデル・推論レベルとZettelkasten整理作業の使い分け.md)
-- [トークン消費量を抑えるための基礎的なスレッド管理](../../32_Zk/basic-thread-management-for-token-efficiency.md)
-- [ローカルLLM兼用PCの選定基準](../../30_Inbox/クラスタ15に追加/ローカルLLM兼用PCの選定基準.md)
-- [ローカルLLM用PCはVRAM容量を軸に選ぶ](../../30_Inbox/クラスタ15に追加/ローカルLLM用PCはVRAM容量を軸に選ぶ.md)
-- [利用状況はCodexとWorkのこと](../../30_Inbox/クラスタ15に追加/利用状況はCodexとWorkのこと.md)
+- [AIエージェントの外部ツール連携を調査する設計](../../../30_Inbox/クラスタ15に追加/ai-agent-external-tool-integration-research.md)
+- [AIエージェントにおける部分読み込みとToken消費の比較設計](../../../30_Inbox/クラスタ15に追加/ai-agent-partial-file-reading-token-cost-research.md)
+- [複数AIサブスクリプションの役割分担と契約判断](../../../30_Inbox/クラスタ15に追加/multi-ai-subscription-role-and-plan-decisions.md)
+- [ローカルAIエージェントは料金・Harness・Quotaで選ぶ](../../../30_Inbox/クラスタ15に追加/choose-local-ai-agents-by-cost-harness-and-quota.md)
+- [AI有料プランの割引を比較する方法](../../../30_Inbox/クラスタ15に追加/how-to-compare-ai-plan-discounts.md)
+- [ChatGPT Workのファイルアクセス拒否を切り分ける](../../../30_Inbox/クラスタ15に追加/troubleshoot-chatgpt-work-file-access-denials.md)
+- [ChatGPT WorkとCodexの共有利用枠](../../../30_Inbox/クラスタ15に追加/chatgpt-work-and-codex-share-usage.md)
+- [ChatGPT WorkのFastモードは時間と利用枠を交換する](../../../30_Inbox/クラスタ15に追加/chatgpt-work-fast-mode-time-usage-tradeoff.md)
+- [ChatGPT Workの利用枠・中断復帰・長期運用](../../../30_Inbox/クラスタ15に追加/chatgpt-work-limits-resumption-and-long-running-work.md)
+- [ChatGPTスレッドを会話アーカイブとして保存する](../../../30_Inbox/クラスタ15に追加/archive-chatgpt-threads-as-conversation-logs.md)
+- [ObsidianとQuartzでChatGPT風Mermaidを設計する](../../../30_Inbox/クラスタ15に追加/design-chatgpt-style-mermaid-for-obsidian-and-quartz.md)
+- [Google AI Creditsの日本での追加購入制限を考える](../../../30_Inbox/クラスタ15に追加/google-ai-credits-japan-purchase-restrictions.md)
+- [Gemini CLIとPerplexityでローカルファイルを扱う](../../../30_Inbox/クラスタ15に追加/gemini-cli-and-perplexity-for-local-file-work.md)
+- [Antigravity無料枠のQuotaでローカル作業を設計する](../../../30_Inbox/クラスタ15に追加/design-local-work-with-antigravity-free-quota.md)
+- [KimiとClaudeの利用問題から考えるAI蒸留とデータ経路](../../../30_Inbox/クラスタ15に追加/ai-distillation-and-data-routes-in-kimi-claude-case.md)
+- [Perplexity Proを外部調査パイプラインとして運用する](../../../30_Inbox/クラスタ15に追加/run-perplexity-pro-as-an-external-research-pipeline.md)
+- [Research Backlogで調査テーマを選ぶ](../../../30_Inbox/クラスタ15に追加/select-research-topics-with-a-research-backlog.md)
+- [Perplexityを検索・調査の専門AIとして評価する](../../../30_Inbox/クラスタ15に追加/evaluate-perplexity-as-a-research-specialist.md)
+- [Windows版ChatGPT Work Localのファイル編集不具合を切り分ける](../../../30_Inbox/クラスタ15に追加/troubleshoot-windows-chatgpt-work-local-file-editing.md)
+- [Zettelkasten整理でのモデル・推論・速度の使い分け](../../../30_Inbox/クラスタ15に追加/choose-model-reasoning-and-speed-for-zettelkasten-work.md)
+- [WorkとCodexの利用量を抑えるスレッド管理](../../../30_Inbox/クラスタ15に追加/thread-management-for-efficient-work-and-codex-usage.md)
+- [ローカルLLM兼用PCはVRAM・拡張性・兼用用途で選ぶ](../../../30_Inbox/クラスタ15に追加/choose-a-local-llm-pc-by-vram-and-upgradability.md)
+- [ローカルLLM用PCはVRAM容量から逆算する](../../../30_Inbox/クラスタ15に追加/plan-a-local-llm-pc-from-vram-requirements.md)
+- [WorkとCodexの利用状況ビューを読む](../../../30_Inbox/クラスタ15に追加/interpret-work-and-codex-usage-insights.md)
 
 ### ~~15-03 文書・データ・デジタル作業~~
 
