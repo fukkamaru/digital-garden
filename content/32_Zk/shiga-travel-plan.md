@@ -1,8 +1,7 @@
 ---
-title: 滋賀旅行｜MIHO MUSEUM・信楽｜2026年8月8日の旅行計画
+title: 滋賀旅行｜MIHO MUSEUM・信楽｜2026年の旅行計画
 aliases:
-  - 滋賀旅行｜MIHO MUSEUM・信楽｜2026年8月8日の旅行計画
-  - 滋賀旅行｜MIHO MUSEUM・信楽｜旅行プラン
+  - 滋賀旅行｜MIHO MUSEUM・信楽｜2026年の旅行計画
 type: literature
 created: 2026-08-05T11:51:00+09:00
 updated: 2026-09-23T22:00:58+09:00
@@ -10,14 +9,12 @@ id: 20260805-115100
 permalink:
 draft: true
 ---
-[MIHO MUSEUM](https://www.miho.jp/)にある虹色に輝く[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)を主目的にして、瀬田の唐橋と信楽を散策する計画だった。
+[MIHO MUSEUM](https://www.miho.jp/)にある虹色に輝く[MIHO MUSEUMの曜変天目について](miho-museum-yohen-tenmoku.md)を主目的にして、瀬田の唐橋と信楽を散策する計画。MIHO MUSEUMにじっくりと時間をかけて、帰宅ルートは信楽高原を大きく回り込むように、柘植駅から関西本線を使って伊賀盆地を東から西へ横断する。
 
-MIHO MUSEUMにじっくりと時間をかけて、帰宅ルートは信楽高原を大きく回り込むように、柘植駅から関西本線を使って伊賀盆地を東から西へ横断する。
 
-> [!note]
-> これは2026年8月8日の旅行前に作成した計画である。時刻、運賃、入館料、店舗情報は現在の案内ではなく、当時の判断材料として読む。実際の変更と結果は[滋賀旅行｜MIHO MUSEUM・信楽｜2026年8月8日の実績](shiga-miho-shigaraki-trip-2026-08-08.md)に記録している。
-
-関連する判断は[郊外の日帰り旅行は復路の便を固定し、食事を可変にする](fix-the-return-trip-and-keep-meals-flexible.md)、移動経路の地理的な見方は[MIHO MUSEUMを囲む大自然「信楽高原」](MIHO%20MUSEUMを囲む大自然「信楽高原」.md)へ分ける。
+**関連情報**
+- [郊外の日帰り旅行は復路の便を固定し、食事を可変にする](fix-the-return-trip-and-keep-meals-flexible.md)
+- [MIHO MUSEUMを囲む大自然「信楽高原」](MIHO%20MUSEUMを囲む大自然「信楽高原」.md)
 
 
 ## 生駒→石山・MIHO MUSEUM・信楽→奈良→生駒 日帰り予定

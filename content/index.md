@@ -25,15 +25,15 @@ draft: false
 
 ---
 ## Home Navigation
-
+- **Zettelkasten**
+	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
 - **Knowledge & Reserrch**
 	- 調べたこと
 	- 概念・知識
 	- IT / AI 技術系クラスタ
 	- その他の学習
 - **Reading & Thinking**
-	- 読書感想
-	- 読書ノート
+	- [[読書メモ]]
 	- 読書から派生した考察
 - **Personal Practice**
 	- 自分自身の作業
@@ -47,7 +47,7 @@ draft: false
 	- 日常の問題解決
 - **Travel & Experiences**
 	- [旅行へ行きたい](travel-wishlist.md)
-	- 美術館 / 博物館 / 展示会
+	- [美術館 / 博物館 / 展示会](museums-and-exhibitions.md)
 	- 鑑賞
 	- 訪問記録
 - Field
