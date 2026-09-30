@@ -4,10 +4,10 @@ aliases:
   - Research＋ZK仮クラスタ・ファイル台帳
 type: fleeting
 created: 2026-09-08T21:03:56+09:00
-updated: 2026-09-26T10:38:08+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260908-210356
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

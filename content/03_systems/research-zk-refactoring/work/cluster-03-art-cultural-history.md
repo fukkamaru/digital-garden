@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：03：美術鑑賞・文化史
 type: fleeting
 created: 2026-09-06T08:39:39+09:00
-updated: 2026-09-25T23:48:04+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260906-083940
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

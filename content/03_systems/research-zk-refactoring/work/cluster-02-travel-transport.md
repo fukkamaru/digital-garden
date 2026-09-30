@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：02：旅行・交通の意思決定
 type: fleeting
 created: 2026-09-05T22:49:25+09:00
-updated: 2026-09-25T23:48:04+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260905-224925
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

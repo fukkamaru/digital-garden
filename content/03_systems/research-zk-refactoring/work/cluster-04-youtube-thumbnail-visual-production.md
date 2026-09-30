@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：04：YouTubeサムネイル・ビジュアル制作
 type: fleeting
 created: 2026-09-18T18:55:38+09:00
-updated: 2026-09-20T13:47:17+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260918-185538
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

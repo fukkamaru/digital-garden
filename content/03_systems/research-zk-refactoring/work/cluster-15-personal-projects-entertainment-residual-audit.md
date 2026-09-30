@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：15：個人プロジェクト・娯楽・残余監査
 type: fleeting
 created: 2026-09-20T20:26:12+09:00
-updated: 2026-09-30T06:12:19+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260920-202612
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

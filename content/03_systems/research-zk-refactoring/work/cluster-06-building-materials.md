@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：06：建材・補修材・材料化学
 type: fleeting
 created: 2026-09-09T14:30:00+09:00
-updated: 2026-09-15T19:44:55+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260909-143000
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

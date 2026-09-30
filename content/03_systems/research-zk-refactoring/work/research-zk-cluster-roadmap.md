@@ -4,10 +4,10 @@ aliases:
   - Research＋ZK全体クラスタ・ロードマップ
 type: fleeting
 created: 2026-09-06T13:01:40+09:00
-updated: 2026-09-30T06:12:19+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260906-130140
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

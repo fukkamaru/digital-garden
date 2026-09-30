@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：09：業務文書・製品情報・社内運用
 type: fleeting
 created: 2026-09-13T20:12:21+09:00
-updated: 2026-09-17T03:20:00+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260913-201221
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

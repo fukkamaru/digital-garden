@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：10：生成AIサービス・AI活用
 type: fleeting
 created: 2026-09-11T20:12:26+09:00
-updated: 2026-09-17T03:05:00+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260911-201226
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

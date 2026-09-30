@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：08：EC・商品管理・マーケティング
 type: fleeting
 created: 2026-09-17T04:29:28+09:00
-updated: 2026-09-25T23:48:04+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260917-042928
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---

@@ -4,10 +4,10 @@ aliases:
   - Research＋ZKリファクタリング作業台：01：ノートの役割と運用原則
 type: fleeting
 created: 2026-09-05T20:53:54+09:00
-updated: 2026-09-05T21:57:42+09:00
+updated: 2026-09-30T11:52:59+09:00
 id: 20260905-205354
 permalink:
-draft: false
+draft: true
 tags:
   - ai-generated
 ---
