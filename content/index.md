@@ -26,57 +26,33 @@ draft: false
 ---
 ## Home Navigation
 
-- Knowledge & Reserrch
+- **Knowledge & Reserrch**
 	- 調べたこと
 	- 概念・知識
 	- IT / AI 技術系クラスタ
 	- その他の学習
-- Reading & Thinking
+- **Reading & Thinking**
 	- 読書感想
 	- 読書ノート
 	- 読書から派生した考察
-- Personal Practice
+- **Personal Practice**
 	- 自分自身の作業
 	- 個人プロジェクト
 	- 製作
 	- 問題解決
 	- 試行錯誤・運用改善
-- Life
+- **Life**
 	- ライフハック
 	- 生活改善
 	- 日常の問題解決
-- Travel & Experiences
-	- 旅行
-	- 美術館
-	- 博物館
-	- 展示会
+- **Travel & Experiences**
+	- [旅行へ行きたい](travel-wishlist.md)
+	- 美術館 / 博物館 / 展示会
 	- 鑑賞
 	- 訪問記録
 - Field
 	- その他
 
-
----
-
-- **Zettelkasten**
-  - [公開型ツェッテルカステンの構築](...)
-  - [ZK全体クラスタ・ロードマップ](...)
-  - [Analytics](...)
-
-- **Research / Learning**
-  - [調べたいことの一覧](...)
-  - [勉強したいこと](...)
-  - [気になった言葉](...)
-
-- **Life**
-  - [生活を変える](...)
-  - [目標一覧](...)
-  - [トレーニング](...)
-
-- **Interests**
-  - [旅行へ行きたい](...)
-  - [使ってみたいアイテム](...)
-  - [個人的ブックマーク](...)
 
 ---
 
@@ -94,7 +70,7 @@ draft: false
 - [調べたいことの一覧](research-topics-list.md)
 - [気になった言葉](気になった言葉.md)
 - [勉強したいこと](study-topic-backlog.md)
-- [旅行へ行きたい](travel-wishlist.md)
+- 
 
 - [ぽこあポケモン](pokoa-pokemon.md)
 - [使ってみたいアイテム](things-i-want-to-try.md)
