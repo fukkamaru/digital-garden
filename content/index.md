@@ -8,27 +8,49 @@ updated: 2026-09-26T10:38:08+09:00
 id: 20260425-160839
 draft: false
 ---
->[!info]
->Hello, x world.  
->This is  x digital garden. 
->
->It is both x garden and outer space.  
->It will one day become the universe, and one day transform into the cosmos.
-
-
-> [!info]
-> こんにちは、x。  
-> ここは、xのデジタルガーデンです。  
+> [!info]  
+> Hello, x world.  
+> This is x's digital garden.
 > 
-> xにとっての庭であり外宇宙でもあります。  
-> それは、いつしか宇宙と成り、秩序ある体系だった宇宙へと変貌するでしょう。
+> It grows from inner space, through the garden, and out into outer space.  
+> One day, it will become a universe, and eventually take shape as a cosmos.
+
+
+> [!info]  
+> こんにちは、x。  
+> ここは、xのデジタルガーデンです。
+> 
+> それは内宇宙から芽吹き、庭を通り、外宇宙へと広がっていきます。  
+> そしていつしか一つの宇宙となり、やがて秩序ある宇宙として形を成していくでしょう。
+
+---
+
+
+- **Zettelkasten**
+  - [公開型ツェッテルカステンの構築](...)
+  - [ZK全体クラスタ・ロードマップ](...)
+  - [Analytics](...)
+
+- **Research / Learning**
+  - [調べたいことの一覧](...)
+  - [勉強したいこと](...)
+  - [気になった言葉](...)
+
+- **Life**
+  - [生活を変える](...)
+  - [目標一覧](...)
+  - [トレーニング](...)
+
+- **Interests**
+  - [旅行へ行きたい](...)
+  - [使ってみたいアイテム](...)
+  - [個人的ブックマーク](...)
 
 
 
 
 
-
-
+---
 
 - [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
 - [Analytics](analytics.md)

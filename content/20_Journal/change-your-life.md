@@ -2,7 +2,7 @@
 title: 生活を変える
 aliases:
   - 生活を変える
-type:
+type: fleeting
 created: 2026-05-23T19:25:44+09:00
 updated: 2026-09-23T22:00:58+09:00
 id: 20260523-192544

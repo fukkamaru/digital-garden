@@ -1,3 +1,30 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+article #home-navigation + ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+article #home-navigation + ul > li {
+  padding: 1rem 1.2rem;
+
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+
+  list-style: none;
+}
+
+article #home-navigation + ul > li > ul {
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 700px) {
+  article #home-navigation + ul {
+    grid-template-columns: 1fr;
+  }
+}
