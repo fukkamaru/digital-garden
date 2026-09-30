@@ -1,6 +1,10 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+article #home-navigation {
+  display: none;
+}
+
 article #home-navigation + ul {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -26,5 +30,28 @@ article #home-navigation + ul > li > ul {
 @media (max-width: 700px) {
   article #home-navigation + ul {
     grid-template-columns: 1fr;
+  }
+}
+
+
+// ========================================
+// Mobile tables
+// ========================================
+
+@media (max-width: 600px) {
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-container > table {
+    min-width: 640px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .table-container > table th:first-child,
+  .table-container > table td:first-child {
+    min-width: 180px;
   }
 }
