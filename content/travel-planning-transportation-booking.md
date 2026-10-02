@@ -18,14 +18,14 @@ draft: false
 
 - [主要駅を起点とした交通ルート](station-based-transport-routes.md)
 
-**大阪府：**
+- **大阪府：**
 	- [新大阪駅を起点とした交通ルート](shin-osaka-station-route-options.md)
 	- [大阪駅を起点とした交通ルート](osaka-station-route-options.md)
 	- [難波駅を起点とした交通ルート](namba-station-route-options.md)
 	- [京都駅を起点とした交通ルート](kyoto-station-route-options.md)
 	- [鶴橋駅を起点とした交通ルート](tsuruhashi-station-route-options.md)
 	- [天王寺駅を起点とした交通ルート](tennoji-station-route-options.md)
-**奈良県：**
+- **奈良県：**
 	- [生駒駅を起点とした交通ルート](ikoma-station-route-options.md)
 	- [大和西大寺駅を起点とした交通ルート](yamato-saidaiji-station-route-options.md)
 	- [奈良駅を起点とした交通ルート](nara-station-route-options.md)
@@ -37,11 +37,11 @@ draft: false
 - 新幹線：
 	- [スマートEXの早特商品は購入期限・列車・設備で選ぶ](smart-ex-hayatoku-five-discount-types.md)
 
-- 高速バス・夜行バス 
+- 高速バス・夜行バス：
 	- [夜行バスと昼行バスの疲労を考えるための参考資料](osaka-to-tokyo-overnight-trip-cost-and-fatigue.md)
 	- [大阪から東京への昼行高速バス（2026年調査）](osaka-tokyo-daytime-highway-bus-2026.md)
    
-- 専用列車
+- 専用列車：
 	- [東京―大阪間でサンライズ瀬戸・出雲を使う（2026年調査）](sunrise-seto-izumo-tokyo-osaka-2026.md)
 
   - 青春18切符：
