@@ -18,11 +18,12 @@ draft: false
 
 - [主要駅を起点とした交通ルート](station-based-transport-routes.md)
 
+- **京都駅：**
+	- [京都駅を起点とした交通ルート](kyoto-station-route-options.md)
 - **大阪府：**
 	- [新大阪駅を起点とした交通ルート](shin-osaka-station-route-options.md)
 	- [大阪駅を起点とした交通ルート](osaka-station-route-options.md)
 	- [難波駅を起点とした交通ルート](namba-station-route-options.md)
-	- [京都駅を起点とした交通ルート](kyoto-station-route-options.md)
 	- [鶴橋駅を起点とした交通ルート](tsuruhashi-station-route-options.md)
 	- [天王寺駅を起点とした交通ルート](tennoji-station-route-options.md)
 - **奈良県：**
