@@ -1,8 +1,8 @@
 ---
-title: 旅行へ行きたい
+title: 旅行したい
 aliases:
-  - 旅行へ行きたい
-type: index
+  - 旅行したい
+type: structure
 created: 2026-06-03T11:28:33+09:00
 updated: 2026-09-23T22:00:58+09:00
 id: 20260603-112833

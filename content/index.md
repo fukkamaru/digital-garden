@@ -46,7 +46,8 @@ draft: false
 	- 生活改善
 	- 日常の問題解決
 - **Travel & Experiences**
-	- [旅行へ行きたい](travel-wishlist.md)
+	- [旅行計画・交通・予約](travel-planning-transportation-booking.md)
+		- [旅行へ行きたい](travel-wishlist.md)
 	- [美術館 / 博物館 / 展示会](museums-and-exhibitions.md)
 	- 鑑賞
 	- 訪問記録
