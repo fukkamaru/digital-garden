@@ -2,7 +2,7 @@
 title: 小説の読み方
 aliases:
   - 小説の読み方
-type:
+type: literature
 created: 2026-10-04T00:50:06+09:00
 updated: 2026-09-23T22:00:58+09:00
 id: 20261004-005006

@@ -1,7 +1,7 @@
 ---
-title: 生活を変える
+title: 生活改善
 aliases:
-  - 生活を変える
+  - 生活改善
 type: fleeting
 created: 2026-05-23T19:25:44+09:00
 updated: 2026-09-23T22:00:58+09:00

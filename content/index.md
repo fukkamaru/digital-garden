@@ -25,8 +25,10 @@ draft: false
 
 ---
 ## Home Navigation
-- **Zettelkasten**
+- **Zettelkasten & Digital garden**
+	- [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
 	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
+	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**
 	- 調べたこと
 	- 概念・知識
@@ -43,9 +45,11 @@ draft: false
 	- 問題解決
 	- 試行錯誤・運用改善
 - **Life**
+	- [目標一覧](goals-list.md)
 	- ライフハック
-	- 生活改善
+	- [生活改善](life-improvement.md)
 	- 日常の問題解決
+	- [使ってみたいアイテム](things-i-want-to-try.md)
 - **Travel & Experiences**
 	- [旅行計画・交通・予約](travel-planning-transportation-booking.md)
 		- [旅行へ行きたい](travel-wishlist.md)
@@ -54,15 +58,12 @@ draft: false
 	- 訪問記録
 - Field
 	- その他
-
+- [Analytics](analytics.md)
 
 ---
 
-- [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
-- [Analytics](analytics.md)
 
-- [生活を変える](change-your-life.md)
-- [目標一覧](goals-list.md)
+- a
 	- [トレーニングメニューをchatgptに作成してもらう](create-training-plan-with-chatgpt.md)
 	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
 	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
@@ -72,10 +73,7 @@ draft: false
 - [調べたいことの一覧](research-topics-list.md)
 - [気になった言葉](気になった言葉.md)
 - [勉強したいこと](study-topic-backlog.md)
-- 
-
 - [ぽこあポケモン](pokoa-pokemon.md)
-- [使ってみたいアイテム](things-i-want-to-try.md)
 - [個人的ブックマーク](personal-bookmarks.md)
 
 [Cluster 04 サムネイル制作方式の探索](thumbnail-production-history-structure.md)
