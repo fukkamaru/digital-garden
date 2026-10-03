@@ -2,7 +2,7 @@
 title: 移動する人は成功する
 aliases:
   - 移動する人は成功する
-type:
+type: literature
 created: 2026-09-01T07:49:16+09:00
 updated: 2026-09-23T22:00:58+09:00
 id: 20260901-074916

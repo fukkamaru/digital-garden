@@ -2,7 +2,7 @@
 title: 青柳教論を送る
 aliases:
   - 青柳教論を送る
-type:
+type: literature
 created: 2026-09-01T07:42:07+09:00
 updated: 2026-09-23T22:00:58+09:00
 id: 20260901-074207

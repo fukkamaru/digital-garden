@@ -33,7 +33,8 @@ draft: false
 	- IT / AI 技術系クラスタ
 	- その他の学習
 - **Reading & Thinking**
-	- [[読書メモ]]
+	- [読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
+	- [読書ストラクチャー](reading-structure.md)
 	- 読書から派生した考察
 - **Personal Practice**
 	- 自分自身の作業
