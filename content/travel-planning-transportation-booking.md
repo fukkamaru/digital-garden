@@ -35,7 +35,7 @@ draft: false
 ## 2. 都市間交通の選択
 
 
-- 新幹線：
+- 新幹線： 
 	- [スマートEXの早特商品は購入期限・列車・設備で選ぶ](smart-ex-hayatoku-five-discount-types.md)
 
 - 高速バス・夜行バス：
