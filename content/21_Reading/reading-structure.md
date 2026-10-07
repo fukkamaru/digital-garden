@@ -10,6 +10,7 @@ permalink:
 draft: false
 ---
 
+## Home Navigation
 - 019：図書館. 図書館学
 	- [正しい本の読み方](tadasii-hon-no-yomikata.md)
 	- [忘れる読書](wasureru-dokusyo.md)
