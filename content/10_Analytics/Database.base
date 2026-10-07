@@ -13,10 +13,10 @@ views:
     sort:
       - property: file.tags
         direction: DESC
+      - property: type
+        direction: DESC
       - property: file.folder
         direction: DESC
-      - property: type
-        direction: ASC
     columnSize:
       file.name: 253
       file.folder: 132
