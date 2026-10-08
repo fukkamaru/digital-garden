@@ -8,7 +8,7 @@ aliases:
   - 読書中の音声チャット活用法
   - 音声チャットしながら読むのは効果的か
 permalink:
-draft: true
+draft: false
 source:
 tags:
   - ai-generated
