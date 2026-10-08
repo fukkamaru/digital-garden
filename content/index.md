@@ -26,7 +26,7 @@ draft: false
 ---
 ## Home Navigation
 - **Zettelkasten & Digital garden**
-	- [公開型ツェッテルカステンの構築](public-zettelkasten-build.md)
+	- [公開型ツェッテルカステンの構築](public-zettelkasten-design-and-build.md)
 	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
 	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**

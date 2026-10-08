@@ -1,5 +1,7 @@
 @use "./base.scss";
 
+
+
 // put your custom CSS here!
 article #home-navigation {
   display: none;
@@ -32,6 +34,89 @@ article #home-navigation + ul > li > ul {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================================================
+   Reading Structure
+   ========================================================= */
+
+article #reading-navigation {
+  display: none;
+}
+
+
+/* ---------------------------------------------------------
+   NDC 100区分
+   000–099 / 100–199 / ...
+   --------------------------------------------------------- */
+
+article #reading-navigation + ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+article #reading-navigation + ul > li {
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+
+/* ---------------------------------------------------------
+   各NDC範囲のカード列
+   --------------------------------------------------------- */
+
+article #reading-navigation + ul > li > ul {
+  display: flex;
+  gap: 1rem;
+
+  margin-top: 0.75rem;
+  padding: 0 0 0.75rem;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  list-style: none;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/* ---------------------------------------------------------
+   個別NDCカード
+   019 / 100 / 141 / 147 / ...
+   --------------------------------------------------------- */
+
+article #reading-navigation + ul > li > ul > li {
+  flex: 0 0 20rem;
+
+  padding: 1rem 1.2rem;
+
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+
+  list-style: none;
+}
+
+
+/* ---------------------------------------------------------
+   カード内の読書ノート一覧
+   --------------------------------------------------------- */
+
+article #reading-navigation + ul > li > ul > li > ul {
+  margin-top: 0.75rem;
+}
+
+
+/* ---------------------------------------------------------
+   Mobile
+   --------------------------------------------------------- */
+
+@media (max-width: 700px) {
+  article #reading-navigation + ul > li > ul > li {
+    flex-basis: min(18rem, 85vw);
+  }
+}
+
 
 
 // ========================================
