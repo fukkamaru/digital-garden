@@ -10,6 +10,10 @@ permalink:
 draft: false
 ---
 
+[積読回避のための読書運用ルール](reading-workflow-rules-to-prevent-tsundoku.md)
+[読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
+[読書習慣を続けるための段階的な読書法](reading-method-reflection.md)
+
 
 ## reading-navigation
 - 000-099
@@ -107,35 +111,27 @@ draft: false
 
 ---
 
-- 読書術
-	- [忘れる読書](wasureru-dokusyo.md)
-	- [100冊で耕す](hyakusatu-de-tagayasu.md)
-	- [「読まなくてもいい本」の読書案内](yomanakute-mo-ii-hon-no-dokusyo-annai.md)
-	- [1冊を読み切るための読書術](issatu-wo-yomikiru-tame-no-dokusyojutu.md)
 
-
+- [GO OUT 飛び出す人だけが成功する時代](go-out-tobidasuhito-dake-ga-seikousuru-zidai.md)
+- [色彩別 爬虫類両生類図鑑](無題のファイル%204.md)
+- [[燻製大全]]
+- [メタバースとは何か～ネット上の「もう一つの世界」～](metaba-su-toha-nanika-nettojou-no-mouhitotu-no-sekai.md)
+- [月夜のでんしんばしら - 電信柱の軍歌](無題のファイル%2011.md)
+- [頭がいい人の読書術](atama-ga-ii-hito-no-dokusyojutu.md)
+- [大人のADHDのための段取り力](無題のファイル%2017.md)
+- [小相撲殺人事件](小相撲殺人事件)
+- [三行で撃つ](無題のファイル%203.md)
+- [移動と階級](無題のファイル%205.md)
+- [本の読み方 スローリーディングの実践](hon-no-yomikata-suro-ri-dhingu-no-zissenn.md)
+- [青柳経論を送る](無題のファイル%2010.md)
+- [スマホ時代の哲学 失われた孤独をめぐる冒険](無題のファイル%201.md)
 - [小説の読み方](syousetu-no-yomikata.md)
-- [読書の価値](dokusyo-no-kati.md)
-- [正しい本の読み方](tadasii-hon-no-yomikata.md)
-
-
-- [レバレッジ・リーディング](rebarejji-riidingu.md)
-- [投資としての読書](tousi-toshite-no-dokusyo.md)
 - [紙1枚！読書法](紙1枚！読書法)
-
-
-動物・美術
-- [日本の動物絵画史](nihon-no-doubutu-kaigasi.md)
-- [読書：ニュートン3月増刊](読書：ニュートン3月増刊.md)
-
-
-ドラクエ
-- [doragonquest-25th-anibaasary-monsuter-daizukan](doragonquest-25th-anibaasary-monsuter-daizukan.md)
-
-- 面白本
-	- [ningen-wo-oyasumi-site-yagi-ni-natte-mita](ningen-wo-oyasumi-site-yagi-ni-natte-mita.md)
-
-
-その他
+- [人間をお休みしてヤギになってみた](ningen-wo-oyasumi-site-yagi-ni-natte-mita.md)
 - [移動する人は成功する](idou-suru-hito-ha-seikou-suru.md)
+
+
+
+ドラクエ：ノート別に作ってした
+- [doragonquest-25th-anibaasary-monsuter-daizukan](doragonquest-25th-anibaasary-monsuter-daizukan.md)
 
