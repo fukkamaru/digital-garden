@@ -11,6 +11,10 @@ views:
       - file.mtime
       - file.links
     sort:
+      - property: file.ctime
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
       - property: file.tags
         direction: DESC
       - property: type

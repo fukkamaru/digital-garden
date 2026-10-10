@@ -16,12 +16,14 @@ draft: false
 > One day, it will become a universe, and eventually take shape as a cosmos.
 
 
+
 > [!info]  
 > こんにちは、x。  
 > ここは、xのデジタルガーデンです。
 > 
 > それは内宇宙から芽吹き、庭を通り、外宇宙へと広がっていきます。  
 > そしていつしか一つの宇宙となり、やがて秩序ある宇宙として形を成していくでしょう。
+
 
 ---
 ## Home Navigation
@@ -30,7 +32,7 @@ draft: false
 	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
 	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**
-	- 調べたこと
+	- [知識の種を拾う](gathering-seeds-of-knowledge.md)
 	- 概念・知識
 	- IT / AI 技術系クラスタ
 	- その他の学習
@@ -79,8 +81,8 @@ draft: false
 [Cluster 04 サムネイル制作方式の探索](thumbnail-production-history-structure.md)
 
 
-
 ---
+
 %%
 [graph-anchor-home-01](graph-anchor-home-01.md)
 [graph-anchor-home-02](graph-anchor-home-02.md)
@@ -133,4 +135,3 @@ draft: false
 [graph-anchor-home-49](graph-anchor-home-49.md)
 [graph-anchor-home-50](graph-anchor-home-50.md)
 %%
-
