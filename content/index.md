@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-03T13:32:08+09:00
+updated: 2026-10-10T15:25
 id: 20260425-160839
 draft: false
 ---
@@ -81,6 +81,8 @@ draft: false
 
 [Cluster 04 サムネイル制作方式の探索](thumbnail-production-history-structure.md)
 
+
+https://app.notion.com/p/3f381644bdf1814d9b3bc45e28b8177d?source=copy_link
 
 ---
 
