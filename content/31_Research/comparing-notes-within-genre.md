@@ -10,7 +10,6 @@ id: 20260617-180722
 permalink:
 draft: false
 tags:
-  - ai-generated
 ---
 
 # 同一テーマの読書メモを比較・統合する方法
