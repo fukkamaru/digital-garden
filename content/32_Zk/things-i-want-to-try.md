@@ -7,7 +7,7 @@ created: 2026-05-11T20:17:30+09:00
 updated: 2026-09-23T22:00:58+09:00
 id: 20260511-201730
 permalink:
-draft: true
+draft: false
 ---
 ## デジタル機器
 

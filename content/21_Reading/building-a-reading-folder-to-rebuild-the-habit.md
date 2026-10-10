@@ -9,7 +9,6 @@ id: 20260830-164653
 permalink:
 draft: false
 tags:
-  - ai-generated
 ---
 # Reading - 運用方針
 

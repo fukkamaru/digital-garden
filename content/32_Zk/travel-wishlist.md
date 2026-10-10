@@ -2,6 +2,7 @@
 title: 旅行したい
 aliases:
   - 旅行したい
+  - わっちは旅行がしたいのじゃ…
 type: structure
 created: 2026-06-03T11:28:33+09:00
 updated: 2026-09-23T22:00:58+09:00

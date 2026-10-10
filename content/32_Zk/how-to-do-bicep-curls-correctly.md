@@ -9,7 +9,6 @@ id: 20260429-113144
 permalink:
 draft: true
 tags:
-  - ai-generated
 ---
 ## フリーウェイト（ダンベル）
 

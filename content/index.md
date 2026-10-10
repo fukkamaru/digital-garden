@@ -46,6 +46,7 @@ draft: false
 	- 製作
 	- 問題解決
 	- 試行錯誤・運用改善
+	- ブックマーク
 - **Life**
 	- [目標一覧](goals-list.md)
 	- ライフハック
@@ -54,7 +55,7 @@ draft: false
 	- [使ってみたいアイテム](things-i-want-to-try.md)
 - **Travel & Experiences**
 	- [旅行計画・交通・予約](travel-planning-transportation-booking.md)
-		- [旅行へ行きたい](travel-wishlist.md)
+		- [わっちは旅行がしたいのじゃ…](travel-wishlist.md)
 	- [美術館 / 博物館 / 展示会](museums-and-exhibitions.md)
 	- 鑑賞
 	- 訪問記録
@@ -65,7 +66,7 @@ draft: false
 ---
 
 
-- a
+- 整理中
 	- [トレーニングメニューをchatgptに作成してもらう](create-training-plan-with-chatgpt.md)
 	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
 	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)

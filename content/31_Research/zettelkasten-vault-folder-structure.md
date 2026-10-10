@@ -9,7 +9,6 @@ id: 20260830-165121
 permalink:
 draft: false
 tags:
-  - ai-generated
 ---
 このVaultでは、保存フォルダ、Zettelkasten上の役割、情報の由来を別の軸として扱う。
 

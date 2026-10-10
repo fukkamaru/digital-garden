@@ -10,7 +10,6 @@ permalink:
 draft: true
 source:
 tags:
-  - ai-generated
 ---
 > 作成経緯：AIによる一般的な調査内容を整理したノート。個別の運動処方や医療上の判断には用いない。
 
