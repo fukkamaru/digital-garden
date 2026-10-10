@@ -10,7 +10,6 @@ id: 20260611-002656
 permalink:
 draft: false
 tags:
-  - ai-generated
 ---
 
 # 読書習慣を続けるための段階的な読書法

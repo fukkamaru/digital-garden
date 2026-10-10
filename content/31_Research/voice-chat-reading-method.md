@@ -11,7 +11,6 @@ permalink:
 draft: false
 source:
 tags:
-  - ai-generated
 ---
 
 # 読書中の音声チャット活用法
