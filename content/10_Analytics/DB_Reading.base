@@ -1,0 +1,28 @@
+filters:
+  and:
+    - file.folder == "21_Reading/Books"
+views:
+  - type: table
+    name: 表
+    order:
+      - file.ctime
+      - file.mtime
+      - file.name
+      - title
+      - file.folder
+      - type
+      - file.tags
+      - file.links
+    sort:
+      - property: file.ctime
+        direction: ASC
+      - property: type
+        direction: DESC
+    columnSize:
+      file.ctime: -20
+      file.name: 253
+      file.folder: 132
+      note.type: 148
+      file.links: 223
+  - type: table
+    name: ビュー

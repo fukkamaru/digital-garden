@@ -4,7 +4,7 @@ aliases:
   - レバレッジ・リーディング
 type: literature
 created: 2026-10-04T00:50:07+09:00
-updated: 2026-10-10T15:03
+updated: 2026-10-12T08:54
 id: 20261004-005007
 permalink:
 draft: false
