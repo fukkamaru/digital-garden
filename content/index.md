@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-10T15:28
+updated: 2026-10-12T11:40
 id: 20260425-160839
 draft: false
 ---
@@ -32,7 +32,7 @@ draft: false
 	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
 	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**
-	- [知識の種を拾う](gathering-seeds-of-knowledge.md)
+	- [単語・用語を覚える](gathering-seeds-of-knowledge.md)
 	- 概念・知識
 	- IT / AI 技術系クラスタ
 	- その他の学習

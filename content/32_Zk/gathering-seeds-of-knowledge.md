@@ -1,12 +1,13 @@
 ---
-title: 知識の種を拾う
+title: 単語・用語を覚える
 aliases:
   - 知識の種を拾う
   - 新しく知ったこと
   - 語彙・用語一覧
+  - 単語・用語を覚える
 type: literature
 created: 2026-10-10T03:21:51+09:00
-updated: 2026-10-12T00:15
+updated: 2026-10-12T11:40
 id: 20261010-032151
 permalink:
 draft: false
