@@ -4,7 +4,7 @@ aliases:
   - アイコンのテスト
 type: literature
 created: 2026-10-13T21:33:06+09:00
-updated: 2026-10-14T00:10
+updated: 2026-10-19T19:07
 id: 20261013-213306
 permalink:
 draft: false
@@ -55,5 +55,15 @@ AI用のアイコン
 ```
 ![[chatgpt.png|25x25]]
 ```
+
+---
+
+
+
+![[fukkamaru.png|25x25]] アイコンと文字の高さ確認
+```
+![[fukkamaru.png|25x25]]
+```
+
 
 
