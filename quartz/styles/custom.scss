@@ -140,3 +140,15 @@ article #reading-navigation + ul > li > ul > li > ul {
     min-width: 180px;
   }
 }
+
+
+// ========================================
+// icons
+// ========================================
+
+img[src$="fukkamaru.png"],
+img[src$="book1.png"],
+img[src$="book2.png"],
+img[src$="chatgpt.png"] {
+  vertical-align: middle;
+}
