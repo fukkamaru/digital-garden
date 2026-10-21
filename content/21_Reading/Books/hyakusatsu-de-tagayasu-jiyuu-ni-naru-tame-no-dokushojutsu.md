@@ -4,7 +4,7 @@ aliases:
   - 百冊で耕す〈自由に、なる〉ための読書術
 type: literature
 created: 2026-10-04T00:50:08+09:00
-updated: 2026-10-12T00:15
+updated: 2026-10-21T16:04
 id: 20261004-005008
 permalink:
 draft: false
