@@ -4,7 +4,7 @@ aliases:
   - Quartz公開サイトで運用するアイコンのテスト
 type: literature
 created: 2026-10-13T21:33:06+09:00
-updated: 2026-10-21T07:09
+updated: 2026-10-21T07:51
 id: 20261013-213306
 permalink:
 draft: false
@@ -13,7 +13,7 @@ tags:
 
 本文中で使用するアイコンについて、記述方法によってサイズが変更される・されないがあるようなので、記述の仕方をここにまとめる。
 
-また、[adjusting-inline-image-and-text-alignment-in-quartz](adjusting-inline-image-and-text-alignment-in-quartz.md)について確認が出来るように、幾つかはアイコンの右隣に文章を配置しておく。
+また、[Quartz上のインライン画像と文字の高さ調整](adjusting-inline-image-and-text-alignment-in-quartz.md)について確認が出来るように、幾つかはアイコンの右隣に文章を配置しておく。
 
 なお、アイコン利用時は、コードブロック内の文字を入力 or コピペするのは手間なので、辞書登録やショートカットキーの登録で一発で入力出来るように設定しておくとよい。
 
@@ -48,6 +48,11 @@ tags:
 ![[book2.png|25x25]]
 ```
 
+
+![[official.png | 25x25]] オフィシャル
+```
+![[official.png | 25x25]]
+```
 
 
 ---
