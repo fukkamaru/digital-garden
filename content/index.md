@@ -82,7 +82,6 @@ draft: false
 [Cluster 04 サムネイル制作方式の探索](thumbnail-production-history-structure.md)
 
 
-
 ---
 
 %%

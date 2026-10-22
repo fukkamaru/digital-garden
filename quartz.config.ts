@@ -67,7 +67,10 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ disableBrokenWikilinks: true}),
+      Plugin.ObsidianFlavoredMarkdown({
+         disableBrokenWikilinks: true,
+         enableInHtmlEmbed: false 
+      }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
