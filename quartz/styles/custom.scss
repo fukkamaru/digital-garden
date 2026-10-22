@@ -152,3 +152,11 @@ img[src$="book2.png"],
 img[src$="chatgpt.png"] {
   vertical-align: middle;
 }
+
+
+/* リンク先が存在しない内部リンク */
+a.internal.broken,
+a.internal.broken:hover {
+  color: #d32f2f;
+  opacity: 1;
+}
