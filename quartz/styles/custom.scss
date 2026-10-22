@@ -154,9 +154,9 @@ img[src$="chatgpt.png"] {
 }
 
 
-/* リンク先が存在しない内部リンク */
-a.internal.broken,
-a.internal.broken:hover {
-  color: #d32f2f;
-  opacity: 1;
+/* Quartzで公開されていない内部リンク */
+article a.internal.unpublished-link,
+article a.internal.unpublished-link:hover {
+  color: #d32f2f !important;
+  opacity: 1 !important;
 }
