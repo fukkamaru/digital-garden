@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-23T22:18
+updated: 2026-10-24T06:38
 id: 20260425-160839
 draft: false
 ---
@@ -63,8 +63,6 @@ draft: false
 	- その他
 - [Analytics](analytics.md)
 
-
-今日はとってもごきげんなのじゃ〜
 
 ---
 
