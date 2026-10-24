@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-24T06:38
+updated: 2026-10-24T13:28
 id: 20260425-160839
 draft: false
 ---
@@ -49,6 +49,7 @@ draft: false
 	- ブックマーク
 - **Life**
 	- [目標一覧](goals-list.md)
+	- [[トレーニングまとめ]]
 	- ライフハック
 	- [生活改善](life-improvement.md)
 	- 日常の問題解決
@@ -64,15 +65,13 @@ draft: false
 - [Analytics](analytics.md)
 
 
+
+
 ---
 
 
 - 整理中
-	- [トレーニングメニューをchatgptに作成してもらう](create-training-plan-with-chatgpt.md)
-	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
-	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
-	- [ディップスの正しいフォーム](how-to-do-dips-correctly.md)
-	- [心拍数トレーニングゾーン](heart-rate-training-zones.md)
+
 - [言葉と思考の軌跡](words-and-thoughts.md)
 - [調べたいことの一覧](research-topics-list.md)
 - [気になった言葉](気になった言葉.md)

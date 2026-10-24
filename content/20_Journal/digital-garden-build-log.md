@@ -1,12 +1,13 @@
 ---
 title: デジタルガーデンの構築作業日記
-type:
-created: 2026-04-25T20:56:42+09:00
-updated: 2026-09-23T22:00:58+09:00
-id: 20260425-205642
 aliases:
   - デジタルガーデンの構築作業日記
+type:
+created: 2026-04-25T20:56:42+09:00
+updated: 2026-10-24T10:01
+id: 20260425-205642
 draft: false
+tags:
 ---
 
 
@@ -26,4 +27,7 @@ draft: false
 - 2026/04/25: 保存フォルダやYAMLのタグ設定などが決まってくる
 	- 専用のGPTSを作成
 	- pluginの追加： File Tree Alternative Plugin
+- 2026/08/10 working copyのテストプランに入るも、GitHubを同期できない。※Link Folderが見つからない問題。いったん諦め。
 - 2026/08/20 fieldフォルダの削除
+- 2026/10/22 Qurtz公開サイトにおける未リンクは赤字になるように変更
+- 2026/10/23 Working copyによりGitHubおよびObsidianの連携を可能にする
