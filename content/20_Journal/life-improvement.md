@@ -4,7 +4,7 @@ aliases:
   - 生活改善
 type: fleeting
 created: 2026-05-23T19:25:44+09:00
-updated: 2026-09-23T22:00:58+09:00
+updated: 2026-10-25T14:33
 id: 20260523-192544
 permalink:
 draft: false
@@ -16,3 +16,4 @@ draft: false
 **2026/01/01**
 1ヶ月に1回は旅行に行くようにする
 → 出不精対策
+→ 日帰り

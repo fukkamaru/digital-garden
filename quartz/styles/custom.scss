@@ -158,5 +158,6 @@ img[src$="chatgpt.png"] {
 article a.internal.unpublished-link,
 article a.internal.unpublished-link:hover {
   color: #d32f2f !important;
+  background-color: transparent !important;
   opacity: 1 !important;
 }

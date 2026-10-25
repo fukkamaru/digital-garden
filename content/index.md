@@ -4,10 +4,11 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-25T14:31
+updated: 2026-10-25T21:08
 id: 20260425-160839
 draft: false
 ---
+
 > [!info]  
 > Hello, x world.  
 > This is x's digital garden.
@@ -28,14 +29,14 @@ draft: false
 ---
 ## Home Navigation
 - **Zettelkasten & Digital garden**
-	- [公開型ツェッテルカステンの構築](public-zettelkasten-design-and-build.md)
-	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
+	- [公開型ツェッテルカステンの設計と構築](public-zettelkasten-design-and-build.md)
 	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**
-	- [単語・用語を覚える](gathering-seeds-of-knowledge.md)
+	- [言葉と思考の軌跡](words-and-thoughts.md)
+	- [言葉の採集](言葉の発想の採集.md)
 	- 概念・知識
 	- IT / AI 技術系クラスタ
-	- その他の学習
+	- [学習と調査テーマ](study-and-research-topic.md)
 - **Reading & Thinking**
 	- [読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
 	- [読書ストラクチャー](reading-structure.md)
@@ -46,9 +47,10 @@ draft: false
 	- 製作
 	- 問題解決
 	- 試行錯誤・運用改善
-	- ブックマーク
+	- [個人的ブックマーク](personal-bookmarks.md)
 - **Life**
 	- [目標一覧](goals-list.md)
+	- [[トレーニングまとめ]]
 	- ライフハック
 	- [生活改善](life-improvement.md)
 	- 日常の問題解決
@@ -62,27 +64,6 @@ draft: false
 - Field
 	- その他
 - [Analytics](analytics.md)
-
-
-今日はとってもごきげんなのじゃ〜
-
----
-
-
-- 整理中
-	- [トレーニングメニューをchatgptに作成してもらう](create-training-plan-with-chatgpt.md)
-	- [バイセップカールの正しいフォーム](how-to-do-bicep-curls-correctly.md)
-	- [ショルダープレスの正しいフォーム](how-to-do-shoulder-press-correctly.md)
-	- [ディップスの正しいフォーム](how-to-do-dips-correctly.md)
-	- [心拍数トレーニングゾーン](heart-rate-training-zones.md)
-- [言葉と思考の軌跡](words-and-thoughts.md)
-- [調べたいことの一覧](research-topics-list.md)
-- [気になった言葉](気になった言葉.md)
-- [勉強したいこと](study-topic-backlog.md)
-- [ぽこあポケモン](pokoa-pokemon.md)
-- [個人的ブックマーク](personal-bookmarks.md)
-
-[Cluster 04 サムネイル制作方式の探索](thumbnail-production-history-structure.md)
 
 
 ---

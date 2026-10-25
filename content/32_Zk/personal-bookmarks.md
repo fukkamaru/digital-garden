@@ -4,12 +4,14 @@ aliases:
   - 個人的なブックマーク
 type: literature
 created: 2026-05-11T18:58:23+09:00
-updated: 2026-09-23T22:00:58+09:00
+updated: 2026-10-25T21:07
 id: 20260511-185823
 permalink:
-draft: true
+draft: false
 ---
-個人用の外部リンク集。情報源の鮮度やリンク切れは、必要になった時点で個別に確認する。
+個人用の外部リンク集。情報源の鮮度やリンク切れは気が向いたときに修正する。
+面倒だから修正しないかもしれない。
+
 
 
 ## スマホ
@@ -29,9 +31,6 @@ draft: true
 
 ## AI関連サービス
 - [テキストと画像からAI動画生成](https://hailuoai.video/)
-
-## AIを使う人のサイト
-- [ミネルヴァ](https://minerva.mamansoft.net/Home)
 
 ## VRを使う人のサイト
 - [Suzuo3](https://note.com/suzuo3_464)
@@ -79,8 +78,7 @@ KJ法（川喜田二郎）
 - [Hotel Memo](https://hotel-memo.github.io/)
 
 ## Roam Research
-	[Roam Researchを使いはじめた](https://note.com/ayacai115/n/nf9f2b68ccdfa)
-
+- [Roam Researchを使いはじめた](https://note.com/ayacai115/n/nf9f2b68ccdfa)
 
 ## YouTube
 - https://www.youtube.com/feed/storefront?bp=kgEDCPYDogUCKAU%3D

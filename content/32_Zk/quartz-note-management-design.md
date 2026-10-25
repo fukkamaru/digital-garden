@@ -4,7 +4,7 @@ aliases:
   - Quartzにおけるノートの管理設計
 type:
 created: 2026-04-26T17:41:29+09:00
-updated: 2026-09-23T22:00:58+09:00
+updated: 2026-10-25T14:33
 id: 20260426-174129
 permalink:
 draft: true
@@ -39,10 +39,3 @@ source:
 Research、Journal、Readingは、それぞれ参照資料や活動記録として独立して残してよい。すべてをPermanent Noteへ変換する必要はない。
 
 重要なのは、別々の場所にあるノートを、根拠、前提、具体例、反対意見などの意味的な関係で接続し、必要なときに思考へ戻れるようにすることである。
-
-## 関連ノート
-
-- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
-- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
-- [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
-- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)
