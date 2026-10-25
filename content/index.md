@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-24T13:28
+updated: 2026-10-24T18:25
 id: 20260425-160839
 draft: false
 ---
@@ -28,8 +28,7 @@ draft: false
 ---
 ## Home Navigation
 - **Zettelkasten & Digital garden**
-	- [公開型ツェッテルカステンの構築](public-zettelkasten-design-and-build.md)
-	- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
+	- [公開型ツェッテルカステンの設計と構築](public-zettelkasten-design-and-build.md)
 	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**
 	- [単語・用語を覚える](gathering-seeds-of-knowledge.md)
