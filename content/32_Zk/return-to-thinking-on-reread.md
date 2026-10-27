@@ -4,7 +4,7 @@ aliases:
   - 再読時に思考へ戻れること
 type: permanent
 created: 2026-05-09T15:50:26+09:00
-updated: 2026-10-25T14:33
+updated: 2026-10-28T07:26
 id: 20260509-155026
 permalink:
 draft: true
@@ -44,5 +44,4 @@ Quartzでの表示方法やHardLineBreaksの採用は技術的な実装判断で
 ## 関連ノート
 
 - [QuartzにHardLineBreaksを導入](enable-hard-line-breaks-in-quartz.md)
-- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
 - [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)

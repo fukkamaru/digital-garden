@@ -4,7 +4,7 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-10-28T07:07
+updated: 2026-10-28T07:26
 id: 20260502-063251
 permalink:
 draft: false
@@ -155,7 +155,7 @@ AIによるものと一目でわかるようにしておく
 
 ---
 
-- [読書習慣を取り戻すための仕組みを作る](building-a-reading-folder-to-rebuild-the-habit.md)
+
 - [[return-to-thinking-on-reread|再読時に思考へ戻れること]]
 - [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
 - [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)

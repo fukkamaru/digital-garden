@@ -5,7 +5,7 @@ aliases:
   - わっちは旅行がしたいのじゃ…
 type: structure
 created: 2026-06-03T11:28:33+09:00
-updated: 2026-10-25T14:33
+updated: 2026-10-28T07:29
 id: 20260603-112833
 permalink:
 draft: false
@@ -62,7 +62,7 @@ draft: false
             - ゴールドマン・コレクション「河鍋暁斎の世界」　終了
         - 姫路城・好古園
 	    - 姫路市立見野の郷交流館・見野古墳群
-	    - [猫の足跡付き須恵器](cat-pawprint-sue-ware.md)
+		    - [猫の足跡付き須恵器](cat-pawprint-sue-ware.md)
 	    - 姫路城・好古園
 	- KOBEとんぼ玉ミュージアム
 	- 神戸市立博物館
