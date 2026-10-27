@@ -4,21 +4,21 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-10-25T21:53
+updated: 2026-10-27T08:36
 id: 20260502-063251
 permalink:
 draft: false
 ---
 ツェッテルカステンとは？
 
-ドイツの社会学者ニクラス・ルーマンが開発した情報管理システム。情報（学び）を1カード・1とピックと小さく切り出したカードを、それぞれリンクさせることでカード同士の関係性・繋がり（ネットワーク）を後から追うことを可能にしある情報整理術
+ドイツの社会学者ニクラス・ルーマンが開発した情報管理システム。情報（学び）を1カード・1トピックと小さく切り出したカードを、それぞれリンクさせることでカード同士の関係性・繋がり（ネットワーク）を後から追うことを可能にしある情報整理術
 
 ![[fukkamaru.png|25x25]] ITの世界で例えるなら？
 2026-05-02
 - ファンクション（関数）を作るイメージ
 	- 様々な場面で呼び出し・再利用される単一の機能
 	- それ自体が意味をなすこともある
-	- 幾つかをパッケーしてライブラリとしても提供
+	- 幾つかをパッケージしてライブラリとしても提供
 
 >[!warning]
 >モジュールで理解すると単一のカードは、それだけでは意味をなさないように思えてします
@@ -37,7 +37,7 @@ draft: false
 
 ノートの書き方
 - 一時ノート（Fleeting）
-	- 思いついたことを自由に走り書きする
+	- 未整理の情報や問いなど、思いついたことを自由に走り書きする
 	- 永続ノートに清書したら削除する
 - 文献ノート（Literature）
 	- 書籍、動画、Webといった一次情報から、その要約や感想をまとめたもの
@@ -67,18 +67,40 @@ AIによるものと一目でわかるようにしておく
 
 ---
 
-- 構築方法
-	- 環境
-		- ノート作成・管理：Obsidian
-		- 性的サイト生成：Quartz
-		- リポジトリ管理：Github
-			- [Gitエコシステムまとめ](32_Zk/git-ecosystem-notes.md)
-		- ホスティング：Cloudeflare Pages
-			- [比較](cloudflare-pages-vs-github-pages.md) / [主な制限](cloudflare-pages-limitations.md)
-		- ドメイン管理：ConoHa
-			- [外部カスタムドメインの制限](cloudflare-pages-external-domain-restrictions.md)
-		- iOS Gitクライアント：Working Copy
+- 環境・構築
+	- ノート作成・管理：Obsidian
+	- 静的サイト生成：Quartz
+	- リポジトリ管理：Github
+		- [Gitエコシステムまとめ](32_Zk/git-ecosystem-notes.md)
+	- ホスティング：Cloudeflare Pages
+		- [比較](cloudflare-pages-vs-github-pages.md) / [主な制限](cloudflare-pages-limitations.md)
+	- ドメイン管理：ConoHa
+		- [外部カスタムドメインの制限](cloudflare-pages-external-domain-restrictions.md)
+	- Gitクライアント：
+		- Windows
+			- Git
+		- android
+			- GitSync
+		- iOS
+			- Working Copy
 - 設計・運用
+	- ノート管理
+		- フォルダ構成、type、tags、ノートの分割・統合、保存先の判断
+	- 記述
+		- タイトルの付け方、Markdownリンク、日付、出典、コールアウト、画像の扱い
+	- 公開
+		- draft、公開・非公開、URL設計、未解決リンクの扱い
+	- 同期・保守
+		- Gitによる端末間同期、更新手順、競合への対応
+
+
+
+
+
+---
+
+
+
 - ノート管理
 	-  [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
 	- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
@@ -98,7 +120,6 @@ AIによるものと一目でわかるようにしておく
 - [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
 - [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
 - [markdownlinkを採用](adopting-markdown-links.md)
-- [画像ファイルの命名規則](image-naming-conventions.md)
 - [コールアウトの使い分け](using-markdown-callouts.md)
 
 
@@ -114,7 +135,7 @@ AIによるものと一目でわかるようにしておく
 | ------------ | ---------------------- |
 | `fleeting`   | 未整理の着想や一時的な問い          |
 | `literature` | 外部資料の内容や、それに対する記録      |
-| `permanent`  | 自分の言葉で成立する再利用可能な主張     |
+| `permanent`  |                        |
 | `structure`  | 複数ノートの関係や読み順を案内する構造ノート |
 | `index`      | 特定の規則に基づき対象を列挙する索引     |
 

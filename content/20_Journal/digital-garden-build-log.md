@@ -4,7 +4,7 @@ aliases:
   - デジタルガーデンの構築作業日記
 type: literature
 created: 2026-04-25T20:56:42+09:00
-updated: 2026-10-25T21:56
+updated: 2026-10-27T18:33
 id: 20260425-205642
 draft: false
 tags:
@@ -48,4 +48,4 @@ tags:
 - 2026-10-23
 	- Working copyによりGitHubおよびObsidianの連携を可能にする
 - 2026-10-25
-	- Obsidian上でも、「[[]]」表記の未リンクについては赤色になるように変更
+	- Obsidian上でも「[[]]」表記の未リンクについては赤色になるように変更
