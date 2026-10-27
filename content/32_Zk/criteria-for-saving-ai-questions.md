@@ -4,7 +4,7 @@ aliases:
   - AIに尋ねた質問をメモとして残す判断基準
 type:
 created: 2026-04-26T00:07:26+09:00
-updated: 2026-09-26T10:38:08+09:00
+updated: 2026-10-28T06:34
 id: 20260426-000726
 draft: true
 source:
@@ -37,8 +37,5 @@ AIが生成した本文を保存する場合は、ノート種別とは別に`ai
 
 モデル名やバージョンは変化が速く、恒久的な分類として管理コストが高いため、タイトルの接頭辞やモデル別タグにはしない。比較の目的で必要な場合だけ、本文へ実行日と使用モデルを記録する。
 
-## 関連ノート
 
-- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
-- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
 - [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)

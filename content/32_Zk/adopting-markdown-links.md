@@ -2,12 +2,12 @@
 title: markdownlinkを採用
 aliases:
   - markdownlinkを採用
-type:
+type: permanent
 created: 2026-04-26T17:35:18+09:00
-updated: 2026-09-23T22:00:58+09:00
+updated: 2026-10-28T07:07
 id: 20260426-173518
 permalink:
-draft: true
+draft: false
 ---
 
 **obsidianで採用されるリンク記述方式**
@@ -33,8 +33,7 @@ draft: true
 >	記述方法：[ノート名](リンク)
 
 
-
 **どちらを使う？**
 obsidianを使ってリンクを設定するなら、標準仕様のmarkdownlinkを使用しても、volut内であればファイルパスが変わっても自動追従してくれる。
 
-⇒[堅牢性を考えるならpandoc]()に対応する、markdownlinkを使うのがよい。
+⇒ [[堅牢性を考えるならpandoc]]に対応する、markdownlinkを使うのがよい。

@@ -4,7 +4,7 @@ aliases:
   - デジタルガーデンの構築作業日記
 type: literature
 created: 2026-04-25T20:56:42+09:00
-updated: 2026-10-27T18:33
+updated: 2026-10-27T19:19
 id: 20260425-205642
 draft: false
 tags:
@@ -43,6 +43,7 @@ tags:
 	- working copyのテストプランに入るも、GitHubを同期できない。※Link Folderが見つからない問題。いったん諦め。
 - 2026-08-20
 	- fieldフォルダの削除
+	- Notesフォルダの削除
 - 2026-10-22
 	- Qurtz公開サイトにおける未リンクは赤字になるように変更
 - 2026-10-23

@@ -4,7 +4,7 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-10-27T08:36
+updated: 2026-10-28T07:07
 id: 20260502-063251
 permalink:
 draft: false
@@ -53,18 +53,6 @@ AIに出力させた記事はどう扱う？
 セカンダリ情報として文献ノートとして扱う
 AIによるものと一目でわかるようにしておく
 
-タイトルの付け方
-- 命題型
-	- ○○はXXである
-- 説明型
-	- ○○は△△することでXXとなる
-- 問題解決型
-	- ○○は△△することでXXとなる
-
-それぞれのノートは、再利用できるようにアトミックに始めると良い。ただし、何でもかんでもアトミックにするのではなく再利用しやすい単位で区切る。そのため、必ずしもアトミックとは限らない。
-
-また、ノートが肥大化してきたら、再利用しやすい単位で分割・再構成する。この辺りもファンクション的な考えに近い。
-
 ---
 
 - 環境・構築
@@ -85,72 +73,138 @@ AIによるものと一目でわかるようにしておく
 			- Working Copy
 - 設計・運用
 	- ノート管理
-		- フォルダ構成、type、tags、ノートの分割・統合、保存先の判断
+		- フォルダ構成：情報の保存先と役割を示す
+			- 01_Templates
+				- 新規ノート作成用のテンプレート集
+			- 02_Images
+				- 画像などの添付ファイル
+				- img以外も必要となったらフォルダ名を変更する
+					- Assets
+				- ファイル数が増えたらアップローダーを考える
+					- gitからの解放
+						- 2026-10-27：アイコン関係などはgit保存で良いか？
+			- 03_Systems
+				- aiやプログラムによる処理結果、一時データやログの管理など
+			- 10_Analytics
+				- 分析結果や集計
+				- quartz上に反映されない分析なども
+			- 20_Journal
+				- 日記、活動記録、試行錯誤など
+			- 21_Reading
+				- Books
+					- 読書記録のノート
+					- 各書籍ごとにノートを作成
+						- 日付は上から古く、下に向かって新しくする
+							- 読書フローを追えるようにする
+			- 30_Inbox
+				- 思いつきや未整理のノート
+			- 31_Research
+				- 一次資料から、AI由来の情報（セカンダリ）など
+					- **特にユーザーの言葉に直していないもの**
+			- 32_Zk
+				- permanent, literature, structure, indexを中心とする知識ネットワーク
+		- type
+			- ノートの役割を示す
+				- fleeting
+				- literature
+				- permanent
+				- structure
+				- index
+		- tags
+			- 分野・情報源などの由来・属性を示す
+				- `field`：外部環境下で実際に経験したこと
+				- `reading`：ユーザー自身の読書記録
+				- `ai-generated`：AIによる推論・主張
+					- **その情報がAI由来であることが分かるようにしたかった**
+		- ノートの分割・統合、保存先の判断
+			- それぞれのノートは、再読・再利用できるようにアトミックにする。
+			- ただし、再読・再利用できることがベストであり、アトミックであることが必ずしもベストとは限らない
+			- ノートが肥大化してきたら、再利用しやすい単位で分割・再構成する。
+				- この辺りもファンクション的な考えに近い。
 	- 記述
-		- タイトルの付け方、Markdownリンク、日付、出典、コールアウト、画像の扱い
+		- タイトルの付け方
+			- 命題型
+				- ○○はXXである
+			- 説明型
+				- ○○は△△することでXXとなる
+			- 問題解決型
+				- ○○は△△することでXXとなる
+		- Markdownリンク
+			- [markdownlinkを採用](adopting-markdown-links.md)
+		- 日付
+		- 出典
+		- コールアウト
+			- [コールアウトの使い分け](using-markdown-callouts.md)
+		- 画像の扱い
 	- 公開
-		- draft、公開・非公開、URL設計、未解決リンクの扱い
+		- draft（公開・非公開）
+			- [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
+		- GitHub上 
+		- URL設計
+			- [QuartzにおけるURL設計](quartz-url-design.md)
+		- 未解決リンクの扱い
 	- 同期・保守
 		- Gitによる端末間同期、更新手順、競合への対応
 
 
 
-
-
----
-
-
-
-- ノート管理
-	-  [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
-	- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
-- 記述
-	- [[return-to-thinking-on-reread|再読時に思考へ戻れること]]
+- [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
 	- [[keep-activity-logs-as-journal|活動記録はジャーナルとして残す]]
 	- [[separating-external-and-reflective-knowledge|外部環境で得た知識と内省知の切り分け方]]
-	- [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
-	- [外部環境で得た知識と内省知の切り分け方](separating-external-and-reflective-knowledge.md)
-	- [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
-	- [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)
-	- [読書習慣を取り戻すための仕組みを作る](building-a-reading-folder-to-rebuild-the-habit.md)
-
----
-
-- [QuartzにおけるURL設計](quartz-url-design.md)
-- [Quartzにおけるノートの管理設計](quartz-note-management-design.md)
-- [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
-- [markdownlinkを採用](adopting-markdown-links.md)
-- [コールアウトの使い分け](using-markdown-callouts.md)
 
 
 ---
 
-| ------------ |
-| フォルダ   | 作業段階や利用場面を示す       |
-| `type` | ノートの現在の知識上の役割を示す   |
-| `tags` | 分野・情報源などを横断する属性を示す |
+- [読書習慣を取り戻すための仕組みを作る](building-a-reading-folder-to-rebuild-the-habit.md)
+- [[return-to-thinking-on-reread|再読時に思考へ戻れること]]
+- [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
+- [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)
 
 
-| `type`       | 意味                     |
-| ------------ | ---------------------- |
-| `fleeting`   | 未整理の着想や一時的な問い          |
-| `literature` | 外部資料の内容や、それに対する記録      |
-| `permanent`  |                        |
-| `structure`  | 複数ノートの関係や読み順を案内する構造ノート |
-| `index`      | 特定の規則に基づき対象を列挙する索引     |
+---
 
 
-## フォルダ構成
+## 知識処理の流れ
 
-フォルダ間の移動を機械的な必須工程にはしない。ノートの役割と今後の利用方法から保存先を判断する。
+```text
+30_Inbox ──→ 31_Research
+        └──→ 32_Zk
 
-| フォルダ           | 用途                                                |
-| -------------- | ------------------------------------------------- |
-| `01_Templates` | 新規ノート用テンプレート                                      |
-| `02_images`    | 画像などの添付ファイル                                       |
-| `10_Analytics` | 分析結果や集計                                           |
-| `20_Journal`   | 日記、活動経過、試行錯誤                                      |
-| `21_Reading`   | 負担の軽い読書記録                                         |
-| `30_Inbox`     | 未整理のメモと一時的な作業領域                                   |
-| `31_Research`  | 調査記録、資料整理、精読                                      |
-| `32_Zk`        | Permanent Note、Structure Note、Indexを中心とする知識ネットワーク |
+31_Research ──→ 32_Zk
+20_Journal ───→ 32_Zk
+21_Reading ───→ 32_Zk
+```
+
+矢印は必ず移動や昇格を行うという意味ではない。
+
+- Researchは参照資料として完成した状態で残してよい
+- JournalやReadingも、それぞれの活動記録として残してよい
+- 新しい考えが生まれた場合だけ、別のZettelを作って元ノートと接続する
+- ResearchとZKは相互にリンクしてよい
+
+この考え方により、AI調査結果を毎回Permanent Noteへ書き直す負担を減らしながら、必要な情報を検索可能な状態で保持できる。
+
+ツェッテルカステンを中心とした管理設計の原則
+- フォルダは、保存場所や操作権限など、運用上の役割を安定させるために使う
+- `type`は、Fleeting、Literature、Permanent、Structure、Indexというノートの役割を表す
+- `tags`は、役割とは別に、情報の由来や属性を必要最小限で表す
+- カード同士の意味的な関係は、フォルダやタグではなくリンクで表す
+- 一つのカードには、独立して読み返せる一つの中心的な話題または主張を持たせる
+
+フォルダ、`type`、`tags`は、同じ分類を別の形で重複させるためのものではない。それぞれの役割を分けることで、分類項目が増え続けることを防げる。
+
+## 完全な分類を目指さない
+
+一つのノートが複数のテーマに関係する場合、どれか一つのカテゴリーへ完全に閉じ込める必要はない。
+
+- 主題に最も近い場所へ置く
+- 関係するカードへリンクする
+- 複数カードの流れを示す必要が生じたらStructure Noteを検討する
+
+分類を追加する前には、その分類によって検索、判断、操作のいずれが具体的に改善するかを確認する。違いを説明できない分類は増やさない。
+
+## Zettelkastenを中心にする
+
+Research、Journal、Readingは、それぞれ参照資料や活動記録として独立して残してよい。すべてをPermanent Noteへ変換する必要はない。
+
+重要なのは、別々の場所にあるノートを、根拠、前提、具体例、反対意見などの意味的な関係で接続し、必要なときに思考へ戻れるようにすることである。
