@@ -4,7 +4,7 @@ aliases:
   - 外部環境で得た知識と内省知の切り分け方
 type: permanent
 created: 2026-04-26T10:30:48+09:00
-updated: 2026-10-28T07:03
+updated: 2026-10-29T07:34
 id: 20260426-103048
 draft: false
 source:

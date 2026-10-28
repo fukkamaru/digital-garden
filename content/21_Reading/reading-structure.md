@@ -6,7 +6,7 @@ aliases:
   - わっちの本棚
 type: structure
 created: 2026-09-02T08:15:12+09:00
-updated: 2026-10-29T05:19
+updated: 2026-10-29T07:34
 id: 20260902-081512
 permalink:
 draft: false

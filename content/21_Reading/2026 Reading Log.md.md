@@ -4,15 +4,12 @@ aliases:
   - 2026 Reading Log.md
 type:
 created: 2026-10-10T02:09:29+09:00
-updated: 2026-10-10T19:08
+updated: 2026-10-29T07:38
 id: 20261010-020929
 permalink:
 draft: true
 tags:
 ---
-
-
-
 
 # Reading Logs
 

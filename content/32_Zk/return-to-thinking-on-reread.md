@@ -4,7 +4,7 @@ aliases:
   - 再読時に思考へ戻れること
 type: permanent
 created: 2026-05-09T15:50:26+09:00
-updated: 2026-10-29T04:15
+updated: 2026-10-29T07:34
 id: 20260509-155026
 permalink:
 draft: false

@@ -4,7 +4,7 @@ aliases:
   - 外部リンクだけのノートには接続意図を残す
 type: permanent
 created: 2025-08-09
-updated: 2026-10-29T05:01
+updated: 2026-10-29T07:34
 id: 20260425-223832
 draft: false
 tags:

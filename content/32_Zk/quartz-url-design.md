@@ -4,7 +4,7 @@ aliases:
   - QuartzにおけるURL設計
 type: permanent
 created: 2026-04-26T10:59:40+09:00
-updated: 2026-10-28T06:01
+updated: 2026-10-29T07:34
 id: 20260426-105940
 draft: false
 source:

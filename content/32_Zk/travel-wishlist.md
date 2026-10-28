@@ -5,7 +5,7 @@ aliases:
   - わっちは旅行がしたいのじゃ…
 type: structure
 created: 2026-06-03T11:28:33+09:00
-updated: 2026-10-28T07:29
+updated: 2026-10-29T07:34
 id: 20260603-112833
 permalink:
 draft: false

@@ -4,7 +4,7 @@ aliases:
   - 生活改善
 type: fleeting
 created: 2026-05-23T19:25:44+09:00
-updated: 2026-10-29T05:16
+updated: 2026-10-29T07:34
 id: 20260523-192544
 permalink:
 draft: false

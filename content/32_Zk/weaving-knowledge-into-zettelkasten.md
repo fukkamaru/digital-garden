@@ -4,7 +4,7 @@ aliases:
   - 知識や経験を自分のネットワークに編み込んでいく
 type: permanent
 created: 2026-05-09T22:49:07+09:00
-updated: 2026-10-29T03:50
+updated: 2026-10-29T07:34
 id: 20260509-224907
 permalink:
 draft: false

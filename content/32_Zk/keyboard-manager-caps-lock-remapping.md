@@ -6,7 +6,7 @@ aliases:
   - Keyboard ManagerでCaps Lockを再設定する
 type: permanent
 created: 2026-04-28T19:40:04+09:00
-updated: 2026-10-29T04:26
+updated: 2026-10-29T07:34
 id: 20260428-194004
 permalink:
 draft: false

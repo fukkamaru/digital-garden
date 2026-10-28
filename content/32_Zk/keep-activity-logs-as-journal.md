@@ -4,7 +4,7 @@ aliases:
   - 活動記録はジャーナルとして残す
 type: permanent
 created: 2026-05-09T21:21:59+09:00
-updated: 2026-10-29T03:55
+updated: 2026-10-29T07:34
 id: 20260509-212159
 permalink:
 draft: false

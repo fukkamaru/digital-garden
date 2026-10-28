@@ -5,7 +5,7 @@ aliases:
   - 数学記号
 type: literature
 created: 2025-08-09
-updated: 2026-10-29T04:46
+updated: 2026-10-29T07:34
 id: 20260425-225027
 draft: false
 source:
