@@ -4,7 +4,7 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-10-28T07:26
+updated: 2026-10-29T07:29
 id: 20260502-063251
 permalink:
 draft: false
@@ -34,6 +34,9 @@ draft: false
 	- ~~いくつかを組み合わせて機能する~~
 	- ~~それ自体だけでは意味をなさない~~
 
+![](Pasted%20image%2020261029072849.jpg%20)
+
+
 
 ノートの書き方
 - 一時ノート（Fleeting）
@@ -50,8 +53,9 @@ draft: false
 	- ハブとして機能する
 
 AIに出力させた記事はどう扱う？
-セカンダリ情報として文献ノートとして扱う
-AIによるものと一目でわかるようにしておく
+- セカンダリ情報として文献ノートとして扱う
+- AIによるものと一目でわかるようにしておく
+	- [[アイコン化による出自の明示]]で解決した
 
 ---
 
@@ -147,23 +151,20 @@ AIによるものと一目でわかるようにしておく
 		- Gitによる端末間同期、更新手順、競合への対応
 
 
-
 - [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
-	- [[keep-activity-logs-as-journal|活動記録はジャーナルとして残す]]
+	- [再読時に思考へ戻れること](return-to-thinking-on-reread.md)
+	- [活動記録はジャーナルとして残す](keep-activity-logs-as-journal.md)
 	- [[separating-external-and-reflective-knowledge|外部環境で得た知識と内省知の切り分け方]]
+	- [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
+	- [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)
+	- [[「ノート」と「カード」の違い]]
 
-
----
-
-
-- [[return-to-thinking-on-reread|再読時に思考へ戻れること]]
-- [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
-- [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)
-
+- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 
 ---
 
 
+![[chatgpt.png|25x25]]
 ## 知識処理の流れ
 
 ```text

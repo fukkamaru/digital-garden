@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-25T21:08
+updated: 2026-10-29T05:19
 id: 20260425-160839
 draft: false
 ---
@@ -38,8 +38,7 @@ draft: false
 	- IT / AI 技術系クラスタ
 	- [学習と調査テーマ](study-and-research-topic.md)
 - **Reading & Thinking**
-	- [読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
-	- [読書ストラクチャー](reading-structure.md)
+	- [わっちの本棚](reading-structure.md)
 	- 読書から派生した考察
 - **Personal Practice**
 	- 自分自身の作業

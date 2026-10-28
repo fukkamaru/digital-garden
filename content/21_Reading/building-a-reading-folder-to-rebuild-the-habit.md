@@ -4,11 +4,12 @@ aliases:
   - 読書習慣を再開するための読書記録運用
 type: literature
 created: 2026-08-30T16:46:53+09:00
-updated: 2026-09-23T18:45:30+09:00
+updated: 2026-10-29T05:09
 id: 20260830-164653
 permalink:
 draft: false
 tags:
+  - ai-generated
 ---
 # Reading - 運用方針
 

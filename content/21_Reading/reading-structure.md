@@ -1,19 +1,18 @@
 ---
-title: 読書ストラクチャー
+title: わっちの本棚
 aliases:
+  - 私の本棚
   - 読書ストラクチャー
+  - わっちの本棚
 type: structure
 created: 2026-09-02T08:15:12+09:00
-updated: 2026-10-22T20:57
+updated: 2026-10-29T05:19
 id: 20260902-081512
 permalink:
 draft: false
 ---
 
-[積読回避のための読書運用ルール](reading-workflow-rules-to-prevent-tsundoku.md)
-[読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
-[読書習慣を続けるための段階的な読書法](reading-method-reflection.md)
-
+- [読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
 
 ## reading-navigation
 - 000-099

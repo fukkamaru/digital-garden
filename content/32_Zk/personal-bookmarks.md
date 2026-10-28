@@ -4,7 +4,7 @@ aliases:
   - 個人的なブックマーク
 type: literature
 created: 2026-05-11T18:58:23+09:00
-updated: 2026-10-25T21:07
+updated: 2026-10-29T05:11
 id: 20260511-185823
 permalink:
 draft: false
@@ -45,7 +45,6 @@ KJ法（川喜田二郎）
 ## デジタルガーデン
 - https://maggieappleton.com/garden-history
 - https://joelhooks.com/digital-garden/
-
 - [デジタルガーデンの設備を進めた話](https://note.com/yineleyici/n/n0b28b681ba1d)
 	- https://stephango.com/file-over-app
 - https://nejimaki-radio.com/internet-how-to-fix-mit-web/
