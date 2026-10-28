@@ -4,7 +4,7 @@ aliases:
   - 読書習慣を再開するための読書記録運用
 type: literature
 created: 2026-08-30T16:46:53+09:00
-updated: 2026-10-29T07:37
+updated: 2026-10-29T07:40
 id: 20260830-164653
 permalink:
 draft: true
@@ -386,11 +386,4 @@ Reading Note作成時点では、Research Note、Permanent Note、Structure Note
 ことである。
 
 **Reading Noteは読書のために存在する。Reading Noteを書くために読書する状態にはしない。**
-## 関連ノート
-
-- [ツェッテルカステン向けのVaultのフォルダ構成](zettelkasten-vault-folder-structure.md)
-- [活動記録はジャーナルとして残す](keep-activity-logs-as-journal.md)
-- [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
-
-
 

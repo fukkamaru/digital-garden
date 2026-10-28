@@ -6,7 +6,7 @@ aliases:
   - わっちの本棚
 type: structure
 created: 2026-09-02T08:15:12+09:00
-updated: 2026-10-29T07:34
+updated: 2026-10-29T07:41
 id: 20260902-081512
 permalink:
 draft: false
@@ -71,7 +71,7 @@ draft: false
 	- 549：電気工学：電気工学
 		- [[2030年 半導体の地政学|2030年 半導体の地政学]]
 	- 596：家政学. 生活科学
-		- [燻製大全](言葉の発想の採集.md)
+		- [燻製大全](gathering-words-and-ideas.md)
 		- [[基礎から学ぶ紅茶のすべて]]
 - 600-699
 	- 617：

@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-29T07:34
+updated: 2026-10-29T07:48
 id: 20260425-160839
 draft: false
 ---
@@ -33,7 +33,7 @@ draft: false
 	- [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 - **Knowledge & Reserrch**
 	- [言葉と思考の軌跡](words-and-thoughts.md)
-	- [言葉の採集](言葉の発想の採集.md)
+	- [言葉と発想の採集](gathering-words-and-ideas.md)
 	- 概念・知識
 	- IT / AI 技術系クラスタ
 	- [学習と調査テーマ](study-and-research-topic.md)
@@ -49,7 +49,7 @@ draft: false
 	- [個人的ブックマーク](personal-bookmarks.md)
 - **Life**
 	- [目標一覧](goals-list.md)
-	- [[トレーニングまとめ]]
+	- [[training-summary|トレーニングまとめ]]
 	- ライフハック
 	- [生活改善](life-improvement.md)
 	- 日常の問題解決

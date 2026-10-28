@@ -1,10 +1,10 @@
 ---
-title: 言葉の採集
+title: 言葉と発想の採集
 aliases:
-  - 言葉の採集
+  - 言葉と発想の採集
 type: literature
 created: 2026-10-11T19:41:18+09:00
-updated: 2026-10-25T20:59
+updated: 2026-10-29T07:40
 id: 20261011-194118
 permalink:
 draft: false
