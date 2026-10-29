@@ -4,7 +4,7 @@ aliases:
   - コールアウトの使い分け
 type: literature
 created: 2026-05-13T17:00:37+09:00
-updated: 2026-10-29T08:08
+updated: 2026-10-29T08:10
 id: 20260513-170037
 permalink:
 draft: false
@@ -82,13 +82,16 @@ draft: false
 
 
 
+
 > [!quote]
 本文から引用した文章をここに入れる。
 
 
 
+
 > [!question]
 「大本山」と「別格本山」は、宗派ごとにどのように使い分けられているのか？
+
 
 
 

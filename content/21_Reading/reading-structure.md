@@ -6,13 +6,14 @@ aliases:
   - わっちの本棚
 type: structure
 created: 2026-09-02T08:15:12+09:00
-updated: 2026-10-29T07:41
+updated: 2026-10-29T08:23
 id: 20260902-081512
 permalink:
 draft: false
 ---
 
 - [読書習慣を再開するための読書記録運用](building-a-reading-folder-to-rebuild-the-habit.md)
+- [[読書簡易メモ|読書簡易メモ]]
 
 ## reading-navigation
 - 000-099
