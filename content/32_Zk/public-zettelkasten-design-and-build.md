@@ -4,7 +4,7 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-10-29T07:34
+updated: 2026-10-31T16:50
 id: 20260502-063251
 permalink:
 draft: false
@@ -34,7 +34,7 @@ draft: false
 	- ~~いくつかを組み合わせて機能する~~
 	- ~~それ自体だけでは意味をなさない~~
 
-![](Pasted%20image%2020261029072849.jpg%20)
+![293](Pasted%20image%2020261029072849.jpg%20)
 
 
 
