@@ -2,16 +2,16 @@
 title: 「目標」は理想と現実のギャップを測るために設置する
 aliases:
   - 「目標」は理想と現実のギャップを測るために設置する
-type:
+type: permanent
 created: 2026-01-11
-updated: 2026-10-25T14:33
+updated: 2026-10-31T17:46
 id: 20260425-192603
-draft: true
+draft: false
 source:
 ---
 
 
-![[Pasted image 20261024141258.jpg|480]]
+![[sketch-20261024141258.jpg|480]]
 
 
 目標設定についてよく耳にするのは

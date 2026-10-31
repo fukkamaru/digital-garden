@@ -4,7 +4,7 @@ aliases:
   - 「読まなくてもいい本」の読書案内　──知の最前線を５日間で探検する
 type: literature
 created: 2026-10-04T00:58:23+09:00
-updated: 2026-10-12T00:15
+updated: 2026-10-31T20:09
 id: 20261004-005823
 permalink:
 draft: false

@@ -4,7 +4,7 @@ aliases:
   - QuartzにHardLineBreaksを導入
 type: permanent
 created: 2026-05-03T20:25:28+09:00
-updated: 2026-10-29T07:34
+updated: 2026-10-31T17:51
 id: 20260503-202528
 permalink:
 draft: false
@@ -21,10 +21,10 @@ Markdownはテキスト内の単一改行に対して、段落を変えずに改
 - また、入力の手間を減らすために`caps lock`を1回押すことで`<br>`が入力されるように設定も変更していた。
 	- →参考例： [Keyboard ManagerでCaps Lockを再割り当てる方法](keyboard-manager-caps-lock-remapping.md)
 
-![342](screen-shot-2026-05-03-195245.png)
+![342](ss-2026-05-03-195245.png)
 図：参考例のソース
 
-![343](screen-shot-2026-05-03-201252.png)
+![343](ss-2026-05-03-201252.png)
 図：参考例のウェブ上での表示
 
 このように、\<br\>を入力することでQuartz上での体裁を整えていた。

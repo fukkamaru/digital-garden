@@ -4,14 +4,14 @@ aliases:
   - chatgptには手動同期が実装されていない
 type: fleeting
 created: 2026-10-05T20:32:32+09:00
-updated: 2026-09-23T22:00:58+09:00
+updated: 2026-10-31T17:51
 id: 20261005-203232
 permalink:
 draft: true
 tags:
   - ai-generated
 ---
-![](Pasted%20image%2020261007081456.png)
+![](ss-20261007081456.png)
 
 
 はい。**現時点では「今すぐ同期」のような専用ボタンは公式には案内されていません**。ただし、履歴を再取得させる方法はいくつかあります。
