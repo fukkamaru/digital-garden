@@ -161,3 +161,13 @@ article a.internal.unpublished-link:hover {
   background-color: transparent !important;
   opacity: 1 !important;
 }
+
+/* ========================================
+   箇条書きのインデント幅
+   Obsidianと同じ1.25emに調整
+======================================== */
+
+article ul,
+article ol {
+  padding-left: 1.25em;
+}
