@@ -4,10 +4,10 @@ aliases:
   - 正しい本の読み方
 type: literature
 created: 2026-10-04T00:58:23+09:00
-updated: 2026-10-31T17:55
+updated: 2026-11-01T09:52
 id: 20261004-005823
 permalink:
-draft: false
+draft: true
 ---
 著者：橋爪大三郎
 

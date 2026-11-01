@@ -4,10 +4,10 @@ aliases:
   - 美しい実験図鑑　世界でいちばん美しい34の実験たち
 type: literature
 created: 2026-10-10T18:26:11+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:52
 id: 20261010-182611
 permalink:
-draft: false
+draft: true
 tags:
 ---
 実験結果による美しいカラー画像を通しながら、基本的な科学知識を再学習していく。

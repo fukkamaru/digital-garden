@@ -4,10 +4,10 @@ aliases:
   - 投資としての読書
 type: literature
 created: 2026-10-04T00:58:24+09:00
-updated: 2026-10-21T07:14
+updated: 2026-11-01T09:52
 id: 20261004-005824
 permalink:
-draft: false
+draft: true
 ---
  **2026-10-04**
 

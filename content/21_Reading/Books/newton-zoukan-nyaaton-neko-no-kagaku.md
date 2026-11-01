@@ -4,7 +4,7 @@ aliases:
   - Newton増刊『ニャートン ネコの科学』
 type: literature
 created: 2026-08-31T07:46:19+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:51
 id: 20260831-074619
 permalink:
 draft: false

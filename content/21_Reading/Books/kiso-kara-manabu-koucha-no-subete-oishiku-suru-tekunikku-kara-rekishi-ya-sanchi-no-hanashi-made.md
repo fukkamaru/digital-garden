@@ -4,10 +4,10 @@ aliases:
   - 基礎から学ぶ 紅茶のすべて：美味しくするテクニックから歴史や産地の話まで
 type: literature
 created: 2026-10-10T18:29:13+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:50
 id: 20261010-182913
 permalink:
-draft: false
+draft: true
 tags:
 ---
 ## 目次

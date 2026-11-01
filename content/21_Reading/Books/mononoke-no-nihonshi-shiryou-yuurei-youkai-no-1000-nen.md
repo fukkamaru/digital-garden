@@ -4,10 +4,10 @@ aliases:
   - もののけの日本史　死霊、幽霊、妖怪の1000年
 type: literature
 created: 2026-10-09T00:38:12+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:51
 id: 20261009-003812
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

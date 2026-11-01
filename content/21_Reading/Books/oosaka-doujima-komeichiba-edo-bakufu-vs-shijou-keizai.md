@@ -4,10 +4,10 @@ aliases:
   - 大坂堂島米市場　江戸幕府ｖｓ市場経済
 type: literature
 created: 2026-10-10T18:24:20+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:51
 id: 20261010-182420
 permalink:
-draft: false
+draft: true
 tags:
 ---
 1. はじめに

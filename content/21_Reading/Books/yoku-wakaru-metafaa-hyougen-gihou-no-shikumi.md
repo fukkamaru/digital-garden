@@ -4,10 +4,10 @@ aliases:
   - よくわかるメタファー　──表現技法のしくみ
 type: literature
 created: 2026-10-09T00:42:50+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:52
 id: 20261009-004250
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

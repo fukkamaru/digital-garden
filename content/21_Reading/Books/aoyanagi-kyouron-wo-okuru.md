@@ -4,10 +4,10 @@ aliases:
   - 〔青柳経論を送る〕
 type: literature
 created: 2026-10-07T17:05:23+09:00
-updated: 2026-10-12T09:15
+updated: 2026-11-01T09:50
 id: 20261007-170523
 permalink:
-draft: false
+draft: true
 tags:
 ---
  **2026-09-01**

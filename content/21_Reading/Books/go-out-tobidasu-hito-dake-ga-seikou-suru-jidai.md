@@ -4,10 +4,10 @@ aliases:
   - GO OUT 飛び出す人だけが成功する時代
 type: literature
 created: 2026-10-04T10:03:28+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:50
 id: 20261004-100328
 permalink:
-draft: false
+draft: true
 ---
  **2026-10-04**
 

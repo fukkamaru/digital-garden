@@ -4,10 +4,10 @@ aliases:
   - 人間をお休みしてヤギになってみた結果
 type: literature
 created: 2026-09-01T07:44:05+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:51
 id: 20260901-074405
 permalink:
-draft: false
+draft: true
 ---
  **2026-09-01**
 

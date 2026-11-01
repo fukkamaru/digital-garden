@@ -4,10 +4,10 @@ aliases:
   - メタバースとは何か～ネット上の「もう一つの世界」～
 type: literature
 created: 2026-10-04T11:05:04+09:00
-updated: 2026-10-12T09:41
+updated: 2026-11-01T09:51
 id: 20261004-110504
 permalink:
-draft: false
+draft: true
 ---
 
 

@@ -4,10 +4,10 @@ aliases:
   - 色彩別 爬虫類・両生類図鑑
 type: literature
 created: 2026-10-07T15:59:19+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:52
 id: 20261007-155919
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

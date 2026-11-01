@@ -4,10 +4,10 @@ aliases:
   - コーヒーの科学　「おいしさ」はどこで生まれるのか
 type: literature
 created: 2026-10-10T18:31:28+09:00
-updated: 2026-10-12T08:54
+updated: 2026-11-01T09:51
 id: 20261010-183128
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

@@ -4,10 +4,10 @@ aliases:
   - 忘れる読書
 type: literature
 created: 2026-10-04T00:50:08+09:00
-updated: 2026-10-12T11:27
+updated: 2026-11-01T09:52
 id: 20261004-005008
 permalink:
-draft: false
+draft: true
 ---
  **2026-10-04**
 

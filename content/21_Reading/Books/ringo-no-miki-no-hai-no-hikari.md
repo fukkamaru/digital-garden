@@ -4,10 +4,10 @@ aliases:
   - 〔りんごのみきのはひのひかり〕
 type:
 created: 2026-10-07T17:25:01+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:51
 id: 20261007-172501
 permalink:
-draft: false
+draft: true
 tags:
 ---
  **2026-10-07**

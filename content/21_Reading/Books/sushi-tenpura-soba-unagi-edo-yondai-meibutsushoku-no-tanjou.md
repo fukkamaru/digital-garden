@@ -4,10 +4,10 @@ aliases:
   - すし　天ぷら　蕎麦　うなぎ　──江戸四大名物食の誕生
 type: literature
 created: 2026-10-09T00:36:26+09:00
-updated: 2026-10-12T08:54
+updated: 2026-11-01T09:52
 id: 20261009-003626
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

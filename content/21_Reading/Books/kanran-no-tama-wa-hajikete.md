@@ -4,10 +4,10 @@ aliases:
   - 〔甘藍の球は弾けて〕
 type: literature
 created: 2026-10-07T16:59:04+09:00
-updated: 2026-10-12T09:15
+updated: 2026-11-01T09:50
 id: 20261007-165904
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

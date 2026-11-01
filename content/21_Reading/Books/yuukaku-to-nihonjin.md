@@ -4,10 +4,10 @@ aliases:
   - 遊廓と日本人
 type:
 created: 2026-10-09T00:39:40+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:52
 id: 20261009-003940
 permalink:
-draft: false
+draft: true
 tags:
 ---
 

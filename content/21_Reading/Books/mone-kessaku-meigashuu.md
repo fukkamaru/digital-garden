@@ -4,10 +4,10 @@ aliases:
   - モネ傑作名画集
 type: literature
 created: 2026-10-07T16:56:16+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:51
 id: 20261007-165616
 permalink:
-draft: false
+draft: true
 tags:
 ---
  **2026-10-07**

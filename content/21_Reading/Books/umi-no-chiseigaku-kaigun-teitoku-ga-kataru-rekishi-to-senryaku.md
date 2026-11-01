@@ -4,10 +4,10 @@ aliases:
   - 海の地政学　海軍提督が語る歴史と戦略
 type: literature
 created: 2026-10-07T22:55:12+09:00
-updated: 2026-10-12T00:15
+updated: 2026-11-01T09:52
 id: 20261007-225512
 permalink:
-draft: false
+draft: true
 tags:
 ---
 
