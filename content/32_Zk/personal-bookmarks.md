@@ -4,10 +4,10 @@ aliases:
   - 個人的なブックマーク
 type: literature
 created: 2026-05-11T18:58:23+09:00
-updated: 2026-10-29T07:34
+updated: 2026-11-01T09:54
 id: 20260511-185823
 permalink:
-draft: false
+draft: true
 ---
 個人用の外部リンク集。情報源の鮮度やリンク切れは気が向いたときに修正する。
 面倒だから修正しないかもしれない。
