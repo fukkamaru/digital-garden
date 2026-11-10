@@ -4,7 +4,7 @@ aliases:
   - 本の読み方 スローリーディングの実践
 type: literature
 created: 2026-10-04T10:27:11+09:00
-updated: 2026-11-01T09:50
+updated: 2026-11-10T20:41
 id: 20261004-102711
 permalink:
 draft: true

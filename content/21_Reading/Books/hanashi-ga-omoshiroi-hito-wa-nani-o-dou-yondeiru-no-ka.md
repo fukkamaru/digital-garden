@@ -4,10 +4,10 @@ aliases:
   - 話が面白い人」は何をどう読んでいるのか
 type: literature
 created: 2026-10-31T20:13:03+09:00
-updated: 2026-11-01T09:50
+updated: 2026-11-11T08:39
 id: 20261031-201303
 permalink:
-draft: true
+draft: false
 tags:
 ---
 2026-10-12 
@@ -118,7 +118,7 @@ ch 1 § 4 鑑賞ノートをつける
 	- 気になったこと知りたいことを、snsやyotubeで調べる前に書き溜めておく。そうすることで、その話をできる人に出会った時に、感想を読んだ時に、自分の疑問を解くことができる。
 	- 他人に感想を聞かせるだけでなく、他人に質問することでコミュニケーションはより柔軟になる。
 	- 質問事項はストックしておく
-[知識を得ること以上に、自分が何を疑問に思ったのかを失わないことが重要である](知識を得ること以上に、自分が何を疑問に思ったのかを失わないことが重要である.md)
+[preserving-your-own-questions-matters-more-than-acquiring-knowledge](preserving-your-own-questions-matters-more-than-acquiring-knowledge.md)
 
 
 ch 1 § 5

@@ -4,7 +4,7 @@ aliases:
   - ヴィクトリア朝時代のインターネット
 type: literature
 created: 2026-10-07T22:57:02+09:00
-updated: 2026-11-01T09:52
+updated: 2026-11-10T20:41
 id: 20261007-225702
 permalink:
 draft: true

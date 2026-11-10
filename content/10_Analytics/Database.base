@@ -10,7 +10,12 @@ views:
       - file.ctime
       - file.mtime
       - file.links
+      - draft
     sort:
+      - property: draft
+        direction: DESC
+      - property: file.folder
+        direction: ASC
       - property: file.ctime
         direction: DESC
       - property: file.mtime
@@ -19,13 +24,13 @@ views:
         direction: DESC
       - property: type
         direction: DESC
-      - property: file.folder
-        direction: DESC
     columnSize:
       file.name: 253
+      note.title: 178
       file.folder: 132
       note.type: 148
+      file.tags: 178
       file.ctime: 173
-      file.links: 223
+      file.links: 93
   - type: table
     name: ビュー

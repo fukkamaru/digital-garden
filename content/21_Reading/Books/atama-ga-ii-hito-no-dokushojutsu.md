@@ -4,7 +4,7 @@ aliases:
   - 頭がいい人の読書術
 type: literature
 created: 2026-10-04T09:45:54+09:00
-updated: 2026-11-01T09:49
+updated: 2026-11-10T20:41
 id: 20261004-094554
 permalink:
 draft: false

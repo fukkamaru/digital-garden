@@ -4,7 +4,7 @@ aliases:
   - 自律神経の科学　「身体が整う」とはどういうことか
 type: literature
 created: 2026-10-10T18:27:56+09:00
-updated: 2026-11-01T09:50
+updated: 2026-11-10T20:41
 id: 20261010-182756
 permalink:
 draft: true

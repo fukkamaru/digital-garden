@@ -4,7 +4,7 @@ aliases:
   - 美しい実験図鑑　世界でいちばん美しい34の実験たち
 type: literature
 created: 2026-10-10T18:26:11+09:00
-updated: 2026-11-01T09:52
+updated: 2026-11-10T20:41
 id: 20261010-182611
 permalink:
 draft: true

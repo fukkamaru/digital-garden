@@ -4,7 +4,7 @@ aliases:
   - スマホ時代の哲学 失われた孤独をめぐる冒険 【購入者限定】スマホ時代を考えるための「読書案内」付き
 type: literature
 created: 2026-10-07T15:43:24+09:00
-updated: 2026-11-01T09:52
+updated: 2026-11-10T20:41
 id: 20261007-154324
 permalink:
 draft: true

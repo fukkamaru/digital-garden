@@ -4,7 +4,7 @@ aliases:
   - 〔青柳経論を送る〕
 type: literature
 created: 2026-10-07T17:05:23+09:00
-updated: 2026-11-01T09:50
+updated: 2026-11-10T20:41
 id: 20261007-170523
 permalink:
 draft: true

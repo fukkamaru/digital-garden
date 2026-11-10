@@ -4,7 +4,7 @@ aliases:
   - 月夜のでんしんばしらの軍歌
 type: literature
 created: 2026-10-07T17:06:42+09:00
-updated: 2026-11-01T09:52
+updated: 2026-11-10T20:41
 id: 20261007-170642
 permalink:
 draft: true

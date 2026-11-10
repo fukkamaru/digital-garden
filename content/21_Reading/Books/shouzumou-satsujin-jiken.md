@@ -4,7 +4,7 @@ aliases:
   - 小相撲殺人事件
 type: literature
 created: 2026-10-07T16:51:47+09:00
-updated: 2026-11-01T09:52
+updated: 2026-11-10T20:41
 id: 20261007-165147
 permalink:
 draft: true

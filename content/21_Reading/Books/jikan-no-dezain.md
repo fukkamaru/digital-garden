@@ -4,7 +4,7 @@ aliases:
   - 時間のデザイン
 type: literature
 created: 2026-10-07T15:45:18+09:00
-updated: 2026-11-01T09:50
+updated: 2026-11-10T20:41
 id: 20261007-154518
 permalink:
 draft: true

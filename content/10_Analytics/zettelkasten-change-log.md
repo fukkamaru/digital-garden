@@ -4,7 +4,7 @@ aliases:
   - ツェッテルカステン変更履歴
 type: structure
 created: 2026-09-17T05:14:14+09:00
-updated: 2026-09-26T02:05:00+09:00
+updated: 2026-11-11T08:47
 id: 20260917-051414
 permalink:
 draft: true
@@ -22,14 +22,14 @@ draft: true
 ## 2026-09-17T05:25:55+09:00 — R-Loginの認証論点を3ノートへ分割
 
 - 操作：新規作成・リンク追加
-- 作成：[R-Loginの90日パスワード変更要求の記録](../31_Research/rlogin-90-day-password-change-record.md)、[現代のパスワード管理の基本](../31_Research/modern-password-management-principles.md)、[定期変更から多要素認証へ：認証設計の変化](../31_Research/password-authentication-practice-transition.md)
+- 作成：[R-Loginの90日パスワード変更要求の記録](rlogin-90-day-password-change-record.md)、[現代のパスワード管理の基本](modern-password-management-principles.md)、[定期変更から多要素認証へ：認証設計の変化](password-authentication-practice-transition.md)
 - 結果：統合元の退避を参照し、当時の90日変更要求の記録、現在のパスワード管理、定期変更からMFA・パスキーへ向かう考え方の変化を分離した。90日という期間は現行の公開仕様として断定せず、操作時点の公式画面で確認する扱いとした。
-- リンク処理：[R-Login と RMS の基本理解まとめ](../31_Research/rakuten-rlogin-rms-overview.md)から3ノートへ接続した。
+- リンク処理：[R-Login と RMS の基本理解まとめ](rakuten-rlogin-rms-overview.md)から3ノートへ接続した。
 
 ## 2026-09-17T05:14:14+09:00 — R-LoginとRMSの認証・利用者管理ノートを統合
 
 - 操作：統合・削除
-- 統合先：[R-Login と RMS の基本理解まとめ](../31_Research/rakuten-rlogin-rms-overview.md)
+- 統合先：[R-Login と RMS の基本理解まとめ](rakuten-rlogin-rms-overview.md)
 - 統合元：~~[R-Login／RMSの90日パスワード変更ルールと現代の認証方式について](../31_Research/R-Login／RMSの90日パスワード変更ルールと現代の認証方式について.md)~~
 - 結果：統合先を、利用者ごとの楽天ID、R-Loginの承認・権限設定、RMSの役割、操作時点での認証画面確認を扱うLiterature Noteへ再構成した。統合元の認証論点は、後続の3ノートへ分割して保存した。共通パスワード運用など、現行の公開情報で確認できない記述は現役ノートの事実としては扱わない。
 - 保全：統合先・統合元の変更前全文を、それぞれ同じ`31_Research`フォルダの日付付き`.退避`へ保存した。
@@ -48,6 +48,6 @@ draft: true
 
 - 対象：内容別子クラスタ15-04の12ノート。
 - 実施：本文を、本人の判断・実際の観測・AIによる説明・未確認の時点依存情報を混同しない構成へ整理し、title、aliases、type、英語ファイル名を本文に合わせて更新した。
-- 統合・保全：`問題把握1.md`と`問題把握2.md`を[Windows障害の切り分け：症状から下位原因へ進む診断フロー](../31_Research/windows-troubleshooting-diagnostic-flow.md)へ統合した。旧2ノートは変更前全文を退避し、現役から削除した。
-- 追加：観測事実、実施した操作、AI提案を分けるため、[Windowsプロファイル障害の確認・対処タイムライン](../31_Research/windows-profile-disk-incident-timeline.md)を作成して障害記録・診断フローと接続した。
+- 統合・保全：`問題把握1.md`と`問題把握2.md`を[Windows障害の切り分け：症状から下位原因へ進む診断フロー](windows-troubleshooting-diagnostic-flow.md)へ統合した。旧2ノートは変更前全文を退避し、現役から削除した。
+- 追加：観測事実、実施した操作、AI提案を分けるため、[Windowsプロファイル障害の確認・対処タイムライン](windows-profile-disk-incident-timeline.md)を作成して障害記録・診断フローと接続した。
 - 検証：11現役ノートのtitleとaliasesの一致、統合元の非存在、退避版の存在を確認した。

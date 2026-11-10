@@ -4,7 +4,7 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-10-31T17:46
+updated: 2026-11-11T08:50
 id: 20260502-063251
 permalink:
 draft: false
@@ -32,15 +32,9 @@ draft: false
 2020-XX-XX
 - ~~モジュール（部品）を作るイメージ~~
 	- ~~いくつかを組み合わせて機能する~~
-	- ~~それ自体だけでは意味をなさない~~
-
-![[Pasted%20image%2020261029072849.jpg | 480]
 
 
-
-
-![[sketch-20261024141258.jpg|480]]
-
+![sketch-20261029072849|493](sketch-20261029072849.jpg) 
 
 ノートの書き方
 - 一時ノート（Fleeting）
@@ -63,11 +57,11 @@ AIに出力させた記事はどう扱う？
 
 ---
 
-- 環境・構築
+環境・構築
 	- ノート作成・管理：Obsidian
 	- 静的サイト生成：Quartz
 	- リポジトリ管理：Github
-		- [Gitエコシステムまとめ](32_Zk/git-ecosystem-notes.md)
+		- [Gitエコシステムまとめ](git-ecosystem-notes.md)
 	- ホスティング：Cloudeflare Pages
 		- [比較](cloudflare-pages-vs-github-pages.md) / [主な制限](cloudflare-pages-limitations.md)
 	- ドメイン管理：ConoHa
@@ -79,7 +73,8 @@ AIに出力させた記事はどう扱う？
 			- GitSync
 		- iOS
 			- Working Copy
-- 設計・運用
+
+設計・運用
 	- ノート管理
 		- フォルダ構成：情報の保存先と役割を示す
 			- 01_Templates

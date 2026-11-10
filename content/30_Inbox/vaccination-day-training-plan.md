@@ -4,10 +4,10 @@ aliases:
   - ワクチン接種前後の筋力トレーニングを調整する
 type: literature
 created: 2026-10-07T16:48:52+09:00
-updated: 2026-10-07T16:48:52+09:00
+updated: 2026-11-11T08:44
 id: 20261007-164853
 permalink:
-draft: true
+draft: false
 tags:
   - ai-generated
 ---

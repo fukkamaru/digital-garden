@@ -4,7 +4,7 @@ aliases:
   - 移動する人はうまくいく
 type: literature
 created: 2026-09-01T07:49:16+09:00
-updated: 2026-11-01T09:50
+updated: 2026-11-10T20:41
 id: 20260901-074916
 permalink:
 draft: true
