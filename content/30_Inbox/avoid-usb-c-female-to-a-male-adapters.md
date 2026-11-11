@@ -4,7 +4,7 @@ aliases:
   - USB Type-C（メス）→Type-A（オス）変換アダプタを使ってはいけないことを覚える
 type: permanent
 created: 2026-11-10T22:16:41+09:00
-updated: 2026-11-11T18:03
+updated: 2026-11-11T18:11
 id: 20261110-221641
 permalink:
 draft: false
