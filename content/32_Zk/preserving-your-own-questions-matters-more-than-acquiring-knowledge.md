@@ -2,9 +2,9 @@
 title: 知識を得ること以上に、自分が何を疑問に思ったのかを失わないことが重要である
 aliases:
   - 知識を得ること以上に、自分が何を疑問に思ったのかを失わないことが重要である
-type: fleeting
+type: permanent
 created: 2026-10-31T20:59:26+09:00
-updated: 2026-11-10T22:11
+updated: 2026-11-11T12:59
 id: 20261031-205926
 permalink:
 draft: false
@@ -20,7 +20,7 @@ tags:
 何かを見聞きして生まれた疑問や違和感は、そのときに適切に言語化出来るとは限らない。ネット（AI）に回答を求めれば、答えを知ることで自分の思考する余地が狭まってしまうだけでなく、もっともらしい回答に容易く上書きされてしまう。
 - もやもやした状態
 - それは非常に脆く、特にAIには容易く侵食されていく
-[ai-driven-loss-of-opportunities-to-question-and-stagnation-of-critical-thinking](ai-driven-loss-of-opportunities-to-question-and-stagnation-of-critical-thinking.md)
+[AIによる疑問を生む機会の消失と批判的思考の停滞](ai-driven-loss-of-opportunities-to-question-and-stagnation-of-critical-thinking.md)
 
 SNS、Youtube、今の時代ならAIからも回答（解答）を幾らでも得られる
 - そのもっともらしい回答は、言い換えるなら「情報」である

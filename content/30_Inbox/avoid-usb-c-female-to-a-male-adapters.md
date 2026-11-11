@@ -1,10 +1,10 @@
 ---
-title: USB Type-C→Type-A（オス）変換アダプタがダメであることを覚える
+title: USB Type-C（メス）→Type-A（オス）変換アダプタを使ってはいけないことを覚える
 aliases:
-  - USB Type-C→Type-A（オス）変換アダプタがダメであることを覚える
+  - USB Type-C（メス）→Type-A（オス）変換アダプタを使ってはいけないことを覚える
 type: permanent
 created: 2026-11-10T22:16:41+09:00
-updated: 2026-11-10T22:30
+updated: 2026-11-11T12:57
 id: 20261110-221641
 permalink:
 draft: false

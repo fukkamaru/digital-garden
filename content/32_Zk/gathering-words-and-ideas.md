@@ -4,7 +4,7 @@ aliases:
   - 言葉と発想の採集
 type: literature
 created: 2026-10-11T19:41:18+09:00
-updated: 2026-10-29T07:40
+updated: 2026-11-11T13:52
 id: 20261011-194118
 permalink:
 draft: false
@@ -34,7 +34,7 @@ tags:
 	- [忘れる読書](wasureru-dokusho.md)
 
 - 読むVR
-	- [『ニューロマンサー』](『ニューロマンサー』.md)
+	- [nyu-romansa](nyu-romansa.md)
 
 
 

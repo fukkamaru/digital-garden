@@ -5,7 +5,7 @@ aliases:
   - エンコード・デコードの一例
 type: literature
 created: 2026-05-09T21:16:48+09:00
-updated: 2026-10-29T07:34
+updated: 2026-11-11T09:49
 id: 20260509-211648
 permalink:
 draft: false
@@ -16,14 +16,33 @@ tags:
 - デコード：エンコード（符号化）されたデータを、元のデータに戻すこと
 	- 別名：復号
 
-ここで、
 
-URLエンコード
-- 一部の文字には、そのままURLへ入れると区切り記号とデータの一部を区別できなくなることがある
-	- `日本語`や`空白`、`＆`などの記号
-- それらの文字をURL上で安全に扱える表現へ変換する処理のこと
-- 別名：パーセントエンコーディング
+URLでは、各記号に役割がある。
 
+```text
+
+https://example.com/articles/pc?q=冷却&sort=new
+
+│       │           │       │ │      └─ 検索条件を区切る
+
+│       │           │       │ └──────── 検索条件の値
+
+│       │           │       └────────── 検索条件の名前
+
+│       │           └────────────────── パス
+
+└────────────────────────────────────── 通信方式とホスト名
+
+```
+
+そのため、一部の文字はそのままURLへ入れると区切り記号とデータの一部を区別できなくなることがある
+	- `空白`、`&`などの記号
+
+そこで、インターネットの仕組み上、URLには半角英数と一部の記号（ASCII文字）しか直接使うことが出来ないというルールがある。これにより安全性が保たれている。
+
+では、日本語のようなマルチバイト文字は？
+- それらの文字をURL上で安全に扱える表現へ変換（エンコード）する
+	- 別名：パーセントエンコーディング
 
 
 日本語をURLのパスへ入れる例
@@ -63,4 +82,4 @@ console.log(url);
 %25E6%2597%25A5  （二重エンコード）
 ```
 
-URLの概念と、日本語がエンコードされて見える理由は[URLで日本語がエンコードされる理由](why-japanese-urls-get-encoded.md)を参照する。[encodeURI()（MDN）](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)
+[encodeURI()（MDN）](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)

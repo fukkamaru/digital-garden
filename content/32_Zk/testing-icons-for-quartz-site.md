@@ -1,10 +1,10 @@
 ---
-title: Quartz公開サイトで運用するアイコンのテスト
+title: アイコンを使って誰の言葉なのか直感的に分かるようにする
 aliases:
-  - Quartz公開サイトで運用するアイコンのテスト
-type: literature
+  - アイコンを使って誰の言葉なのか直感的に分かるようにする
+type: permanent
 created: 2026-10-13T21:33:06+09:00
-updated: 2026-10-21T07:51
+updated: 2026-11-11T15:12
 id: 20261013-213306
 permalink:
 draft: false

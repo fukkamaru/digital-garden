@@ -4,7 +4,7 @@ aliases:
   - 公開型ツェッテルカステンの設計と構築
 type: permanent
 created: 2026-05-02T06:32:51+09:00
-updated: 2026-11-11T08:50
+updated: 2026-11-11T15:13
 id: 20260502-063251
 permalink:
 draft: false
@@ -32,9 +32,8 @@ draft: false
 2020-XX-XX
 - ~~モジュール（部品）を作るイメージ~~
 	- ~~いくつかを組み合わせて機能する~~
+![sketch-20261029072849|347](sketch-20261029072849.jpg) 
 
-
-![sketch-20261029072849|493](sketch-20261029072849.jpg) 
 
 ノートの書き方
 - 一時ノート（Fleeting）
@@ -53,101 +52,92 @@ draft: false
 AIに出力させた記事はどう扱う？
 - セカンダリ情報として文献ノートとして扱う
 - AIによるものと一目でわかるようにしておく
-	- [[アイコン化による出自の明示]]で解決した
+	- [アイコン化による出自の明示](testing-icons-for-quartz-site.md)で解決した
 
 ---
 
 環境・構築
-	- ノート作成・管理：Obsidian
-	- 静的サイト生成：Quartz
-	- リポジトリ管理：Github
-		- [Gitエコシステムまとめ](git-ecosystem-notes.md)
-	- ホスティング：Cloudeflare Pages
-		- [比較](cloudflare-pages-vs-github-pages.md) / [主な制限](cloudflare-pages-limitations.md)
-	- ドメイン管理：ConoHa
-		- [外部カスタムドメインの制限](cloudflare-pages-external-domain-restrictions.md)
-	- Gitクライアント：
-		- Windows
-			- Git
-		- android
-			- GitSync
-		- iOS
-			- Working Copy
+- ノート作成・管理：Obsidian
+- 静的サイト生成：Quartz
+- リポジトリ管理：Github
+	- [Gitエコシステムまとめ](git-ecosystem-notes.md)
+- ホスティング：Cloudeflare Pages
+	- [比較](cloudflare-pages-vs-github-pages.md) / [主な制限](cloudflare-pages-limitations.md)
+- ドメイン管理：ConoHa
+	- [外部カスタムドメインの制限](cloudflare-pages-external-domain-restrictions.md)
+- Gitクライアント：
+	- Windows
+		- Git
+	- android
+		- GitSync
+	- iOS
+		- Working Copy
+
 
 設計・運用
-	- ノート管理
-		- フォルダ構成：情報の保存先と役割を示す
-			- 01_Templates
-				- 新規ノート作成用のテンプレート集
-			- 02_Images
-				- 画像などの添付ファイル
-				- img以外も必要となったらフォルダ名を変更する
-					- Assets
-				- ファイル数が増えたらアップローダーを考える
-					- gitからの解放
-						- 2026-10-27：アイコン関係などはgit保存で良いか？
-			- 03_Systems
-				- aiやプログラムによる処理結果、一時データやログの管理など
-			- 10_Analytics
-				- 分析結果や集計
-				- quartz上に反映されない分析なども
-			- 20_Journal
-				- 日記、活動記録、試行錯誤など
-			- 21_Reading
-				- Books
-					- 読書記録のノート
-					- 各書籍ごとにノートを作成
-						- 日付は上から古く、下に向かって新しくする
-							- 読書フローを追えるようにする
-			- 30_Inbox
-				- 思いつきや未整理のノート
-			- 31_Research
-				- 一次資料から、AI由来の情報（セカンダリ）など
-					- **特にユーザーの言葉に直していないもの**
-			- 32_Zk
-				- permanent, literature, structure, indexを中心とする知識ネットワーク
-		- type
-			- ノートの役割を示す
-				- fleeting
-				- literature
-				- permanent
-				- structure
-				- index
-		- tags
-			- 分野・情報源などの由来・属性を示す
-				- `field`：外部環境下で実際に経験したこと
-				- `reading`：ユーザー自身の読書記録
-				- `ai-generated`：AIによる推論・主張
-					- **その情報がAI由来であることが分かるようにしたかった**
-		- ノートの分割・統合、保存先の判断
-			- それぞれのノートは、再読・再利用できるようにアトミックにする。
-			- ただし、再読・再利用できることがベストであり、アトミックであることが必ずしもベストとは限らない
-			- ノートが肥大化してきたら、再利用しやすい単位で分割・再構成する。
-				- この辺りもファンクション的な考えに近い。
-	- 記述
-		- タイトルの付け方
-			- 命題型
-				- ○○はXXである
-			- 説明型
-				- ○○は△△することでXXとなる
-			- 問題解決型
-				- ○○は△△することでXXとなる
-		- Markdownリンク
-			- [markdownlinkを採用](adopting-markdown-links.md)
-		- 日付
-		- 出典
-		- コールアウト
-			- [コールアウトの使い分け](using-markdown-callouts.md)
-		- 画像の扱い
-	- 公開
-		- draft（公開・非公開）
-			- [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
-		- GitHub上 
-		- URL設計
-			- [QuartzにおけるURL設計](quartz-url-design.md)
-		- 未解決リンクの扱い
-	- 同期・保守
-		- Gitによる端末間同期、更新手順、競合への対応
+- フォルダ：情報の保存先と役割を示す
+- YAML（type）：ノートの役割を示す
+- YAML（tags）：分野・情報源などの由来・属性を示す
+
+| フォルダ名          | 用途・内容                         | 備考・運用方針                                                                                                                           |
+| -------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `01_Templates` | 新規ノート作成用のテンプレート集              |                                                                                                                                   |
+| `02_Images`    | 画像などの添付ファイル                   | ・画像以外も必要になった場合は `Assets` への名称変更を検討<br><br>・ファイル数が増えたらアップローダーの導入を検討<br><br>・Git管理からの切り離しも検討<br><br>・2026-10-27：アイコン関係などはGit保存でよいか？ |
+| `03_Systems`   | AIやプログラムによる処理結果、一時データ、ログなどの管理 |                                                                                                                                   |
+| `10_Analytics` | 分析結果や集計                       | Quartz上に反映されない分析なども含む                                                                                                             |
+| `20_Journal`   | 日記、活動記録、試行錯誤など                |                                                                                                                                   |
+| `21_Reading`   | 読書記録の管理                       | ・`Books`：各書籍ごとに読書記録ノートを作成<br><br>・日付は古いものを上、新しいものを下に配置<br><br>・読書の流れを追えるようにする                                                     |
+| `30_Inbox`     | 思いつきや未整理のノート                  |                                                                                                                                   |
+| `31_Research`  | 一次資料やAI由来の情報（セカンダリ）など         | 特に自分の言葉に直していない情報を管理。自分の言葉に直したノートは32_Zkへ移動                                                                                         |
+| `32_Zk`        | 知識ネットワークの構築                   | Permanent、Literature、Structure、Indexを中心とする                                                                                        |
+
+- type
+	- ノートの役割を示す
+		- fleeting
+		- literature
+		- permanent
+		- structure
+		- index
+- tags
+	- 分野・情報源などの由来・属性を示す
+		- `field`：外部環境下で実際に経験したこと
+		- `reading`：ユーザー自身の読書記録
+		- `ai-generated`：AIによる推論・主張
+			- **その情報がAI由来であることが分かるようにしたかった**
+- ノートの分割・統合、保存先の判断
+	- それぞれのノートは、再読・再利用できるようにアトミックにする。
+	- ただし、再読・再利用できることがベストであり、アトミックであることが必ずしもベストとは限らない
+	- ノートが肥大化してきたら、再利用しやすい単位で分割・再構成する。
+		- この辺りもファンクション的な考えに近い。
+	- 
+
+- 記述
+	- タイトルの付け方
+		- 命題型
+			- ○○はXXである
+		- 説明型
+			- ○○は△△することでXXとなる
+		- 問題解決型
+			- ○○は△△することでXXとなる
+	- Markdownリンク
+		- [markdownlinkを採用](adopting-markdown-links.md)
+	- 日付
+	- 出典
+		- `>`を付けて引用であることを示す
+			- [アイコンを使って誰の言葉なのか直感的に分かるようにする](testing-icons-for-quartz-site.md)
+	- コールアウト
+		- [コールアウトの使い分け](using-markdown-callouts.md)
+	- 画像の扱い
+- 公開
+	- draft（公開・非公開）
+		- [Quartzの公開・非公開を設定する](quartz-publish-visibility-settings.md)
+		- [[D=]Draft状態を維持してよいノートを一目で判別する表記ルール](draft-note-retention-marker.md)
+	- GitHub上 
+	- URL設計
+		- [QuartzにおけるURL設計](quartz-url-design.md)
+	- 未解決リンクの扱い
+- 同期・保守
+	- Gitによる端末間同期、更新手順、競合への対応
 
 
 - [知識や経験を自分のネットワークに編み込んでいく](weaving-knowledge-into-zettelkasten.md)
@@ -156,7 +146,7 @@ AIに出力させた記事はどう扱う？
 	- [[separating-external-and-reflective-knowledge|外部環境で得た知識と内省知の切り分け方]]
 	- [AIに尋ねた質問をメモとして残す判断基準](criteria-for-saving-ai-questions.md)
 	- [外部リンクだけのノートには接続意図を残す](external-link-hub-notes.md)
-	- [[「ノート」と「カード」の違い]]
+	- [「ノート」と「カード」の違い](information-management-notes-vs-knowledge-fragment-cards.md)
 
 - [デジタルガーデンの構築作業日記](digital-garden-build-log.md)
 

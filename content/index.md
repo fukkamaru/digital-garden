@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-10-29T07:48
+updated: 2026-11-11T14:13
 id: 20260425-160839
 draft: false
 ---
@@ -44,7 +44,7 @@ draft: false
 	- 自分自身の作業
 	- 個人プロジェクト
 	- 製作
-	- 問題解決
+	- [問題解決](problem-solving.md)
 	- 試行錯誤・運用改善
 	- [個人的ブックマーク](personal-bookmarks.md)
 - **Life**
@@ -52,7 +52,7 @@ draft: false
 	- [[training-summary|トレーニングまとめ]]
 	- ライフハック
 	- [生活改善](life-improvement.md)
-	- 日常の問題解決
+	- [problem-solving-in-everyday-life](problem-solving-in-everyday-life.md)
 	- [使ってみたいアイテム](things-i-want-to-try.md)
 - **Travel & Experiences**
 	- [旅行計画・交通・予約](travel-planning-transportation-booking.md)
@@ -64,6 +64,9 @@ draft: false
 	- その他
 - [Analytics](analytics.md)
 
+
+---
+- [2026年11月に視聴しておきたいリスト：Hulu](hulu-watchlist-november-2026.md)
 
 ---
 

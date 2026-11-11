@@ -4,7 +4,7 @@ aliases:
   - ニューロマンサー
 type: fleeting
 created: 2026-10-12T09:43:15+09:00
-updated: 2026-10-12T10:04
+updated: 2026-11-11T13:53
 id: 20261012-094315
 permalink:
 draft: false

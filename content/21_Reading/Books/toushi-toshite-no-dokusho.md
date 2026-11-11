@@ -4,7 +4,7 @@ aliases:
   - 投資としての読書
 type: literature
 created: 2026-10-04T00:58:24+09:00
-updated: 2026-11-10T20:41
+updated: 2026-11-11T15:22
 id: 20261004-005824
 permalink:
 draft: true
@@ -19,7 +19,7 @@ draft: true
 
 > 読書の順番を考える：アウトプット → インプットの順を進める。
 
-→ [[アウトプットを前提としてインプットする]]
+→ [[input-with-output-in-mind|アウトプットを前提としてインプットする]]
 
 
 - 二刀流選書術：読む前に失敗を回避する

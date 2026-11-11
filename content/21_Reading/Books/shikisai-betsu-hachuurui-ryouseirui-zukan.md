@@ -4,12 +4,16 @@ aliases:
   - 色彩別 爬虫類・両生類図鑑
 type: literature
 created: 2026-10-07T15:59:19+09:00
-updated: 2026-11-01T09:52
+updated: 2026-11-11T14:24
 id: 20261007-155919
 permalink:
 draft: true
 tags:
 ---
+
+2026/11/11
+[動物の色彩変異｜アルビノ・リューシスティック・アメラニスティック・アザンティック・メラニスティック](color-variations-in-the-animal-kingdom.md)
+
 
  **2026-10-07**
  

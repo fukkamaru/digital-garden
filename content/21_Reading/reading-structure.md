@@ -6,7 +6,7 @@ aliases:
   - わっちの本棚
 type: structure
 created: 2026-09-02T08:15:12+09:00
-updated: 2026-11-01T08:39
+updated: 2026-11-11T16:29
 id: 20260902-081512
 permalink:
 draft: false
@@ -17,6 +17,8 @@ draft: false
 
 ## reading-navigation
 - 000-099
+	- 007：
+		- [メタバースとは何か～ネット上の「もう一つの世界」～](metabaasu-to-wa-nanika-nettojou-no-mou-hitotsu-no-sekai.md)
 	- 019：図書館. 図書館学
 		- [正しい本の読み方](tadashii-hon-no-yomikata.md)
 		- [忘れる読書](wasureru-dokusho.md)
@@ -27,6 +29,7 @@ draft: false
 		- [読書の価値](dokusho-no-kachi.md)
 		- [「読まなくてもいい本」の読書案内　──知の最前線を５日間で探検する](yomanakute-mo-ii-hon-no-dokusho-annai-chi-no-saisensen-wo-itsukakan-de-tanken-suru.md)
 		- [話が面白い人」は何をどう読んでいるのか](hanashi-ga-omoshiroi-hito-wa-nani-o-dou-yondeiru-no-ka.md)
+		-  [頭がいい人の読書術](atama-ga-ii-hito-no-dokushojutsu.md)
 - 100-199
 	- 100：
 		- [スマホ時代の哲学 失われた孤独をめぐる冒険](PHPの脆弱性とWordPressのセキュリティ.md)
@@ -37,6 +40,7 @@ draft: false
 	- 159：倫理学. 道徳：
 		- [移動する人はうまくいく](idou-suru-hito-wa-umaku-iku.md)
 		- [時間のデザイン](無題のファイル%202.md)
+		- [GO OUT 飛び出す人だけが成功する時代](go-out-tobidasu-hito-dake-ga-seikou-suru-jidai.md)
 - 200-299
 	- 209：
 		- [[世界史を作った海賊]]
@@ -48,6 +52,9 @@ draft: false
 		- [[楽園&秘境]]
 		- [[世界の聖地]]
 - 300-399
+	- 379：
+		- [脳が一生忘れないインプット術 : スタンフォード大学・オンラインハイスクール校長が教える](sutanfoodo-daigaku-onrain-haisukuuru-kouchou-ga-oshieru-nou-ga-isshou-wasurenai-inputto-jutsu.md)
+		- [科学的根拠に基づく最高の勉強法](kagakuteki-konkyo-ni-motozuku-saikou-no-benkyouhou.md)
 	- 383：
 		- [寿司天ぷらそばうなぎ江戸四大名物食](21_Reading/Books/無題のファイル%2015.md)
 	- 384：
@@ -60,11 +67,13 @@ draft: false
 	- 407：
 		- [美しい実験図鑑　世界でいちばん美しい34の実験たち](utsukushii-jikken-zukan-sekai-de-ichiban-utsukushii-34-no-jikken-tachi.md)
 	- 487：
-		- [色彩別 爬虫類両生類図鑑](無題のファイル%204%201.md)
+		- [色彩別 爬虫類・両生類図鑑](shikisai-betsu-hachuurui-ryouseirui-zukan)
 	- 489：動物学：哺乳類
 		- [人間をお休みしてヤギになってみた結果](ningen-wo-oyasumi-shite-yagi-ni-natte-mita-kekka.md)
 	- 491：
 		- [[自律神経の科学]]
+	- 493：
+		- [大人のADHDのための段取り力](「大人のADHD」のための段取り力.md)
 - 500-599
 	- 501：技術. 後学：
 		- [体はゆく――「できる」を科学する〈テクノロジー×身体〉](無題のファイル%2018.md)
@@ -97,8 +106,7 @@ draft: false
 		- [「メンタルモンスター」になる。](無題のファイル%2013.md)
 	- 798：諸芸. 娯楽：室内
 		- [崖っぷちだったアメリカ任天堂を復活させた男](無題のファイル%2021.md)
-		- [ドラゴンクエスト25thアニバーサリー モンスター大図鑑](doragonquest-25th-anibaasary-monsuter-daizukan.md)
-		- [ドラゴンクエスト25thアニバーサリー　モンスター大図鑑](無題のファイル%2020.md)
+		- [ドラゴンクエスト25thアニバーサリー モンスター大図鑑](doragonkuesuto-25th-anibaasarii-monsutaa-daizukan)	
 		- [[THE WORLD OF THE WITCHER]]
 - 800-899
 	- 801：
@@ -128,22 +136,12 @@ draft: false
 ---
 
 
-- [GO OUT 飛び出す人だけが成功する時代](go-out-tobidasu-hito-dake-ga-seikou-suru-jidai.md)
-- [色彩別 爬虫類両生類図鑑](無題のファイル%204.md)
-- [メタバースとは何か～ネット上の「もう一つの世界」～](metabaasu-to-wa-nanika-nettojou-no-mou-hitotsu-no-sekai.md)
-- [月夜のでんしんばしら - 電信柱の軍歌](無題のファイル%2011.md)
-- [頭がいい人の読書術](atama-ga-ii-hito-no-dokushojutsu.md)
-- [大人のADHDのための段取り力](無題のファイル%2017.md)
+
+
 - [小相撲殺人事件](小相撲殺人事件)
 - [三行で撃つ](無題のファイル%203.md)
 - [移動と階級](無題のファイル%205.md)
 - [本の読み方 スローリーディングの実践](hon-no-yomikata-suro-riidingu-no-jissen.md)
-- [青柳経論を送る](aoyanagi-kyouron-wo-okuru.md)
-- [青柳教論を送る](aoyanagi-kyouron-wo-okuru.md)
-- [月光の鉛のなかに](無題のファイル%209.md)
-- [弓のごとく](無題のファイル%2012.md)
-- [甘藍の玉は弾けて](無題のファイル%208.md)
-- [りんごのみきのはひのひかり](無題のファイル%2014.md)
 - [スマホ時代の哲学 失われた孤独をめぐる冒険](PHPの脆弱性とWordPressのセキュリティ.md)
 - [小説の読み方](shousetsu-no-yomikata.md)
 - [紙1枚！読書法](紙1枚！読書法)
@@ -153,6 +151,15 @@ draft: false
 
 
 ---
+
+- 宮沢賢治
+	- [青柳経論を送る](aoyanagi-kyouron-wo-okuru.md)
+	- [月光の鉛のなかに](無題のファイル%209.md)
+	- [弓のごとく](無題のファイル%2012.md)
+	- [甘藍の玉は弾けて](無題のファイル%208.md)
+	- [りんごのみきのはひのひかり](無題のファイル%2014.md)
+	- [月夜のでんしんばしら - 電信柱の軍歌](無題のファイル%2011.md)
+
 
 
 - 思考法・考える型

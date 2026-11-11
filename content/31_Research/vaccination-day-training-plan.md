@@ -4,7 +4,7 @@ aliases:
   - ワクチン接種前後の筋力トレーニングを調整する
 type: literature
 created: 2026-10-07T16:48:52+09:00
-updated: 2026-11-11T08:44
+updated: 2026-11-11T14:11
 id: 20261007-164853
 permalink:
 draft: false
@@ -12,6 +12,7 @@ tags:
   - ai-generated
 ---
 
+![[chatgpt.png|25x25]]
 # ワクチン接種前後の筋力トレーニングを調整する
 
 ワクチン接種日に高強度の運動を避ける目的は、運動が免疫反応を必ず弱めるからではない。接種後に起こり得る発熱、倦怠感、頭痛、接種部位の痛みなどと、大きな身体負荷を重ねないためである。厚生労働省も予防接種一般について、接種当日の激しい運動を避けるよう案内している。[厚生労働省の案内](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou/hpv_qa.html)

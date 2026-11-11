@@ -2,9 +2,9 @@
 title: AIによる疑問を生む機会の消失と批判的思考の停滞
 aliases:
   - AIによる疑問を生む機会の消失と批判的思考の停滞
-type: fleeting
+type: permanent
 created: 2026-10-31T22:21:57+09:00
-updated: 2026-11-10T22:11
+updated: 2026-11-11T13:00
 id: 20261031-222157
 permalink:
 draft: false
