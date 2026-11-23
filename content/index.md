@@ -4,7 +4,7 @@ aliases:
   - Home
 type: structure
 created: 2026-04-22
-updated: 2026-11-11T14:13
+updated: 2026-11-14T09:33
 id: 20260425-160839
 draft: false
 ---
@@ -49,6 +49,7 @@ draft: false
 	- [個人的ブックマーク](personal-bookmarks.md)
 - **Life**
 	- [目標一覧](goals-list.md)
+	- [日常の問題解決](problem-solving-in-everyday-life.md)
 	- [[training-summary|トレーニングまとめ]]
 	- ライフハック
 	- [生活改善](life-improvement.md)

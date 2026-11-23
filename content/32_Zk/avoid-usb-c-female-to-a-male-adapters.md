@@ -4,15 +4,16 @@ aliases:
   - USB Type-C（メス）→Type-A（オス）変換アダプタを使ってはいけないことを覚える
 type: permanent
 created: 2026-11-10T22:16:41+09:00
-updated: 2026-11-11T18:11
+updated: 2026-11-11T18:38
 id: 20261110-221641
 permalink:
 draft: false
 tags:
 ---
-![](Pasted%20image%2020261111180025.jpg)
 
-![](Pasted%20image%2020261111180334.jpg)
+USB type A to Cによる正しいアダプターの向き
+![237](Pasted%20image%2020261111180025.jpg)
+![229](Pasted%20image%2020261111180334.jpg)
 
 
 
@@ -20,6 +21,6 @@ USBタイプAの（メス）は給電に限定される。そのため、変換�
 
 ということで、どうやって覚えようか考えた結果のイラストが前述の2枚。
 
-![[chatgpt.png|25x25]]
+![[chatgpt.png|25x25]]ダメな理由がひと目で分かるイラスト
 ![508](Pasted%20image%2020261110221648.png)
 
