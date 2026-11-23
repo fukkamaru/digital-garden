@@ -4,7 +4,7 @@ aliases:
   - 関連書籍｜思考法・考える型
 type: structure
 created: 2026-11-23T18:57:11+09:00
-updated: 2026-11-23T22:12
+updated: 2026-11-24T07:44
 id: 20261123-185711
 permalink:
 draft: false
@@ -78,7 +78,7 @@ tags:
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [問題発券力を鍛える](mondai-hakkenryoku-wo-kitaeru)
+- [問題発見力を鍛える](mondai-hakkenryoku-wo-kitaeru)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
