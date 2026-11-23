@@ -4,10 +4,10 @@ aliases:
   - 海賊の日本史
 type: literature
 created: 2026-10-09T00:31:28+09:00
-updated: 2026-11-11T14:09
+updated: 2026-11-24T07:47
 id: 20261009-003128
 permalink:
-draft: true
+draft: false
 tags:
 ---
 

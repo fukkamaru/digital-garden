@@ -4,10 +4,10 @@ aliases:
   - 世界史をつくった海賊
 type: literature
 created: 2026-10-10T18:18:50+09:00
-updated: 2026-11-01T09:51
+updated: 2026-11-24T07:48
 id: 20261010-181850
 permalink:
-draft: true
+draft: false
 tags:
 ---
 - **海賊国家イギリスの誕生**

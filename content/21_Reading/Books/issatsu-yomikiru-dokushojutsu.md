@@ -4,10 +4,10 @@ aliases:
   - １冊読み切る読書術
 type: literature
 created: 2026-10-04T00:50:07+09:00
-updated: 2026-11-10T20:41
+updated: 2026-11-24T07:46
 id: 20261004-005007
 permalink:
-draft: true
+draft: false
 ---
  **2026-10-04**
  

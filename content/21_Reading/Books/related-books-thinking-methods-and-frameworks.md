@@ -4,13 +4,13 @@ aliases:
   - 関連書籍｜思考法・考える型
 type: structure
 created: 2026-11-23T18:57:11+09:00
-updated: 2026-11-24T07:44
+updated: 2026-11-24T07:50
 id: 20261123-185711
 permalink:
 draft: false
 tags:
 ---
-- [地頭力のはじめ方](jiatamaryoku-no-hajimekata)
+- [地頭力のはじめ方](jiatamaryoku-no-hajimekata.md)
 	- 命題：「地頭力」とは、問題解決のスピードを上げるだけでなく、創造も可能とする「考える力」のこと。
 
 	- 機構：前書での「地頭力」の基本的な定義を押さえつつ、以下の3つの特徴を持たせた
@@ -22,7 +22,7 @@ tags:
 	- 機能（メカニズム）：その場しのぎのハウツーではなく、そもそもの基本的な「ものの考え方」という新たな思考回路を獲得	
 	- 系統進化：あるサイクルで訪れる「変革期」のたびに考える力が必要とされてきた。検索エンジンの登場はそれまでの過去とは決定的に異なり、尚且つ強力であった。
 
-- [まんがでわかる 地頭力を鍛えるな](manga-de-wakaru-jiatamaryoku-wo-kitaeru)
+- [まんがでわかる 地頭力を鍛えるな](manga-de-wakaru-jiatamaryoku-wo-kitaeru.md)
 	- 命題：情報は誰でも簡単に入手出来る時代こそ「考える力」を必要とする
 
 	- 機構：家具デザイナーとして働く川口美鈴を主人公としたマンガを通して、プロジェクトリーダーとして企画を考え業務を進めるにあたって必要になる「地頭力」をどのように身につけ・鍛え・扱うのか？を解説する。
@@ -33,37 +33,37 @@ tags:
 	- 発達（個体発生）：一歩間違えれば「人類の危機」になりかねないとんでもない時代だが、上手く乗り越えることで「とんでもなく素晴らしい」時代になる可能性がある
 	- 機能（メカニズム）：AI時代の未来を切り開くための、汎用的な武器の1つとして「地頭力」について紹介。
 	- 系統進化：産業革命期以降、定型的なブルーカラーの単純仕事は次々と機会化が進み代替されてきた。その流れがAIによってホワイトカラーの仕事にまで及んできている。特にこの10年間で2つの大きな進化（1：スマートフォンとクラウドコンピューティング、2：AIの飛躍的な進化）は、人間の能力を超えるというシンギュラリティというポイントが近づいていることを示めしている。
-- [「Why型思考」が仕事を変える](why-gata-shikou-ga-shigoto-wo-kaeru)
+- [「Why型思考」が仕事を変える](why-gata-shikou-ga-shigoto-wo-kaeru.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [アナロジー思考](anarojii-shikou)
+- [アナロジー思考](anarojii-shikou.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [13歳から鍛える 具体と抽象](juusansai-kara-kitaeru-gutai-to-chuushou)
+- [13歳から鍛える 具体と抽象](juusansai-kara-kitaeru-gutai-to-chuushou.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [思考力の地図](shikouryoku-no-chizu)
+- [思考力の地図](shikouryoku-no-chizu.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [「具体↔抽象」トレーニング](gutai-chuushou-toreeningu)
+- [「具体↔抽象」トレーニング](gutai-chuushou-toreeningu.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [「疑う」からはじめる。](utagau-kara-hajimeru)
+- [「疑う」からはじめる。](utagau-kara-hajimeru.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [本当の「頭のよさ」ってなんだろう？](hontou-no-atama-no-yosa-tte-nandarou)
+- [本当の「頭のよさ」ってなんだろう？](hontou-no-atama-no-yosa-tte-nandarou.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
@@ -73,37 +73,37 @@ tags:
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [解像度を上げる](kaizoudo-wo-ageru)
+- [解像度を上げる](kaizoudo-wo-ageru.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [問題発見力を鍛える](mondai-hakkenryoku-wo-kitaeru)
+- [問題発見力を鍛える](mondai-hakkenryoku-wo-kitaeru.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [問いの立て方](toi-no-tatekata)
+- [問いの立て方](toi-no-tatekata.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [アルゴリズム思考術](arugorizumu-shikoujutsu)
+- [アルゴリズム思考術](arugorizumu-shikoujutsu.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [世界一流エンジニアの思考法](sekai-ichiryuu-enjinia-no-shikouhou)
+- [世界一流エンジニアの思考法](sekai-ichiryuu-enjinia-no-shikouhou.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [見えないものを見る「抽象の目」](mienai-mono-wo-miru-chuushou-no-me)
+- [見えないものを見る「抽象の目」](mienai-mono-wo-miru-chuushou-no-me.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：
 	- 系統進化：
-- [世界のエリートはなぜ「美意識」を鍛えるのか？](sekai-no-eriito-wa-naze-biishiki-wo-kitaeru-noka)
+- [世界のエリートはなぜ「美意識」を鍛えるのか？](sekai-no-eriito-wa-naze-biishiki-wo-kitaeru-noka.md)
 	- 機構：
 	- 発達（個体発生）：
 	- 機能（メカニズム）：

@@ -4,10 +4,10 @@ aliases:
   - レバレッジ・リーディング
 type: literature
 created: 2026-10-04T00:50:07+09:00
-updated: 2026-11-01T09:51
+updated: 2026-11-24T07:46
 id: 20261004-005007
 permalink:
-draft: true
+draft: false
 ---
 
 **2026-10-04**

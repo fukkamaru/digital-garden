@@ -4,10 +4,10 @@ aliases:
   - "頭がいい人の読書術 : 1冊10分でインプットし、30分でアウトプットする技術"
 type: literature
 created: 2026-10-04T09:45:54+09:00
-updated: 2026-11-11T16:30
+updated: 2026-11-24T07:47
 id: 20261004-094554
 permalink:
-draft: true
+draft: false
 ---
 
  **2026-10-04**
