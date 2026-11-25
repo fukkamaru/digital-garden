@@ -4,7 +4,7 @@ aliases:
   - 言葉と発想の採集
 type: literature
 created: 2026-10-11T19:41:18+09:00
-updated: 2026-11-11T13:52
+updated: 2026-11-25T18:17
 id: 20261011-194118
 permalink:
 draft: false
@@ -26,15 +26,11 @@ tags:
 	- 成長する側と衰える側の二者を比較すると、約1480倍の差になる
 
 - 10万円を100倍のレバレッジを効かせて、1000万にする
-	- [レバレッジ・リーディング](rebarejji-riidingu.md)
-	- 三宅香帆ネキ
-
 
 -  1970年代の神様であり、のび太が泣きつけば、ドラえもんが何でも未来の道具で解決してくれる「神頼み」のお話
-	- [忘れる読書](wasureru-dokusho.md)
 
 - 読むVR
-	- [nyu-romansa](nyu-romansa.md)
+	- [ニューロマンサー](nyu-romansa.md)
 
 
 
