@@ -1,10 +1,10 @@
 ---
-title: 関連書籍｜読書術
+title: ◇関連書籍｜読書術
 aliases:
-  - 関連書籍｜読書術
+  - ◇関連書籍｜読書術
 type: structure
 created: 2026-11-23T22:49:48+09:00
-updated: 2026-11-25T18:00
+updated: 2026-11-28T09:35
 id: 20261123-224948
 permalink:
 draft: false
